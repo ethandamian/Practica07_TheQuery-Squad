@@ -376,21 +376,21 @@ CREATE TABLE Visitante(
 -- RESTRICCIONES DE DOMINIO Visitante
 ALTER TABLE Visitante ADD CONSTRAINT visitante_d1
 CHECK (Genero <> ''
-	AND Genero LIKE '%[a-zA-Z]%');
+	AND Genero ~ '[a-zA-Z]*');
 ALTER TABLE Visitante ALTER COLUMN Genero SET NOT NULL;
 
 ALTER TABLE Visitante ADD CONSTRAINT visitante_d2
 CHECK (Nombre <> ''
-	   AND Nombre LIKE '%[a-zA-Z]%');
+	   AND Nombre ~ '[a-zA-Z]*');
 ALTER TABLE Visitante ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Visitante ADD CONSTRAINT visitante_d3
  CHECK (Paterno <> ''
-		AND Paterno LIKE '%[a-zA-Z]%');
+		AND Paterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Visitante ADD CONSTRAINT visitante_d4
  CHECK (Materno <> ''
-		AND Materno LIKE '%[a-zA-Z]%');
+		AND Materno ~ '[a-zA-Z]*');
 
 ALTER TABLE Visitante ADD CONSTRAINT checkApe
 CHECK (
@@ -524,16 +524,16 @@ ALTER TABLE Cuidador ALTER COLUMN RFCCuidador SET NOT NULL;
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d2
 CHECK(Nombre <> ''
-	AND Nombre LIKE '%[a-zA-Z]%');
+	AND Nombre ~ '[a-zA-Z]*');
 ALTER TABLE Cuidador ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d3
 CHECK(ApellidoPaterno <> ''
-	AND ApellidoPaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoPaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d4
 CHECK(ApellidoMaterno <> ''
-	AND ApellidoMaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoMaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Cuidador ADD CONSTRAINT checkApe
 CHECK (
@@ -554,7 +554,7 @@ ALTER TABLE Cuidador ALTER COLUMN Colonia SET NOT NULL;
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d7
 CHECK(Estado <> ''
-	AND Estado LIKE '%[a-zA-Z]%');
+	AND Estado ~ '[a-zA-Z]*');
 ALTER TABLE Cuidador ALTER COLUMN Estado SET NOT NULL;
 ALTER TABLE Cuidador ALTER COLUMN FechaInicioContrato SET NOT NULL;
 ALTER TABLE Cuidador ALTER COLUMN FechaFinContrato SET NOT NULL;
@@ -562,7 +562,7 @@ ALTER TABLE Cuidador ALTER COLUMN FechaNacimiento SET NOT NULL;
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d8
 CHECK(Genero <> ''
-	AND Genero LIKE '%[a-zA-Z]%');
+	AND Genero ~ '[a-zA-Z]*');
 ALTER TABLE Cuidador ALTER COLUMN Genero SET NOT NULL;
 
 ALTER TABLE Cuidador ADD CONSTRAINT cuidador_d9
@@ -1562,6 +1562,7 @@ COMMENT ON COLUMN Visitar.IDVisitante IS 'Identificador del visitante';
 
 COMMENT ON CONSTRAINT idEvento_fk ON Visitar IS 'Llave foranea idEvento que referencia la tabla Evento';
 COMMENT ON CONSTRAINT idVisitante_fk ON Visitar IS 'Llave foranea IDVisitante que referencia la tabla Visitante';
+
 
 
 
