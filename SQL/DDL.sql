@@ -293,8 +293,7 @@ ALTER TABLE Bioma ADD CONSTRAINT bioma_d1
 			'franja costera',
 			'aviario',
 			'bosque templado',
-			'bosque tropical'
-		)
+			'bosque tropical')
 	);
 ALTER TABLE Bioma ALTER COLUMN TipoBioma SET NOT NULL;
 
@@ -735,7 +734,6 @@ PRIMARY KEY(IDEvento);
 --COMMENT Evento
 COMMENT ON TABLE Evento IS 'Tabla que contiene la informacion de los eventos';
 COMMENT ON COLUMN Evento.IDEvento IS 'Identificador del evento';
-COMMENT ON COLUMN Evento.IDVisitante IS 'Identificador del visitante';
 COMMENT ON COLUMN Evento.TipoEvento IS 'Tipo de evento';
 COMMENT ON COLUMN Evento.Fecha IS 'Fecha del evento';
 COMMENT ON COLUMN Evento.Capacidad IS 'Capacidad del evento';
@@ -743,7 +741,6 @@ COMMENT ON COLUMN Evento.Capacidad IS 'Capacidad del evento';
 COMMENT ON CONSTRAINT evento_d1 ON Evento IS 'El tipo de evento debe ser no nulo y no debe ser la cadena vacia';
 COMMENT ON CONSTRAINT evento_d2 ON Evento IS 'La capacidad debe ser mayor a 0 y no nulo';
 COMMENT ON CONSTRAINT evento_pk ON Evento IS 'El IDEvento es la llave primaria';
-COMMENT ON CONSTRAINT idvisitante_fk ON Evento IS 'La llave foranea IDVisitante que hace referencia a la tabla Visitante';
 
 
 CREATE TABLE Ticket(
