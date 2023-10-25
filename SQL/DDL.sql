@@ -735,7 +735,6 @@ PRIMARY KEY(IDEvento);
 --COMMENT Evento
 COMMENT ON TABLE Evento IS 'Tabla que contiene la informacion de los eventos';
 COMMENT ON COLUMN Evento.IDEvento IS 'Identificador del evento';
-COMMENT ON COLUMN Evento.IDVisitante IS 'Identificador del visitante';
 COMMENT ON COLUMN Evento.TipoEvento IS 'Tipo de evento';
 COMMENT ON COLUMN Evento.Fecha IS 'Fecha del evento';
 COMMENT ON COLUMN Evento.Capacidad IS 'Capacidad del evento';
@@ -743,7 +742,6 @@ COMMENT ON COLUMN Evento.Capacidad IS 'Capacidad del evento';
 COMMENT ON CONSTRAINT evento_d1 ON Evento IS 'El tipo de evento debe ser no nulo y no debe ser la cadena vacia';
 COMMENT ON CONSTRAINT evento_d2 ON Evento IS 'La capacidad debe ser mayor a 0 y no nulo';
 COMMENT ON CONSTRAINT evento_pk ON Evento IS 'El IDEvento es la llave primaria';
-COMMENT ON CONSTRAINT idvisitante_fk ON Evento IS 'La llave foranea IDVisitante que hace referencia a la tabla Visitante';
 
 
 CREATE TABLE Ticket(
@@ -1565,6 +1563,7 @@ COMMENT ON COLUMN Visitar.IDVisitante IS 'Identificador del visitante';
 
 COMMENT ON CONSTRAINT idEvento_fk ON Visitar IS 'Llave foranea idEvento que referencia la tabla Evento';
 COMMENT ON CONSTRAINT idVisitante_fk ON Visitar IS 'Llave foranea IDVisitante que referencia la tabla Visitante';
+
 
 
 
