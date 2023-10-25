@@ -16,7 +16,7 @@ CREATE TABLE Servicio(
 
 -- RESTRICCIONES DE DOMINIO Servicio
 ALTER TABLE Servicio ADD CONSTRAINT servicio_d1
-CHECK(TipoServicio IN ('baño', 'tienda', 'comida'));
+CHECK(TipoServicio IN ('Baño', 'Tienda', 'Comida'));
 ALTER TABLE Servicio ALTER COLUMN TipoServicio SET NOT NULL;
 
 -- LLAVES Servicio 
@@ -60,16 +60,16 @@ ALTER TABLE Veterinario ALTER COLUMN RFCVeterinario SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d2
 CHECK(Nombre <> ''
-	AND Nombre LIKE '%[a-zA-Z]%');
+	AND Nombre ~ '.*[a-zA-Z].*');
 ALTER TABLE Veterinario ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d3
 CHECK(ApellidoPaterno <> ''
-	AND ApellidoPaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoPaterno ~ '.*[a-zA-Z].*');
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d4
 CHECK(ApellidoMaterno <> ''
-	AND ApellidoMaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoMaterno ~ '.*[a-zA-Z].*');
 
 ALTER TABLE Veterinario ADD CONSTRAINT checkApe
 CHECK (
@@ -192,16 +192,16 @@ ALTER TABLE Proveedor ALTER COLUMN RFCProveedor SET NOT NULL;
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d2
 CHECK(Nombre <> ''
-	AND Nombre LIKE '%[a-zA-Z]%');
+	AND Nombre ~ '[a-zA-Z]*');
 ALTER TABLE Proveedor ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d3
 CHECK(ApellidoPaterno <> ''
-	AND ApellidoPaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoPaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d4
 CHECK(ApellidoMaterno <> ''
-	AND ApellidoMaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoMaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Proveedor ADD CONSTRAINT checkApe
 CHECK (
@@ -223,7 +223,7 @@ ALTER TABLE Proveedor ALTER COLUMN Colonia SET NOT NULL;
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d7
 CHECK(Estado <> ''
-	AND Estado LIKE '%[a-zA-Z]%');
+	AND Estado ~ '[a-zA-Z]*');
 ALTER TABLE Proveedor ALTER COLUMN Estado SET NOT NULL;
 ALTER TABLE Proveedor ALTER COLUMN FechaInicioContrato SET NOT NULL;
 ALTER TABLE Proveedor ALTER COLUMN FechaFinContrato SET NOT NULL;
@@ -231,7 +231,7 @@ ALTER TABLE Proveedor ALTER COLUMN FechaNacimiento SET NOT NULL;
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d8
 CHECK(Genero <> ''
-	AND Genero LIKE '%[a-zA-Z]%');
+	AND Genero ~ '[a-zA-Z]*');
 ALTER TABLE Proveedor ALTER COLUMN Genero SET NOT NULL;
 
 ALTER TABLE Proveedor ADD CONSTRAINT proveedor_d9
@@ -640,11 +640,11 @@ CREATE TABLE Animal(
 -- RESTRICCIONES DE DOMINIO Animal
 ALTER TABLE Animal ADD CONSTRAINT animal_d1
 CHECK (NombreAnimal <> ''
-		AND NombreAnimal LIKE '%[a-zA-Z]%');
+		AND NombreAnimal ~ '[a-zA-Z]*');
 ALTER TABLE Animal ALTER COLUMN NombreAnimal SET NOT NULL;
 
 ALTER TABLE Animal ADD CONSTRAINT animal_d2
-CHECK (Sexo IN ('macho', 'hembra'));
+CHECK (Sexo IN ('Macho', 'Hembra'));
 ALTER TABLE Animal ALTER COLUMN Sexo SET NOT NULL;
 
 ALTER TABLE Animal ADD CONSTRAINT animal_d3
@@ -657,15 +657,15 @@ ALTER TABLE Animal ALTER COLUMN Peso SET NOT NULL;
 
 ALTER TABLE Animal ADD CONSTRAINT animal_d5
 CHECK (Especie <> ''
-		AND Especie LIKE '%[a-zA-Z]%');
+		AND Especie ~ '[a-zA-Z]*');
 ALTER TABLE Animal ALTER COLUMN Especie SET NOT NULL;
 
 ALTER TABLE Animal ADD CONSTRAINT animal_d7
 CHECK (
 		Alimentacion IN (
-			'carnívoro',
-			'herbívoro',
-			'omnívoro'));
+			'Carnivoro',
+			'Herbivoro',
+			'Omnivoro'));
 ALTER TABLE Animal ALTER COLUMN Alimentacion SET NOT NULL;
 
 -- LLAVES Animal
