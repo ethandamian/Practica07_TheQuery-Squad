@@ -1,1 +1,1 @@
--- Aqui deben ir las consultas que piden en la practica
+-- Aqui deben ir las consultas que piden en la practica, pueden hacer pruebas 
