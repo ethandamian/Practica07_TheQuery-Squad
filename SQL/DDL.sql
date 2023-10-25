@@ -293,8 +293,7 @@ ALTER TABLE Bioma ADD CONSTRAINT bioma_d1
 			'franja costera',
 			'aviario',
 			'bosque templado',
-			'bosque tropical'
-		)
+			'bosque tropical')
 	);
 ALTER TABLE Bioma ALTER COLUMN TipoBioma SET NOT NULL;
 
