@@ -91,7 +91,7 @@ ALTER TABLE Veterinario ALTER COLUMN Colonia SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d7
 CHECK(Estado <> ''
-	AND Estado LIKE '%[a-zA-Z]%');
+	AND Estado ~ '[a-zA-Z]*');
 ALTER TABLE Veterinario ALTER COLUMN Estado SET NOT NULL;
 ALTER TABLE Veterinario ALTER COLUMN FechaInicioContrato SET NOT NULL;
 ALTER TABLE Veterinario ALTER COLUMN FechaFinContrato SET NOT NULL;
@@ -99,7 +99,7 @@ ALTER TABLE Veterinario ALTER COLUMN FechaNacimiento SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d8
 CHECK(Genero <> ''
-	AND Genero LIKE '%[a-zA-Z]%');
+	AND Genero ~ '[a-zA-Z]*');
 ALTER TABLE Veterinario ALTER COLUMN Genero SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d9
@@ -108,7 +108,7 @@ ALTER TABLE Veterinario ALTER COLUMN Salario SET NOT NULL;
 
 ALTER TABLE Veterinario ADD CONSTRAINT veterinario_d10
 CHECK(Especialidad <> ''
-	AND Especialidad LIKE '%[a-zA-Z]%');
+	AND Especialidad ~ '[a-zA-Z]*');
 ALTER TABLE Veterinario ALTER COLUMN Especialidad SET NOT NULL;
 
 
@@ -330,7 +330,7 @@ CREATE TABLE Alimento(
 -- RESTRICCIONES DE DOMINIO Alimento
 ALTER TABLE Alimento ADD CONSTRAINT alimento_d1
 CHECK (Nombre <> ''
-	AND Nombre LIKE '%[a-zA-Z]%');
+	AND Nombre ~ '[a-zA-Z]*');
 ALTER TABLE Alimento ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Alimento ADD CONSTRAINT alimento_d2
@@ -955,16 +955,16 @@ ALTER TABLE Cuidar ALTER COLUMN RFCCuidador SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d2
 CHECK(Nombre <> ''
-	AND Nombre LIKE '%[a-zA-Z]%');
+	AND Nombre ~ '[a-zA-Z]*');
 ALTER TABLE Cuidar ALTER COLUMN Nombre SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d3
 CHECK(ApellidoPaterno <> ''
-	AND ApellidoPaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoPaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d4
 CHECK(ApellidoMaterno <> ''
-	AND ApellidoMaterno LIKE '%[a-zA-Z]%');
+	AND ApellidoMaterno ~ '[a-zA-Z]*');
 
 ALTER TABLE Cuidar ADD CONSTRAINT checkApe
 CHECK (
@@ -985,7 +985,7 @@ ALTER TABLE Cuidar ALTER COLUMN Colonia SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d7
 CHECK(Estado <> ''
-	AND Estado LIKE '%[a-zA-Z]%');
+	AND Estado ~ '[a-zA-Z]*');
 ALTER TABLE Cuidar ALTER COLUMN Estado SET NOT NULL;
 ALTER TABLE Cuidar ALTER COLUMN FechaInicioContrato SET NOT NULL;
 ALTER TABLE Cuidar ALTER COLUMN FechaFinContrato SET NOT NULL;
@@ -993,7 +993,7 @@ ALTER TABLE Cuidar ALTER COLUMN FechaNacimiento SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d8
 CHECK(Genero <> ''
-	AND Genero LIKE '%[a-zA-Z]%');
+	AND Genero ~ '[a-zA-Z]*');
 ALTER TABLE Cuidar ALTER COLUMN Genero SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d9
@@ -1009,7 +1009,7 @@ ALTER TABLE Cuidar ALTER COLUMN Salario SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d12
 CHECK (NombreAnimal <> ''
-		AND NombreAnimal LIKE '%[a-zA-Z]%');
+		AND NombreAnimal ~ '[a-zA-Z]*');
 ALTER TABLE Cuidar ALTER COLUMN NombreAnimal SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d13
@@ -1026,7 +1026,7 @@ ALTER TABLE Cuidar ALTER COLUMN Peso SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d16
 CHECK (Especie <> ''
-		AND Especie LIKE '%[a-zA-Z]%');
+		AND Especie ~ '[a-zA-Z]*');
 ALTER TABLE Cuidar ALTER COLUMN Especie SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d18
@@ -1200,7 +1200,7 @@ CREATE TABLE Atender(
 -- RESTRICCIONES DE DOMINIO Atender
 ALTER TABLE Atender ADD CONSTRAINT atender_d1
 CHECK (IndicacionesMedicas <> ''
-		AND IndicacionesMedicas LIKE '%[a-zA-Z]%');
+		AND IndicacionesMedicas ~ '[a-zA-Z]*');
 ALTER TABLE Atender ALTER COLUMN IndicacionesMedicas SET NOT NULL;
 
 ALTER TABLE Atender ADD CONSTRAINT atender_d2
@@ -1323,7 +1323,7 @@ CHECK (
 ALTER TABLE CorreoProveedor ALTER COLUMN RFCProveedor SET NOT NULL;	
 
 ALTER TABLE CorreoProveedor ADD CONSTRAINT correoProveedor_d2
-CHECK(Correo LIKE '%_@_%._%');
+CHECK(Correo ~ '%_@_%._%');
 ALTER TABLE CorreoProveedor ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoProveedor
@@ -1361,7 +1361,7 @@ CHECK (
 ALTER TABLE CorreoVeterinario ALTER COLUMN RFCVeterinario SET NOT NULL;	
 
 ALTER TABLE CorreoVeterinario ADD CONSTRAINT correoVeterinario_d2
-CHECK(Correo LIKE '%_@_%._%');
+CHECK(Correo ~ '%_@_%._%');
 ALTER TABLE CorreoVeterinario ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoVeterinario
@@ -1447,7 +1447,7 @@ CHECK (
 ALTER TABLE CorreoCuidador ALTER COLUMN RFCCuidador SET NOT NULL;	
 
 ALTER TABLE CorreoCuidador ADD CONSTRAINT correoCuidador_d2
-CHECK(Correo LIKE '%_@_%._%');
+CHECK(Correo ~ '%_@_%._%');
 ALTER TABLE CorreoCuidador ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoCuidador
@@ -1522,7 +1522,7 @@ CREATE TABLE CorreoVisitante (
 
 --RESTRICCIONES DE DOMINIO CorreoVisitante
 ALTER TABLE CorreoVisitante ADD CONSTRAINT correoVisitante_d1
-CHECK(Correo LIKE '%@%._%'
+CHECK(Correo ~ '%@%._%'
 	AND Correo <> '');
 
 -- LLAVES CorreoVisitante
