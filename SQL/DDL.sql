@@ -1533,8 +1533,9 @@ CREATE TABLE CorreoVisitante (
 
 --RESTRICCIONES DE DOMINIO CorreoVisitante
 ALTER TABLE CorreoVisitante ADD CONSTRAINT correoVisitante_d1
-CHECK(Correo SIMILAR TO '.+@.+'
-	AND Correo <> '');
+CHECK(
+	Correo <> '');
+
 
 -- LLAVES CorreoVisitante
 ALTER TABLE CorreoVisitante ADD CONSTRAINT correoVisitante_pk
