@@ -10037,7 +10037,7 @@ INSERT INTO Comprar(IDVisitante,IDServicio) VALUES
 --Insert para Medicina
 
 INSERT INTO Medicina(Nombre,Cantidad,FechaCaducidad,Refrigeracion,Lote,Laboratorio) VALUES
-<<<<<<< HEAD
+
  ('LUCENTIS',181,'8/7/2025','true',944,'Genentech, Inc.')
 ,('SPF 50 UVA/UVB',7,'1/13/2026','true',381,'MULTALER ET CIE S.A.S.')
 ,('OXYGEN',200,'4/29/2024','true',265,'Ohio Valley Acquisition Corp dba Ohio Valley Medical Gas & Supply, Inc.')
