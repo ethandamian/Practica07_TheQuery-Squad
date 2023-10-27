@@ -428,7 +428,7 @@ COMMENT ON CONSTRAINT visitante_pk ON Visitante IS
 
 CREATE TABLE Medicina(
 	IDInsumoMedicina SERIAL,
-	Nombre VARCHAR(150),
+	Nombre VARCHAR(350),
 	Cantidad INT,
 	FechaCaducidad DATE,
 	Refrigeracion BOOL,
