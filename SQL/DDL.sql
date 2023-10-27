@@ -720,7 +720,14 @@ CREATE TABLE Evento(
 
 -- RESTRICCIONES DE DOMINIO Evento
 ALTER TABLE Evento ADD CONSTRAINT evento_d1
-CHECK(TipoEvento <> '');
+CHECK(TipoEvento <> ''
+	AND TipoEvento IN (
+		'social',
+		'academico',
+		'recaudacion de fondos',
+		'infantil',
+		'escolar',
+		'dias festivos'));
 ALTER TABLE Evento ALTER COLUMN TipoEvento SET NOT NULL;
 
 ALTER TABLE Evento ALTER COLUMN Fecha SET NOT NULL;
