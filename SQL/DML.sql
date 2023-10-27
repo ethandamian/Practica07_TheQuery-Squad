@@ -13044,4 +13044,4 @@ INSERT INTO Cuidar(RFCCuidador,IDAnimal,Nombre,ApellidoPaterno,ApellidoMaterno,C
 ,('Neutrogena T/Gel Therapeutic',107,'2024-03-02','true',252,'Neutrogena Corporation')
 ,('FANAPT',192,'2024-06-12','false',11,'Novartis Pharmaceuticals Corporation')
 ,('OMESEC',28,'2026-07-12','true',2,'Corporacion Infarmasa');
->>>>>>> ef49313713ca43a5d65f5d429d4c06871c6075b3
+
