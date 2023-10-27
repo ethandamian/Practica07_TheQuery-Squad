@@ -1253,7 +1253,7 @@ CREATE TABLE TelefonoVisitante(
 
 -- RESTRICCIONES DE DOMINIO TelefonoVisitante
 ALTER TABLE TelefonoVisitante ADD CONSTRAINT telefonoVisitante_d1
-CHECK(Telefono SIMILAR TO '[0-9]+');
+CHECK(Telefono SIMILAR TO '[0-9]{10}');
 ALTER TABLE TelefonoVisitante ALTER COLUMN Telefono SET NOT NULL;
 
 -- LLAVES TelefonoVisitante
@@ -1334,7 +1334,7 @@ CHECK (
 ALTER TABLE CorreoProveedor ALTER COLUMN RFCProveedor SET NOT NULL;	
 
 ALTER TABLE CorreoProveedor ADD CONSTRAINT correoProveedor_d2
-CHECK(Correo ~ '%_@_%._%');
+CHECK(Correo SIMILAR TO '.+@.+');
 ALTER TABLE CorreoProveedor ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoProveedor
@@ -1372,7 +1372,7 @@ CHECK (
 ALTER TABLE CorreoVeterinario ALTER COLUMN RFCVeterinario SET NOT NULL;	
 
 ALTER TABLE CorreoVeterinario ADD CONSTRAINT correoVeterinario_d2
-CHECK(Correo ~ '%_@_%._%');
+CHECK(Correo SIMILAR TO '.+@.+');
 ALTER TABLE CorreoVeterinario ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoVeterinario
@@ -1405,7 +1405,7 @@ CREATE TABLE TelefonoVeterinario(
 
 -- RESTRICCIONES DE DOMINIO TelefonoVeterinario
 ALTER TABLE TelefonoVeterinario ADD CONSTRAINT telefonoVeterinario_d1
-CHECK(Telefono SIMILAR TO '[0-9]+');
+CHECK(Telefono SIMILAR TO '[0-9]{10}');
 ALTER TABLE TelefonoVeterinario ALTER COLUMN Telefono SET NOT NULL;
 
 ALTER TABLE TelefonoVeterinario ADD CONSTRAINT telefonoVeterinario_d2
@@ -1493,7 +1493,7 @@ CREATE TABLE TelefonoCuidador(
 
 -- RESTRICCIONES DE DOMINIO TelefonoCuidador
 ALTER TABLE TelefonoCuidador ADD CONSTRAINT telefonoCuidador_d1
-CHECK(Telefono SIMILAR TO '[0-9]+');
+CHECK(Telefono SIMILAR TO '[0-9]{10}');
 ALTER TABLE TelefonoCuidador ALTER COLUMN Telefono SET NOT NULL;
 
 ALTER TABLE TelefonoCuidador ADD CONSTRAINT telefonoCuidador_d2
@@ -1533,7 +1533,7 @@ CREATE TABLE CorreoVisitante (
 
 --RESTRICCIONES DE DOMINIO CorreoVisitante
 ALTER TABLE CorreoVisitante ADD CONSTRAINT correoVisitante_d1
-CHECK(Correo ~ '%@%._%'
+CHECK(Correo SIMILAR TO '.+@.+'
 	AND Correo <> '');
 
 -- LLAVES CorreoVisitante
