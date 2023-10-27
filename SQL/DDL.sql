@@ -1013,7 +1013,7 @@ CHECK (NombreAnimal <> ''
 ALTER TABLE Cuidar ALTER COLUMN NombreAnimal SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d13
-CHECK (Sexo IN ('macho', 'hembra'));
+CHECK (Sexo IN ('Macho', 'Hembra'));
 ALTER TABLE Cuidar ALTER COLUMN Sexo SET NOT NULL;
 
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d14
@@ -1032,9 +1032,9 @@ ALTER TABLE Cuidar ALTER COLUMN Especie SET NOT NULL;
 ALTER TABLE Cuidar ADD CONSTRAINT cuidar_d18
 CHECK (
 		Alimentacion IN (
-			'carnívoro',
-			'herbívoro',
-			'omnívoro'));
+			'Carnivoro',
+			'Herbivoro',
+			'Omnivoro'));
 ALTER TABLE Cuidar ALTER COLUMN Alimentacion SET NOT NULL;
 
 -- LLAVES Cuidar
