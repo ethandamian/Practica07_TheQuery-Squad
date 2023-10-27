@@ -370,7 +370,8 @@ CREATE TABLE Visitante(
 	Genero VARCHAR(50),
 	Nombre VARCHAR(50),
 	Paterno VARCHAR(50),
-	Materno VARCHAR(50)
+	Materno VARCHAR(50),
+	FechaNacimiento DATE
 );
 
 -- RESTRICCIONES DE DOMINIO Visitante
@@ -392,6 +393,11 @@ ALTER TABLE Visitante ADD CONSTRAINT visitante_d4
  CHECK (Materno <> ''
 		AND Materno ~ '[a-zA-Z]*');
 
+ALTER TABLE Visitante ADD CONSTRAINT visitante_d5
+ CHECK (FechaNacimiento < CURRENT_DATE
+ 	AND FechaNacimiento > '1900-01-01');
+ALTER TABLE Visitante ALTER COLUMN FechaNacimiento SET NOT NULL;
+
 ALTER TABLE Visitante ADD CONSTRAINT checkApe
 CHECK (
 		(
@@ -411,6 +417,7 @@ COMMENT ON COLUMN Visitante.Genero IS 'Genero del Visitante';
 COMMENT ON COLUMN Visitante.Nombre IS 'Nombre del Visitante';
 COMMENT ON COLUMN Visitante.Paterno IS 'Apellido Paterno del Visitante';
 COMMENT ON COLUMN Visitante.Materno IS 'Apellido Materno del Visitante';
+COMMENT ON COLUMN Visitante.FechaNacimiento IS 'Fecha de nacimiento del Visitante';
 
 COMMENT ON CONSTRAINT visitante_d1 ON Visitante IS 
 'Restriccion en Genero: No debe ser la cadena vacia y debe contener solo letras';
@@ -420,6 +427,8 @@ COMMENT ON CONSTRAINT visitante_d3 ON Visitante IS
 'Restriccion en Paterno: No debe ser la cadena vacia y debe contener solo letras';
 COMMENT ON CONSTRAINT visitante_d4 ON Visitante IS
 'Restriccion en Materno: No debe ser la cadena vacia y debe contener solo letras';
+COMMENT	ON CONSTRAINT visitante_d5 ON Visitante IS
+'Restriccion en FechaNacimiento: Debe ser menor a la fecha actual y mayor a 1900-01-01';
 COMMENT ON CONSTRAINT checkApe ON Visitante IS
 'Restriccion en Apellidos: El Visitante puede no tener apellido paterno o materno';
 COMMENT ON CONSTRAINT visitante_pk ON Visitante IS
