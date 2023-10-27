@@ -10035,1009 +10035,6 @@ INSERT INTO Comprar(IDVisitante,IDServicio) VALUES
 
 
 
---Insert para Medicina
-
-INSERT INTO Medicina(Nombre,Cantidad,FechaCaducidad,Refrigeracion,Lote,Laboratorio) VALUES
- ('Prostate Symptom Relief',230,'2026-01-22','true',712,'King Bio Inc.')
-,('ketoconazole',208,'2024-05-12','false',564,'REMEDYREPACK INC.')
-,('Solu-Medrol',91,'2024-06-17','false',217,'Pharmacia and Upjohn Company')
-,('Codeine sulfate',82,'2024-03-22','false',853,'Roxane Laboratories, Inc')
-,('Ferrum Phos',32,'2025-11-12','false',102,'Apotheca Company')
-,('Budesonide',87,'2024-02-23','true',875,'Nephron Pharmaceuticals Corporation')
-,('ZIZISNO',266,'2026-05-07','true',775,'VitaMed, LLC')
-,('RIZATRIPTAN Benzoate',72,'2024-06-21','false',749,'Breckenridge Pharmaceutical, Inc.')
-,('Cisatracurium Besylate',202,'2026-06-04','true',64,'Sagent Pharmaceuticals')
-,('Carvedilol',104,'2024-08-04','false',973,'Aphena Pharma Solutions - Tennessee, LLC')
-,('Cephalexin',242,'2026-03-12','false',709,'Ascend Laboratories, LLC')
-,('Mixture of Four Standardized Grasses',24,'2025-10-28','true',336,'Antigen Laboratories, Inc.')
-,('Pleo Ut S',15,'2023-11-04','false',68,'Sanum Kehlbeck GmbH & Co. KG')
-,('Moist SURE',270,'2024-12-20','true',928,'DSHealthcare')
-,('All Day Moisturizing',178,'2024-04-19','true',182,'Wal-Mart Stores, Inc')
-,('SEROQUEL',280,'2025-11-12','false',128,'AstraZeneca Pharmaceuticals LP')
-,('Venoforce',290,'2026-08-17','true',559,'Apotheca Company')
-,('Carvedilol',201,'2025-01-30','false',908,'REMEDYREPACK INC.')
-,('Triamterene hydrochlorothiazide',125,'2024-03-22','true',808,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Ketorolac tromethamine',157,'2023-10-26','false',664,'AGILA SPECIALTIES PRIVATE LIMITED')
-,('Pravastatin Sodium',55,'2023-12-21','false',21,'Mylan Pharmaceuticals Inc.')
-,('Parafon DSC',73,'2025-07-29','true',237,'Keltman Pharmaceuticals Inc.')
-,('Senna',242,'2025-07-31','true',158,'Carilion Materials Management')
-,('Temozolomide',103,'2026-08-02','false',88,'Teva Pharmaceuticals USA Inc')
-,('Bupropion Hydrochloride',213,'2025-02-20','true',79,'Contract Pharmacy Services-PA')
-,('Topotecan Hydrochloride',17,'2025-06-09','false',293,'APP Pharmaceuticals, LLC')
-,('Se-Tan PLUS',211,'2026-03-05','false',917,'Seton Pharmaceuticals')
-,('Diaper Rash',94,'2025-06-22','false',576,'Kareway Product, Inc.')
-,('topcare pain and fever',167,'2024-04-01','false',194,'Topco Associates LLC')
-,('Oxygen',71,'2024-04-08','false',137,'Hometown Medical LLC')
-,('CITY BASE COMPACT FOUNDATION',298,'2026-09-17','true',250,'CLINIQUE LABORATORIES INC.')
-,('Esgic',205,'2024-05-26','true',422,'Midlothian Laboratories')
-,('oxycodone hydrochloride',167,'2024-08-26','true',257,'Caraco Pharmaceutical Laboratories, Ltd.')
-,('Antacid',272,'2025-06-28','false',160,'Western Family Foods Inc')
-,('infants acetaminophen',19,'2026-09-23','true',825,'Western Family Foods Inc')
-,('Coppertone oil free',288,'2025-01-26','false',781,'MSD Consumer Care, Inc.')
-,('SENNOSIDES AND DOCUSATE SODIUM',216,'2025-04-02','false',618,'TIME CAP LABORATORIES, INC')
-,('Dexamethasone Sodium Phosphate',236,'2026-06-02','false',599,'Phoenix Pharmaceutical, Inc.')
-,('LBEL',119,'2026-04-04','false',727,'Ventura International LTD.')
-,('Risperidone',267,'2025-07-13','false',882,'Major Pharmaceuticals')
-,('RABBIT',74,'2025-10-28','true',282,'ALK-Abello, Inc.')
-,('Ceftriaxone',119,'2026-03-27','false',107,'Apotex Corporation')
-,('Fluocinolone Acetonide',70,'2025-11-08','true',401,'Seton Pharmaceuticals')
-,('HYDRASTIS CANADENSIS',175,'2026-01-05','true',283,'BrandStorm HBC')
-,('Entacapone',241,'2024-09-09','true',752,'Wockhardt USA LLC.')
-,('Miracle Rash Repair',279,'2025-07-02','false',392,'Winning Solutions')
-,('Naproxen',159,'2024-10-07','false',717,'Rebel Distributors Corp.')
-,('Metoprolol Tartrate',117,'2024-11-20','false',923,'Aurobindo Pharma Limited')
-,('napoleon PERDIS SHEER GENIUS LIQUID FOUNDATION BROAD SPECTRUM SPF 20 Look 1',91,'2026-07-22','false',517,'Napoleon Perdis Cosmetics, Inc')
-,('Carvedilol',121,'2026-02-03','false',323,'Cardinal Health')
-,('Hazelnut',237,'2024-06-22','false',32,'Nelco Laboratories, Inc.')
-,('Trichoderma harzianam',48,'2024-01-30','false',207,'Nelco Laboratories, Inc.')
-,('L OCCITANE FRESH BODY with Organic Verbena Extract SPF25 Broad Spectrum Sunscreen',234,'2025-11-16','false',116,'LABORATOIRES M&L')
-,('PAUL AND JOE SILKY SMOOTH FOUNDATION UV 201',122,'2025-01-04','false',595,'Albion Co., Ltd')
-,('Carelessweed',212,'2025-09-17','true',58,'Nelco Laboratories, Inc.')
-,('Carvedilol',13,'2025-05-07','true',768,'REMEDYREPACK INC.')
-,('Lisinopril with Hydrochlorothiazide',151,'2024-09-14','true',520,'Aphena Pharma Solutions - Tennessee, LLC')
-,('Standardized Grass Pollen, Timothy',123,'2024-12-21','true',602,'Jubilant HollisterStier LLC')
-,('Dr L Advanced HCG Formula',151,'2026-05-07','true',147,'Apotheca Company')
-,('Sumatriptan Succinate',295,'2025-05-20','true',494,'Physicians Total Care, Inc.')
-,('Clotrimazole and Betamethasone Dipropionate',247,'2025-09-25','false',83,'Prasco Laboratories')
-,('Anti-Diarrheal',122,'2024-03-21','false',799,'GREENBRIER INTERNATIONAL, INC.')
-,('Glimepiride',230,'2024-08-24','true',636,'Qualitest Pharmaceuticals')
-,('SMART SENSE',228,'2023-10-28','true',389,'KMART CORPORATION')
-,('GERI-MOX MAX CHERRY',140,'2024-08-22','false',659,'Geri-Care Pharmaceuticals, Corp')
-,('Simvastatin',285,'2025-09-28','true',681,'Gen-Source Rx')
-,('Zetia',239,'2025-12-12','false',822,'Rebel Distributors Corp')
-,('ShopRite Complete',29,'2025-05-15','false',661,'Wakefern Food Corporation')
-,('Thyrolar',178,'2024-08-16','true',500,'Forest Laboratories, Inc')
-,('Sugar Maple',77,'2025-09-09','true',20,'Nelco Laboratories, Inc.')
-,('Artificial Tears',117,'2026-04-10','false',698,'American Sales Company')
-,('Carvedilol',253,'2024-10-05','true',887,'Aurolife Pharma LLC')
-,('Morphine Sulfate',1,'2025-12-23','false',475,'Par Pharmaceutical Inc.')
-,('Lamotrigine',199,'2025-10-25','true',298,'REMEDYREPACK INC.')
-,('SULPHUR',95,'2024-08-26','true',90,'Hyland''s')
-,('ALLEROFF',180,'2025-09-07','true',860,'Corporacion Infarmasa')
-,('Simvastatin',213,'2026-07-23','true',193,'Cobalt Laboratories Inc.')
-,('Nasal Decongestant PE',281,'2025-08-14','true',276,'H E B')
-,('Renes Carbo Special Order',291,'2025-03-23','true',520,'Uriel Pharmacy Inc.')
-,('Methylphenidate Hydrochloride',167,'2025-07-14','true',935,'Golden State Medical Supply, Inc.')
-,('Losartan Potassium and Hydrochlorothiazide',241,'2026-09-02','false',714,'Legacy Pharmaceutical Packaging')
-,('Neutrogena SkinClearing',112,'2025-07-02','true',916,'Neutrogena Corporation')
-,('DULOXETINE',243,'2026-10-16','true',630,'Breckenridge Pharmaceutical, Inc.')
-,('Fluoxetine',6,'2024-03-20','true',547,'Major Pharmaceuticals')
-,('Dove Men plus Care',63,'2026-05-10','false',908,'Conopco Inc. d/b/a Unilever')
-,('TINNITUS RELIEF',91,'2024-01-18','false',190,'HOMEOLAB USA INC.')
-,('Lymphoplus',294,'2024-11-15','false',374,'Deseret Biologicals, Inc.')
-,('Escitalopram',248,'2025-08-19','true',636,'REMEDYREPACK INC.')
-,('Ocean Breeze',244,'2025-03-15','false',988,'Shanghai Weierya Daily Chemicals Factory')
-,('Humco Mineral Oil Light',94,'2023-11-24','false',935,'Humco Holding Group, Inc.')
-,('Naloxone Hydrochloride',125,'2025-05-09','false',113,'Cardinal Health')
-,('Lidocaine',69,'2024-10-27','true',600,'Safco Dental Supply Co')
-,('Lipotox',56,'2024-12-01','false',673,'BioActive Nutritional, Inc.')
-,('Metoprolol Tartrate',262,'2026-01-19','true',25,'REMEDYREPACK INC.')
-,('Witch Hazel',273,'2024-04-11','true',512,'Best Choice')
-,('Pollens - Weeds and Garden Plants, Cocklebur Xanthium strumarium',169,'2024-12-05','true',169,'Jubilant HollisterStier LLC')
-,('Diclofenac Sodium',77,'2026-01-03','true',430,'Actavis Elizabeth LLC')
-,('smart sense ibuprofen',174,'2025-04-16','false',711,'Kmart Corporation')
-,('AQUACIL',124,'2026-02-25','true',773,'Inopak, Ltd')
-,('CVS',245,'2025-04-01','true',733,'CVS Pharmacy')
-,('Severe Cold and Flu',66,'2024-02-03','true',382,'HyVee Inc')
-,('VENTOLIN',171,'2026-07-17','false',888,'GlaxoSmithKline LLC')
-,('Baclofen',225,'2026-08-03','false',459,'REMEDYREPACK INC.')
-,('TOPCARE',215,'2024-12-27','true',569,'TOPCO ASSOCIATES LLC')
-,('QCare',294,'2026-07-18','true',882,'Sage Products, Inc.')
-,('Afeditab',15,'2026-01-01','true',74,'Watson Laboratories, Inc.')
-,('Creon',246,'2023-12-12','false',803,'AbbVie Inc.')
-,('Walgreens Capsaicin Hot',175,'2025-03-14','true',427,'Walgreen Co')
-,('DebMed Antimicrobial',46,'2024-12-17','false',32,'Deb USA, Inc.')
-,('FAMILY CARE TRIPLE ANTIBIOTIC PAIN RELIEF',258,'2024-10-26','false',505,'UNITED EXCHANGE CORP.')
-,('ESIKA HD COLOR HIGH DEFINITION COLOR SPF 20',125,'2025-02-25','true',533,'Ventura Corporation LTD')
-,('Cough Formula Cough and Cold',49,'2025-06-24','true',478,'Rij Pharmaceutical Corporation')
-,('Total Thallium',178,'2025-05-25','true',906,'White Manufacturing Inc. DBA Micro-West')
-,('CYPROHEPTADINE HYDROCHLORIDE',32,'2025-05-29','false',134,'Cypress Pharmaceutical, Inc.')
-,('Smart Sense tussin dm max',95,'2025-04-10','false',992,'Kmart Corporation')
-,('Dermal Wound Cleanser',271,'2025-09-03','false',354,'Smith & Nephew, Inc.')
-,('MAXALT',72,'2026-02-01','true',497,'Merck Sharp & Dohme Corp.')
-,('Golden Sunshine Herbal',246,'2026-08-22','true',235,'Golden Sunshine International, Inc.')
-,('CELEBREX',32,'2025-03-29','false',883,'REMEDYREPACK INC.')
-,('Personal Care Petroleum',224,'2023-12-22','false',234,'Personal Care Products')
-,('Azithromycin',254,'2025-01-13','false',788,'Preferred Pharmaceuticals, Inc.')
-,('Propranolol Hydrochloride',127,'2024-02-22','true',559,'Physicians Total Care, Inc.')
-,('Fluocinolone Acetonide',34,'2023-12-28','true',286,'GW Laboratories, Inc.')
-,('YELLOW HORNET VENOM PROTEIN',246,'2025-04-19','false',73,'ALK-Abello A S')
-,('7 select day time relief',173,'2024-05-11','false',337,'7-Eleven')
-,('Isopropyl Alcohol Sepp',74,'2024-11-27','true',904,'CareFusion 213 LLC')
-,('Levothyroxine Sodium',191,'2026-01-03','false',648,'REMEDYREPACK INC.')
-,('AMLODIPINE BESYLATE',164,'2026-04-17','true',72,'American Health Packaging')
-,('LAMOTRIGINE',67,'2023-11-18','false',806,'Torrent Pharmaceuticals Limited')
-,('good sense ibuprofen pm',97,'2024-04-04','false',288,'L Perrigo Company')
-,('PRIME PRIMER FINISH',221,'2025-04-13','true',631,'F&CO Co., Ltd.')
-,('IMPAVIDO',194,'2024-05-19','false',341,'Paladin Therapeutics Inc.')
-,('Avon Sun',117,'2025-09-06','true',615,'Avon Products, Inc')
-,('Oxygen',79,'2023-10-30','true',744,'Pure Oxygen Services')
-,('CHILDRENS DIMETAPP MULTISYMPTOM COLD AND FLU',75,'2026-09-27','true',233,'Richmond Division of Wyeth')
-,('Hydrocortisone',298,'2024-03-07','true',950,'Qualitest Pharmaceuticals')
-,('ESSENCE OF BEAUTY',110,'2026-09-21','true',802,'CVS PHARMACY')
-,('Haloperidol',104,'2026-01-09','true',386,'Mylan Institutional Inc.')
-,('Amturnide',43,'2024-12-24','true',179,'Novartis Pharmaceuticals Corporation')
-,('Chaetomium globosum',91,'2026-05-24','false',417,'Nelco Laboratories, Inc.')
-,('Activella',217,'2025-06-19','false',815,'Novo Nordisk')
-,('pravastatin sodium',169,'2024-02-03','false',105,'State of Florida DOH Central Pharmacy')
-,('DAY CREAM MATTIFYING HYDRATOR',234,'2024-01-27','false',98,'MOSAIC MARKETING PARTNERS LLC')
-,('Finafta',190,'2026-09-03','true',536,'Efficient Laboratories Inc.')
-,('Equate Nasal',1,'2026-05-23','true',227,'Wal-Mart Stores Inc')
-,('Milk of Magnesia Original',90,'2024-12-15','true',355,'Premier Value')
-,('HOUSEFLY FOR DIAGNOSTIC USE ONLY',4,'2024-03-02','false',208,'Allergy Laboratories, Inc.')
-,('Lisinopril and hydrochlorothiazide',134,'2024-11-28','true',772,'REMEDYREPACK INC.')
-,('Trichloroacetic Acid 15%',290,'2025-09-06','false',499,'CRC (Cosmoceutical Research Center)')
-,('TERAZOSIN HYDROCHLORIDE',191,'2024-02-12','false',85,'REMEDYREPACK INC.')
-,('MS Contin',42,'2024-06-30','false',368,'Purdue Pharma LP')
-,('Homeopathic Lymphatic Clear Formula',132,'2024-11-25','true',17,'Indiana Botanic Gardens')
-,('Simvastatin',181,'2024-05-16','false',409,'Aphena Pharma Solutions - Tennessee, LLC')
-,('Metformin Hydrochloride',142,'2025-06-12','false',130,'PD-Rx Pharmaceuticals, Inc.')
-,('Metronidazole',215,'2026-02-28','false',990,'Liberty Pharmaceuticals, Inc.')
-,('PAXIL',281,'2024-10-24','false',189,'Physicians Total Care, Inc.')
-,('Azithromycin',35,'2026-10-22','true',759,'MedVantx, Inc.')
-,('Umcka Cold Flu Berry',155,'2025-10-18','false',933,'Nature''s Way Products, Inc.')
-,('Sodium Nitrite',220,'2026-09-18','false',831,'Hope Pharmaceuticals')
-,('Gabapentin',286,'2026-05-09','false',498,'Lake Erie Medica & Surgical Supply DBA Quality Care Products LLC')
-,('rexall all day pain relief',65,'2025-02-24','false',893,'Dolgencorp Inc')
-,('Alprazolam',17,'2025-03-21','false',654,'Preferred Pharmaceuticals, Inc.')
-,('Atomy Sunscreen White',298,'2024-08-27','true',666,'ATOMY CO., LTD.')
-,('Oxygen',63,'2026-05-07','true',533,'Welding & Therapy Service Inc.')
-,('BANANA BOAT',264,'2024-02-03','false',110,'Energizer Personal Care LLC')
-,('Alka-Seltzer Plus Cold',279,'2024-01-14','false',634,'Bayer HealthCare Consumer Care')
-,('equate daytime nitetime',44,'2025-07-27','true',990,'Wal-Mart Stores Inc')
-,('Verapamil Hydrochloride',14,'2025-05-22','true',718,'REMEDYREPACK INC.')
-,('Sulfamethoxazole and Trimethoprim',53,'2025-02-05','true',987,'Glenmark Generics Inc. USA')
-,('SUNTINTS',269,'2025-10-16','false',505,'MAKEUP ART COSMETICS')
-,('Acetaminophen',153,'2025-01-22','false',712,'Amerisource Bergen')
-,('TRANZGEL',188,'2025-12-03','true',896,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
-,('Atrovent',214,'2025-09-12','false',406,'Physicians Total Care, Inc.')
-,('Diltiazem Hydrochloride',72,'2024-04-07','false',760,'Akorn, Inc.')
-,('Omeprazole',286,'2024-05-10','true',448,'Altura Pharmaceuticals, Inc.')
-,('Hydroxyurea',89,'2025-06-15','true',614,'Golden State Medical Supply, Inc.')
-,('Isradipine',123,'2025-12-12','true',260,'AvPAK')
-,('Hourglass Illusion Tinted Moisturizer Warm Beige',287,'2024-06-24','true',712,'Kingdom Animalia, LLC DBA Hourglass Cosmetics')
-,('Visine Original',181,'2024-05-04','false',328,'Johnson & Johnson Healthcare Products, Division of McNEIL-PPC, Inc.')
-,('Allergy Relief',294,'2025-03-02','true',749,'TOP CARE (Topco Associates LLC)')
-,('Bortons Ethyl Rubbing Alcohol',210,'2025-02-17','true',831,'J-Mark International Inc.')
-,('RITUALS broad spectrum SPF 15 sunscreen matt finish foundation SHADE 11',288,'2025-12-12','true',153,'Rituals Cosmetics USA, Inc.')
-,('citalopram hydrobromide',278,'2026-04-18','false',834,'REMEDYREPACK INC.')
-,('AMOXICILLIN AND CLAVULANATE POTASSIUM',217,'2025-02-24','false',961,'STAT RX USA LLC')
-,('Nadolol',229,'2025-06-12','true',286,'Sandoz Inc')
-,('SHISEIDO THE MAKEUP PERFECT SMOOTHING COMPACT FOUNDATION (Refill)',124,'2024-05-07','false',155,'SHISEIDO CO., LTD.')
-,('Silphen DM Cough',96,'2025-12-15','false',51,'Silarx Pharmaceuticals, Inc')
-,('Ceftriaxone Sodium',145,'2025-04-12','false',881,'Sandoz Inc')
-,('Xylocaine',179,'2023-12-23','true',431,'Cardinal Health')
-,('Prednisone',113,'2024-08-22','true',126,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
-,('Lescol',196,'2026-01-08','true',834,'Carilion Materials Management')
-,('Good Sense Severe Daytime Cold and Flu',91,'2025-10-21','false',804,'L. Perrigo Company')
-,('Moexipril Hydrochloride',50,'2026-10-23','false',476,'Apotex Corp.')
-,('cetirizine hydrochloride',218,'2025-04-05','true',195,'Caraco Pharmaceutical Laboratories, Ltd.')
-,('Alcohol Prep Pads - Sterile',101,'2025-02-09','false',354,'PSS World Medical')
-,('Instant Hand Sanitizer',92,'2025-08-08','true',161,'Graphic Controls')
-,('Mesmerize for Men',162,'2024-12-06','false',192,'Avon Products, Inc.')
-,('Gelato Topical Anesthetic',135,'2026-08-25','true',373,'Mycone Dental Supply Co., Inc DBA Keystone Industries and Deepak Products Inc')
-,('Diphenhydramine Hydrochloride',58,'2023-12-18','false',409,'Cardinal Health')
-,('Vecuronium bromide',169,'2026-08-27','false',434,'Akorn - Strides LLC')
-,('Meclizine Hydrochloride',226,'2026-09-12','false',628,'Sandoz Inc')
-,('Candida Yeast',62,'2024-11-06','true',304,'Liddell Laboratories, Inc.')
-,('Proctocort',148,'2024-04-16','true',407,'Salix Pharmaceuticals, Inc')
-,('CINA',78,'2024-12-07','true',676,'HOMEOLAB USA INC')
-,('Givenchy Photo Perfexion Fluid Foundation SPF 20 Perfect Ivory Tint 1',208,'2024-11-01','true',919,'LVMH Fragrance Brands')
-,('Rizatriptan Benzoate',242,'2024-05-26','false',247,'Breckenridge Pharmaceutical, Inc.')
-,('Smart Sense NightTime Cold and Flu',48,'2025-06-18','true',414,'Kmart Corporation')
-,('HAMSTER HAIR AND EPITHELIA',49,'2026-08-04','false',897,'Allergy Laboratories, Inc.')
-,('Metoclopramide',135,'2024-02-12','false',600,'Physicians Total Care, Inc.')
-,('Childrens Delsym',46,'2026-10-17','true',474,'Reckitt Benckiser LLC')
-,('Oral-B NeutraCare Mint',59,'2024-02-04','false',890,'Oral-B Laboratories')
-,('Cetirizine Hydrochloride',227,'2024-03-13','false',305,'Topco Associates LLC')
-,('Sudafed PE Pressure Plus Pain Plus Cold',56,'2024-01-13','false',991,'McNeil Consumer Healthcare Div. McNeil-PPC, Inc')
-,('healthy accents cold and cough DM',272,'2025-12-24','true',792,'DZA Brands LLC')
-,('ShopRite Allergy D 12',251,'2024-02-25','true',371,'Wakefern Food Corporation')
-,('Hydrocodone Bitartrate and Acetaminophen',95,'2024-03-25','false',296,'A-S Medication Solutions LLC')
-,('Lamotrigine',211,'2025-09-14','false',720,'Glenmark Generics Inc., USA')
-,('Luxiq',179,'2026-07-18','true',242,'Prestium Pharma, Inc.')
-,('formula em',48,'2025-01-05','true',242,'Major Pharmaceuticals')
-,('PHYSICIANS CARE STING RELIEF PAD',76,'2026-03-05','true',364,'Dukal Corporation')
-,('fiber laxative',225,'2025-01-31','false',866,'Kroger Company')
-,('Potassium Chloride',92,'2026-03-01','true',979,'Qualitest Pharmaceuticals')
-,('Clopidogrel',74,'2024-05-13','false',840,'Macleods Pharmaceuticals Limited')
-,('Zinka Watermelon SPF 15 Lip Balm',200,'2026-06-10','false',93,'Zinka')
-,('Chlorpromazine Hydrochloride',78,'2023-11-26','true',868,'REMEDYREPACK INC.')
-,('Sugar Cravings',266,'2024-03-03','false',247,'Dr. Donna Restivo DC')
-,('Ibuprofen',202,'2024-06-26','true',630,'PD-Rx Pharmaceuticals, Inc.')
-,('Paroxetine',229,'2025-04-11','true',269,'American Health Packaging')
-,('Nabumetone',188,'2024-03-16','true',207,'Dispensing Solutions, Inc.')
-,('Acyclovir',106,'2024-10-21','false',200,'Preferred Pharmaceuticals, Inc.')
-,('BZK Pads',104,'2024-03-04','true',748,'Dynarex Corporation')
-,('CELTIS OCCIDENTALIS POLLEN',163,'2025-04-09','true',479,'ALK-Abello, Inc.')
-,('SOLU-MEDROL',288,'2023-12-10','false',858,'Pharmacia and Upjohn Company')
-,('SULFASALAZINE',108,'2024-04-08','false',701,'REMEDYREPACK INC.')
-,('Citalopram',124,'2025-06-02','true',97,'Contract Pharmacy Services-PA')
-,('Oxaprozin',45,'2024-03-11','false',200,'Dispensing Solutions, Inc.')
-,('Dyrenium',233,'2024-07-02','true',705,'Carilion Materials Management')
-,('simvastatin',79,'2025-11-25','false',626,'Bryant Ranch Prepack')
-,('KLEENEX Luxury Foam Moisturizing Instant Hand Sanitizer',260,'2024-05-15','true',455,'Kimberly-Clark Corporation')
-,('Water Oak',212,'2026-04-09','false',774,'Nelco Laboratories, Inc.')
-,('Amantadine Hydrochloride',94,'2025-01-25','false',696,'Hi-Tech Pharmacal Co., Inc.')
-,('Givenchy Photo Perfexion Fluid Foundation SPF 20 Perfect Sand Tint 3',47,'2024-08-10','true',660,'LVMH Fragrance Brands')
-,('Phenazopyridine HCl',199,'2025-03-09','false',357,'A-S Medication Solutions LLC')
-,('Pinchot Juniper',207,'2024-04-17','true',426,'Nelco Laboratories, Inc.')
-,('HAND SANITIZING',260,'2025-08-23','false',271,'GANZ U.S.A., LLC')
-,('Morphine Sulfate',213,'2026-06-25','true',642,'Par Pharmaceutical Inc.')
-,('Dukal Alcohol Prep Pad',123,'2024-06-16','false',190,'Dukal Corporation')
-,('Pine Salt',245,'2026-04-08','true',486,'Kareway Product, Inc.')
-,('TRI-SOFT SOFTENING',115,'2025-05-06','false',926,'Clinical Therapeutic Solutions')
-,('Vitekta',151,'2026-05-15','false',498,'Gilead Sciences, Inc.')
-,('Monobasic Sodium Phosphate and Dibasic Sodium Phosphate',84,'2025-08-25','true',589,'Novel Laboratories, Inc.')
-,('Colgate Total',221,'2025-09-03','true',962,'Colgate Oral Pharmaceuticals, Inc.')
-,('Topcare Day Time Nite Time',129,'2024-03-29','false',676,'Topco Associates LLC')
-,('VENTOLIN',208,'2025-07-07','true',965,'Unit Dose Services')
-,('Pure Snow whitening',67,'2025-11-11','false',763,'Itena Clinical')
-,('Lamotrigine',261,'2026-09-22','true',518,'Teva Pharmaceuticals USA Inc')
-,('Shaving Factory',221,'2026-06-27','true',139,'Derby International LLC')
-,('Motrin',198,'2026-04-20','true',991,'McNeil Consumer Healthcare Div McNeil-PPC, Inc')
-,('Childrens Growth and Development',265,'2024-07-01','true',418,'King Bio Inc.')
-,('Park no suk a clear walk of park',41,'2025-08-18','false',876,'Park No Suk a clear walk of park')
-,('Anti-bacterial Lemon Drop Hand',263,'2026-02-13','false',577,'BB17, LLC')
-,('Cephalexin',190,'2026-01-07','false',75,'Lupin Pharmaceuticals, Inc.')
-,('Saccharomyces cerevisiae',28,'2025-01-06','true',740,'Nelco Laboratories, Inc.')
-,('Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine Sulfate',296,'2024-04-01','true',401,'Aurolife Pharma, LLC')
-,('Mefloquine Hydrochloride',248,'2024-05-04','true',227,'Barr Laboratories Inc.')
-,('BP Wash',204,'2026-06-08','true',366,'CINTEX SERVICES, LLC')
-,('Purgo Ultra Foam',151,'2025-04-27','true',774,'Certus Medical, Inc.')
-,('doxycycline hyclate',156,'2024-02-07','true',69,'Mylan Pharmaceuticals Inc.')
-,('Ceftriaxone',168,'2026-07-20','true',307,'Apotex Corporation')
-,('ziprasidone hydrochloride',24,'2026-09-08','true',43,'Sandoz Inc')
-,('Earths Care Arnica Compound',204,'2024-09-08','false',756,'DLC Laboratories, Inc.')
-,('Headache Soothe',65,'2024-01-31','true',841,'Feelgood Health')
-,('Simvastatin',226,'2024-03-14','false',876,'International Labs, Inc.')
-,('Povidone-Iodine Scrub Swabstick',60,'2024-03-26','true',816,'H and P Industries, Inc. dba Triad Group')
-,('ASPIRIN',28,'2025-07-30','false',919,'Liberty Pharmaceuticals, Inc.')
-,('Head and Shoulders 2in1',108,'2025-03-16','true',202,'Procter & Gamble Manufacturing Co.')
-,('Polymyxin B',5,'2025-04-17','false',197,'X-GEN Pharmaceuticals, Inc.')
-,('Lidocaine Hydrochloride',174,'2025-10-08','false',388,'General Injectables & Vaccines, Inc')
-,('Standardized Mite Mix, Dermatophagoides pteronyssinus and Dermatophagoides farinae, 30000 AU per mL',125,'2025-02-06','true',475,'Jubilant HollisterStier LLC')
-,('Conney Extra Strength Aspirin Free',179,'2025-01-24','true',365,'Conney Safety Products, LLC')
-,('Gelato Topical Anesthetic',130,'2025-02-27','true',688,'Mycone Dental Supply Co., Inc DBA Keystone Industries and Deepak Products Inc')
-,('Ciprofloxacin',168,'2024-05-04','true',364,'Rebel Distributors Corp')
-,('Levetiracetam',189,'2024-03-27','true',264,'Unit Dose Services')
-,('COLTALIN-DM',83,'2025-03-14','true',743,'FORTUNE PHARMACAL COMPANY LIMITED')
-,('SINGULAIR',102,'2024-11-26','true',350,'Physicians Total Care, Inc.')
-,('UV Capture Sun Pact',234,'2024-07-28','true',33,'Carver Korea Co.,Ltd')
-,('Indomethacin',265,'2026-03-25','false',855,'Rebel Distributors Corp')
-,('12 Male Reproductive',76,'2024-04-24','false',104,'The Wellness Center')
-,('ELF Mineral Moisturizing Lip Tint SPF 8',112,'2025-08-07','true',300,'Shanghai Justking Enterprise Co. Ltd.')
-,('Donepezil Hydrochloride',267,'2025-04-29','false',891,'St Marys Medical Park Pharmacy')
-,('Losartan Potassium',29,'2024-02-06','true',545,'Life Line Home Care Services, Inc.')
-,('mucus relief',135,'2026-08-10','true',617,'H E B')
-,('GONGJINHYANG MI LUXURY FOUNDATION 2',43,'2024-11-24','true',874,'LG Household and Healthcare, Inc.')
-,('Naproxen Sodium',58,'2026-05-20','true',611,'EQUATE (Walmart Stores, Inc.)')
-,('Tork Premium Antibacterial',244,'2025-05-17','true',939,'SCA Tissue North America')
-,('Perphenazine and Amitriptyline Hydrochloride',82,'2024-11-18','false',906,'Mylan Pharmaceuticals Inc.')
-,('Cefazolin Sodium',266,'2025-06-08','true',74,'B. Braun Medical Inc.')
-,('Clear Sinus and Ear',286,'2025-07-01','false',80,'Clear Products, Inc.')
-,('Losartan Potassium and Hydrochlorothiazide',33,'2025-07-26','true',372,'Dispensing Solutions, Inc.')
-,('Grass Smut Mixture',161,'2024-12-19','false',929,'Antigen Laboratories, Inc.')
-,('Haddock',124,'2025-03-20','false',560,'Nelco Laboratories, Inc.')
-,('Lansoprazole',250,'2026-05-26','false',126,'Rebel Distributors Corp')
-,('ZOLOFT',78,'2024-03-23','false',670,'STAT RX USA LLC')
-,('EXALGO',173,'2025-08-17','false',24,'Physicians Total Care, Inc.')
-,('MEPRON',3,'2024-12-06','true',656,'GlaxoSmithKline LLC')
-,('Good Sense Anti Diarrheal',1,'2024-07-24','false',878,'L. Perrigo Company')
-,('WeTTrust Gold',80,'2024-11-25','true',260,'WeTTrust Korea Co., Ltd')
-,('Klor-Con M',122,'2024-01-05','true',178,'Upsher-Smith Laboratories, Inc.')
-,('ZONTIVITY',150,'2026-09-29','false',69,'Merck Sharp & Dohme Corp.')
-,('Antiseptic',258,'2026-03-30','true',76,'Telestar Consulting')
-,('Mineral Oil',85,'2026-05-16','false',527,'Select Brand')
-,('Cefdinir',290,'2025-12-06','true',607,'Citron Pharma LLC')
-,('Glyburide (micronized) and Metformin Hydrochloride',272,'2026-01-19','true',527,'Actavis Pharma Manufacturing Pvt. Ltd.')
-,('Zicam',158,'2025-04-19','true',831,'Matrixx Initiatives, Inc.')
-,('Chicken Pox Symptom Relief',213,'2024-08-10','false',935,'King Bio Inc.')
-,('Cranberry Spice Antibacterial Foaming Hand Wash',165,'2026-02-18','false',278,'SJ Creations, Inc.')
-,('oxycodone hydrochloride',281,'2026-04-21','false',199,'Sandoz Inc')
-,('Lisinopril',94,'2024-04-05','false',454,'Qualitest Pharmaceuticals')
-,('Cilostazol',235,'2026-02-12','false',597,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Hydrochlorothiazide',126,'2026-07-16','true',139,'Contract Pharmacy Services-PA')
-,('Promethazine Hydrochloride',238,'2025-08-25','false',694,'Cardinal Health')
-,('Pollens - Trees, Cottonwood, Common Populus deltoides',133,'2024-02-12','true',444,'Jubilant HollisterStier LLC')
-,('TOPCARE',10,'2026-07-30','true',165,'TOPCO ASSOCIATES LLC')
-,('Adderall',3,'2026-06-27','false',751,'Shire US Manufacturing Inc.')
-,('Prograf',41,'2024-06-12','false',592,'Cardinal Health')
-,('Joint Rescue',205,'2024-08-04','true',274,'Peaceful Mountain, Inc.')
-,('COLTALIN-ND',256,'2025-05-15','true',541,'FORTUNE PHARMACAL COMPANY LIMITED')
-,('Testim',245,'2025-08-06','true',757,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Aminocaproic Acid',292,'2026-05-29','false',447,'American Regent, Inc.')
-,('Fenofibrate',222,'2025-09-24','true',869,'Mylan Institutional Inc.')
-,('Potassium Chloride',289,'2024-02-20','true',831,'BluePoint Laboratories')
-,('Rimmel BB Cream Matte 9-IN-1 Skin Perfecting Super Makeup',46,'2024-10-09','false',894,'Rimmel Inc.')
-,('Diltiazem Hydrochloride',15,'2025-09-28','false',836,'Hospira, Inc.')
-,('Bupropion Hydrochloride',120,'2025-08-25','true',746,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('SEROQUEL',278,'2026-03-04','false',630,'PD-Rx Pharmaceuticals, Inc.')
-,('Carbamazepine',2,'2026-04-25','true',312,'Teva Pharmaceuticals USA Inc')
-,('Glimepiride',77,'2026-06-05','true',597,'PD-Rx Pharmaceuticals, Inc.')
-,('Glycopyrrolate',128,'2026-06-08','true',430,'American Regent, Inc.')
-,('Hydrocortisone Acetate and Pramoxine Hydrochloride',1,'2024-06-14','true',374,'Acella Pharmaceuticals, LLC')
-,('Alcohol Free Antiseptic',130,'2023-11-30','true',640,'Kroger Co')
-,('Bacitracin',175,'2024-02-26','true',919,'Pharmacia and Upjohn Company')
-,('Berri-Freez',162,'2024-06-07','true',118,'Preferred Pharmaceuticals, Inc.')
-,('Milk of Magnesia',111,'2024-09-21','true',699,'Shopko Stores Operating Co., LLC')
-,('Bupropion Hydrochloride',291,'2024-10-02','true',711,'Eon Labs, Inc.')
-,('Bethanechol Chloride',42,'2025-08-29','false',547,'Pliva Inc.')
-,('Furosemide',251,'2026-09-06','true',531,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('TRIAMINIC',233,'2026-09-27','false',540,'Novartis Consumer Health, Inc.')
-,('Bentasil',250,'2025-09-27','false',799,'CLOETTA ITALIA S.r.l.')
-,('Diphenhydramine HCL',252,'2026-01-20','false',703,'Physicians Total Care, Inc.')
-,('Olanzapine and Fluoxetine',15,'2026-05-23','false',363,'Par Pharmaceutical, Inc')
-,('Cattle Epithelium',231,'2024-06-01','false',430,'Nelco Laboratories, Inc.')
-,('Neoral',66,'2025-12-15','true',845,'Novartis Pharmaceuticals Corporation')
-,('QC Cold and Hot Pain Relief',64,'2026-08-19','true',67,'Quality Home Products')
-,('Cough',189,'2025-04-26','true',743,'Walgreen Company')
-,('Nicotiana Carbo',241,'2025-03-03','true',944,'Uriel Pharmacy Inc.')
-,('LOreal Paris Skin Expertise Collagen Moisture Filler',120,'2024-03-28','true',861,'L''Oreal USA Products Inc')
-,('Buspirone Hydrochloride',258,'2023-12-16','false',239,'AvKARE, Inc.')
-,('Dextroamphetamine Saccharate and Amphetamine Aspartate and Dextroamphetamine Sulfate and Amphetamine Sulfate',204,'2025-05-04','true',330,'Mallinckrodt, Inc.')
-,('Loratadine ODT',99,'2025-06-22','false',704,'CVS Pharmacy')
-,('Tamsulosin Hydrochloride',218,'2024-09-04','false',870,'Contract Pharmacy Services-PA')
-,('Dexferrum',263,'2024-03-12','true',132,'American Regent, Inc.')
-,('Childrens Pain and Fever',286,'2026-03-06','true',534,'Kroger Company')
-,('Alprazolam',44,'2024-02-19','false',503,'A-S Medication Solutions LLC')
-,('HASOL Intensive',262,'2024-09-17','true',928,'Ecomine Co., Ltd.')
-,('Right Guard Sport',95,'2024-03-23','true',245,'VVF Illinois Services LLC')
-,('Pollens - Trees, Pepper Tree, California Schinus molle',37,'2024-02-16','true',731,'Jubilant HollisterStier LLC')
-,('Theratramadol-90',131,'2026-03-10','false',779,'Physician Therapeutics LLC')
-,('Phenazopyridine Hydrochloride',281,'2025-01-09','false',329,'A-S Medication Solutions LLC')
-,('Family Dollar Complete Protection Anticavity Mouthwash',225,'2026-03-04','false',151,'Family Dollar')
-,('Whooping Cough',11,'2024-07-21','false',285,'Home Sweet Homeopathics')
-,('ShopRite Acid Reducer',15,'2025-07-10','false',561,'Wakefern Food Corporation')
-,('Ketorolac Tromethamine',280,'2025-05-05','true',160,'Akorn')
-,('Cyclobenzaprine Hydrochloride',275,'2026-07-26','false',316,'REMEDYREPACK INC.')
-,('MISSHA TIME REVOLUTION WHITE CURE UV SUN PROTECTOR',261,'2023-12-14','false',943,'ABLE C&C CO., LTD.')
-,('Select Brand Sport Sunscreen',36,'2025-11-28','false',314,'Select Brand Distributors')
-,('Paroxetine',172,'2024-09-06','false',161,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Degree Men',202,'2024-07-12','true',269,'Conopco Inc. d/b/a Unilever')
-,('Good Sense Childrens Cold and Cough',143,'2025-05-25','false',600,'L Perrigo Company')
-,('triamcinolone acetonide',19,'2025-06-02','false',454,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
-,('Childrens Mucus Relief Cherry',111,'2024-04-08','true',783,'H.E.B.')
-,('Stye in the Eye',39,'2024-12-06','false',977,'Home Sweet Homeopathics')
-,('MyntSmile',248,'2025-09-21','false',824,'LMKAO LLC')
-,('Infants TYLENOL',188,'2026-10-06','false',779,'McNeil Consumer Healthcare Div. McNeil-PPC, Inc')
-,('Smart Sense arthritis pain relief',37,'2024-12-09','true',621,'Kmart Corporation')
-,('Loratadine Allergy Relief',120,'2024-08-17','false',703,'Ohm Laboratories Inc.')
-,('Dr Smiths Diaper Rash',256,'2025-03-19','false',90,'Mission Pharmacal Company')
-,('Gastritis - Ulcer',171,'2025-07-21','false',782,'Newton Laboratories, Inc.')
-,('Bisoprolol Fumarate and Hydrochlorothiazide',38,'2026-06-07','true',84,'Mylan Pharmaceuticals Inc.')
-,('Head and Shoulders Conditioner',31,'2024-07-10','true',751,'Procter & Gamble Manufacturing Co.')
-,('Cimetidine',25,'2026-01-22','true',13,'Teva Pharmaceuticals USA Inc')
-,('Alcohol Prep',74,'2025-12-08','false',143,'Medical Speciaties Distributors, LLC')
-,('SUNSCREEN',176,'2025-08-30','true',136,'220 Laboratories Inc')
-,('Ortho-Nesic',248,'2024-08-15','true',37,'Blaine Labs Inc.')
-,('Carbidopa, Levodopa and Entacapone',26,'2024-09-01','true',104,'Mylan Pharmaceuticals Inc.')
-,('Ibuprofen 200',300,'2024-05-25','true',195,'WALGREEN CO.')
-,('CARVEDILOL',211,'2026-04-14','false',134,'St Marys Medical Park Pharmacy')
-,('Anti-Bacterial Hand',251,'2025-01-12','true',243,'Bath & Body Works, Inc.')
-,('Esterified Estrogens and Methyltestosterone',136,'2024-06-16','false',204,'ANIP Acquisition Company')
-,('Glytone Acne Facial Masque',153,'2025-10-14','true',643,'Genesis Pharmaceutical, Inc.')
-,('EXTEN-10',169,'2025-11-20','false',970,'GOOD SKIN DERMACARE')
-,('Hydrocodone Bitartrate And Acetaminophen',16,'2026-09-28','false',194,'Dispensing Solutions, Inc.')
-,('Paroxetine',191,'2023-11-04','true',593,'Teva Pharmaceuticals USA Inc')
-,('Levocetirizine Dihydrochloride',263,'2025-05-02','true',64,'Glenmark Generics Inc.,USA')
-,('Ramipril',85,'2026-03-08','false',810,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Pure Grace Antiperspirant and Deodorant',240,'2024-03-05','true',637,'Raani Corporation')
-,('ANTI BACTERIAL HAND SANITIZER',133,'2025-01-12','true',186,'Dolgencorp Inc')
-,('Sodium Chloride',96,'2025-08-12','false',850,'APP Pharmaceuticals, LLC')
-,('Prednisone',62,'2026-09-12','false',899,'Proficient Rx LP')
-,('SHISEIDO THE MAKEUP FOUNDATION',243,'2024-11-13','false',763,'SHISEIDO CO., LTD.')
-,('HES CLEAN',235,'2025-11-19','false',856,'DOCTOR C&C CO., LTD.')
-,('My Fair Baby',265,'2024-10-15','false',998,'Delta Brands Inc')
-,('CUTICURA MEDICATED ANTIBACTERIAL BAR',148,'2026-04-15','false',261,'Bradford Soap Works, Inc.')
-,('Zoledronic Acid',184,'2026-07-30','true',677,'Wockhardt USA LLC.')
-,('EasyTouch Alcohol Prep Pads',184,'2024-07-03','false',283,'MHC Medical Products, LLC')
-,('Clonazepam',207,'2026-07-01','false',440,'Eon Labs, Inc.')
-,('Promethazine Hydrochloride',128,'2023-12-24','false',88,'PD-Rx Pharmaceuticals, Inc.')
-,('Ear Care',62,'2023-11-18','true',241,'Newton Laboratories, Inc.')
-,('Acetaminophen PM',38,'2025-05-25','false',94,'BJWC (Berkley & Jensen / BJ''s)')
-,('EAU THERMALE Avene Hydrance Optimale Hydrating BROAD SPECTRUM SPF 25',213,'2025-01-27','true',292,'Pierre Fabre Dermo Cosmetique')
-,('Tretinoin',252,'2025-08-14','true',678,'Spear Dermatology Products Inc')
-,('Minoxidil',249,'2025-05-19','true',153,'Walgreen Company')
-,('Home Care Fluoride',264,'2025-06-20','false',103,'Dental Technologies, Inc.')
-,('CPDA-1',64,'2024-11-03','true',66,'Fenwal, Inc.')
-,('Escitalopram Oxalate',214,'2024-08-23','true',353,'Mylan Institutional Inc.')
-,('Hyoscyamine Sulfate',204,'2026-10-10','false',656,'Carilion Materials Management')
-,('Medpride',296,'2024-02-09','true',173,'Shield Line LLC')
-,('Up and Up infants acetaminophen',67,'2026-08-12','true',784,'Target Corporation')
-,('pain and fever',265,'2025-03-09','true',871,'Walgreen Company')
-,('Prednisone',16,'2026-10-05','false',792,'Watson Laboratories, Inc.')
-,('OSAGE ORANGE VAR BOIS DARC POLLEN',173,'2026-07-25','false',368,'Allergy Laboratories, Inc.')
-,('No7 Soft and Sheer Tinted Moisturiser Fair',288,'2024-03-26','false',482,'Boots Retail USA Inc')
-,('Alcohol Prep',163,'2025-06-26','false',597,'Major Pharmaceuticals')
-,('Fludarabine Phosphate',36,'2023-12-31','true',22,'Teva Parenteral Medicines, Inc.')
-,('LOreal Paris Advanced Suncare Silky Sheer BB Face 50 Plus Broad Spectrum SPF 50 Plus Sunscreen',257,'2024-04-22','false',365,'L?Oreal USA Products Inc')
-,('Amlodipine besylate/atorvastatin calcium',65,'2025-10-25','false',215,'Mylan Pharmaceuticals Inc.')
-,('IPECACUANHA',71,'2023-11-12','false',152,'Hyland''s')
-,('NITROGEN',40,'2023-12-31','false',764,'Air Liquide America Specialty Gases LLC')
-,('Omeprazole',61,'2024-01-21','true',26,'Watson Pharma, Inc.')
-,('Multi-Vitamin Fluoride Drops',57,'2025-02-09','false',782,'H.J. Harkins Company, Inc.')
-,('Nitrofurantoin Macrocrystals',119,'2024-08-08','false',119,'PD-Rx Pharmaceuticals, Inc.')
-,('Levisticum Quercus',244,'2026-03-02','true',92,'Uriel Pharmacy Inc.')
-,('Rapid Release Pain Relief',155,'2024-10-21','false',560,'Rite Aid')
-,('Oxygen',179,'2024-10-09','false',574,'Rogers Pharmacy')
-,('ANTIMONIUM CRUDUM',29,'2024-03-17','true',407,'HOMEOLAB USA INC')
-,('Iodent Fluoride Toothpaste',143,'2024-03-12','true',192,'Dabur India Limited')
-,('Cymbalta',148,'2026-07-11','true',499,'Eli Lilly and Company')
-,('KADIAN',245,'2025-05-04','true',570,'STAT RX USA LLC')
-,('ConZip',238,'2023-12-01','true',213,'Vertical Pharmaceuticals, LLC')
-,('Adidas',8,'2024-11-13','false',283,'Coty US LLC')
-,('Estropipate',169,'2024-10-11','true',171,'Watson Laboratories, Inc.')
-,('Diphenoxylate Hydrochloride and Atropine Sulfate',168,'2026-05-24','true',896,'Dispensing Solutions, Inc.')
-,('Meijer Burn Relief Aloe Vera Pain Relieving Gel',148,'2025-11-27','false',140,'Meijer Distribution Inc')
-,('THE FLOWER UV INTENSE PACT',172,'2025-12-03','false',106,'THEFACESHOP CO., LTD.')
-,('Opahl',210,'2024-04-16','true',946,'Dharma Research, Inc.')
-,('Pioglitazone HCL and Metformin HCL',31,'2025-11-13','false',591,'Torrent Pharmaceuticals Limited')
-,('Candida High Potency 9',209,'2024-09-01','true',668,'King Bio Inc.')
-,('Aplisol',65,'2025-03-12','false',632,'JHP Pharmaceuticals LLC')
-,('Hydrochlorothiazide',201,'2025-04-21','true',543,'Rebel Distributors Corp')
-,('AMIFOSTINE',125,'2024-03-09','false',756,'Sun Pharmaceutical Industries Limited')
-,('Gabapentin',220,'2025-07-22','false',892,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Hydrocodone Bitartrate and Acetaminophen',58,'2026-04-01','true',565,'Rebel Distributors Corp')
-,('Fluocinonide',220,'2023-12-07','true',355,'A-S Medication Solutions LLC')
-,('Amitriptyline Hydrochloride',239,'2026-05-22','false',927,'Lake Erie Medical DBA Quality Care Products LLC')
-,('LEVOFLOXACIN',164,'2025-04-26','true',78,'Cardinal Health')
-,('IMAGE ESSENTIALS',291,'2024-10-11','true',631,'KMART CORPORATION')
-,('Tums',126,'2025-06-18','false',130,'GlaxoSmithKline Consumer Heathcare LP')
-,('Ponds',245,'2025-02-19','false',639,'CONOPCO Inc. d/b/a Unilever')
-,('Benztropine Mesylate',216,'2025-12-28','false',45,'REMEDYREPACK INC.')
-,('Prednisone',122,'2025-09-03','false',40,'REMEDYREPACK INC.')
-,('Calcitriol',202,'2026-05-15','false',966,'Akorn, Inc.')
-,('VENLAFAXINE HYDROCHLORIDE',176,'2025-06-08','true',2,'Wockhardt Limited')
-,('Allergy Relief',122,'2025-02-03','true',102,'Rite Aid')
-,('Marshmallow Antibacterial Hand',19,'2024-09-02','false',403,'SJ Creations, Inc.')
-,('BACTIMICINA COUGH AND COLD',183,'2024-11-15','true',587,'DLC Laboratories, Inc.')
-,('Terrasil Cold Sore Treatment',294,'2024-12-17','false',316,'Aidance Skincare & Topical Solutions, LLC')
-,('N-Con Tonic',87,'2026-01-21','true',410,'Native Remedies, LLC')
-,('antacid',58,'2024-09-09','true',303,'Rij Pharmaceutical Corporation')
-,('Olanzapine',272,'2023-12-10','false',613,'Aurobindo Pharma Limited')
-,('Inflammation',161,'2026-04-21','false',166,'Apotheca Company')
-,('Hydralazine Hydrochloride',239,'2026-01-28','false',38,'Heritage Pharmaceuticals Inc')
-,('ShopRite Acid Reducer',160,'2025-08-23','true',881,'Wakefern Food Corporation')
-,('NEO-POLYCIN',181,'2026-09-16','true',137,'A-S Medication Solutions LLC')
-,('Valsartan and hydrochlorothiazide',30,'2024-04-22','true',653,'REMEDYREPACK INC.')
-,('lamotrigine',236,'2025-01-28','true',939,'Upsher-Smith Laboratories, Inc.')
-,('Anastrozole',180,'2024-10-06','true',302,'Ascend Laboratories, LLC')
-,('OXYGEN',34,'2025-08-13','true',348,'Isis Medical, Inc.')
-,('Parlodel',287,'2026-02-10','false',503,'Validus Pharmaceuticals LLC')
-,('Acacia',298,'2024-05-16','true',702,'Nelco Laboratories, Inc.')
-,('TheradermSPF 43',58,'2025-07-18','true',598,'Therapon Skin Health, LP')
-,('PHENERGAN',39,'2025-05-06','true',859,'Prestium Pharma, Inc.')
-,('Glimepiride',123,'2024-10-31','false',85,'Clinical Solutions Wholesale')
-,('Dilaudid',141,'2024-01-22','false',335,'Cardinal Health')
-,('ULTRAM ER',82,'2025-01-01','false',871,'Rebel Distributors Corp')
-,('Diclofenac Potassium',206,'2026-07-01','false',354,'H.J. Harkins Company, Inc.')
-,('KADIAN',48,'2025-07-26','true',520,'STAT RX USA LLC')
-,('Arnica',214,'2026-10-10','true',336,'LC Industries')
-,('POPULUS DELTOIDES POLLEN',62,'2024-02-22','false',887,'ALK-Abello, Inc.')
-,('Atenolol',138,'2024-05-28','true',65,'Cadila Healthcare Limited')
-,('Santalia Clinical Acne',158,'2026-08-22','true',490,'Santalis Pharmaceuticals')
-,('Bioelements',162,'2025-08-14','true',449,'Bioelements, Inc.')
-,('SCREAMIN MENTHOL TOAST',287,'2026-09-26','true',423,'Q.A. Laboratories')
-,('meijer',286,'2025-01-29','true',490,'Meijer Distribution Inc')
-,('Hydrocodone Bitartrate And Acetaminophen',182,'2025-10-23','false',855,'Contract Pharmacy Services-PA')
-,('Ergocalciferol',259,'2025-03-31','false',262,'Rising Pharamceuticals, Inc')
-,('Penicillin V Potassium',157,'2026-07-07','false',191,'Citron Pharma LLC')
-,('Chest Rub',120,'2025-08-16','true',478,'Safeway')
-,('Tineacide Physician Formula',99,'2024-02-14','false',283,'Blaine Labs Inc.')
-,('Isosorbide Mononitrate',106,'2025-07-16','false',953,'Qualitest Pharmaceuticals')
-,('Stool Softener',280,'2025-01-01','false',49,'SMART SENSE (Kmart)')
-,('ENALAPRIL MALEATE',191,'2023-11-21','false',415,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Lisinopril',149,'2025-11-16','false',218,'Unit Dose Services')
-,('Telmisartan',27,'2025-06-11','true',937,'Roxane Laboratories, Inc.')
-,('Laxative pills',51,'2023-12-18','true',134,'TARGET Corporation')
-,('Pediatric Glycerin Laxative',126,'2024-04-14','true',755,'Cardinal Health, Inc.')
-,('Hydrogen Peroxide',9,'2026-03-01','true',895,'Geiss, Destin & Dunn, Inc')
-,('3 Pack Instant Hand Sanitizer with moisturizers Aloe Scented',244,'2025-03-11','false',870,'Greenbrier International')
-,('Lunesta',186,'2026-04-19','true',466,'H.J. Harkins Company, Inc.')
-,('Australian Pine',216,'2024-03-01','true',304,'Antigen Laboratories, Inc.')
-,('Antacid Supreme Cherry',128,'2023-11-22','true',183,'Dollar General')
-,('Myzilra',84,'2026-03-03','true',213,'Qualitest Pharmaceuticals')
-,('SOLIE EMULSION',183,'2026-07-26','false',802,'NATURE REPUBLIC CO., LTD.')
-,('GUNA-FLAM',23,'2024-12-26','true',468,'Guna spa')
-,('PURELL Advanced E3 Rated Instant Hand Sanitizer',80,'2025-07-28','true',624,'GOJO Industries, Inc.')
-,('Fluocinonide',148,'2026-01-03','true',270,'Teva Pharmaceuticals USA Inc')
-,('BACTROBAN',221,'2024-04-20','true',789,'Cardinal Health')
-,('Lymph Rx',95,'2025-07-30','false',87,'Health and Harmony Products')
-,('Diazepam',288,'2024-05-30','true',354,'Hospira, Inc.')
-,('Nitrogen',66,'2026-07-25','false',315,'IWS Gas and Supply of Texas, LTD')
-,('Protectyl soleil moisturizing sunscreen lotion high protection spf 30',118,'2026-09-15','true',72,'Yves Rocher North America Inc. DBA Laboratoire de biologie vegetal Yves Rocher')
-,('Phytolacca Decandra',271,'2025-04-24','false',648,'BrandStorm HBC')
-,('TopCare Antacid Calcium',135,'2026-02-08','true',689,'Topco Associates LLC')
-,('Lucky Instant Hand Cleanser with Aloe Vera',56,'2025-03-16','true',858,'Delta Brands Inc')
-,('Lamb Quarters',135,'2023-11-23','true',805,'Nelco Laboratories, Inc.')
-,('Locoid Lipocream',192,'2024-09-05','false',755,'Triax Pharmaceuticals, LLC')
-,('Olanzapine',289,'2026-09-19','false',746,'REMEDYREPACK INC.')
-,('SSD Cream',240,'2026-08-14','true',486,'REMEDYREPACK INC.')
-,('Meloxicam',265,'2025-03-10','false',443,'Glenmark Generics Inc., USA')
-,('Cyzone',144,'2024-12-04','true',447,'VENTURA CORPORATION LTDA.')
-,('Lovastatin',53,'2024-02-25','true',48,'Preferred Pharmaceuticals, Inc')
-,('Eastern Cottonwood',80,'2025-10-03','true',799,'Nelco Laboratories, Inc.')
-,('Sterile Water',83,'2024-06-09','false',641,'Hospira, Inc.')
-,('Triaminic',137,'2024-11-03','false',341,'Novartis Consumer Health, Inc.')
-,('Triamterene and Hydrochlorothiazide',176,'2026-06-25','true',16,'American Health Packaging')
-,('DR. RECKEWEG R74 Nocturnin',121,'2025-09-13','false',372,'PHARMAZEUTISCHE FABRIK DR. RECKEWEG & CO')
-,('Isopropyl alcohol',164,'2024-11-14','true',797,'EQUATE (Walmart Stores, Inc.)')
-,('Levothyroxine Sodium',262,'2024-01-28','false',648,'Preferred Pharmaceuticals, Inc')
-,('Sulwhasoo Snowise Foundation',288,'2026-01-04','false',365,'AMOREPACIFIC')
-,('Fluvoxamine Maleate',241,'2025-06-03','true',248,'Actavis Elizabeth LLC')
-,('CAPTOPRIL',113,'2024-01-07','false',516,'St Marys Medical Park Pharmacy')
-,('berkley and jensen migraine formula',183,'2025-09-11','true',783,'BJWC')
-,('simply right night time',182,'2024-04-07','false',67,'Sam''s West Inc')
-,('CYTARABINE',114,'2024-05-29','true',150,'Hospira Worldwide, Inc.')
-,('Inflammation',143,'2024-04-08','true',477,'Apotheca Company')
-,('Buspirone HCl',130,'2024-08-27','false',47,'Bryant Ranch Prepack')
-,('FLAVOXATE HYDROCHLORIDE',185,'2025-09-24','true',191,'Carilion Materials Management')
-,('Lithium Carbonate',52,'2023-12-29','true',547,'REMEDYREPACK INC.')
-,('ibuprofen',141,'2025-09-25','false',435,'CVS Pharmacy')
-,('Fanapt',227,'2024-09-01','false',432,'Vanda Pharmaceuticals Inc.')
-,('KAO- TIN',140,'2025-09-21','true',905,'Major Pharmaceuticals')
-,('Antibacterial',109,'2024-05-16','true',672,'Safetec of America')
-,('Daytime',298,'2024-08-28','false',502,'Taro Pharmaceuticals U.S.A., Inc.')
-,('Treatment Set TS350535',208,'2025-02-14','false',552,'Antigen Laboratories, Inc.')
-,('Pramipexole Dihydrochloride',245,'2024-11-25','true',744,'AvKARE, Inc.')
-,('Lisinopril with Hydrochlorothiazide',201,'2024-02-03','true',56,'West-Ward Pharmaceutical Corp')
-,('Disney FAIRIES Antibacterial Hand Wipes',12,'2026-08-10','true',572,'Bolero Home Decor, Inc.')
-,('LBEL EFFET PARFAIT MINERAL NATURAL SKIN EFFECT MOUSSE FOUNDATION SPF 16',102,'2024-04-24','true',979,'Ventura International LTD')
-,('Mistletoe and Mint Antibacterial Foaming Hand Wash',221,'2026-03-24','false',77,'SJ Creations, Inc.')
-,('up and up allergy relief',159,'2024-07-11','true',632,'Target Corporation')
-,('OXYGEN',263,'2026-03-01','true',467,'Triweld Industries, Inc.')
-,('Budesonide',273,'2025-09-29','false',936,'Teva Pharmaceuticals USA Inc')
-,('TRAMADOL HYDROCHLORIDE AND ACETAMINOPHEN',187,'2024-02-27','false',865,'H.J. Harkins Company, Inc.')
-,('GPS Topical Anesthetic',114,'2025-09-24','true',307,'Group Practice Solutions, Inc.')
-,('Regular Strength Pain Relief',86,'2024-09-30','true',754,'Rite Aid')
-,('Kroger Sport Sunscreen',118,'2024-01-02','true',897,'THE KROGER CO')
-,('Sumatriptan Succinate',43,'2025-09-19','true',558,'Aurobindo Pharma Limited')
-,('hyoscyamine sulfate',117,'2025-03-30','true',794,'Virtus Pharmaceuticals')
-,('Cyproheptadine Hydrochloride',211,'2025-06-26','true',766,'Par Pharmaceutical Inc.')
-,('Escitalopram',259,'2024-01-20','false',318,'Apotex Corp.')
-,('SKIN ERUPTIONS',258,'2025-12-03','true',891,'Natural Health Supply')
-,('Finasteride',55,'2026-01-15','true',947,'NorthStar Rx LLC')
-,('Levetiracetam',42,'2024-06-20','false',509,'Boca Pharmacal, LLC')
-,('Motrin',166,'2025-02-28','true',896,'McNeil Consumer Healthcare Div McNeil-PPC, Inc')
-,('ESIKA',79,'2024-03-18','true',390,'Ventura Corporation (San Juan, P.R)')
-,('Boscia B.B. LIGHT Broad Spectrum SPF 27 PA Self-Adjusting Shade',69,'2025-03-29','false',859,'Boscia LLC')
-,('Pramipexole Dihydrochloride',198,'2026-08-02','false',758,'Watson Pharma, Inc.')
-,('Cyclobenzaprine Hydrochloride',136,'2024-05-16','true',154,'Ranbaxy Pharmaceuticals Inc')
-,('Phentermine Hydrochloride',297,'2025-11-01','false',371,'A-S Medication Solutions LLC')
-,('Candesartan cilexetil',33,'2025-12-18','false',947,'Par Pharmaceutical Inc.')
-,('Mizani Scalp Care Conditioner Antidandruff Conditioner',134,'2025-08-03','true',891,'L''Oreal USA Products Inc')
-,('Bupropion Hydrochloride',176,'2024-06-22','true',934,'Watson Laboratories, Inc.')
-,('Metoprolol succinate',128,'2024-01-12','false',851,'BluePoint Laboratories')
-,('Miracle Pain Cream',23,'2026-06-20','false',580,'Cosmetic Specialty labs, Inc.')
-,('Secret Outlast and Olay Smooth',216,'2025-06-26','true',515,'Procter & Gamble Manufacturing Company')
-,('Benazepril Hydrochloride',112,'2024-08-21','false',606,'Ranbaxy Pharmaceuticals Inc.')
-,('Venlafaxine Hydrochloride',62,'2024-12-20','false',103,'Amneal Pharmaceuticals of New York, LLC')
-,('Bacitracin Zinc',265,'2024-08-21','true',719,'Dynarex Corporation')
-,('AcipHex',167,'2024-09-18','true',105,'Lake Erie Medical & Surgical Supply DBA Quality Care Produtcs LLC')
-,('Labetalol HCl',122,'2024-06-09','true',979,'REMEDYREPACK INC.')
-,('Quetiapine fumarate',166,'2024-02-24','true',416,'BluePoint Laboratories')
-,('Alendronate Sodium',83,'2025-03-29','true',456,'NorthStar Rx LLC')
-,('Fenofibrate',73,'2025-03-27','false',811,'H2-Pharma, LLC')
-,('Azithromycin',87,'2026-08-21','true',582,'Physicians Total Care, Inc.')
-,('Up and Up nicotine',257,'2025-02-02','true',76,'Target Corporation')
-,('topiramate',241,'2025-04-06','true',990,'American Health Packaging')
-,('NEXIUM',33,'2026-10-24','false',648,'AstraZeneca LP')
-,('Morphine Sulfate',196,'2024-04-14','true',579,'Dispensing Solutions, Inc.')
-,('Pyrazinamide',155,'2024-02-28','false',107,'REMEDYREPACK INC.')
-,('CHLORDIAZEPOXIDE HYDROCHLORIDE and CLIDINIUM BROMIDE',226,'2025-02-27','true',863,'Golden State Medical Supply, Inc.')
-,('Scrub Care',85,'2026-02-02','true',508,'Productos Urologos de Mexico, S.A. de C.V.')
-,('Propranolol Hydrochloride',163,'2024-04-20','true',54,'REMEDYREPACK INC.')
-,('Alcohol free hand sanitizer',225,'2026-01-23','false',7,'Sanihealth Products Corporation')
-,('Marcaine',224,'2026-01-20','true',361,'General Injectables & Vaccines, Inc')
-,('Alprazolam',161,'2024-03-22','false',156,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
-,('Alternaria alternata',30,'2026-01-18','false',465,'Nelco Laboratories, Inc.')
-,('Diarrhea',279,'2024-05-27','false',520,'Newton Laboratories, Inc.')
-,('Chlorpromazine Hydrochloride',210,'2024-01-10','true',325,'Sandoz Inc')
-,('Simvastatin',15,'2024-05-11','false',173,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Cultivated Wheat',94,'2024-04-01','false',921,'Nelco Laboratories, Inc.')
-,('LBEL REPLENISHING FOUNDATION SPF 14',162,'2026-04-04','true',268,'Ventura Corporation LTD')
-,('Metformin hydrochloride',185,'2024-02-05','false',880,'Ingenus Pharmaceuticals, LLC')
-,('Equaline Mucus Relief',227,'2025-12-09','true',509,'Supervalu Inc')
-,('Antiseptic Mouth Rinse',237,'2026-04-29','true',495,'Vi Jon')
-,('XtraCare Creamy Petroleum Jelly',253,'2025-11-16','false',88,'Rejoice International')
-,('Estradiol',3,'2025-07-22','false',146,'Heritage Pharmaceuticals Inc')
-,('Childrens Plus Cough and Runny Nose',119,'2025-01-29','false',842,'Best Choice')
-,('Mirtazapine',195,'2024-05-02','true',859,'REMEDYREPACK INC.')
-,('Siladryl Allergy Medicine',240,'2025-09-20','false',937,'Silarx Pharmaceuticals, Inc')
-,('TOPCARE',139,'2023-10-27','true',897,'TOPCO ASSOCIATES LLC')
-,('Lidocaine',276,'2026-06-27','false',628,'Aidarex Pharmaceuticals LLC')
-,('Claritin',293,'2026-08-20','false',624,'MSD Consumer Care, Inc.')
-,('ATRIPLEX WRIGHTII POLLEN',275,'2026-08-10','false',781,'ALK-Abello, Inc.')
-,('Neutrogena Oil Free Acne Wash',64,'2025-05-27','true',393,'Neutrogena Corporation')
-,('Morphine Sulfate',58,'2026-03-02','false',735,'Mylan Pharmaceuticals Inc.')
-,('Carvedilol',134,'2025-08-19','true',496,'REMEDYREPACK INC.')
-,('Sheer Cover Shade Adapting Mineral Foundation',235,'2026-09-02','false',932,'Guthy-Renker LLC')
-,('02 Balancing Foundation',78,'2026-02-28','false',141,'The Body Shop Wake Forest')
-,('Ceftriaxone',65,'2026-07-24','true',590,'Baxter Healthcare Corporation')
-,('Visipaque',47,'2024-03-03','false',794,'GE Healthcare Inc.')
-,('Cyclobenzaprine Hydrochloride',78,'2025-07-10','false',334,'American Health Packaging')
-,('CELL BOOSTING BB',44,'2025-11-21','false',469,'NATURE REPUBLIC CO., LTD.')
-,('Levothyroxine Sodium',178,'2025-06-04','true',959,'Lannett Company, Inc.')
-,('Triple Antibiotic',281,'2025-11-10','false',542,'Unifirst First Aid Corporation')
-,('Pecan Pollen',61,'2025-06-30','true',498,'Antigen Laboratories, Inc.')
-,('Presgen B',194,'2024-07-09','true',63,'KRAMER NOVIS')
-,('Cefuroxime Axetil',83,'2024-11-15','false',306,'Gen-Source Rx')
-,('FAMILY CARE ANTI-ITCH',277,'2025-04-15','false',206,'TAI GUK PHARM. CO., LTD.')
-,('Toa Syrup Adult',161,'2026-01-16','true',388,'Menper Distributors, Inc.')
-,('Reef Safe SPF 40',295,'2025-06-14','true',384,'Tropical Seas, Inc.')
-,('Epi-Clenz Instant Hand Antiseptic',110,'2024-12-28','false',686,'Medline Industries, Inc.')
-,('sunmark anti diarrheal',83,'2025-11-25','false',762,'McKesson')
-,('Annual Bluegrass',43,'2025-03-29','true',846,'Antigen Laboratories, Inc.')
-,('Bepreve',203,'2025-05-05','true',170,'Bausch & Lomb Incorporated')
-,('Adderall',233,'2025-11-24','true',157,'Shire US Manufacturing Inc.')
-,('Tiazac Extended Release',106,'2024-02-11','false',384,'Cardinal Health')
-,('ANTIBACTERIAL FOAMING HAND SP CHERRY AND ALMOND',46,'2024-05-03','false',563,'AMERICAN SALES')
-,('Treatment Set TS351201',86,'2024-07-30','false',538,'Antigen Laboratories, Inc.')
-,('Dextroamphetamine Sulfate',210,'2025-11-16','true',379,'Corepharma LLC.')
-,('Degree Girl Friends Forever',9,'2024-08-26','true',231,'Conopco Inc. d/b/a Unilever')
-,('Extra Strength Headache Relief',160,'2026-06-11','false',732,'Salado Sales, Inc.')
-,('Xodol',129,'2026-07-03','false',612,'Rebel Distributors Corp')
-,('Indomethacin',89,'2025-06-16','false',335,'Camber Pharmaceuticals')
-,('Avant Original Instant Hand Sanitizer',102,'2024-06-04','true',13,'B4 Ventures LLC')
-,('Lachesis Mutus',90,'2025-10-11','true',690,'BrandStorm HBC')
-,('Z-COF 1',226,'2026-08-06','false',93,'Pernix Therapeutics, LLC')
-,('Shelter Tinted',286,'2026-09-03','false',802,'Philosophy, Inc.')
-,('Vinorelbine',211,'2025-07-13','true',288,'Pfizer Laboratories Div Pfizer Inc.')
-,('Phenazopyridine hydrochloride',263,'2025-04-16','false',573,'Northwind Pharmaceuticals')
-,('AMERGE',234,'2024-11-26','true',978,'GlaxoSmithKline LLC')
-,('Pramipexole Dihydrochloride',270,'2026-03-11','true',551,'Northstar Rx LLC')
-,('Pollens - Weeds, Giant, Short, Western Ragweed Mix',59,'2023-12-08','true',931,'Jubilant HollisterStier LLC')
-,('Ketoconazole',44,'2024-04-21','true',245,'REMEDYREPACK INC.')
-,('Pramipexole dihydrochloride',59,'2025-03-25','false',560,'Glenmark Generics Inc., USA')
-,('Visine Tears',131,'2026-06-24','true',694,'Johnson & Johnson Healthcare Products, Division of McNEIL-PPC, Inc.')
-,('Terbinafine',31,'2026-05-31','true',744,'Aurobindo Pharma Limited')
-,('Peter Island SunscreenSPF 50',141,'2025-01-04','true',541,'Access Business Group LLC')
-,('END-ZIT',127,'2025-08-03','false',393,'ABBE Laboratories, Inc.')
-,('Happy Hands Foaming Hand Sanitizer',30,'2024-10-05','true',520,'On The Job, LLC')
-,('Propranolol Hydrochloride',256,'2025-01-04','false',817,'Mylan Pharmaceuticals Inc.')
-,('Quartz 30',196,'2024-09-19','false',981,'Uriel Pharmacy Inc.')
-,('Ibuprofen',215,'2024-07-02','true',346,'Physicians Total Care, Inc.')
-,('Dicyclomine Hydrochloride',190,'2024-11-01','false',187,'Life Line Home Care Services, Inc.')
-,('TRUFFLE EX TREATMENT',78,'2024-04-25','false',381,'NATURE REPUBLIC CO., LTD.')
-,('Iodine Formula Filled Swab',62,'2026-09-13','true',568,'Swabplus Inc.')
-,('FRAICHEUR CEDRE BLEU ANTIPERSPIRANT AND DEODORANT ROLL-ON',109,'2026-04-25','true',5,'YVES ROCHER NORTH AMERICA INC')
-,('oxygen',183,'2025-06-22','true',10,'Ross Medical Supply Co. Inc.')
-,('Ragweed Mixture',144,'2026-01-01','true',203,'Antigen Laboratories, Inc.')
-,('Lunesta',204,'2024-03-19','false',661,'A-S Medication Solutions LLC')
-,('CITALOPRAM HYDROBROMIDE',274,'2024-04-03','false',416,'Stat Rx USA')
-,('Ranitidine',129,'2024-03-03','true',389,'Amneal Pharmaceuticals')
-,('Nutricel Additive Solution - CP2D',68,'2025-01-19','true',98,'Haemonetics Manufacturing Inc.')
-,('Sephora Super Lisseur Rides SPF 15 Age Defy Moisture',262,'2024-04-27','true',631,'S+')
-,('Rizatriptan Benzoate',240,'2024-12-05','false',511,'Heritage Pharmaceuticals Inc.')
-,('Premier Value Infants Ibuprofen',16,'2024-07-24','false',568,'Premier Value')
-,('G-Xpect PSE',17,'2024-07-25','false',646,'McLaren Medical')
-,('Gabapentin',192,'2026-05-19','true',533,'Preferred Pharmaceuticals, Inc')
-,('Ice Quake',288,'2024-12-31','true',120,'Gadal Laboratories Inc')
-,('Cerebraplex',277,'2025-09-08','false',918,'BioActive Nutritional, Inc.')
-,('Propranolol Hydrochloride',84,'2025-05-19','false',970,'Watson Laboratories, Inc.')
-,('Cefoxitin',205,'2026-06-15','true',885,'WG Critical Care, LLC')
-,('Southern Medical Oxygen, Compressed',60,'2024-10-20','false',373,'Michael R. Mullins II Inc. dba Southern Medical')
-,('HYDRALAZINE HYDROCHLORIDE',198,'2025-01-14','true',41,'St Marys Medical Park Pharmacy')
-,('NAPROXEN',269,'2024-03-16','false',225,'West-Ward Pharmaceutical Corp')
-,('Hydroxychloroquine Sulfate',276,'2025-03-18','true',425,'AvKARE, Inc.')
-,('Qdryl Allergy',44,'2025-04-05','true',567,'Qualitest Pharmaceuticals')
-,('Divalproex Sodium',106,'2024-09-13','true',813,'Rebel Distributors Corp')
-,('Minoxidil for Women',292,'2025-09-08','false',666,'CVS')
-,('Zinc Oxide',8,'2024-05-20','false',969,'H&H Laboratories, Inc.')
-,('ARIXTRA',299,'2025-09-13','true',446,'GlaxoSmithKline LLC')
-,('Azithromycin Dihydrate',243,'2024-06-08','true',92,'Preferred Pharmaceuticals, Inc.')
-,('Dermectin Sunscreen',67,'2024-09-13','true',459,'PureTek Corporation')
-,('Prilosec OTC',14,'2025-05-12','true',508,'Procter & Gamble Manufacturing Company')
-,('Minocin',209,'2026-08-21','true',953,'Onset Dermatologics, LLC')
-,('benztropine mesylate',22,'2024-05-12','false',699,'McKesson Contract Packaging')
-,('Piroxicam',28,'2024-12-01','true',151,'PACK Pharmaceuticals, LLC')
-,('Pioglitazone',36,'2025-03-05','false',948,'Mylan Pharmaceuticals Inc.')
-,('Leader Adult Tussin',268,'2025-03-03','false',403,'Cardinal Health')
-,('Morphine Sulfate',232,'2023-12-01','true',684,'Hospira, Inc.')
-,('Spongia Tosta',210,'2024-04-19','true',90,'BrandStorm HBC')
-,('Flurazepam',19,'2025-01-29','true',448,'Bryant Ranch Prepack')
-,('Equaline Daytime Nighttime Cold and Flu Relief',293,'2024-09-26','true',316,'Supervalu Inc')
-,('Tracleer',32,'2025-03-13','false',760,'Actelion Pharmaceuticals US, Inc.')
-,('Stomach Relief',112,'2024-01-01','true',604,'Top Care')
-,('ESIKA Extreme Moisturizing SPF 16',230,'2025-09-01','true',769,'Ventura Corporation LTD')
-,('ADVANCED HYDRO-LIQUID COMPACT (REFILL)',38,'2026-06-05','true',991,'SHISEIDO CO., LTD.')
-,('Letrozole',189,'2025-06-14','false',936,'Roxane Laboratories, Inc.')
-,('ACT Total Care Anticavity Fluoride Fresh Mint',296,'2026-06-11','true',537,'Chattem, Inc.')
-,('Loratadine',164,'2026-10-06','true',442,'Rebel Distributors Corp')
-,('cyclobenzaprine hydrochloride',26,'2024-01-14','true',740,'JUBILANT CADISTA PHARMACEUTICALS, INC.')
-,('Tamiflu',218,'2025-01-26','true',40,'Rebel Distributors Corp')
-,('Valacyclovir Hydrochloride',133,'2025-02-05','false',316,'American Health Packaging')
-,('FLURBIPROFEN',248,'2025-12-28','false',751,'STAT RX USA LLC')
-,('Virx',139,'2023-11-21','true',62,'Ningbo Pulisi Daily Chemical Products Co., Ltd')
-,('no zit sherlock acne',264,'2024-07-22','true',91,'Bliss World LLC')
-,('Azathioprine',278,'2025-04-10','true',805,'Aphena Pharma Solutions - Tennessee, LLC')
-,('Carbon Dioxide Air Mix',29,'2024-06-21','true',234,'Medical-Technical Gases, Inc.')
-,('Shopko Hemorrhoidal',24,'2025-10-20','true',417,'United Exchange Corp')
-,('BISACODYL',104,'2024-05-14','false',492,'Geritrex Corp.')
-,('Divalproex Sodium',23,'2025-04-18','true',936,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Clotrimazole and Betamethasone Dipropionate',294,'2026-03-13','false',817,'Prasco Laboratories')
-,('risperidone',57,'2026-09-29','false',454,'State of Florida DOH Central Pharmacy')
-,('BB Tinted Treatment 12-hour Primer Broad Spectrum SPF 30 Sunscreen',114,'2025-08-30','false',122,'Tarte, Inc')
-,('HurriCaine',151,'2025-04-24','false',560,'Beutlich LP, Pharmaceuticals')
-,('SHISEIDO SHEER AND PERFECT COMPACT (REFILL)',125,'2024-01-07','false',145,'SHISEIDO AMERICAS CORPORATION')
-,('Prax Wipe',245,'2023-11-28','false',799,'Ferndale Laboratories, Inc.')
-,('Hand Sanitizer',287,'2026-03-19','false',303,'Humphreyline')
-,('Nesina',56,'2025-08-15','false',967,'Takeda Pharmaceuticals America, Inc.')
-,('TOPCARE',26,'2025-12-11','true',89,'TOPCO ASSOCIATES LLC')
-,('ISOVUE',87,'2025-12-18','false',378,'BRACCO DIAGNOSTICS INC')
-,('Bio Scleranthus',85,'2026-01-07','true',738,'BioActive Nutritional, Inc.')
-,('BACTEX Antiseptic Hand Sanitizer',113,'2025-09-22','false',944,'Punto Rojo, S.A')
-,('CASHEW NUT',223,'2024-05-15','true',832,'Allergy Laboratories, Inc.')
-,('Amlodipine Besylate and Benazepril Hydrochloride',266,'2024-10-15','false',14,'Teva Pharmaceuticals USA Inc')
-,('New Terocin',249,'2025-02-03','false',896,'Dispensing Solutions, Inc.')
-,('Avedana Pain-Relieving',135,'2024-03-12','true',743,'Unipack, Inc.')
-,('Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate',138,'2026-07-06','true',27,'Barr Laboratories Inc.')
-,('PCXX ONE MINTE GEL ROOTBEER',148,'2024-09-20','true',603,'Ross Healthcare Inc.')
-,('Mucinex D',101,'2025-04-25','false',546,'Reckitt Benckiser LLC')
-,('Mandragora Rheum',95,'2024-11-03','true',69,'Uriel Pharmacy Inc.')
-,('Antiseptic',185,'2026-04-12','false',672,'CVS Pharmacy, Inc')
-,('Oxybutynin Chloride',214,'2025-04-08','true',114,'Physicians Total Care, Inc.')
-,('SyReflux',172,'2024-02-02','true',439,'Syntrion GmbH')
-,('Menopause',248,'2025-05-30','true',255,'Natural Health Supply')
-,('Potassium Chloride in Dextrose and Sodium Chloride',263,'2025-09-20','false',831,'Hospira, Inc.')
-,('Sertraline Hydrochloride',143,'2025-04-20','false',969,'H.J. Harkins Company Inc.')
-,('Sally Hansen Ouch-Relief',29,'2026-03-10','false',124,'Coty US LLC')
-,('ASPERGILLUS FUMIGATUS',45,'2024-10-07','true',243,'ALK-Abello, Inc.')
-,('Penicillin V Potassium',73,'2024-04-10','true',129,'DAVA Pharmaceuticals, Inc.')
-,('Carvedilol',279,'2026-05-24','false',481,'Apotex Corp.')
-,('Kids Cold and Mucus Relief Expectorant',91,'2024-12-27','false',561,'Similasan Corporation')
-,('Nitrofurantoin Macrocrystals',94,'2025-08-05','false',610,'Teva Pharmaceuticals USA Inc')
-,('GUNA-TONSILS',133,'2026-04-08','false',133,'Guna spa')
-,('Enalapril Maleate',162,'2025-12-01','false',506,'REMEDYREPACK INC.')
-,('ISOXSUPRINE HYDROCHLORIDE',233,'2024-08-26','false',661,'Bi-Coastal Pharmaceutical Corporation')
-,('Careless Weed',10,'2024-09-12','true',615,'Antigen Laboratories, Inc.')
-,('Old Spice High Endurance',3,'2025-12-16','false',224,'Procter & Gamble Manufacturing Company')
-,('ZOLADEX',21,'2025-08-07','false',863,'AstraZeneca Pharmaceuticals LP')
-,('Hyoscyamine Sulfate',111,'2026-06-28','true',307,'Bryant Ranch Prepack')
-,('BullFrog Quik Gel Sport',226,'2024-08-08','true',863,'Chattem, Inc.')
-,('EPICOCCUM NIGRUM',4,'2026-08-22','true',732,'ALK-Abello, Inc.')
-,('ALTERNARIA TENUIS',15,'2025-11-04','true',351,'ALK-Abello, Inc.')
-,('Ambien CR',274,'2025-03-23','false',893,'Bryant Ranch Prepack')
-,('Mag-AL Liquid',247,'2023-12-26','true',922,'Pharmaceutical Associates, Inc.')
-,('No7 Lift and Luminate Foundation Sunscreen Broad Spectrum SPF 15 Toffee',39,'2024-07-22','true',969,'BCM Cosmetique SAS')
-,('Nisoldipine',293,'2025-12-16','true',449,'Mylan Pharmaceuticals Inc.')
-,('Duloxetine hydrochloride',252,'2025-10-06','true',603,'Torrent Pharmaceuticals Limited')
-,('RENEWAL',85,'2025-12-15','false',884,'RITE AID CORPORATION')
-,('Cold-EEZE',236,'2025-09-04','true',296,'ProPhase Labs, Inc.')
-,('DayTime Sinus Relief',21,'2025-08-18','true',124,'Robinson Pharma, Inc.')
-,('Tobacco Leaf',293,'2024-03-24','true',604,'Allermed Laboratories, Inc.')
-,('ADVAIR',71,'2024-08-31','false',536,'Aidarex Pharmaceuticals LLC')
-,('Doxazosin Mesylate',298,'2024-08-08','true',247,'REMEDYREPACK INC.')
-,('Lorazepam',174,'2024-10-26','false',836,'Dispensing Solutions, Inc.')
-,('Witch Hazel',31,'2025-12-06','false',158,'AmerisourceBergen (Good Neighbor Pharmacy) 46122')
-,('Chick Pea',205,'2026-02-06','true',76,'Nelco Laboratories, Inc.')
-,('HESPAN',4,'2026-03-30','false',183,'Cardinal Health')
-,('Oxygen',297,'2024-03-21','false',354,'Ohio Air Products of Canton, Inc.')
-,('Fresh Sugar Cherry Tinted Lip Treatment SPF 15',258,'2024-05-26','true',78,'Fresh, Inc.')
-,('Moisture Restore Day Protective Mattefying Broad Spectrum SPF15 Combination to Oily',15,'2024-02-26','true',421,'NSE Products, Inc.')
-,('SEREVENT',174,'2024-03-14','false',678,'GlaxoSmithKline LLC')
-,('fentanyl citrate',11,'2025-07-13','true',426,'CIMA Laboratories, Inc.')
-,('CD CAPTURE TOTALE Triple Correcting Serum Foundation Wrinkles-Dark Spots-Radiance with sunscreen Broad Spectrum SPF 25 023',234,'2024-01-02','true',411,'Parfums Christian Dior')
-,('isosorbide mononitrate',245,'2024-11-15','false',633,'Rebel Distributors Corp')
-,('fexofenadine hydrochloride',274,'2026-03-18','true',808,'REMEDYREPACK INC.')
-,('Topcare Antacid',40,'2023-11-23','false',678,'Topco Associates LLC')
-,('Bethanechol Chloride',204,'2026-05-16','true',448,'Wockhardt USA LLC.')
-,('SELZENTRY',42,'2026-01-21','true',253,'ViiV Healthcare Company')
-,('Fragmin',67,'2024-01-01','true',813,'Eisai Inc.')
-,('Melphalan Hydrochloride',288,'2023-11-11','false',204,'GeneraMedix Inc.')
-,('Losartan Potassium',57,'2025-07-18','true',835,'Physicians Total Care, Inc.')
-,('NeutrapHorus Rex',18,'2026-03-05','true',9,'pH R&D LLC')
-,('Tolterodine Tartrate Extended Release',297,'2025-08-19','false',9,'Greenstone LLC')
-,('WART FREE',210,'2024-12-09','true',606,'PUREMEDY')
-,('Ethyl Rubbing Alcohol',73,'2025-04-28','true',693,'Rite Aid')
-,('Rifampin',78,'2026-03-26','true',239,'Bedford Laboratories')
-,('Blue Lizard Sensitive Sunscreen',237,'2025-03-11','false',701,'Crown Laboratories')
-,('Belladonna',110,'2024-07-14','false',582,'True Botanica, LLC')
-,('Secure',116,'2025-08-10','true',978,'Certus Medical, Inc.')
-,('Doxazosin',98,'2025-07-03','false',736,'Apotex Corp.')
-,('ESIKA 3-IN-1 PRO MAKE UP FOUNDATION SPF 20 BASE DE MAQUILLAJE PARA ROSTRO 3-EN-1 PRO FPS 20',173,'2024-06-25','true',717,'Ventura Corporation LTD')
-,('HydrOXYzine Hydrochloride',249,'2023-11-05','false',796,'Northstar RxLLC')
-,('ZOLPIDEM TARTRATE',259,'2026-01-12','true',605,'TYA Pharmaceuticals')
-,('Diphenoxylate Hydrochloride and Atropine Sulfate',109,'2026-05-27','true',378,'A-S Medication Solutions LLC')
-,('Morphine Sulfate',66,'2025-07-28','false',232,'Bryant Ranch Prepack')
-,('Antibacterial Foaming Hand Sanitizer',255,'2024-01-02','false',540,'Jets, Sets, & Elephants Beauty Corp.')
-,('OXYCODONE AND ACETAMINOPHEN',120,'2024-02-29','false',464,'Blenheim Pharmacal, Inc.')
-,('acetic acid',288,'2026-06-14','false',51,'Hi-Tech Pharmacal Co., Inc.')
-,('Colds Flu',292,'2024-08-03','true',299,'Natural Health Supply')
-,('Carbamazepine',7,'2025-03-04','false',962,'Cardinal Health')
-,('Trazodone Hydrochloride',150,'2024-03-16','true',122,'Physicians Total Care, Inc.')
-,('Amoxicillin and Clavulanate Potassium',8,'2024-03-22','false',924,'Preferred Pharmaceuticals, Inc.')
-,('CLONIDINE HYDROCHLORIDE',71,'2023-11-04','true',734,'Mutual Pharmaceutical Company, Inc.')
-,('Sunmark infants gas relief drops',240,'2024-11-01','false',14,'McKesson')
-,('Ropinirole Hydrochloride',74,'2024-06-03','true',244,'Heritage Pharmaceuticals Inc.')
-,('Ranitidine',165,'2024-12-10','false',240,'Rebel Distributors')
-,('Derma-Glove',239,'2026-07-22','false',804,'RWM TECHNOLOGIES')
-,('Acyclovir',9,'2026-01-15','true',741,'REMEDYREPACK INC.')
-,('Nitetime Cough',12,'2024-04-05','true',868,'Meijer Distribution Inc')
-,('Eye Wash',138,'2024-02-29','false',328,'Phoenix/Clipper')
-,('SAPHRIS',194,'2024-08-05','true',30,'Organon Pharmaceuticals USA')
-,('Creon',147,'2025-07-03','true',371,'AbbVie Inc.')
-,('7 Select Anti Diarrheal',30,'2024-10-04','true',199,'7-Eleven')
-,('Penicillium notatum',16,'2025-11-28','false',76,'Nelco Laboratories, Inc.')
-,('risperidone',126,'2026-01-02','false',501,'Cardinal Health')
-,('Trileptal',226,'2026-06-29','true',128,'Novartis Pharmaceuticals Corporation')
-,('Ropivacaine Hydrochloride',215,'2025-12-18','true',173,'Hospira, Inc.')
-,('Donepezil Hydrochloride',156,'2025-10-28','true',99,'Sandoz Inc')
-,('Pollens - Weeds, Careless/Pigweed Mix',147,'2026-10-02','true',8,'Jubilant HollisterStier LLC')
-,('Creomulsion',263,'2025-03-10','false',18,'Summit Industries, Inc.')
-,('Long-Lasting Wicked Fresh - Spearmint Ice',216,'2026-02-23','true',142,'Tom''s of Maine, Inc.')
-,('Isopropyl alcohol',129,'2024-04-12','false',489,'H and P Industries, Inc. dba Triad Group')
-,('Carp',204,'2026-05-30','true',742,'Nelco Laboratories, Inc.')
-,('Allergy',283,'2024-10-10','true',804,'Cardinal Health (Leader)')
-,('LAMISIL',67,'2024-05-15','true',913,'Novartis Consumer Health, Inc.')
-,('Nisoldipine',168,'2023-12-07','false',962,'Mylan Pharmaceuticals Inc.')
-,('ShopRite Antibacterial Moist WipesAntibacterial Moi',255,'2026-04-08','true',410,'Wakefern Food Corp')
-,('Argentum Saccharum Special Order',103,'2026-08-31','false',237,'Uriel Pharmacy Inc.')
-,('WELLBUTRIN',264,'2026-01-04','false',290,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Good Sense Nicotine',271,'2025-03-11','true',292,'L. Perrigo Company')
-,('Ursodiol',298,'2023-11-20','false',585,'Cardinal Health')
-,('Clonazepam',206,'2025-02-27','false',360,'Golden State Medical Supply, Inc')
-,('SHISEIDO ADVANCED HYDRO-LIQUID COMPACT (REFILL)',96,'2024-12-23','false',62,'SHISEIDO AMERICAS CORPORATION')
-,('Depo-SubQ Provera',139,'2024-12-03','true',472,'Pharmacia and Upjohn Company')
-,('Good Neighbor Pharmacy',213,'2026-02-14','true',634,'AmerisourceBergen')
-,('carboplatin',175,'2025-11-03','true',368,'Sun Pharma Global FZE')
-,('Hydrocodone Bitartrate and Acetaminophen',243,'2024-06-19','false',961,'Apotheca, Inc.')
-,('Haloperidol',27,'2025-11-11','false',560,'NCS HealthCare of KY, Inc dba Vangard Labs')
-,('Cisplatin',127,'2026-07-03','true',973,'Mylan Institutional LLC')
-,('CLONIDINE HYDROCHLORIDE',115,'2026-10-13','false',801,'TYA Pharmaceuticals')
-,('Headache - Migraine',28,'2025-08-05','true',835,'Newton Laboratories, Inc.')
-,('SELZENTRY',260,'2023-12-01','true',643,'Pfizer Laboratories Div Pfizer Inc')
-,('Gaviscon',106,'2024-08-05','true',122,'GlaxoSmithKline Consumer Healthcare LP')
-,('Hog Epithelium',44,'2026-08-25','false',319,'Nelco Laboratories, Inc.')
-,('RITE AID RENEWAL',47,'2025-05-07','true',924,'RITE AID CORPORATION')
-,('Nice',2,'2025-02-21','true',15,'Walgreen Co.')
-,('Hydrochlorothiazide',24,'2026-10-25','false',84,'REMEDYREPACK INC.')
-,('DOPamine Hydrochloride',102,'2026-05-24','true',773,'Hospira, Inc.')
-,('Oxycodone Hydrochloride',240,'2025-03-25','true',78,'Qualitest Pharmaceuticals')
-,('Helium',226,'2025-10-11','false',135,'Airgas Intermountain Inc')
-,('Kaletra',196,'2025-03-23','true',689,'Cardinal Health')
-,('Verucide Physician Formula',261,'2026-08-16','false',371,'Blaine Labs Inc.')
-,('Oral Saline Laxative',155,'2025-02-12','false',194,'The Kroger Company')
-,('MEDI-DERM TOPICAL PAIN RELIEF',81,'2026-08-02','false',679,'Two Hip Consulting, LLC')
-,('Exuviance CoverBlend Skin Caring Foundation',218,'2025-12-24','true',35,'NeoStrata Company Inc.')
-,('topcare day time cold and flu relief',251,'2025-11-15','false',851,'Topco Associates LLC')
-,('Simvastatin',128,'2025-12-10','false',585,'H.J. Harkins Company, Inc.')
-,('Natural Fiber Therapy',63,'2026-08-14','false',317,'Preferred Pharmaceuticals, Inc.')
-,('CitraNatal Rx',188,'2024-07-05','true',459,'Mission Pharmacal Company')
-,('Claforan',206,'2025-01-25','true',552,'Sanofi-Aventis U.S. LLC')
-,('ibuprofen',33,'2024-11-18','true',562,'Meijer Distribution Inc')
-,('care one pain relief',129,'2026-03-16','true',891,'American Sales Company')
-,('Ampicillin and Sulbactam',206,'2025-04-08','true',166,'Mylan Institutional LLC')
-,('Kindest Kare Foam',72,'2025-10-15','false',939,'STERIS Corporation')
-,('Oyster Shell Calcium with Vitamin D',243,'2023-12-13','true',801,'McKesson Packaging Services Business Unit of McKesson Corporation')
-,('Aurum Equisetum A',46,'2024-05-22','false',135,'Uriel Pharmacy Inc.')
-,('up and up sinus congestion and pain',78,'2025-12-19','false',639,'Target Corporation')
-,('Instant Hand Sanitizer',213,'2026-01-06','false',782,'Germs Travel, LLC')
-,('Publix Sport',199,'2025-06-12','false',446,'Publix Super Markets Inc')
-,('Body Blends Vanilla Sugar Anti-bacterial Hand Sanitizer',9,'2026-02-11','false',670,'Xiamen Anna Global Co., Ltd')
-,('CANTALOUPE',177,'2025-05-19','true',778,'ALK-Abello, Inc.')
-,('PROSHIELD PLUS',221,'2025-02-08','true',273,'HEALTHPOINT, LTD')
-,('COMPRESSED GAS, OXIDIZING, N.O.S.',9,'2025-12-02','true',997,'Medical-Technical Gases, Inc.')
-,('CITALOPRAM',111,'2024-02-17','true',668,'International Labs, Inc.')
-,('Sore Throat',65,'2026-07-19','true',332,'QUALITY CHOICE (Chain Drug Marketing Association)')
-,('Advanced Hand Sanitizer',110,'2023-11-17','false',784,'Meijer Distribution, Inc')
-,('Atropine Sulfate',274,'2024-10-06','true',112,'General Injectables & Vaccines, Inc.')
-,('CLEAN AND POLISH LUXURY',188,'2026-03-21','false',35,'Go Smile, Inc.')
-,('CAFFEINE CITRATE',16,'2024-04-27','false',655,'Sun Pharma Global FZE')
-,('Probenecid',82,'2024-02-25','true',263,'Lannett Company, Inc.')
-,('JUGLANS NIGRA POLLEN',226,'2024-03-25','true',79,'ALK-Abello, Inc.')
-,('Fig',220,'2024-10-05','true',415,'Nelco Laboratories, Inc.')
-,('Renes Veratrum',110,'2024-04-08','false',405,'Uriel Pharmacy Inc.')
-,('Soft Care Neutra Germ Fragrance Free Antibacterial',136,'2023-11-02','true',798,'Diversey, Inc.')
-,('Sweet Vernal Grass, Standardized',55,'2026-07-22','false',168,'ALK-Abello, Inc.')
-,('Scrofularoforce',165,'2026-07-25','true',808,'Apotheca Company')
-,('Trandolapril',179,'2024-12-13','false',761,'AvKARE, Inc.')
-,('KEPPRA',130,'2026-07-06','true',178,'STAT RX USA LLC')
-,('Oxybutynin Chloride',259,'2025-11-04','true',125,'Aphena Pharma Solutions - Tennessee, LLC')
-,('Hizentra',162,'2024-11-22','false',200,'CSL Behring AG')
-,('Desert Bambu',39,'2026-06-28','false',526,'Lifetech Resources, LLC')
-,('flormar BB Sheer Tinted Beauty Sunscreen Broad Spectrum SPF 15 04 Medium Beige',262,'2024-06-03','false',558,'Kosan Kozmetik Sanayi ve Ticaret A.S.')
-,('Arthritis Relief',291,'2024-05-30','true',229,'Homeocare Laboratories')
-,('Sensodyne',209,'2026-01-19','true',777,'GlaxoSmithKline Consumer Healthcare LP')
-,('Pollens - Weeds and Garden Plants, Ragweed, Mixed Ambrosia',231,'2026-09-05','true',157,'Jubilant HollisterStier LLC')
-,('OXYGEN',104,'2025-08-27','true',288,'Aspen Air US Corp')
-,('Levoxyl',198,'2025-11-27','false',166,'Cardinal Health')
-,('Ear Wax Relief',173,'2026-03-09','true',753,'Similasan Corporation')
-,('Diltiazem Hydrochloride',20,'2025-04-13','true',143,'Physicians Total Care, Inc.')
-,('Karaya Gum',150,'2024-06-16','true',172,'Nelco Laboratories, Inc.')
-,('Formica ex animale 4',174,'2025-12-15','false',524,'Uriel Pharmacy Inc.')
-,('ciprofloxacin',245,'2026-06-09','true',381,'Aidarex Pharmaceuticals LLC')
-,('ATOMY SUN',217,'2025-02-07','false',159,'ATOMY CO., LTD.')
-,('Maximum Strength Wart Remover Strips',174,'2024-04-19','false',502,'Target Corporation')
-,('Lamotrigine',266,'2024-01-19','false',496,'Dr.Reddy''s Laboratories Limited')
-,('GOOD NEIGHBOR PHARMACY CLEANSING PADS',93,'2025-11-02','false',310,'AMERISOURCE BERGEN')
-,('Nitroglycerin In Dextrose',285,'2026-10-07','true',241,'Baxter Healthcare Corporation')
-,('berkley and jensen nicotine',92,'2024-10-30','true',725,'BJWC')
-,('Hecoria',98,'2026-05-31','false',357,'Novartis Pharmaceuticals Corporation')
-,('English Plantain',284,'2024-11-22','true',831,'Nelco Laboratories, Inc.')
-,('Dimercaptosuccinic Acid',110,'2026-10-11','true',986,'AnazaoHealth Corporation')
-,('Diamond White Matte Finish Sun Protection',143,'2026-09-24','false',408,'Natura Bisse International SA')
-,('Moisture Melt',272,'2024-07-25','false',243,'Blistex Inc')
-,('Aypanal',189,'2025-05-14','true',240,'North Safety Products')
-,('Nortrel 7/7/7',138,'2023-11-13','false',421,'Physicians Total Care, Inc.')
-,('SUGAR FREE LEMON MINT HERB THROAT DROPS',257,'2025-06-11','false',143,'Ricola Ag')
-,('Ibuprofen',253,'2026-03-01','true',170,'Major Pharmaceuticals')
-,('SINUS PAIN AND CONGESTION NIGHTTIME',35,'2024-08-20','false',836,'WOONSOCKET PRESCRIPTION CENTER,INCORPORATED')
-,('Hydrocortisone',134,'2025-11-07','true',143,'Navarro Discount Pharmacies,LLC')
-,('Aveeno Active Naturals Nourish Plus Dandruff Control',164,'2025-06-28','false',580,'Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.')
-,('Proctozone',77,'2026-09-09','true',356,'Preferred Pharmaceuticals, Inc.')
-,('Carbinoxamine Maleate',150,'2026-04-28','false',686,'Breckenridge Pharmaceutical, Inc.')
-,('Nausea Vomiting',167,'2025-11-07','true',488,'Natural Health Supply')
-,('Diclofenac Potassium',163,'2026-05-25','false',120,'Rebel Distributors Corp')
-,('Lamotrigine',111,'2025-06-03','true',130,'REMEDYREPACK INC.')
-,('Ipratropium Bromide',268,'2025-02-18','false',207,'Nephron Pharmaceuticals Corporation')
-,('LIOTHYRONINE SODIUM',278,'2024-06-05','false',961,'KAISER FOUNDATION HOSPITALS')
-,('Lisinopril',36,'2025-06-06','true',196,'State of Florida DOH Central Pharmacy')
-,('TIZANIDINE HYDROCHLORIDE',76,'2025-08-20','false',604,'Rebel Distributors')
-,('Phenytoin',296,'2025-07-13','true',296,'Taro Pharmaceuticals U.S.A., Inc')
-,('Allergy Relief',269,'2025-08-06','false',450,'L.N.K. International, Inc.')
-,('Mucor',189,'2026-02-06','false',562,'Allermed Laboratories, Inc.')
-,('SHISEIDO THE MAKEUP FOUNDATION',241,'2024-11-20','true',853,'SHISEIDO CO., LTD.')
-,('equate nitetime severe',73,'2025-04-05','true',281,'Wal-Mart Stores Inc')
-,('Sulfacetamide Sodium',151,'2026-04-17','true',219,'Lake Erie Medical DBA Quality Care Products LLC')
-,('Nisoldipine',264,'2025-04-16','true',881,'United Research Laboratories, Inc.')
-,('ANTIBACTERIAL',239,'2025-12-18','false',900,'WEGMANS FOOD MARKETS INC')
-,('Adderall',89,'2024-02-15','false',91,'Shire US Manufacturing Inc.')
-,('triple antibiotic',148,'2024-01-28','true',543,'Meijer Distribution Inc')
-,('ck one all day perfection face makeup',124,'2024-03-05','true',519,'Coty US LLC')
-,('HCG Formula',123,'2025-10-01','false',691,'Apotheca Company')
-,('AzaSite',84,'2024-06-27','false',548,'Inspire Pharmaceuticals, Inc.')
-,('Budpak Medicated Anti Itch',178,'2026-04-06','true',509,'Budpak Inc.')
-,('Chestal Cough and Cold',11,'2025-01-23','false',563,'Laboratoires Boiron')
-,('ANNA LOTAN Rejuvenating Day Broad Spectrum SPF 34',289,'2025-12-06','true',151,'Anna Lotan Ltd')
-,('Heartburn Relief',219,'2026-07-25','true',448,'SUPERVALU INC.')
-,('A.H.C. Collagen Toner',192,'2025-03-31','false',64,'Carver Korea Co.,Ltd')
-,('GUNA-IL 3',32,'2026-05-08','false',482,'Guna spa')
-,('Aclovate',264,'2024-01-21','true',821,'Pharmaderm, A division of Nycomed US Inc.')
-,('BiferaRx',191,'2024-12-23','false',620,'Alaven Pharmaceutical LLC')
-,('Hydroxyzine Hydrochloride',299,'2026-05-22','false',3,'Qualitest Pharmaceuticals')
-,('NASOPEN',50,'2025-02-22','true',488,'GM Pharmaceuticals, Inc.')
-,('Perfect Calming',26,'2025-04-27','false',867,'AMI Cosmetic Co.,Ltd.')
-,('Long Last Makeup 00',281,'2024-05-04','false',560,'Janssen Cosmetics GmbH')
-,('Montelukast Sodium',65,'2026-05-03','false',726,'Teva Pharmaceuticals USA Inc')
-,('Panretin',97,'2025-05-06','true',205,'Eisai Inc.')
-,('Anitfungal',11,'2025-08-09','true',475,'Rite Aid Corporation')
-,('Hydrate',147,'2024-03-11','true',301,'BioActive Nutritional, Inc.')
-,('ZENPEP',214,'2024-12-13','false',440,'Aptalis Pharma US, Inc.')
-,('Cephalexin',101,'2024-01-20','false',912,'Golden State Medical Supply, Inc.')
-,('topiramate',141,'2024-05-29','true',586,'American Health Packaging')
-,('Theraflu',148,'2024-06-14','true',496,'Novartis Consumer Health, Inc.')
-,('Pilocarpine hydrochloride',80,'2024-07-31','true',768,'Actavis Elizabeth LLC')
-,('Thymupar',239,'2025-10-19','false',542,'Energique, Inc.')
-,('FLOVENTHFA',81,'2026-02-09','false',340,'REMEDYREPACK INC.')
-,('Geopathic Stress',164,'2023-11-05','true',252,'Deseret Biologicals, Inc.')
-,('ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE',35,'2023-11-02','true',216,'Physicians Total Care, Inc.')
-,('Spatherapy',64,'2024-03-18','true',49,'TRIZ LABORATORIES LTD')
-,('True Essentials',267,'2026-06-30','false',472,'Fortune Hi-Tech')
-,('Neutrogena T/Gel Therapeutic',107,'2024-03-02','true',252,'Neutrogena Corporation')
-,('FANAPT',192,'2024-06-12','false',11,'Novartis Pharmaceuticals Corporation')
-,('OMESEC',28,'2026-07-12','true',2,'Corporacion Infarmasa');
 
 
 
@@ -14052,1008 +13049,6 @@ INSERT INTO Ticket(IDVisitante,Descuento,CostoUnitario,TipoServicio,Fecha) VALUE
 ,(637,53,4659.93,'tienda','2023-07-01')
 ,(412,20,4598.18,'tienda','2023-05-18');
 
---Insert para ProveerMedicina
-INSERT INTO ProveerMedicina(IDInsumoMedicina,RFCProveedor) VALUES
- (598,'VUBY765283CP6')
-,(106,'MXMV948227CU7')
-,(707,'ETSQ214050Q1P')
-,(842,'XKUH318555RZ3')
-,(559,'IRIK562289VWI')
-,(953,'SOKF896274KOP')
-,(165,'ODMP691042XUR')
-,(979,'HXOO8663756IR')
-,(930,'AQVD6816386CS')
-,(178,'MKFO083534ZGB')
-,(291,'TEHB663839PHD')
-,(554,'VMWD500476ZPX')
-,(962,'HMBM914924HX1')
-,(569,'RNNC111644BCG')
-,(667,'DOIL0989904VJ')
-,(904,'SPYF288627W00')
-,(899,'FQZZ783986I55')
-,(813,'YBRM615582RML')
-,(814,'AHFK214690E1H')
-,(726,'FBZP840322YHY')
-,(79,'JNTU458349Z6Y')
-,(645,'WPLV787615TCL')
-,(473,'VKHJ591140033')
-,(169,'IWQY471421Y6V')
-,(314,'TFID1700102IU')
-,(546,'KZIC2532079N5')
-,(845,'OCGK2557063R3')
-,(234,'UMBG990120UPO')
-,(946,'ODRA1052721TV')
-,(768,'PRFR346405401')
-,(735,'NUKZ268292DDG')
-,(288,'CDUL144932PTJ')
-,(902,'CFWS368000M1C')
-,(783,'TCAA23822017A')
-,(304,'CLSV937311JIG')
-,(250,'HLNQ362419U2X')
-,(74,'OWMD586973S1B')
-,(675,'PHIZ752436IBP')
-,(722,'CVQY804143HCR')
-,(833,'CEPZ28053788N')
-,(797,'SOKF896274KOP')
-,(32,'XXSU791431OWV')
-,(743,'FDSL309639FZZ')
-,(630,'GYSZ084000JRW')
-,(532,'FPMX722270J10')
-,(864,'MXBB9466579NZ')
-,(307,'IOCE3110671UA')
-,(159,'FSZF0276457QM')
-,(185,'LRBH4242267OD')
-,(473,'VOFJ879122CJR')
-,(162,'VSEL170500Y2Q')
-,(638,'RMIY4232827NO')
-,(42,'EQJU7376778NV')
-,(775,'IJPU3628110II')
-,(188,'MKFO083534ZGB')
-,(151,'KONJ647124GYP')
-,(719,'AESD444638RLC')
-,(409,'UEKL782535ELU')
-,(468,'ILUH409611CUU')
-,(586,'KDFN025492581')
-,(123,'TYWI7180479ZQ')
-,(391,'BRKQ925371RM0')
-,(678,'ULPC902078R7M')
-,(299,'OAVZ991574JNT')
-,(173,'FRAD612538OE0')
-,(684,'NYJD709963BJ3')
-,(463,'ORIL7902216YU')
-,(67,'IITZ29719539E')
-,(726,'NVKV793758MX0')
-,(467,'MJXY699350FVU')
-,(151,'SMXN315941X4D')
-,(721,'FVDP9098525QC')
-,(930,'SXRZ5822551J5')
-,(870,'SWWS141581HO4')
-,(636,'YXBM861023JQK')
-,(365,'DABH334360XBM')
-,(357,'ILUG503204D7P')
-,(808,'ATYY522600Z2T')
-,(336,'RIYR8577402YY')
-,(800,'OBEP8445993A5')
-,(916,'LVGX870269C9X')
-,(618,'THTQ938841TTM')
-,(171,'RVWO950171UUC')
-,(933,'RILU674467Y2E')
-,(236,'VKHJ591140033')
-,(165,'WOSM759958IG9')
-,(835,'MDOY70237002C')
-,(820,'GVIK787462IIT')
-,(387,'THDF140055GYU')
-,(662,'AAMD627746362')
-,(701,'NOSJ490209DFL')
-,(847,'KLMM913893U8L')
-,(709,'DQQB631522I4L')
-,(51,'QKTQ582578GJG')
-,(316,'WHRR2168251WE')
-,(816,'XJHO809660QOY')
-,(67,'FGDJ495319ZOS')
-,(637,'EPNM613338JGF')
-,(951,'TAUC0354684J7')
-,(732,'VMHX3820089OL')
-,(354,'BUXW020395ZRO')
-,(871,'SBTF362644FCC')
-,(941,'ZTBF622492KXU')
-,(303,'NOBD169655AXN')
-,(216,'HXOO8663756IR')
-,(27,'FRZX036317O9N')
-,(646,'TMSZ3069420UU')
-,(791,'GREA6669107UZ')
-,(229,'PXMV03679536B')
-,(140,'SWYN89856254H')
-,(834,'TLEB164583LIZ')
-,(455,'OIJC721465IHF')
-,(931,'LIJQ545495OFX')
-,(252,'LVQC8959788IF')
-,(495,'SSHW082209XXY')
-,(50,'FFEE219180P44')
-,(588,'RILU674467Y2E')
-,(603,'KIJE6668707V0')
-,(495,'JOEZ1831917V9')
-,(377,'BYXU3723868F8')
-,(808,'EKAC68671709U')
-,(881,'TSXV4445518GC')
-,(996,'RLFJ530330Z5I')
-,(340,'DVNL696889L51')
-,(651,'MPNF881612YKB')
-,(761,'NKWY15381250M')
-,(684,'PLNH475705LT3')
-,(269,'RILU674467Y2E')
-,(50,'HQLP841262EW2')
-,(784,'QZTU826025RL7')
-,(215,'IJTG644740Z4H')
-,(808,'RUZS862917D4Y')
-,(845,'YDPX6230044BI')
-,(406,'CHLD72166308K')
-,(519,'LVQC8959788IF')
-,(835,'FVST974901UL2')
-,(843,'QBZG6101582J8')
-,(962,'XGPW814903PE8')
-,(919,'IOUU906484KNS')
-,(887,'SDUH6316237DQ')
-,(801,'TJUX4120678YY')
-,(742,'TYWI7180479ZQ')
-,(949,'NSIF051336MC2')
-,(529,'JCDX905435F4J')
-,(378,'RFQE492221QQZ')
-,(561,'UJVM845862P5Z')
-,(57,'MDEA757912XQ6')
-,(229,'WXJP796711DBC')
-,(925,'USGH931845VWG')
-,(66,'TGDZ321487IU2')
-,(327,'LQMT878533PF5')
-,(349,'CLOW486804FC0')
-,(47,'IZTL507611GJB')
-,(318,'FAXH136590EA6')
-,(250,'EHTN330350R32')
-,(90,'QIMC098168NKU')
-,(443,'FVST974901UL2')
-,(615,'UTDM008738WO8')
-,(781,'AFMZ387497ZT8')
-,(937,'RIQD008056RRQ')
-,(729,'EGJA42073049D')
-,(985,'NGSL346741NM9')
-,(259,'EKAB471820T6D')
-,(42,'AFHQ549413O8S')
-,(343,'MCST214836LJQ')
-,(256,'HNBI466896FLE')
-,(457,'NYJD709963BJ3')
-,(743,'ZYAO567423NZV')
-,(959,'VFDH044913NVE')
-,(910,'HSXM158778IDN')
-,(491,'RIYR8577402YY')
-,(5,'QKTQ582578GJG')
-,(351,'QHEE932710K4J')
-,(903,'BTGQ389057PXS')
-,(98,'UJVM845862P5Z')
-,(921,'NGRM510576FTN')
-,(86,'AJDL4334605DU')
-,(820,'FMRZ018293JIE')
-,(610,'AFFF229941V0T')
-,(586,'WIHY43277544N')
-,(577,'VYZM368789SDR')
-,(614,'PIGG56727577N')
-,(317,'MQWL226296FOZ')
-,(444,'IACS341254WXT')
-,(488,'LULB626507KYU')
-,(223,'RZEY3957013YL')
-,(769,'EDBU112334FB7')
-,(236,'RDHC973077KNC')
-,(270,'IDQX3835822C0')
-,(625,'CENE137863R5Z')
-,(634,'VFCL608034CG3')
-,(843,'KEWK2013432D9')
-,(563,'VQMY1854685C9')
-,(918,'LQMT878533PF5')
-,(732,'EHST369332OY8')
-,(935,'ZAGK259438U3E')
-,(747,'PYGH7610096TN')
-,(465,'XNMP243021C8O')
-,(481,'DPEA639046XF8')
-,(439,'LQMT878533PF5')
-,(396,'FZIB956035JDJ')
-,(677,'EMIA8784916AN')
-,(405,'PRSV4744876AH')
-,(241,'ZPFT073175ADZ')
-,(68,'UEJW972346KGB')
-,(884,'JFFA587107BQH')
-,(401,'CCJN9516167ZN')
-,(235,'HJGF464367YJC')
-,(376,'CKNK867479SVW')
-,(987,'THTQ938841TTM')
-,(290,'NXEE930723NW0')
-,(733,'NYJD709963BJ3')
-,(835,'ZKWT840645PAB')
-,(700,'OAII8937749BR')
-,(848,'OMDN507320RSA')
-,(99,'TIUY396300J4V')
-,(326,'QCDG847489BG3')
-,(183,'ADFO82786258P')
-,(611,'KZIC2532079N5')
-,(104,'TGNH196138GKN')
-,(554,'RCFZ368060660')
-,(611,'CCSS3019850JV')
-,(411,'CENE137863R5Z')
-,(616,'MZKQ126134P49')
-,(907,'EEFD2961585QK')
-,(963,'TSXV4445518GC')
-,(257,'LPDK943471XEM')
-,(232,'MJOZ4983860QE')
-,(273,'YAMS637003V7C')
-,(274,'TBSQ372432TGY')
-,(480,'PKXI0906232JL')
-,(235,'GFPS511862V86')
-,(143,'YNOM356585VIE')
-,(318,'ICUE069371VUF')
-,(741,'OPHE67277474K')
-,(458,'WGMN9814861OD')
-,(936,'GVIK787462IIT')
-,(68,'EWKR797993KB0')
-,(266,'TSEY094441H4N')
-,(653,'YBHM95174774H')
-,(351,'AAMD627746362')
-,(102,'PXMV03679536B')
-,(942,'MCYV659198BI3')
-,(493,'OTRX739954BCZ')
-,(714,'ZPFT073175ADZ')
-,(396,'GRDF066108VM0')
-,(997,'SMXN315941X4D')
-,(514,'MFCO230094EUT')
-,(861,'YBRM615582RML')
-,(4,'OUFD449298HQJ')
-,(675,'DQJC4658581GN')
-,(324,'EYQV978170QM1')
-,(723,'WGMN9814861OD')
-,(968,'GAVD067169PWZ')
-,(205,'HHAB322852YMZ')
-,(178,'OAII8937749BR')
-,(281,'BGNN848040GCX')
-,(278,'COCV623245ETR')
-,(817,'MCYV659198BI3')
-,(713,'ZUXQ058525YGL')
-,(837,'JDMW8923470EB')
-,(315,'BGNW68543649Y')
-,(381,'BSIS714426CBV')
-,(658,'PUAQ750815FJ4')
-,(22,'JUUG897326BCV')
-,(488,'MPXV785149MLJ')
-,(978,'VRMO693230JD9')
-,(800,'KKBO146142Z81')
-,(902,'DRYO516651TFE')
-,(92,'IIND8570823HR')
-,(268,'FAAT178900CS7')
-,(418,'IJPU3628110II')
-,(724,'EPNM613338JGF')
-,(531,'AJDL4334605DU')
-,(389,'PFYE4749338BQ')
-,(138,'ACAR959502ZXD')
-,(957,'HTNH318083T34')
-,(714,'HMAI21387437T')
-,(281,'HHLW023573QGO')
-,(588,'AUOV056587OFI')
-,(623,'IVXZ158781UWJ')
-,(219,'CEMI863718IXF')
-,(378,'ETSQ214050Q1P')
-,(158,'TMSZ3069420UU')
-,(493,'RZOM563531614')
-,(16,'DISJ392749Q6G')
-,(904,'LVQC8959788IF')
-,(909,'GKIQ228572N5C')
-,(127,'ACAR959502ZXD')
-,(964,'RXDF928146NP1')
-,(156,'UJVM845862P5Z')
-,(567,'DUJO287218CNP')
-,(874,'ERCB502925AZY')
-,(300,'EMRG808847UBZ')
-,(758,'RXDF928146NP1')
-,(403,'RZOM563531614')
-,(255,'KRZY7703450U1')
-,(563,'DABH334360XBM')
-,(55,'BAKS026643NUT')
-,(962,'VOFV3768854PH')
-,(874,'HJGF464367YJC')
-,(64,'QHEE932710K4J')
-,(529,'FFAV6172093Y6')
-,(241,'AFLE952504O86')
-,(767,'WGMN9814861OD')
-,(501,'LZRE917742XB2')
-,(115,'HNBI466896FLE')
-,(419,'CSIM9829440NM')
-,(480,'OGKJ567272QE8')
-,(642,'JSKV958329GHA')
-,(181,'MBUQ6362826V9')
-,(159,'XUBW682189MQ5')
-,(933,'FPXG298410YY4')
-,(996,'BFBM662942TBB')
-,(362,'GSON3089556J5')
-,(693,'ZFIG373593Z5Q')
-,(248,'PLVM391901R55')
-,(372,'SCBM366800LRG')
-,(674,'HAOP479520VN4')
-,(717,'UTDM008738WO8')
-,(316,'GOAV934666GV5')
-,(453,'NSIF051336MC2')
-,(251,'AGVP834937HEV')
-,(408,'TEHB663839PHD')
-,(227,'GWXX122275G5N')
-,(771,'OLUR486979F8K')
-,(970,'SDKV828977M9L')
-,(791,'HGOH996820YCH')
-,(106,'ATRM1589845MJ')
-,(868,'TGNH196138GKN')
-,(525,'OZFR705492SFQ')
-,(838,'RMIY4232827NO')
-,(960,'ZYZC595850VQQ')
-,(238,'JCPR169398IY4')
-,(591,'SCNQ645798X30')
-,(215,'ZUXQ058525YGL')
-,(846,'NNXW4340430Z1')
-,(884,'PSYZ748689M7W')
-,(368,'RZEY3957013YL')
-,(224,'WJSC1297068QO')
-,(420,'IWQY471421Y6V')
-,(397,'RZEY3957013YL')
-,(513,'PUAQ750815FJ4')
-,(683,'MQWL226296FOZ')
-,(183,'URRA1779535KA')
-,(253,'KONJ647124GYP')
-,(559,'ICUE069371VUF')
-,(422,'DAMY97691992A')
-,(679,'NGSL03253011S')
-,(531,'CLSV937311JIG')
-,(984,'MYXJ741400MQ6')
-,(61,'FBFE71357624M')
-,(368,'WOSM759958IG9')
-,(744,'FAJZ288313TU8')
-,(605,'UGAG160651D6D')
-,(495,'XXDE356229JIN')
-,(355,'RROD368008YYX')
-,(229,'WCTF493369PK8')
-,(936,'JFAY478968T9F')
-,(562,'KUYN858294YO3')
-,(33,'IOUU906484KNS')
-,(359,'XVVF9249154K4')
-,(741,'BYOG5382836YD')
-,(538,'AHFK214690E1H')
-,(290,'VUWN710740YXK')
-,(177,'VMWD500476ZPX')
-,(513,'SPYF288627W00')
-,(134,'GOAV934666GV5')
-,(166,'XRDY5359474JI')
-,(326,'PIGG56727577N')
-,(895,'OQEU704253CEK')
-,(815,'QCDG847489BG3')
-,(731,'PTFM60026433N')
-,(673,'PMMF748247XC2')
-,(660,'ALRX345861DKR')
-,(732,'EOMN247231XUY')
-,(164,'BRZM982676GM5')
-,(121,'IUDV941798MUA')
-,(945,'QGRR217412WXJ')
-,(137,'BGFK057094ZP4')
-,(224,'PHBD139248LI0')
-,(261,'WYFG7873836T4')
-,(93,'WAQK748536KXV')
-,(833,'VVLV186585E1S')
-,(204,'DRYO516651TFE')
-,(327,'EVLL317290ZDH')
-,(859,'RUZS862917D4Y')
-,(529,'DMXG766268RBO')
-,(320,'ZWKY883448H21')
-,(943,'IOZT905556NS8')
-,(26,'LOQK942041YD4')
-,(452,'EHRE574439884')
-,(778,'GYSZ084000JRW')
-,(430,'VFCL608034CG3')
-,(359,'IWQY471421Y6V')
-,(344,'CAGQ245488A70')
-,(374,'CWBX803640ANO')
-,(903,'PTFM60026433N')
-,(31,'FFAV6172093Y6')
-,(187,'RVWO950171UUC')
-,(58,'GJTR297334DBA')
-,(814,'RTFX139256OIQ')
-,(317,'PUNK31565054T')
-,(962,'YAMS637003V7C')
-,(375,'NGRM510576FTN')
-,(577,'RUZS862917D4Y')
-,(752,'UJMO850203RVO')
-,(834,'CBZA558084V1Y')
-,(343,'OEJY588820UC1')
-,(837,'KJFG073310UY5')
-,(447,'YTAC845195C9U')
-,(876,'ADFO82786258P')
-,(18,'VHZF988914X6I')
-,(588,'ATYY522600Z2T')
-,(619,'GWXX122275G5N')
-,(781,'AJCD8581077Q4')
-,(321,'AZDH364262Q2G')
-,(650,'AVND3819211KU')
-,(866,'UOSV194061G4F')
-,(899,'CKNK867479SVW')
-,(791,'ODHZ8367027QY')
-,(271,'EVLL317290ZDH')
-,(211,'PPXH0213519YS')
-,(824,'DAMY97691992A')
-,(488,'AZMI675933YD6')
-,(268,'SWWS141581HO4')
-,(96,'PPAQ23957805X')
-,(600,'COCD590010K7V')
-,(560,'WHRR2168251WE')
-,(6,'NXEE930723NW0')
-,(968,'GSPN084490Z0D')
-,(373,'LIJQ767286UGW')
-,(488,'BMPQ818758YHF')
-,(542,'HHLW023573QGO')
-,(372,'KLMM913893U8L')
-,(98,'XDPR8676213TD')
-,(401,'NYJD709963BJ3')
-,(960,'BFFX035870T1B')
-,(169,'TGDZ321487IU2')
-,(542,'FVDP9098525QC')
-,(866,'WRRX0888354MB')
-,(34,'FSZF0276457QM')
-,(714,'LNII914823CAQ')
-,(729,'MWNW082710I74')
-,(583,'ACAR959502ZXD')
-,(135,'DQJC4658581GN')
-,(557,'XGPW814903PE8')
-,(440,'GAVD067169PWZ')
-,(580,'AYXA0314042LN')
-,(432,'WBYJ774414KAU')
-,(906,'CAMF861779CJ2')
-,(82,'HXRJ711416T1N')
-,(354,'USCX786303D33')
-,(447,'TRFX488991G6F')
-,(203,'WGMN9814861OD')
-,(533,'HEYG602772DPH')
-,(118,'ZTCH476615ALV')
-,(959,'TSXV4445518GC')
-,(161,'CDOD066193EC9')
-,(101,'URRA1779535KA')
-,(238,'XEAG8431792IU')
-,(45,'OCGK2557063R3')
-,(230,'EIBK474731JDT')
-,(464,'UENO992771N6H')
-,(163,'IPDH337438CSS')
-,(298,'WUGD7641855BR')
-,(849,'LOQK942041YD4')
-,(724,'JZVF255008O04')
-,(421,'BWEE378360HKC')
-,(521,'KNDS231225YP1')
-,(728,'QELI025909JW3')
-,(71,'VPQP167938EE2')
-,(360,'LIJQ545495OFX')
-,(116,'LDIQ0717537RB')
-,(331,'LOQK942041YD4')
-,(98,'PEWH1936736M1')
-,(383,'UENO992771N6H')
-,(589,'BYXU3723868F8')
-,(504,'AESD444638RLC')
-,(340,'QJGA232980PHK')
-,(505,'GKIQ228572N5C')
-,(566,'DQJC4658581GN')
-,(187,'RNNC111644BCG')
-,(143,'EVZB609644CUC')
-,(238,'HYKD665179CWP')
-,(2,'OCKC408757T78')
-,(422,'FZSI632290QRY')
-,(143,'BDQV365836963')
-,(16,'YTDG930250L8N')
-,(55,'CHLD72166308K')
-,(739,'SPPW936008BC9')
-,(577,'PJDX331012A2G')
-,(105,'QHEE932710K4J')
-,(826,'TCMJ0020794RO')
-,(692,'HQRG218171US8')
-,(262,'FAMI423631REV')
-,(554,'SKGT969587WFH')
-,(322,'MUMC691946QJ7')
-,(637,'LDIQ0717537RB')
-,(667,'MXMV948227CU7')
-,(467,'PMMF748247XC2')
-,(776,'ATGC74162816Y')
-,(77,'WYFG7873836T4')
-,(146,'CGWS378406M4Z')
-,(386,'IOBJ563674MTX')
-,(676,'PCDG8506117UF')
-,(284,'ATRM1589845MJ')
-,(220,'DHNA084535969')
-,(907,'WMQP397428I82')
-,(197,'VWCP455349TJZ')
-,(745,'QXBK070323MJJ')
-,(76,'SPLM296596IG6')
-,(138,'GSPN084490Z0D')
-,(502,'HIOA474185GZ4')
-,(15,'PINQ9773951SW')
-,(487,'OLHO8187658LY')
-,(37,'URRA1779535KA')
-,(414,'BFHB198547MQ5')
-,(226,'XVVF9249154K4')
-,(656,'ETIH073659PZ9')
-,(402,'RBNK9604379Y5')
-,(746,'HQRG218171US8')
-,(854,'PXIB061923X8O')
-,(963,'WUGD7641855BR')
-,(988,'DTSA3649331WK')
-,(149,'ZTQE678319OWF')
-,(294,'RRKG127091E15')
-,(761,'CLSV937311JIG')
-,(750,'ATYY522600Z2T')
-,(941,'WZUR9885760KT')
-,(393,'BSIS714426CBV')
-,(661,'SPLM296596IG6')
-,(660,'TJUX4120678YY')
-,(473,'CYFD353897DSI')
-,(491,'DABH334360XBM')
-,(691,'RYOI18800901Z')
-,(498,'XRVX3338527WV')
-,(155,'ZMWB3749284AB')
-,(508,'BSIS714426CBV')
-,(403,'FCTY234389X9M')
-,(108,'ILUH409611CUU')
-,(978,'UGAG160651D6D')
-,(992,'VJVZ169047U73')
-,(813,'OVKI583317MAO')
-,(398,'KKUC162937G5F')
-,(84,'CPDA580662O9U')
-,(489,'PMMF748247XC2')
-,(925,'GZHY179793EHM')
-,(972,'PFZR443542BKY')
-,(609,'RQDQ647611DF7')
-,(556,'GZVC681008C53')
-,(891,'WMQL0449878B3')
-,(991,'YUOP736511U6I')
-,(715,'SPPW936008BC9')
-,(910,'CUTU854000VWA')
-,(199,'TFOG329853IP2')
-,(646,'UHHQ632199CYB')
-,(776,'OEML338546OR1')
-,(864,'YBHM95174774H')
-,(383,'QNQS118953E56')
-,(731,'NXEE930723NW0')
-,(151,'ETIH073659PZ9')
-,(182,'OXOT814591687')
-,(933,'OZKL526309VMP')
-,(798,'ZTCH476615ALV')
-,(21,'MQWL226296FOZ')
-,(941,'TXUL887417ESJ')
-,(237,'YDPX6230044BI')
-,(612,'FWRY115273NHZ')
-,(100,'NBMY035986452')
-,(522,'QKTQ582578GJG')
-,(333,'HGRB799166MCV')
-,(538,'WTXL708322OHO')
-,(179,'BKIV549895IQ7')
-,(188,'XVIG928328BTI')
-,(53,'DSPA199347BRE')
-,(267,'XRVX3338527WV')
-,(225,'NCCW5865979CC')
-,(178,'ILUG503204D7P')
-,(130,'AJCD8581077Q4')
-,(921,'EXTM336450QL1')
-,(580,'LZRE917742XB2')
-,(837,'VDNZ6099559CO')
-,(841,'GOYF438497P37')
-,(737,'CBGE584485QD8')
-,(719,'RCFZ368060660')
-,(242,'CCKT279212KAI')
-,(927,'LHIS850370JRB')
-,(686,'EVLL317290ZDH')
-,(875,'AFFF229941V0T')
-,(947,'OAII8937749BR')
-,(231,'AVND3819211KU')
-,(224,'ZIIP733909LUB')
-,(911,'FBMM968853OZD')
-,(670,'JUMM020560H98')
-,(998,'AKPH693672RAK')
-,(149,'DAAO721466AZF')
-,(875,'VSLU312857RB2')
-,(90,'ZPFT5232630BN')
-,(816,'GREA6669107UZ')
-,(928,'ADKZ057660GLA')
-,(902,'PHXG111039N3X')
-,(996,'TSXV4445518GC')
-,(913,'RMIY4232827NO')
-,(38,'BKIV549895IQ7')
-,(578,'BUXW020395ZRO')
-,(240,'AAMD627746362')
-,(412,'ARRC3089348JQ')
-,(914,'KLMM913893U8L')
-,(335,'QHEE932710K4J')
-,(438,'UWVZ4325084O5')
-,(4,'PUAQ750815FJ4')
-,(140,'DQJC4658581GN')
-,(81,'ODSF032822GJL')
-,(99,'AKTA3427799W1')
-,(462,'QIMC098168NKU')
-,(361,'BQGR331904HAZ')
-,(561,'IIND8570823HR')
-,(565,'ONOO750796NVZ')
-,(238,'FZIB956035JDJ')
-,(48,'FBFE71357624M')
-,(992,'OXEA9761253VY')
-,(339,'BWJY658463HZL')
-,(463,'TYWI7180479ZQ')
-,(843,'IYQJ483312C36')
-,(492,'NSSZ345619ZPA')
-,(111,'AWTD771855UFO')
-,(498,'DHNA084535969')
-,(447,'OYFA842158DQC')
-,(861,'DQQB631522I4L')
-,(19,'MDLZ284607V6S')
-,(876,'HSNE724862DFF')
-,(491,'OEML338546OR1')
-,(856,'BKDW700858ZG8')
-,(103,'FPXG298410YY4')
-,(958,'FWRY115273NHZ')
-,(152,'CIWA909585RMC')
-,(239,'PLJX997203TO4')
-,(610,'SPLM296596IG6')
-,(905,'BLDE418980KHH')
-,(616,'GZRO727015SWN')
-,(69,'HEQI435144KX5')
-,(30,'WMQL0449878B3')
-,(523,'GJLR535141VQY')
-,(328,'KNYJ1862790MR')
-,(712,'ZMWB3749284AB')
-,(16,'YYNR031933338')
-,(280,'AQVD6816386CS')
-,(904,'JSKV958329GHA')
-,(846,'VZWR5180802VL')
-,(370,'BGNW68543649Y')
-,(756,'VZQG359355QI1')
-,(777,'KLMM913893U8L')
-,(514,'ETSQ214050Q1P')
-,(267,'WMQL0449878B3')
-,(691,'FRQM158548YHE')
-,(970,'IZLR291978L8X')
-,(85,'SWWS141581HO4')
-,(833,'YHBJ6645772JK')
-,(2,'VESB142552IY1')
-,(746,'NQZT803209NNU')
-,(858,'VFDH044913NVE')
-,(651,'ADKZ057660GLA')
-,(251,'HXCZ19705971T')
-,(797,'TADK9639427QO')
-,(138,'JCDX905435F4J')
-,(736,'KDPC920643VHH')
-,(10,'FAJZ288313TU8')
-,(56,'CHLD72166308K')
-,(280,'EKAB471820T6D')
-,(840,'MKGN143581XEW')
-,(804,'WMQL0449878B3')
-,(529,'EWKR797993KB0')
-,(626,'BSIS714426CBV')
-,(456,'BWEE378360HKC')
-,(440,'PXIB061923X8O')
-,(879,'RHCR688280HUC')
-,(836,'XYGD84211340C')
-,(169,'QHXO936834OYN')
-,(149,'WGYL5585159N8')
-,(102,'XRXK369569BWB')
-,(964,'YELN075917AB8')
-,(996,'VSDA0758275PR')
-,(900,'TCMJ0020794RO')
-,(502,'OTRX739954BCZ')
-,(929,'AJCD8581077Q4')
-,(342,'OKPE352313LV0')
-,(895,'YMTL76826456M')
-,(315,'KDFN025492581')
-,(121,'FFEE219180P44')
-,(27,'ELTM8338697YW')
-,(932,'ZQPF260391DAO')
-,(747,'XGEZ2975358Q6')
-,(942,'MQUJ000400PA0')
-,(467,'BTQA251064RD3')
-,(479,'TCAS0809453P3')
-,(430,'EANX303240H58')
-,(84,'SPPW936008BC9')
-,(576,'UZIN530092NLO')
-,(920,'CBZO3643615NA')
-,(253,'EKAC68671709U')
-,(377,'PFZR443542BKY')
-,(529,'QELL033956IY1')
-,(310,'CSBW831854N33')
-,(221,'DMET436642L0L')
-,(383,'ATYY522600Z2T')
-,(733,'NAQK2716593OM')
-,(904,'YUOP736511U6I')
-,(684,'HGRB799166MCV')
-,(188,'SVPR95121052U')
-,(444,'ILUG503204D7P')
-,(781,'ZFIG373593Z5Q')
-,(786,'EANX303240H58')
-,(57,'VDMJ552495NLI')
-,(950,'JIWP328192D0O')
-,(201,'BFOG228911SF8')
-,(208,'OLUR486979F8K')
-,(992,'ECEO07833694C')
-,(755,'NYJD709963BJ3')
-,(308,'EHST369332OY8')
-,(542,'AFKF244085BSO')
-,(610,'HAOP479520VN4')
-,(758,'DPEA639046XF8')
-,(857,'BCBR850236TB8')
-,(171,'WPJV504529AT8')
-,(236,'HTRQ854405IS0')
-,(660,'HYKD665179CWP')
-,(421,'RATL276284385')
-,(522,'IWBF960827MVH')
-,(287,'AFLE952504O86')
-,(27,'WZUR9885760KT')
-,(371,'UZRF1815798BU')
-,(241,'OBEP8445993A5')
-,(331,'TYRE0256256JV')
-,(606,'QXBK070323MJJ')
-,(863,'LOGQ61593832N')
-,(319,'VOVB236031R7C')
-,(556,'WHRR2168251WE')
-,(839,'NOSJ490209DFL')
-,(398,'VOVB236031R7C')
-,(95,'PHIZ752436IBP')
-,(187,'ILJV813494TU6')
-,(919,'FFTD432877KA7')
-,(669,'HCJK214833UZ5')
-,(652,'JCJI164513M1C')
-,(814,'JVYD954908VSK')
-,(640,'VJVZ169047U73')
-,(712,'UOSF3320941WR')
-,(181,'TMSZ3069420UU')
-,(955,'CFWS368000M1C')
-,(619,'LXXP4992440VX')
-,(739,'HCJK214833UZ5')
-,(521,'UPFG986830QCD')
-,(668,'KDFN025492581')
-,(576,'LIQU9724303Z5')
-,(885,'PIGG56727577N')
-,(991,'VOVB236031R7C')
-,(773,'DPQM580334GEW')
-,(231,'TFID1700102IU')
-,(915,'WRDZ227930CE8')
-,(110,'TKYP26521814C')
-,(773,'BWSJ750826D2G')
-,(47,'NMAC613311KS4')
-,(460,'HTNH318083T34')
-,(806,'QKTQ582578GJG')
-,(441,'LIFW323187M5M')
-,(290,'UOSV194061G4F')
-,(344,'BSIS714426CBV')
-,(728,'TKEL137413WCJ')
-,(153,'IPDH337438CSS')
-,(888,'JPWJ704349IIN')
-,(420,'IIIM562676PP6')
-,(974,'QYHC366395PLE')
-,(272,'UZRF1815798BU')
-,(619,'UHHQ632199CYB')
-,(353,'RHCR688280HUC')
-,(426,'GFPS511862V86')
-,(443,'DTSA3649331WK')
-,(842,'FSZF0276457QM')
-,(757,'HJGF464367YJC')
-,(699,'IVUU095214RLP')
-,(850,'OEEG5658323KI')
-,(978,'AKTA3427799W1')
-,(385,'VUWN710740YXK')
-,(492,'TBSQ372432TGY')
-,(876,'QQSI350313ZDD')
-,(947,'FJMS0326234U2')
-,(194,'EPWV530995HAW')
-,(976,'NAQK2716593OM')
-,(881,'AVND3819211KU')
-,(68,'WYFG7873836T4')
-,(312,'KAYU050765AWL')
-,(701,'QBHO076301Y9W')
-,(391,'TEHB663839PHD')
-,(589,'PEWH1936736M1')
-,(217,'BUXW020395ZRO')
-,(788,'IUDV941798MUA')
-,(137,'PHIZ752436IBP')
-,(903,'XWCB271190WRV')
-,(921,'OCGK2557063R3')
-,(130,'RNRX031778CSQ')
-,(303,'SVPR95121052U')
-,(580,'KBPF015679V3P')
-,(114,'VFDH044913NVE')
-,(789,'HTWK703831XML')
-,(507,'PPXH0213519YS')
-,(570,'YBRM615582RML')
-,(377,'FZSI632290QRY')
-,(246,'EANX303240H58')
-,(79,'HCJK214833UZ5')
-,(32,'EQFB95598465Q')
-,(978,'IEJL3949598OC')
-,(593,'UOSF3320941WR')
-,(853,'MUMC691946QJ7')
-,(279,'ERBK1830342GG')
-,(148,'ACAR959502ZXD')
-,(245,'YUOP736511U6I')
-,(96,'MJOZ4983860QE')
-,(255,'IETJ940600QZN')
-,(677,'FCPZ611443M4H')
-,(673,'HIOA474185GZ4')
-,(956,'GZVC681008C53')
-,(488,'XJEY3645775WV')
-,(773,'VKHJ591140033')
-,(206,'BJBO4838833T9')
-,(243,'HMGW701059UV8')
-,(662,'KILS696327BNJ')
-,(341,'URRA1779535KA')
-,(539,'DAMY97691992A')
-,(31,'DWLC692177ZNI')
-,(433,'HSCN770669DVS')
-,(121,'MSWB584281QVQ')
-,(941,'IVUU095214RLP')
-,(769,'SCBM366800LRG')
-,(48,'GJTR297334DBA')
-,(15,'TOKW059463WBE')
-,(874,'PXEJ1542922K1')
-,(616,'RAPH300101RT9')
-,(341,'RZOM563531614')
-,(35,'BGHO064351MU7')
-,(141,'FAAT178900CS7')
-,(73,'ZRPC774774117')
-,(123,'WRDZ227930CE8')
-,(842,'SSHW082209XXY')
-,(106,'PPXH0213519YS')
-,(568,'QPEU865451OD6')
-,(224,'CQVD192678U69')
-,(982,'QXZB727729OLN')
-,(80,'HXCZ19705971T')
-,(187,'LVQC8959788IF')
-,(635,'QELI025909JW3')
-,(598,'TKHK941426VBM')
-,(159,'XRXK369569BWB')
-,(556,'PCDG8506117UF')
-,(594,'UZKL9180732PG')
-,(644,'XXPY553332PWP')
-,(909,'QBLG5229736GX')
-,(400,'CAMF861779CJ2')
-,(443,'WAQK748536KXV')
-,(98,'QEYI423491BBP')
-,(988,'ATRM1589845MJ')
-,(21,'OAVZ991574JNT')
-,(849,'HMAI21387437T')
-,(385,'DPEA639046XF8')
-,(476,'FFEE219180P44')
-,(644,'CGWS378406M4Z')
-,(711,'BOGO270881O5M')
-,(282,'TYRE0256256JV')
-,(254,'XATD05973635N')
-,(676,'MBUQ6362826V9')
-,(383,'IRIK562289VWI')
-,(198,'SCNQ645798X30')
-,(582,'LIFW323187M5M')
-,(875,'DEWV17168719E')
-,(493,'QIMC098168NKU')
-,(197,'GWXP4058815C6')
-,(267,'TMSZ3069420UU')
-,(766,'VPQP167938EE2')
-,(365,'VOVB236031R7C')
-,(28,'LULB626507KYU')
-,(1,'ATYY522600Z2T')
-,(900,'TXGT480867OZ8')
-,(160,'QKTQ582578GJG')
-,(871,'OBEP8445993A5')
-,(547,'QKTQ582578GJG')
-,(630,'UIIZ577363F5Y')
-,(162,'GKIQ228572N5C')
-,(373,'ORIL7902216YU')
-,(821,'VDMJ552495NLI')
-,(3,'VOFV3768854PH')
-,(261,'KWHJ447522YDE')
-,(861,'RHCR688280HUC')
-,(31,'RGDY1033566MP')
-,(522,'THTQ938841TTM')
-,(540,'TJUX4120678YY')
-,(599,'LBSU899095GA9')
-,(356,'ZQXG15662092J')
-,(391,'MCST214836LJQ')
-,(428,'HXCZ19705971T')
-,(28,'SKGT969587WFH')
-,(970,'LVSI1502521M1')
-,(386,'QJGA232980PHK')
-,(296,'MWNW082710I74')
-,(524,'TSGQ643172HIU')
-,(921,'SPPW936008BC9')
-,(912,'XUBW682189MQ5')
-,(167,'JOUG7969525Z9')
-,(700,'EDBU112334FB7')
-,(183,'TKYU4400669F5')
-,(396,'GBVT332914TV2')
-,(173,'CRMG174486V7Z')
-,(45,'YELN075917AB8')
-,(792,'BFXH972353UGA')
-,(74,'VZWR5180802VL')
-,(153,'WQBM253697JS5')
-,(47,'AFKF244085BSO')
-,(357,'ZUXQ058525YGL')
-,(248,'SNUG504763DL1')
-,(439,'GZTA175363LB1')
-,(25,'VDMJ552495NLI')
-,(361,'CFEN040575NR5')
-,(622,'VESJ690056W7X')
-,(332,'IETJ940600QZN')
-,(390,'LRLU87317835N')
-,(859,'KONJ647124GYP')
-,(41,'VESB142552IY1')
-,(740,'OVKI583317MAO')
-,(230,'AGVP834937HEV')
-,(22,'LVSI1502521M1')
-,(301,'WUGD7641855BR')
-,(538,'NOUR172889RFV')
-,(616,'ZYAO567423NZV')
-,(643,'ULPC902078R7M')
-,(477,'QFBR976876DDT')
-,(845,'DDPL209552XIN')
-,(199,'XRXK369569BWB')
-,(671,'HDFM494191FJB')
-,(199,'JCJI164513M1C')
-,(197,'ILUH409611CUU')
-,(729,'TADK9639427QO')
-,(810,'VDNZ6099559CO')
-,(633,'BKIV549895IQ7')
-,(449,'USOW274676NCG')
-,(1000,'OEML338546OR1')
-,(845,'EHZW971417Y0E')
-,(251,'ELTM8338697YW')
-,(272,'ATGC74162816Y')
-,(918,'CRMG174486V7Z')
-,(274,'AFLE952504O86')
-,(419,'LBSU899095GA9')
-,(539,'XATD05973635N')
-,(94,'CRXF8949658XE')
-,(167,'UWVZ4325084O5')
-,(280,'ORMC948608I79')
-,(797,'ITHK053906TM8')
-,(110,'YZWA152649CM2')
-,(752,'LZRE917742XB2')
-,(179,'KZIC2532079N5')
-,(811,'MZKQ126134P49')
-,(701,'KNYJ1862790MR')
-,(48,'QNQS118953E56')
-,(601,'BIOM772665SEM')
-,(47,'PKXI0906232JL')
-,(610,'MMZG993584UD3')
-,(277,'IZTL507611GJB')
-,(375,'XKOC643422YUV')
-,(728,'QOWV157341LSY')
-,(972,'VMHX3820089OL')
-,(958,'RRKG127091E15')
-,(440,'RLQH337633XPY')
-,(983,'IYIO0759766UE')
-,(563,'QELI025909JW3')
-,(664,'EQJU7376778NV')
-,(188,'AKPH693672RAK')
-,(678,'RJNR132465UI6')
-,(397,'ADKZ057660GLA')
-,(514,'CLSV937311JIG')
-,(36,'DIFA98682240Q')
-,(616,'ZYMG9949755UJ')
-,(935,'DAMY97691992A')
-,(248,'OKEC68616523R')
-,(644,'XGPW814903PE8')
-,(205,'XUBW682189MQ5')
-,(778,'AHVG479542140')
-,(163,'BUXW020395ZRO')
-,(451,'GSON3089556J5')
-,(103,'LBSU899095GA9')
-,(333,'TKYP26521814C')
-,(512,'KUYN858294YO3')
-,(714,'NGRN18912975J')
-,(17,'DMET436642L0L')
-,(11,'YELN075917AB8')
-,(815,'TKEL137413WCJ')
-,(98,'TXGT480867OZ8')
-,(171,'FLEA4934077LT')
-,(187,'QYCC996766QFX')
-,(927,'RGBS106332Q3U')
-,(667,'DOIL0989904VJ')
-,(669,'YMYK8949060KE')
-,(13,'LKLN802151EF7');
 
 
 -- INSERT PARA ALIMENTO (Roger)
@@ -21072,1007 +19067,7 @@ INSERT INTO TelefonoVisitante(IDVisitante,Telefono) VALUES (607,4195001506);
 INSERT INTO TelefonoVisitante(IDVisitante,Telefono) VALUES (707,3779443144);
 
 
--- INSERT para DistribuirMedicina
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (813,433);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (312,800);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (961,21);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,604);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (375,107);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (859,564);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (860,377);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (272,899);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (30,430);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (475,219);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,693);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (625,842);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,70);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (500,662);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,994);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,201);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (391,137);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (139,203);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (522,650);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,682);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (567,101);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (722,489);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (907,143);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (420,333);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,124);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (986,7);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (583,202);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (530,918);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (840,610);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (257,853);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,866);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,771);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (665,899);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (331,784);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (697,939);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,453);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (103,59);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (839,362);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (822,211);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (858,729);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (219,696);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (901,385);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (679,393);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (676,985);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (900,410);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (457,272);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (482,610);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (660,230);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (55,173);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (783,63);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (201,164);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (814,464);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,223);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (767,464);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,174);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (757,531);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (874,757);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (348,752);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (92,551);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (579,751);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,565);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,555);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (535,418);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,574);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (656,33);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,223);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (736,808);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (714,494);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (123,366);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (418,997);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (512,396);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,918);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (430,424);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (980,618);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (927,771);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (277,973);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (669,284);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (981,579);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (926,529);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (724,621);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (674,831);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (800,430);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (748,908);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (825,780);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (829,659);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (64,420);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (497,591);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (212,112);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,722);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,762);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,430);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (349,148);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (367,693);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (963,413);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (123,146);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,564);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,803);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (239,804);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (889,602);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,147);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,191);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,230);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (202,418);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (508,964);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (66,419);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (600,833);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (113,936);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (512,111);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,849);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (944,806);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (477,58);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (56,454);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (75,686);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (237,50);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (261,781);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (193,433);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (858,740);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (328,75);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,594);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,793);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (880,1);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (98,171);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (550,161);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (381,445);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,324);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (418,691);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,535);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (760,550);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (915,346);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (446,125);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (87,464);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,977);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (482,202);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (750,488);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (100,336);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (346,324);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (825,633);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (963,809);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (135,351);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,838);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (832,35);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (54,611);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,600);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (376,760);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,219);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (975,38);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (876,105);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (47,535);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (572,465);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (439,23);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (616,877);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (110,491);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (138,26);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (794,703);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (727,582);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,695);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,712);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (305,558);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (959,379);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,248);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,144);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (884,416);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (646,351);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (754,207);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,458);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (238,95);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (383,152);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (412,287);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (296,778);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (960,217);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (552,789);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (680,547);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (254,918);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (655,73);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (575,209);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (341,717);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (678,299);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (522,553);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (284,869);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (669,281);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (510,941);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,240);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (888,997);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,439);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (830,842);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (562,608);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (634,229);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,910);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (829,508);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (91,835);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,100);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (589,77);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (208,585);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,146);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (544,960);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (21,673);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (800,976);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (428,577);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (322,377);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (34,116);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (989,63);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,190);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (242,743);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (387,445);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (166,741);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (897,617);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (782,931);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (107,423);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,768);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (191,11);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,774);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,866);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (684,743);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,127);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,251);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (902,586);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,782);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (762,721);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (507,777);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (577,192);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (528,486);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (792,60);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (171,921);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (24,437);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (865,66);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (893,12);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (329,943);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,150);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,650);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,220);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (827,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (383,250);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,568);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (233,63);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (286,749);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (502,816);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (62,246);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (797,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (979,834);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (959,450);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (487,161);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (196,927);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (355,712);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,573);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,321);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (174,371);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,745);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (417,251);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,611);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (964,679);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (353,86);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,14);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (236,318);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (848,327);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (928,447);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (69,335);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (286,516);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (605,387);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,462);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (663,704);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (820,305);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (716,124);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (184,994);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (583,944);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (715,566);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (985,145);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (434,803);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (550,752);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (982,864);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (987,93);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,884);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,638);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,223);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (268,240);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (346,545);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (662,523);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,877);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (327,362);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (495,999);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (86,81);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (63,399);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (300,768);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,969);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (818,370);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (674,353);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,221);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,301);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,677);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (619,9);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,931);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (409,603);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (815,295);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,693);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (213,238);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,946);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (231,745);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (801,738);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (758,139);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (774,873);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (16,851);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (294,552);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (347,90);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,119);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (61,48);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (259,2);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (612,277);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (43,330);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (433,820);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (80,238);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,403);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (374,229);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (864,738);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (457,951);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (969,93);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,438);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (473,538);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (513,468);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (750,854);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (705,922);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (947,711);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (177,788);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (694,295);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (221,229);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (496,843);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (932,650);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (511,584);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (467,99);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (977,98);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,266);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (486,124);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,860);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (763,767);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,99);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,372);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (78,905);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (520,576);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (722,814);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,855);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,644);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (706,669);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (70,706);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,27);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (111,739);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (961,979);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (970,712);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,929);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (295,909);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (742,277);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,352);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (106,356);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (121,188);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,16);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (44,398);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (868,81);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (542,460);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (356,147);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (450,905);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,733);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,901);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,802);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (88,469);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,751);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,80);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (579,867);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (877,341);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,624);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (914,783);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (687,407);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (514,260);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (85,947);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (455,698);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (159,899);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,757);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (70,35);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (938,813);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,550);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (947,346);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (494,270);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (515,291);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,634);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (781,716);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (198,624);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,999);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (667,659);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,380);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,342);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (433,915);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (493,705);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,212);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (458,510);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (146,666);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (246,587);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,894);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (608,185);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (568,138);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (40,433);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (492,93);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (157,930);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,868);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (7,96);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,673);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,973);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (385,551);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (504,943);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (894,266);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (49,95);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (266,35);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (588,954);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (469,51);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (483,419);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (630,685);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (734,796);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (46,644);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (448,91);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (25,548);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (93,464);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,771);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (298,753);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (973,386);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (478,393);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,901);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (101,943);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (71,555);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (344,320);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (236,902);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (41,710);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,596);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (720,680);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (811,754);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,503);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,483);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (423,150);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (870,343);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (205,414);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,159);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,751);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,94);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (595,169);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (906,713);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (873,309);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (911,411);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (125,476);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (753,604);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (431,393);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (170,32);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (422,785);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (987,163);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (473,309);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (934,36);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (291,70);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (519,143);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,86);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,546);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (652,6);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (767,557);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (990,78);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (890,918);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,939);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (202,189);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (578,33);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (185,539);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (846,283);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (300,871);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (837,390);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (386,145);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (563,559);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (138,583);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (533,170);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (412,389);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (452,401);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (407,430);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,860);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (71,383);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (121,344);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (471,674);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (271,732);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (401,4);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (175,917);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,428);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (74,179);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (763,606);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (781,659);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (620,858);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,847);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (17,992);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (899,946);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (929,614);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,355);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (124,787);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (636,454);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,510);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (809,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (573,704);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (65,971);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (475,473);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (351,594);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,590);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,960);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (729,587);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (991,188);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,391);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (500,199);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (31,698);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,429);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (313,414);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (419,241);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (97,406);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (204,543);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,960);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (56,649);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,525);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (490,484);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (559,812);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (107,313);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (768,798);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (2,112);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,47);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (541,605);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (519,228);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (758,816);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,406);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,992);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (455,697);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (35,466);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (309,526);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (76,660);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (749,227);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (135,876);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (395,366);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (12,819);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (210,593);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (203,600);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (339,135);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (569,503);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (318,138);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,576);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (384,514);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (779,921);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,923);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (598,826);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,617);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (232,818);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (311,413);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,959);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (926,585);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,29);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (914,687);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (233,422);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (671,556);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (945,490);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (873,458);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,870);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,584);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (539,563);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (425,685);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,700);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (573,204);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (653,739);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (549,187);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,437);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (560,2);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (131,453);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,181);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (275,677);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (978,845);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (889,807);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (700,114);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (988,495);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,565);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (651,891);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (40,893);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (10,945);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,564);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,362);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (21,125);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (695,315);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (13,497);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,499);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (596,113);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (27,770);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,294);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (838,883);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (240,425);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (851,891);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (301,756);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (253,877);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (529,380);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (244,97);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (980,6);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (699,731);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (714,656);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,344);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (881,276);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (884,113);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (652,646);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (332,383);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (949,403);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (594,873);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (290,605);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (739,463);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (525,604);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,635);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (399,515);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (108,794);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (110,241);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (243,687);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (185,490);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (161,666);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (848,19);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (832,351);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (879,761);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,58);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,381);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (919,797);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,413);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (690,230);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (673,609);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,530);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,398);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (64,424);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,855);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,761);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,666);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (131,153);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (802,954);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,745);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,201);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (857,57);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (415,16);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,878);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (443,720);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (122,900);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,497);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (41,614);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (846,199);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (584,85);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (420,172);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (540,375);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,638);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (983,528);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (173,791);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,834);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (238,121);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (634,507);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (490,533);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (524,260);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (53,809);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (214,955);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,381);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (738,230);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,669);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (409,398);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (228,118);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,204);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (39,318);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (861,293);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (181,291);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (584,796);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (842,773);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (72,474);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (52,126);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (231,996);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,14);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,171);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,469);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (502,112);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,814);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (337,132);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (328,512);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,219);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (684,506);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (276,467);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,978);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (402,49);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,727);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,49);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (466,169);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,945);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (485,156);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,84);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (280,772);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,228);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,324);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (147,868);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,7);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (77,494);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (524,615);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (396,444);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,300);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,804);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (838,608);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (306,373);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (611,283);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (545,300);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,938);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (790,437);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (268,758);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (824,930);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (854,6);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (116,680);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,502);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (646,568);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (516,576);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (227,73);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (638,552);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (811,846);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (815,634);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (329,815);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,493);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,97);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (741,280);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (555,400);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (843,16);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (867,627);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (768,490);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (334,783);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (87,421);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (169,91);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (243,295);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (726,151);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (267,288);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,828);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (19,479);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (388,387);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (864,700);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (808,678);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (266,821);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (516,215);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (503,3);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (576,209);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,21);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (187,613);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (680,782);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (276,663);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (32,584);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (177,690);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,516);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (648,829);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (852,778);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (955,979);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (968,875);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,64);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,822);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (824,906);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (778,437);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (411,966);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (704,131);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (740,424);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,658);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (96,439);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (105,281);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (972,901);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (808,615);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (405,182);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (342,693);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (974,416);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (193,922);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (638,355);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (913,863);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (89,599);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,98);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (349,622);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (755,121);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (22,942);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (733,402);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (636,566);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (728,699);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (348,331);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,648);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (493,78);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,798);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (374,78);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (321,287);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (203,245);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (576,36);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,431);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (190,74);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (514,588);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (730,315);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (206,229);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (944,183);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,718);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (724,688);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (887,98);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (657,314);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (904,433);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (149,116);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,550);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (760,992);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (279,621);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (363,751);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (556,152);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (260,874);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (737,803);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (625,750);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (567,68);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,612);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (106,386);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (235,329);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,197);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (552,783);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (68,553);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,588);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,715);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (160,25);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (942,136);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (600,723);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (737,673);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (29,57);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (577,855);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (369,230);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,990);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,754);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (628,722);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,180);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,958);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,493);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (239,894);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (908,882);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (501,514);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,152);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,330);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,446);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (641,445);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,912);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (772,130);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (77,77);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,554);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,102);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (379,702);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (797,236);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (381,147);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,557);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,168);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,544);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,974);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (627,539);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (446,588);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,898);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (967,466);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,77);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (973,361);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (679,530);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (594,905);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (221,222);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (893,221);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (184,606);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (463,741);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,245);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,482);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,981);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (607,671);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (860,353);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (917,95);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (134,937);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (303,811);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,620);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (499,47);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (119,767);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (880,359);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (444,455);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (876,728);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (83,811);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (89,642);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (580,446);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (956,892);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (167,839);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,147);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (599,479);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (641,743);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,273);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (476,216);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,664);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (946,747);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (779,579);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (74,925);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,803);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (837,110);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (589,731);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,339);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (517,299);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,133);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (263,172);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,56);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (97,880);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (574,110);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (147,391);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (882,814);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (647,310);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,988);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (46,864);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (398,981);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (672,855);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,753);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (198,506);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (508,686);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (828,221);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (401,935);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (661,516);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (397,791);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,437);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,923);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (492,74);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (499,580);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (165,834);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (210,568);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,586);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (400,433);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (509,804);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (335,258);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (262,124);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (840,822);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (896,608);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (251,348);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (541,56);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (442,209);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (690,199);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (441,958);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (394,530);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (63,590);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (318,985);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,710);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (219,37);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,616);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (805,175);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (623,999);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (60,301);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,294);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,80);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (806,382);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (820,463);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,358);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (345,821);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (100,639);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (543,384);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,863);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (35,338);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,364);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (501,686);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (802,90);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (537,259);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (968,170);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (182,7);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,999);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (256,946);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (26,98);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,256);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (42,43);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,514);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (382,575);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (894,365);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (766,323);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (186,954);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (39,415);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (924,799);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (769,751);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (183,730);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (540,793);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (480,415);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (336,707);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (865,300);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,778);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (795,337);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (563,415);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (532,685);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,86);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (209,189);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,832);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,753);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (262,21);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (201,849);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (12,259);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (214,951);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,767);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,282);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,709);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (677,49);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (175,960);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (459,302);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (419,536);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (761,850);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,193);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,224);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,105);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (757,311);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (143,936);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (252,121);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (623,807);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,410);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (834,511);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (359,242);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (465,19);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (389,759);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (363,534);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (558,672);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (81,330);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (723,626);
-INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (181,115);
+
 
 
 
@@ -24085,1007 +21080,6 @@ INSERT INTO Trabajar(RFCVeterinario,IDBioma) VALUES ('VNKR3029898FP',384);
 
 -- INSERT TelefonoProveedor (Roger)
 
-INSERT INTO TelefonoProveedor(RFCProveedor,Telefono) VALUES
- ('UEBR662373EQZ',6328992824)
-,('HIWE5598269MS',7385592930)
-,('BWSJ750826D2G',4015845975)
-,('UOSF3320941WR',7145692795)
-,('JDMW8923470EB',7542475827)
-,('KEHU953838M2C',5414390137)
-,('HGOH996820YCH',8015062799)
-,('CCKT279212KAI',6971306328)
-,('JCJI164513M1C',6009442221)
-,('EGJA42073049D',2029868915)
-,('YKTJ695204CCK',8316372742)
-,('MZKQ126134P49',7310576745)
-,('WQLD546581OYI',2443370992)
-,('NNUI9195330IV',3257154396)
-,('FFAV6172093Y6',1448171278)
-,('PMDQ3662482M5',7769463100)
-,('QBLG5229736GX',2983197651)
-,('QGRR217412WXJ',4496024487)
-,('YNAY5296234OG',8024670680)
-,('UGAG160651D6D',1025532145)
-,('TEHB663839PHD',4624014777)
-,('VIHQ4640731U5',4965626727)
-,('DWLC692177ZNI',1400594997)
-,('ZKWT840645PAB',2734822587)
-,('BKST310255HHA',1757631412)
-,('IVXZ158781UWJ',9390598212)
-,('UARX946897TFD',5109162553)
-,('ODRA1052721TV',5573512367)
-,('JFAY478968T9F',9084301709)
-,('WWNL406560QL8',2592447245)
-,('GYSU614963NDZ',8462200624)
-,('FZAO370248LYI',1227761263)
-,('VWXK961815518',4893532195)
-,('BJJE997379PO8',5978635351)
-,('HEYG602772DPH',4716949233)
-,('SPYF288627W00',4819003001)
-,('USOW274676NCG',3495292348)
-,('YBRM615582RML',8103770786)
-,('YUOP736511U6I',7723457421)
-,('FBFE71357624M',6297115576)
-,('LHHX666872MWB',9611621296)
-,('GSXS113628FSZ',6140532501)
-,('WTXL708322OHO',4312136012)
-,('UJMO850203RVO',5967975784)
-,('YAMS637003V7C',9436389135)
-,('NGRN18912975J',2084461497)
-,('JTBZ017351LW8',4468412699)
-,('JOYY850166SR0',5194593425)
-,('DRYO516651TFE',5559758942)
-,('BGHO064351MU7',8987146133)
-,('PUNK31565054T',9371002933)
-,('TBSV613521NRF',3322509366)
-,('QIMC098168NKU',2024646526)
-,('LVSI1502521M1',8885005430)
-,('CDXC878234GAF',8989752887)
-,('QHNQ769989RGO',4023812305)
-,('BTGQ389057PXS',3367262323)
-,('EXTM336450QL1',9447421241)
-,('BKDW700858ZG8',0464946607)
-,('FVDP9098525QC',7471562688)
-,('IWQY471421Y6V',3447490564)
-,('LXXP4992440VX',6488654930)
-,('CFWS368000M1C',8375974302)
-,('DVNL696889L51',1961300234)
-,('EFPU412340NQZ',8050671060)
-,('IRIK562289VWI',9526334274)
-,('DPEA639046XF8',6599550117)
-,('TVXD196298RYO',3394900745)
-,('KEEJ964346RBE',2745952017)
-,('IETJ940600QZN',9080021891)
-,('DSWS9793450HC',6058209480)
-,('OAVZ991574JNT',3152552299)
-,('KRZY7703450U1',3393987979)
-,('GSPN084490Z0D',9469283526)
-,('TXGT480867OZ8',9423031113)
-,('OZKL526309VMP',6391243195)
-,('OEEG5658323KI',3924635242)
-,('XLZP000342XWB',3850375369)
-,('YNKR5667642AH',0095331459)
-,('VDNZ6099559CO',9426674527)
-,('XGEZ2975358Q6',4155251693)
-,('MCBF238467QCZ',1005039771)
-,('CLWH2823823BZ',7433812782)
-,('ULPC902078R7M',2839646564)
-,('WDPX0609269PU',9469603403)
-,('UMBG990120UPO',1551719440)
-,('QPEU865451OD6',5907457134)
-,('ZHFX857543L09',0286924059)
-,('SIAX457644INQ',6901043551)
-,('QEYI423491BBP',3351333976)
-,('FAMI423631REV',6836831758)
-,('YSCH901751YTY',3443697461)
-,('ECMW072968R1V',3084097058)
-,('FPXG298410YY4',1011816394)
-,('LFZA761709C3R',5465865689)
-,('HTNH318083T34',4334136137)
-,('NYEI4313345ZY',3653995508)
-,('RLQH337633XPY',4698387033)
-,('VOFV3768854PH',2393215469)
-,('HZKO861659DTX',5198257239)
-,('QFRM209637331',3025141705)
-,('IFPY193687CSF',5548351106)
-,('EIBK474731JDT',6098007239)
-,('KONJ647124GYP',2767860748)
-,('WSLR343324KUU',5271956850)
-,('XQPF750981LHJ',0815606562)
-,('ACAR959502ZXD',1283656242)
-,('YMCO231866SCY',5226192905)
-,('HXCZ19705971T',4815846663)
-,('IUKX842086PBE',8230078949)
-,('GZVC681008C53',9882020263)
-,('LGVI744020ZUW',2923242741)
-,('LIJQ767286UGW',9927179739)
-,('TCAA23822017A',8950803429)
-,('NOER119664VKU',0108323287)
-,('KWHJ447522YDE',8905424045)
-,('LGEI908902EEG',4069434394)
-,('SFUQ2724908V1',6130231845)
-,('CBZA558084V1Y',1191230777)
-,('WGEF5234947F3',1681133371)
-,('YLBQ980242ALC',6673871090)
-,('EHRE574439884',8043887324)
-,('BKUO408586H7X',7327471156)
-,('ATGC74162816Y',9082919975)
-,('QHEE932710K4J',0467507823)
-,('TSGQ643172HIU',1813251695)
-,('FCTY234389X9M',3836678350)
-,('MIVX293869ASI',5333697369)
-,('NBJA753952766',0442923039)
-,('VQTJ92500374X',4121727009)
-,('HMBM914924HX1',5689359848)
-,('ZVDB116622LUJ',8987724616)
-,('PRFR346405401',9466095414)
-,('ZWKY883448H21',4342324716)
-,('QELI025909JW3',3362829065)
-,('IOBJ563674MTX',8868627599)
-,('CVLE4577298XZ',2239172897)
-,('SOII310101G41',1033642255)
-,('WAQK748536KXV',0256617124)
-,('ODHZ8367027QY',2599833820)
-,('TKHK941426VBM',0703069070)
-,('RBNK9604379Y5',7240603617)
-,('BJBO4838833T9',2119254149)
-,('VUWN710740YXK',7729212464)
-,('PEWH1936736M1',2784887958)
-,('CKNK867479SVW',0706745064)
-,('MXMV948227CU7',5463521623)
-,('FJMS0326234U2',2616916301)
-,('PHBD139248LI0',6259763267)
-,('TFID1700102IU',1024841658)
-,('IWBF960827MVH',3515604903)
-,('ZTQE678319OWF',2947289643)
-,('HIOA474185GZ4',5474373561)
-,('KILS696327BNJ',0170104842)
-,('AVND3819211KU',3266437297)
-,('UIIZ577363F5Y',0431100183)
-,('PLJX997203TO4',8366003782)
-,('VOFJ879122CJR',5908908046)
-,('NYJD709963BJ3',6976228597)
-,('UEUS7819237NU',9661789615)
-,('VZQG359355QI1',2541395589)
-,('PHBP372588FIM',8506918160)
-,('PUAQ750815FJ4',5265610526)
-,('IPDH337438CSS',7858480955)
-,('DMGD512035WUU',6330333825)
-,('NQZT803209NNU',7299919737)
-,('UOSV194061G4F',5932990827)
-,('CAGO724953DDG',3235825420)
-,('KKUC162937G5F',8678758499)
-,('OIJC721465IHF',0277118842)
-,('WXJP796711DBC',6173044286)
-,('EPNM613338JGF',5712260044)
-,('HDFM494191FJB',5163889415)
-,('RDHC973077KNC',6501222370)
-,('SIHZ128850NVN',9276625823)
-,('BTQA251064RD3',4124577511)
-,('LPDK943471XEM',9846835850)
-,('HXOO8663756IR',5298121113)
-,('DILK413941H6Z',5378980788)
-,('TOKW059463WBE',8437310330)
-,('HNWD853914URI',3539876053)
-,('XVVF9249154K4',3062765372)
-,('XXCA719270E8A',8343148985)
-,('IITZ29719539E',4290817135)
-,('EYNE004889GRS',7725258515)
-,('AZDH364262Q2G',6981853368)
-,('KEWK2013432D9',7754544765)
-,('OXEA9761253VY',4259643339)
-,('BYOG5382836YD',0925478294)
-,('AFHQ549413O8S',2844254870)
-,('OXDR7591372W0',9541380926)
-,('ARRC3089348JQ',1040594859)
-,('XABL7046475DZ',8925216508)
-,('JUTV7688035R0',9135342874)
-,('EKAB471820T6D',0544518025)
-,('TIUY396300J4V',0048472914)
-,('EYFX6017273E3',3873585925)
-,('JUUG897326BCV',2552170828)
-,('VZWR5180802VL',6753584945)
-,('CDBP1035332IS',7577523697)
-,('THOR356802ABA',5965427615)
-,('YMYK8949060KE',2436664324)
-,('PCDG8506117UF',1282560417)
-,('BGNN848040GCX',9361728379)
-,('DSNY574158KL9',2040306464)
-,('UJFV3582533QX',6912495922)
-,('XXSU791431OWV',6672050290)
-,('LOGQ61593832N',0769715279)
-,('EQJU7376778NV',1361584079)
-,('GJLR535141VQY',2106406437)
-,('LDVT124578USR',4097152030)
-,('MAQZ048798VU1',6708385960)
-,('LIQU9724303Z5',4185091309)
-,('UTDM008738WO8',3144409024)
-,('MBUQ6362826V9',0911259741)
-,('DXQH749506DTY',7096303346)
-,('XMAD4653617TN',2239840951)
-,('HNBI466896FLE',4784635466)
-,('GKIQ228572N5C',6800009652)
-,('WBVM806873OXN',0283069511)
-,('CMQY689972GZX',2259410771)
-,('ORMC948608I79',4989402822)
-,('VFCL608034CG3',7261812711)
-,('UHHQ632199CYB',2385154054)
-,('QBHO076301Y9W',9185426834)
-,('YBHM95174774H',2694175822)
-,('UAXC4500456KZ',0089602723)
-,('NSIF051336MC2',4708092037)
-,('GAVD067169PWZ',6893637631)
-,('FMRZ018293JIE',9734934477)
-,('HHLW023573QGO',9887584508)
-,('KQZP839401SSY',5938474511)
-,('VSDA0758275PR',1541163747)
-,('XNMP243021C8O',4854785528)
-,('HCJK214833UZ5',1938652222)
-,('KZIC2532079N5',8506531402)
-,('EHTN330350R32',1699071341)
-,('IIIM562676PP6',5357704255)
-,('YLWJ384882FBS',3946072838)
-,('UPFG986830QCD',4322920067)
-,('WGMN9814861OD',3955953610)
-,('BJGR245068HM6',1256452501)
-,('HKQB411547GO3',4968520357)
-,('WQBM253697JS5',7062001904)
-,('CCAM419496E50',5011604990)
-,('VUBY765283CP6',7564158990)
-,('DBKR758504NQQ',8431535868)
-,('KNWF730405ZTB',9838852727)
-,('GRDF066108VM0',7596851309)
-,('TGNH196138GKN',3186197334)
-,('VQCL727683DFK',9417735218)
-,('CLSV937311JIG',9236812847)
-,('UZKL9180732PG',7189569942)
-,('HSNE724862DFF',0976593816)
-,('GTLU2894006WA',0862117054)
-,('SOKF896274KOP',9472673653)
-,('PRSV4744876AH',0283737662)
-,('BYXU3723868F8',0015247791)
-,('NKWY15381250M',3139547408)
-,('LCXE059529L7U',4458098498)
-,('NSSZ345619ZPA',1438010649)
-,('EVZB609644CUC',6326983202)
-,('QXBK070323MJJ',9883534216)
-,('AZMI675933YD6',2847687583)
-,('RZEY3957013YL',5696903204)
-,('CJMR056212A1O',3427865277)
-,('ZFIG373593Z5Q',3813466585)
-,('OYFA842158DQC',1468597003)
-,('VJVZ169047U73',8175770981)
-,('KUYN858294YO3',2988768294)
-,('TTQR561000OW7',8068264256)
-,('ATLY102514AS6',1050927805)
-,('CDLC524720LB5',3287463789)
-,('RFYF175219SPT',0844735135)
-,('OCGK2557063R3',2607265093)
-,('OAII8937749BR',2069120847)
-,('EGCV959446ML2',9219249960)
-,('CDUL144932PTJ',0232683462)
-,('GSON3089556J5',4502821512)
-,('NOSJ490209DFL',1121499859)
-,('PJDX331012A2G',3683757905)
-,('RRKG127091E15',2841384934)
-,('LRWK579746VKY',9084651818)
-,('KDFN025492581',1274731643)
-,('GREA6669107UZ',0012578130)
-,('SCNQ645798X30',9717340853)
-,('DLKP3335416J7',1401588354)
-,('HCPP673785669',4380931090)
-,('ECEO07833694C',3209894234)
-,('WZIM2720320MQ',0710962695)
-,('AWTD771855UFO',0603507405)
-,('YBKH428601B1M',5207417455)
-,('TSEY094441H4N',5447452978)
-,('UFXX439153462',9827024545)
-,('XRVX3338527WV',7836340156)
-,('DISJ392749Q6G',6270797426)
-,('TKYU4400669F5',1121257289)
-,('RROD368008YYX',3288246997)
-,('GVWE785633EG6',1738099863)
-,('PYGH7610096TN',1749510614)
-,('PSYZ748689M7W',3732193927)
-,('GYSZ084000JRW',1784677021)
-,('UHPU7032856MX',9996803939)
-,('WCTF493369PK8',4357394924)
-,('ILUH409611CUU',6203542942)
-,('OJBW008656QL6',9800093614)
-,('LNII914823CAQ',9316361782)
-,('YGME2760139HQ',4313920248)
-,('YMTL76826456M',2343439330)
-,('CFGB415833RHJ',1008200007)
-,('KBPF015679V3P',2333873387)
-,('CTPD833592AVG',4097341258)
-,('OBEP8445993A5',4723393685)
-,('ZMDE8990278OF',1432561972)
-,('FPMX722270J10',4639310941)
-,('SPLM296596IG6',8812005758)
-,('YTAC845195C9U',4044768773)
-,('ZYZC595850VQQ',1103177057)
-,('QSED615810Q49',4695909063)
-,('LVQC8959788IF',3119701559)
-,('SRZZ892681OUS',3075422634)
-,('WGYL5585159N8',6052901918)
-,('BCBR850236TB8',4439649365)
-,('MKGN143581XEW',2340126691)
-,('VESJ690056W7X',6078806106)
-,('UAAI9548254GK',4511770425)
-,('SXQN577933RJC',4235740176)
-,('DEYK816352OXU',2107231438)
-,('FQZZ783986I55',8911948170)
-,('FRQM158548YHE',5647152930)
-,('XKOC643422YUV',9194536906)
-,('ZHQI906061PBM',6764750272)
-,('KYSB875197CYR',8406608701)
-,('JROY5394718K6',8107721979)
-,('YSED253944J4O',7993679383)
-,('BKIV549895IQ7',0457532999)
-,('KERX860505X7L',4956516381)
-,('ZOCK039765ZL6',4456579661)
-,('JVYD954908VSK',3021516467)
-,('CYDV3814893PQ',5657819706)
-,('RAHW953532GN5',8334338847)
-,('DNTC039641F6I',5678411936)
-,('GCJF0752325MV',7158037673)
-,('PKXI0906232JL',6798338946)
-,('OLKT961955OV5',8609421688)
-,('FDST917096RN7',5398243289)
-,('XCNY5679910J1',1451899266)
-,('HQLP841262EW2',2053771311)
-,('QGIH204054RRD',0162597976)
-,('SDKV828977M9L',2005382140)
-,('LBSU899095GA9',3998389239)
-,('AESD444638RLC',5496367247)
-,('ODSF032822GJL',0767481197)
-,('QJGA232980PHK',5888655202)
-,('EPWV530995HAW',2773456992)
-,('VDMJ552495NLI',2771172504)
-,('CDHG29564200H',7963844692)
-,('VXVK137282A8F',6898079152)
-,('VYZM368789SDR',6407561571)
-,('RYOI18800901Z',4095607924)
-,('VSLU312857RB2',7147216655)
-,('TGDZ321487IU2',0291104071)
-,('XEOY848601EAS',0648468228)
-,('GOLJ093398U7R',2812622378)
-,('KDPC920643VHH',7707603491)
-,('UKTU52322910A',7446672262)
-,('FFTD432877KA7',5412684104)
-,('UEJW972346KGB',5013385662)
-,('GVIK787462IIT',9543563602)
-,('FHPM324502U3P',1385685494)
-,('CDOD066193EC9',7193481151)
-,('HHAB322852YMZ',1533322123)
-,('MWNW082710I74',7958078556)
-,('MYXJ741400MQ6',8458795197)
-,('FCPZ611443M4H',7472067326)
-,('OLUR486979F8K',4395028607)
-,('RIYR8577402YY',3213843373)
-,('ZUXQ058525YGL',3027054514)
-,('PMSD929533IH4',1286334300)
-,('GJTR297334DBA',8611164768)
-,('RVQH69717344O',9207937468)
-,('PPAQ23957805X',2744737699)
-,('XJEY3645775WV',0729711739)
-,('GUON455347QF2',8968808879)
-,('TCAS0809453P3',0101493047)
-,('VESB142552IY1',8964149764)
-,('HBHE036984XE4',9467801269)
-,('CEPZ28053788N',1774583399)
-,('NVKV793758MX0',8624059675)
-,('ZZFU201887LWT',0268011380)
-,('QCDG847489BG3',9270137949)
-,('DAAO721466AZF',9152390992)
-,('OXAD357816P06',6415221593)
-,('PIGG56727577N',4958581823)
-,('PXIB061923X8O',9346215619)
-,('OFCM781240U39',4845666388)
-,('BWJY658463HZL',4778358063)
-,('YRDL3752596ZA',1012905456)
-,('FHYN367329XGH',1848157643)
-,('QFBR976876DDT',5860191283)
-,('UZIN530092NLO',6440189812)
-,('MFCO230094EUT',7338186093)
-,('LZRE917742XB2',1376067793)
-,('TKEL137413WCJ',1065283367)
-,('WEIG715284DQP',3408214504)
-,('AUOV056587OFI',7098757429)
-,('LRLU87317835N',2395381723)
-,('NTNY972509FWI',6813193344)
-,('BLDE418980KHH',3384270951)
-,('HMOP575433ZEN',1091995879)
-,('IIND8570823HR',5230864091)
-,('JUMM020560H98',2741999408)
-,('AHFK214690E1H',6894443521)
-,('HQRG218171US8',8583262318)
-,('GDLH37162372I',9837405408)
-,('DGAM283199P05',4205049066)
-,('QBZG6101582J8',6080490946)
-,('MUMC691946QJ7',9168400239)
-,('XATD05973635N',9312104237)
-,('TTIJ9052175W0',1643099414)
-,('GZTA175363LB1',9772162390)
-,('CRMG174486V7Z',2380542183)
-,('KKBO146142Z81',1941498759)
-,('XKUH318555RZ3',7476566102)
-,('LQMT878533PF5',4613546111)
-,('CBFJ5530694J7',6027539337)
-,('HYKD665179CWP',2550473144)
-,('FIFM585649IMW',6918854859)
-,('MPXV785149MLJ',5319646608)
-,('GVVM263375XX1',1456453949)
-,('MQWL226296FOZ',3252442996)
-,('BIOM772665SEM',0206313225)
-,('GOAV934666GV5',3246172979)
-,('CFMA291539Z2O',0686596890)
-,('YROG190505DZS',7635037682)
-,('AKLG2013125HV',7378124667)
-,('QELL033956IY1',9089073242)
-,('LHJR430529JNR',2617918352)
-,('FRAD612538OE0',4638253465)
-,('DSOY229494IHF',1072847393)
-,('DEWV17168719E',2928919329)
-,('UWVZ4325084O5',2717049433)
-,('MDOY70237002C',6955140076)
-,('QXZB727729OLN',4484362114)
-,('VWSZ089210RKD',5045967177)
-,('XXPY553332PWP',7208206649)
-,('CHLD72166308K',0122694387)
-,('BQGR331904HAZ',7461919190)
-,('MDEA757912XQ6',8176930912)
-,('HSCN770669DVS',3536877466)
-,('ATRM1589845MJ',0274561998)
-,('ZPFT073175ADZ',1137719191)
-,('KJFG073310UY5',9195676898)
-,('ADLJ282043RQX',2844092408)
-,('AFLE952504O86',0503711683)
-,('WCYH214758LN8',6041129428)
-,('BSUQ198528ZE7',7625947511)
-,('XIMY299358FQY',0062746758)
-,('TMSZ3069420UU',0204559441)
-,('LDCN668755AY3',7475710147)
-,('XDPR8676213TD',7769927832)
-,('SBTF362644FCC',5489109763)
-,('OKPE352313LV0',9798276879)
-,('NBMY035986452',3681413574)
-,('VMOX4631903J4',2643826900)
-,('TYRE0256256JV',3788383503)
-,('QDGV465835LCS',1092247791)
-,('PXMV03679536B',4465912860)
-,('OPHE67277474K',5984800149)
-,('VFGX869850O62',2072703621)
-,('SCBM366800LRG',6512052965)
-,('CCGV972997MHM',5785243088)
-,('DQQB631522I4L',8176179851)
-,('FDSL309639FZZ',3871186076)
-,('YIAK68714595B',3031405184)
-,('EIYT7658288J5',1799284552)
-,('HXHU808921M3M',4434285771)
-,('IKNQ778661RAN',2858103085)
-,('VUTC243350THI',7569648285)
-,('ADFO82786258P',6742482801)
-,('QTIH4978801T4',4465680984)
-,('PMMF748247XC2',1104123289)
-,('WBYJ774414KAU',0934814546)
-,('ITHK053906TM8',0560899401)
-,('QQSI350313ZDD',2269434695)
-,('TAUC0354684J7',0856435052)
-,('OZFR705492SFQ',2372469018)
-,('VQDN9111749ZR',7411376019)
-,('RXSL407485ZQV',4711054761)
-,('RFQE492221QQZ',4744639504)
-,('LTPS285880A8U',0208199875)
-,('ZYMG9949755UJ',5615280749)
-,('OVKI583317MAO',6200864985)
-,('ARRM007908X1T',3219351964)
-,('XWOH551694BFF',3938096282)
-,('HBAB848044XPI',0264771975)
-,('GFWQ4042883BH',6076126919)
-,('IUDV941798MUA',2933788823)
-,('BFBM662942TBB',8253453803)
-,('GOYF438497P37',5395025421)
-,('OXHN723382QKD',6876349260)
-,('YUXC251848VA1',3141185093)
-,('AKEW678867G34',0979158343)
-,('GFPS511862V86',1457291004)
-,('WFAY739159MCV',0833040286)
-,('SSHW082209XXY',0842425701)
-,('YABQ668725KJM',9858685589)
-,('VYHF2106431EC',0242354285)
-,('EURV728681Z8Z',2276315234)
-,('ZOTS2345525HO',1201529802)
-,('AYXA0314042LN',4105569149)
-,('ETIH073659PZ9',8325772561)
-,('SMKR858861CDS',6638552140)
-,('EHIF751759LDN',4271213284)
-,('LRGD209872X4I',9409082453)
-,('TNCP68670271Q',8740473045)
-,('ZVEF807478ZQJ',6286395194)
-,('LJZO428591F4N',0036800376)
-,('EHST369332OY8',1595103331)
-,('XDCP36672647Y',0528148671)
-,('TJUX4120678YY',2555115729)
-,('WOSM759958IG9',6071437501)
-,('CWBX803640ANO',3407336745)
-,('YZWA152649CM2',7326905643)
-,('PLGL639314QZP',4389795552)
-,('ZTCH476615ALV',3298682191)
-,('ERFH2950720PG',0502008605)
-,('AWUP064674Y7H',3107503920)
-,('MVLA71871193Z',9709224108)
-,('KAYU050765AWL',4754686394)
-,('KIKX865339XMY',0299809229)
-,('VPQP167938EE2',4798260711)
-,('WRIN2815427LU',6396997401)
-,('MYIC493845ERB',3041956184)
-,('ZJPE108131PIV',5637134399)
-,('SIEW528595JDF',4997159755)
-,('RDKF149202QUA',5950084857)
-,('LDIQ0717537RB',0352845884)
-,('CLOW486804FC0',7097397022)
-,('YXBM861023JQK',6099675961)
-,('CFEN040575NR5',2385239152)
-,('OCKC408757T78',0215520606)
-,('FSZF0276457QM',9935777081)
-,('YNOM356585VIE',6415739874)
-,('QHXO936834OYN',5382650749)
-,('FAXH136590EA6',1917465298)
-,('GWXX122275G5N',9373614997)
-,('ZYAO567423NZV',2989657682)
-,('YYFW0023105BL',9208108552)
-,('GUQO097792VS1',2058171916)
-,('CJWM841819AWD',6969138398)
-,('LZVR070624GKK',0288765238)
-,('BRKQ925371RM0',7034358974)
-,('PFYE4749338BQ',7067130313)
-,('UPXJ878670BXJ',0420074421)
-,('VVLV186585E1S',8427449116)
-,('SGCF748177GHL',4841388555)
-,('VKHJ591140033',3236437250)
-,('CBGE584485QD8',2142882517)
-,('IGOX316691DVC',7707576539)
-,('ALRX345861DKR',0321711018)
-,('MKFO083534ZGB',6521695657)
-,('VQMY1854685C9',6552777748)
-,('JOEZ1831917V9',3488366706)
-,('PAPF2898730U8',5123267806)
-,('TKYP26521814C',9123109814)
-,('DQJC4658581GN',9022782510)
-,('TLEB164583LIZ',5219459673)
-,('EPSA884465OI5',0699934489)
-,('IZTL507611GJB',8282562690)
-,('RXDF928146NP1',0995135426)
-,('FLEA4934077LT',7918890410)
-,('LULB626507KYU',3072093058)
-,('SDUH6316237DQ',7822789137)
-,('XRSE380757FUV',2776998950)
-,('EWKR797993KB0',5275721925)
-,('XIKU481064218',3064246037)
-,('XNYH9045900FT',4764216035)
-,('IDQX3835822C0',2993375272)
-,('XRDY5359474JI',9848984431)
-,('HOEY045296IY7',6225776017)
-,('HZWV267254PPB',4544434380)
-,('SWWS141581HO4',5431059175)
-,('FGWA227785QO8',7773580390)
-,('EQFB95598465Q',6800540938)
-,('KWZO124937H3D',9007061208)
-,('CAGQ245488A70',0920077622)
-,('RZOM563531614',9574724679)
-,('BFHB198547MQ5',6175099779)
-,('RAPH300101RT9',3756047996)
-,('XGNC352869PB6',1395555492)
-,('CIWA909585RMC',3150775377)
-,('NUKZ268292DDG',8719378819)
-,('WRRX0888354MB',5037770343)
-,('LIFW323187M5M',6495037490)
-,('BWEE378360HKC',5978221189)
-,('DUJO287218CNP',5117289424)
-,('ODMP691042XUR',4655667748)
-,('AFFF229941V0T',7422214487)
-,('OZUO843886TV5',0707905929)
-,('NHRB101325FC6',0787586623)
-,('BFFX035870T1B',5160894413)
-,('PTFM60026433N',0760801029)
-,('YDPX6230044BI',4664219084)
-,('USGH931845VWG',2299299136)
-,('ADON679487OS0',7103911408)
-,('RCFZ368060660',8231781215)
-,('EMIA8784916AN',5229104835)
-,('SMXN315941X4D',7799875722)
-,('DSPA199347BRE',5090612113)
-,('ERCB502925AZY',3605578003)
-,('WNXF430497BH2',8910307365)
-,('BSJO333259M5D',9610807981)
-,('USCX786303D33',6234123289)
-,('ILUG503204D7P',8246173102)
-,('VWCP455349TJZ',1239045984)
-,('PPXH0213519YS',9659034505)
-,('WMZX464559QEI',7340968888)
-,('RNRX031778CSQ',2736339431)
-,('TCSS431335N8J',0953113341)
-,('SPPW936008BC9',7706758964)
-,('XXDE356229JIN',9358215553)
-,('WPLV787615TCL',4005965698)
-,('ZRPC774774117',4682079240)
-,('XZWX728107BBR',4643551571)
-,('RSKM016543MK8',0522700275)
-,('BNQG156821P83',5159249869)
-,('FIQR091177NCQ',7764538004)
-,('PIGL0354460XE',9019945689)
-,('AHSY0202180EU',1470666379)
-,('HVHB1504114Q0',9316592278)
-,('IVUU095214RLP',6285824973)
-,('BPIU74845238W',0249045211)
-,('TSWB184240A1P',4739235334)
-,('UEDP580999B18',8792081324)
-,('FVST974901UL2',0003168281)
-,('XEAG8431792IU',7370460712)
-,('SKAS5427618XR',4390527539)
-,('WKGK504706PKX',1462444716)
-,('ICUE069371VUF',4834714908)
-,('IOCE3110671UA',9505559775)
-,('RQDQ647611DF7',9806006546)
-,('OEML338546OR1',8743710510)
-,('NAQK2716593OM',3036339912)
-,('RHOZ361942W8C',6398488198)
-,('DIFA98682240Q',8776273268)
-,('SKGT969587WFH',6139658487)
-,('RVWO950171UUC',6154240979)
-,('VRRM641429D3B',4269256452)
-,('COCD590010K7V',7705422782)
-,('QKTQ582578GJG',8626559900)
-,('JOUG7969525Z9',6548244369)
-,('APSP2339592JR',7267685514)
-,('UWQG994408VTB',9503747913)
-,('FZSL381154V6T',4766121237)
-,('IDXI36722218V',8116429111)
-,('LRBH4242267OD',2351995973)
-,('OEJY588820UC1',2754738601)
-,('MPNF881612YKB',0120921753)
-,('KGZE713623E5Y',3350997582)
-,('THMM964110N8P',5822223392)
-,('BMPQ818758YHF',6922037751)
-,('PFZR367952P7S',2233503699)
-,('KNOL42814062T',5552463319)
-,('RUZS862917D4Y',1852186916)
-,('LOQK942041YD4',8705680545)
-,('EYQV978170QM1',7018802719)
-,('JNTU458349Z6Y',6232503235)
-,('PIRZ854391OGZ',1706724518)
-,('RTFX139256OIQ',5005056110)
-,('ATYY522600Z2T',2511216468)
-,('CVEO261362ROD',3004637200)
-,('IOZT905556NS8',8208274314)
-,('RMXB006178I7E',7387496834)
-,('FGDJ495319ZOS',3459588011)
-,('VIRW495491VEL',6461540281)
-,('IEJL3949598OC',0095719215)
-,('TFOH144035MV6',4269556676)
-,('YOYH831970PVJ',1463183663)
-,('PAZO295091KB8',3752522194)
-,('GZHY179793EHM',8117222013)
-,('NOBD169655AXN',5628954990)
-,('FFEE219180P44',3599736231)
-,('VOVB236031R7C',5729181179)
-,('YHBJ6645772JK',2245319431)
-,('BFOG228911SF8',0591079357)
-,('ONMA109576NUG',4514121600)
-,('WZUR9885760KT',6531504036)
-,('LOQD741213X6J',0458101094)
-,('HXRJ711416T1N',2947241752)
-,('CEMI863718IXF',0749932437)
-,('PHIZ752436IBP',5641069769)
-,('ZIIP733909LUB',6308577189)
-,('CPDA580662O9U',6801015851)
-,('VMWD500476ZPX',1814047009)
-,('FZIB956035JDJ',0034507482)
-,('CENE137863R5Z',3410420163)
-,('OQEU704253CEK',4098740665)
-,('OUYV201710JXE',3826353251)
-,('AGVP834937HEV',0183635087)
-,('HSMV6812841WO',6582700904)
-,('RLFJ530330Z5I',2368676227)
-,('IYQJ483312C36',5776541681)
-,('SNUG504763DL1',2761352854)
-,('RXBV5992936ZZ',2008054659)
-,('ZAGK259438U3E',4760726373)
-,('UDEK344537FM8',4712990117)
-,('JZVF255008O04',5697902942)
-,('KNYJ1862790MR',9527571558)
-,('CAMF861779CJ2',1807554420)
-,('KCCY438383AL5',5814676702)
-,('UAXR547292B5N',0835242136)
-,('CQKE039758B9P',3597280703)
-,('OUFD449298HQJ',8751424560)
-,('GZRO727015SWN',2562711033)
-,('BGFK057094ZP4',2835692246)
-,('SVPR95121052U',3478947777)
-,('ZMWB3749284AB',0976931500)
-,('CRXF8949658XE',3672729523)
-,('KLMM913893U8L',0137207350)
-,('QYHC366395PLE',7594074348)
-,('RLCB034151N5B',0183428984)
-,('AFKF244085BSO',3095804131)
-,('UZRF1815798BU',1598300746)
-,('VMHX3820089OL',7353714145)
-,('RGDY1033566MP',7832339444)
-,('CBZO3643615NA',1079658522)
-,('XYGD84211340C',4430591702)
-,('KKFF321441SNU',7168328329)
-,('AUEL639710ZO5',4220966691)
-,('ONOO750796NVZ',3553925378)
-,('RNNC111644BCG',0396741542)
-,('ZTBF622492KXU',1279315079)
-,('HMWF4748373YQ',4775482551)
-,('DMXG766268RBO',7664359150)
-,('ZPFT5232630BN',8990868243)
-,('NMUJ610106VMA',3973083503)
-,('QZBU711878ZGK',5208125278)
-,('GBVT332914TV2',9660264008)
-,('HVPM9691478LH',7823399170)
-,('TSXV4445518GC',4700930196)
-,('DABH334360XBM',4758043250)
-,('BRZM982676GM5',7349006904)
-,('STFL74271587D',1845800169)
-,('THTQ938841TTM',2774038463)
-,('BOGO270881O5M',4566309819)
-,('RIQD008056RRQ',3005427415)
-,('QYYJ5887142OH',1383675644)
-,('COHY432230WP4',2869931996)
-,('TEDO531393VH7',5435565572)
-,('SIYV893043Z4T',9985315607)
-,('FVCT063686PE8',5522602963)
-,('XWCB271190WRV',6873767940)
-,('DHHS724431VO0',1212732575)
-,('QYCC996766QFX',5511201777)
-,('DMJF9116219PT',9224929910)
-,('YELN075917AB8',6499080033)
-,('ZQXG15662092J',9872568720)
-,('AKPH693672RAK',5180730125)
-,('DWYO775836RPL',5296338206)
-,('ZQPF260391DAO',2218027653)
-,('WHRR2168251WE',1173571173)
-,('HEQI435144KX5',7899770552)
-,('UPOL8288451TN',5612839432)
-,('RGBS106332Q3U',3035258817)
-,('DPQM580334GEW',6739506602)
-,('SLAE4579346ZN',4630975390)
-,('ILJV813494TU6',8983184123)
-,('NYIL056824QDZ',4401808687)
-,('YLHS9801108WV',4237913116)
-,('CCJN9516167ZN',3981211498)
-,('QOWV157341LSY',3728959457)
-,('WZYQ422150RJY',0751776700)
-,('TSDM346077KKG',9293507454)
-,('ERBK1830342GG',8806672963)
-,('HMGW701059UV8',7734794005)
-,('LUVZ3568707LU',7847918873)
-,('FRZX036317O9N',4856983893)
-,('UENO992771N6H',8051446488)
-,('UBBX5150154AC',2442355235)
-,('QTTI747533DGD',2025008185)
-,('UTXN915577LVX',6462739789)
-,('CEZV859335J2B',1498572927)
-,('KOAF789716MT9',5451591655)
-,('FBZP840322YHY',9230789333)
-,('FNSX940115DCL',3814072610)
-,('IQZP381289FLJ',3835364911)
-,('OGKJ567272QE8',8888395824)
-,('CXHS7016987Z0',5225861743)
-,('AAMD627746362',7424067355)
-,('GJHB551356V07',4815291174)
-,('IWCG728817IIB',1063338897)
-,('ZWNV781522CR6',7325841158)
-,('VIXD813261V6W',5281935858)
-,('WUGD7641855BR',7961027848)
-,('UEKL782535ELU',1741128370)
-,('TKTH626782HOA',8416697368)
-,('MDLZ284607V6S',5682468359)
-,('VFDH044913NVE',4114699390)
-,('XTDH88235748T',6267213960)
-,('OMKL816189EVW',4343494723)
-,('NCCW5865979CC',1710106797)
-,('YMCJ596146ECB',0719740648)
-,('FHQZ135127RQC',9328126751)
-,('OWMD586973S1B',8285170815)
-,('DMET436642L0L',4902956488)
-,('TWSR136526NL7',8743050098)
-,('FBMM968853OZD',9806191787)
-,('OMDN507320RSA',5647940792)
-,('MCST214836LJQ',2658590070)
-,('XAPB075178I1D',5099042881)
-,('EOMN247231XUY',4955151882)
-,('QNQS118953E56',9623476562)
-,('LHIS850370JRB',3726497005)
-,('MSWB584281QVQ',4282174451)
-,('AFMZ387497ZT8',9945061007)
-,('CSIM9829440NM',0068840465)
-,('WIHY43277544N',2516803657)
-,('IJTG644740Z4H',4577157832)
-,('IJPU3628110II',0577265287)
-,('XNAQ05544028Z',5009507222)
-,('RJNR132465UI6',2460651365)
-,('EANX303240H58',5604046980)
-,('JHEK697538BIX',1295621663)
-,('DCFX250935SNK',1041959390)
-,('KIJE6668707V0',4511475363)
-,('WMQP397428I82',8333696306)
-,('EDBU112334FB7',8363711620)
-,('PLNH475705LT3',3559740772)
-,('ZVPJ752358635',2573935442)
-,('WDEZ478854ASF',9355390585)
-,('IOUU906484KNS',4541179218)
-,('AJDL4334605DU',7253641133)
-,('GDKC526279OWM',4352575628)
-,('FABT4403975GK',0555363500)
-,('TBSQ372432TGY',2782895980)
-,('DXEF018906GKU',2727266002)
-,('ELTM8338697YW',7880945719)
-,('HMAI21387437T',5063207155)
-,('IYIO0759766UE',6578672485)
-,('OXOT814591687',5490286208)
-,('VHZF988914X6I',1520528875)
-,('FJFT573884EDH',4913890640)
-,('KNDS231225YP1',3793121009)
-,('FAJZ288313TU8',8135145841)
-,('YVYK7439399VQ',3960375678)
-,('APOX523030BWH',5314942802)
-,('YTDG930250L8N',3093230722)
-,('VSEL170500Y2Q',0391166737)
-,('JCDX905435F4J',6489282149)
-,('BYOJ275690WAQ',6575760011)
-,('WMQL0449878B3',9293673732)
-,('JFFA587107BQH',3015090943)
-,('TGNE078064TCU',0245978707)
-,('MXBB9466579NZ',8598958074)
-,('KKFV212643O9O',3648314907)
-,('MWHK7249002T4',2081607253)
-,('XGPW814903PE8',4325139581)
-,('CVQY804143HCR',2668541083)
-,('ZNNT506905O4F',8798556207)
-,('KXCC8086441QK',2934385957)
-,('CGWS378406M4Z',0490862864)
-,('VRMO693230JD9',0255612410)
-,('QZTU826025RL7',5209660586)
-,('WRDZ227930CE8',1486537880)
-,('CSBW831854N33',4021542807)
-,('ADAO873808VJQ',0525150643)
-,('UYHA923824AEN',4036090220)
-,('TADK9639427QO',2252449081)
-,('XUBW682189MQ5',8972558583)
-,('MHJA685011KR5',3170490489)
-,('EVLL317290ZDH',6522277064)
-,('CCSS3019850JV',3605819925)
-,('NGSE931808O6T',0950625473)
-,('WPJV504529AT8',9810306253)
-,('OYQA000069PVV',8109142376)
-,('CYTF667439HHJ',5083935480)
-,('HSZI596690QDX',7814893696)
-,('XRYU571346BO0',0788069964)
-,('EGWU381327EMO',9930074573)
-,('OLHO8187658LY',7409801908)
-,('OTRX739954BCZ',5142423411)
-,('LIJQ545495OFX',1308184591)
-,('BAKS026643NUT',2013556709)
-,('WJSC1297068QO',4340078013)
-,('HMBD471289S7F',7017703683)
-,('EMRG808847UBZ',9686395330)
-,('NOUR172889RFV',1006735620)
-,('ETSQ214050Q1P',9974054132)
-,('XGOA205956ZGS',8551181836)
-,('BFXH972353UGA',8233416054)
-,('HTRQ854405IS0',5640089525)
-,('MMZG993584UD3',0243519336)
-,('JSKV958329GHA',3416815495)
-,('AITG0352176TS',9404361704)
-,('BDQV365836963',1520727374)
-,('YYNR031933338',0208970413)
-,('CQPL773308H6Y',5414281767)
-,('BUXW020395ZRO',7474110564)
-,('OKEC68616523R',9815048811)
-,('AQVD6816386CS',2631525693)
-,('AHVG479542140',6806042079)
-,('TNHX235539DLN',7796375778)
-,('ADKZ057660GLA',0512238903)
-,('KKFH057676B3M',0179458477)
-,('TYMZ830802Q7O',9307274142)
-,('COCV623245ETR',8434201141)
-,('UOLH808727PUU',7098697687)
-,('KPZX5286054P6',8011012745)
-,('FWRY115273NHZ',1172170165)
-,('NXEE930723NW0',6931824256)
-,('AJCD8581077Q4',4989282774)
-,('BDXX107363WW2',4678779560)
-,('PFZR443542BKY',8908315710)
-,('WYFG7873836T4',6459882680)
-,('PXEJ1542922K1',5278551790)
-,('MJXY699350FVU',6354395643)
-,('FAAT178900CS7',9873940741)
-,('NGSL346741NM9',2686593247)
-,('TYWI7180479ZQ',5760697077)
-,('OEFS686927UTN',9849061109)
-,('RILU674467Y2E',8277987618)
-,('BGNW68543649Y',8482245163)
-,('DHHZ869377PWX',0974079888)
-,('THDF140055GYU',2807858746)
-,('DDPL209552XIN',5019288564)
-,('ORIL7902216YU',3543270274)
-,('DTSA3649331WK',5850850449)
-,('KDTB70690729J',6389427451)
-,('GCWI034183IBV',5787601456)
-,('AKTA3427799W1',9455184247)
-,('TXUL887417ESJ',3156991711)
-,('HLNQ362419U2X',9456569005)
-,('TCMJ0020794RO',0391903880)
-,('MKNS115819ADO',2778244634)
-,('PINQ9773951SW',3987686275)
-,('UCJO2746410R8',4313058188)
-,('MQUJ000400PA0',5393993216)
-,('ELIB782336BVU',1455055786)
-,('SWYN89856254H',0972741855)
-,('FZSI632290QRY',2396146311)
-,('FWAZ135195UQZ',7725163770)
-,('RHCR688280HUC',6062854908)
-,('EKAC68671709U',4058302825)
-,('TRFX488991G6F',2356204783)
-,('HGRB799166MCV',0919186788)
-,('HJGF464367YJC',4211337878)
-,('CYFD353897DSI',6439353616)
-,('JIWP328192D0O',4336120271)
-,('XVIG928328BTI',3863374306)
-,('GWXP4058815C6',0928777386)
-,('DHNA084535969',7396128648)
-,('IACS341254WXT',1083386501)
-,('MZLB264522MMS',5225281415)
-,('CQVD192678U69',2135239464)
-,('MJOZ4983860QE',8026811613)
-,('PHXG111039N3X',2006832724)
-,('LEOZ413589XNT',1951885198)
-,('PLVM391901R55',9308077945)
-,('MCYV659198BI3',1056110797)
-,('JPWJ704349IIN',1082131422)
-,('LKLN802151EF7',7915798792)
-,('NMAC613311KS4',8398569641)
-,('HSXM158778IDN',6940559829)
-,('CUTU854000VWA',9677358177)
-,('JTSR6449953L9',5621860921)
-,('RATL276284385',3028318131)
-,('VKOT190223XM9',4439074493)
-,('RMIY4232827NO',5193992512)
-,('NNXW4340430Z1',2160207415)
-,('JCPR169398IY4',4819376822)
-,('BSIS714426CBV',0382705319)
-,('XJHO809660QOY',9921434949)
-,('SOAI284947QED',4227660936)
-,('XRXK369569BWB',6161790199)
-,('AEIH536178D3P',8994050367)
-,('SXRZ5822551J5',3922093422)
-,('GFQZ224175SON',2525735173)
-,('HAOP479520VN4',8800351618)
-,('URRA1779535KA',6200295192)
-,('EEFD2961585QK',5835949345)
-,('EHZW971417Y0E',4125922465)
-,('LVGX870269C9X',0325977586)
-,('WIGR029720EZF',7189417620)
-,('TFOG329853IP2',5448754532)
-,('BSTK9546053XN',2724879738)
-,('IHNP989295H0W',6401765934)
-,('FNDB353333RE3',6738187201)
-,('ZUVP071864A7E',2052868412)
-,('DJSD706306SX5',1322642678)
-,('BYKC6876878V0',3686484372)
-,('HTWK703831XML',1187005228)
-,('DOIL0989904VJ',3377214675)
-,('IZLR291978L8X',1735150942)
-,('NGRM510576FTN',0917249969)
-,('DAMY97691992A',2093331665)
-,('PPCT2701655P0',6711921523)
-,('OKLA555040P5I',3849644634)
-,('NGSL03253011S',1111666748)
-,('UJVM845862P5Z',2006475022);
 
 
 -- INSERT CorreoVeterinario (Roger)
@@ -27098,7 +23092,7 @@ INSERT INTO CorreoCuidador(RFCCuidador,Correo) VALUES
 
 -- Insert Notificar (Roger)
 
-INSERT INTO mytable(idEvento,IDVisitante,TipoNotificacion) VALUES
+INSERT INTO Notificar(idEvento,IDVisitante,TipoNotificacion) VALUES
  (1,1,'EventoTerminado')
 ,(2,2,'Pospuesto')
 ,(3,3,'EventoPendiente')
@@ -30111,3 +26105,4015 @@ INSERT INTO CorreoProveedor(RFCProveedor,Correo) VALUES
 
 
 
+-- Insert para Visitar
+INSERT INTO Visitar(IDEvento,IDVisitante) VALUES
+ (139,34)
+,(531,552)
+,(226,221)
+,(709,89)
+,(302,693)
+,(764,172)
+,(365,619)
+,(827,918)
+,(25,923)
+,(845,1)
+,(241,365)
+,(854,928)
+,(730,535)
+,(205,130)
+,(752,534)
+,(398,382)
+,(391,747)
+,(109,281)
+,(543,712)
+,(650,118)
+,(40,990)
+,(692,70)
+,(14,109)
+,(465,81)
+,(344,449)
+,(900,382)
+,(471,660)
+,(96,299)
+,(389,756)
+,(566,633)
+,(806,977)
+,(774,465)
+,(218,28)
+,(644,838)
+,(511,423)
+,(688,988)
+,(815,168)
+,(565,575)
+,(621,566)
+,(117,804)
+,(470,715)
+,(563,705)
+,(719,325)
+,(953,88)
+,(171,172)
+,(322,710)
+,(579,664)
+,(536,916)
+,(841,129)
+,(592,964)
+,(551,329)
+,(670,723)
+,(298,932)
+,(254,611)
+,(580,698)
+,(1,137)
+,(794,283)
+,(740,689)
+,(61,725)
+,(128,177)
+,(301,595)
+,(198,292)
+,(433,824)
+,(835,305)
+,(245,803)
+,(259,195)
+,(39,472)
+,(941,230)
+,(836,578)
+,(787,68)
+,(281,228)
+,(320,861)
+,(528,154)
+,(883,745)
+,(928,824)
+,(884,125)
+,(53,767)
+,(22,3)
+,(579,960)
+,(478,819)
+,(698,679)
+,(381,844)
+,(704,368)
+,(489,434)
+,(45,776)
+,(236,565)
+,(430,809)
+,(94,172)
+,(15,521)
+,(67,448)
+,(407,248)
+,(58,432)
+,(929,518)
+,(988,974)
+,(392,200)
+,(596,611)
+,(68,51)
+,(289,617)
+,(455,808)
+,(83,558)
+,(802,192)
+,(388,141)
+,(269,260)
+,(359,133)
+,(660,221)
+,(924,607)
+,(560,481)
+,(23,591)
+,(464,73)
+,(556,628)
+,(370,971)
+,(56,722)
+,(580,446)
+,(650,169)
+,(74,237)
+,(519,901)
+,(209,361)
+,(47,11)
+,(381,575)
+,(57,291)
+,(744,790)
+,(564,798)
+,(729,609)
+,(153,603)
+,(513,995)
+,(116,706)
+,(909,734)
+,(448,823)
+,(964,850)
+,(359,697)
+,(812,567)
+,(456,738)
+,(332,818)
+,(869,588)
+,(293,15)
+,(509,875)
+,(972,661)
+,(768,763)
+,(603,95)
+,(705,555)
+,(445,932)
+,(159,172)
+,(668,41)
+,(845,883)
+,(844,875)
+,(619,909)
+,(41,723)
+,(152,370)
+,(45,808)
+,(271,2)
+,(946,833)
+,(765,275)
+,(860,501)
+,(361,432)
+,(484,588)
+,(897,162)
+,(485,155)
+,(576,701)
+,(428,424)
+,(785,777)
+,(940,930)
+,(845,1)
+,(959,657)
+,(291,334)
+,(686,246)
+,(314,161)
+,(343,819)
+,(533,252)
+,(912,13)
+,(341,254)
+,(177,865)
+,(931,760)
+,(612,268)
+,(228,726)
+,(696,603)
+,(975,594)
+,(296,532)
+,(313,984)
+,(194,489)
+,(870,249)
+,(854,401)
+,(111,544)
+,(927,466)
+,(149,650)
+,(78,363)
+,(711,336)
+,(830,453)
+,(748,572)
+,(2,996)
+,(751,499)
+,(545,379)
+,(867,698)
+,(23,361)
+,(101,507)
+,(21,442)
+,(316,816)
+,(41,367)
+,(850,681)
+,(917,630)
+,(839,315)
+,(495,647)
+,(197,876)
+,(895,839)
+,(713,663)
+,(506,481)
+,(89,573)
+,(813,89)
+,(573,171)
+,(637,719)
+,(914,376)
+,(823,804)
+,(566,414)
+,(753,582)
+,(354,621)
+,(783,427)
+,(881,617)
+,(295,110)
+,(632,57)
+,(942,703)
+,(364,152)
+,(356,799)
+,(474,276)
+,(316,552)
+,(283,268)
+,(769,75)
+,(89,210)
+,(184,978)
+,(737,921)
+,(580,465)
+,(75,183)
+,(353,647)
+,(268,140)
+,(31,691)
+,(975,731)
+,(185,912)
+,(146,277)
+,(324,533)
+,(687,785)
+,(562,169)
+,(993,691)
+,(582,117)
+,(175,62)
+,(414,370)
+,(176,928)
+,(877,475)
+,(328,860)
+,(624,672)
+,(107,137)
+,(461,606)
+,(704,719)
+,(114,871)
+,(180,396)
+,(545,592)
+,(880,868)
+,(273,64)
+,(711,122)
+,(722,518)
+,(344,688)
+,(111,509)
+,(71,686)
+,(247,618)
+,(379,27)
+,(132,376)
+,(435,689)
+,(245,164)
+,(772,284)
+,(816,658)
+,(166,192)
+,(603,453)
+,(454,974)
+,(846,996)
+,(905,710)
+,(211,670)
+,(623,33)
+,(503,917)
+,(138,643)
+,(786,34)
+,(899,954)
+,(676,591)
+,(504,891)
+,(689,800)
+,(898,300)
+,(563,37)
+,(160,544)
+,(103,563)
+,(121,957)
+,(631,429)
+,(808,121)
+,(123,261)
+,(519,415)
+,(237,260)
+,(678,359)
+,(311,743)
+,(838,948)
+,(371,832)
+,(268,741)
+,(8,246)
+,(674,609)
+,(531,451)
+,(300,859)
+,(20,998)
+,(736,851)
+,(514,51)
+,(427,472)
+,(730,334)
+,(484,377)
+,(868,915)
+,(929,958)
+,(667,183)
+,(119,270)
+,(143,130)
+,(962,233)
+,(783,698)
+,(604,972)
+,(959,676)
+,(657,656)
+,(776,590)
+,(523,8)
+,(366,998)
+,(428,834)
+,(38,282)
+,(689,900)
+,(157,313)
+,(932,821)
+,(913,86)
+,(807,679)
+,(412,713)
+,(816,307)
+,(454,968)
+,(249,330)
+,(967,65)
+,(539,966)
+,(56,568)
+,(980,374)
+,(535,130)
+,(779,979)
+,(981,471)
+,(384,318)
+,(538,159)
+,(870,917)
+,(435,497)
+,(279,618)
+,(654,93)
+,(748,237)
+,(818,575)
+,(682,299)
+,(851,106)
+,(960,726)
+,(938,485)
+,(53,634)
+,(338,310)
+,(813,448)
+,(400,127)
+,(486,702)
+,(109,134)
+,(542,612)
+,(509,51)
+,(480,333)
+,(149,559)
+,(247,376)
+,(657,273)
+,(212,893)
+,(828,566)
+,(147,301)
+,(763,225)
+,(736,176)
+,(548,553)
+,(943,567)
+,(699,432)
+,(314,940)
+,(88,544)
+,(398,687)
+,(217,509)
+,(161,921)
+,(242,381)
+,(742,793)
+,(185,781)
+,(158,555)
+,(910,520)
+,(591,318)
+,(345,604)
+,(636,677)
+,(715,79)
+,(784,248)
+,(550,530)
+,(937,545)
+,(771,822)
+,(650,116)
+,(976,813)
+,(450,213)
+,(146,119)
+,(284,646)
+,(890,804)
+,(511,684)
+,(836,284)
+,(537,717)
+,(534,369)
+,(544,545)
+,(876,310)
+,(148,188)
+,(527,30)
+,(291,361)
+,(78,635)
+,(407,332)
+,(832,436)
+,(113,689)
+,(288,961)
+,(250,580)
+,(496,35)
+,(760,396)
+,(588,986)
+,(896,819)
+,(731,674)
+,(236,227)
+,(849,729)
+,(815,729)
+,(722,260)
+,(767,275)
+,(721,400)
+,(838,631)
+,(196,991)
+,(319,612)
+,(9,164)
+,(341,706)
+,(329,544)
+,(581,71)
+,(87,785)
+,(706,687)
+,(844,344)
+,(165,481)
+,(990,398)
+,(358,135)
+,(700,306)
+,(965,761)
+,(549,57)
+,(800,470)
+,(97,619)
+,(752,475)
+,(403,535)
+,(120,133)
+,(414,987)
+,(295,61)
+,(988,305)
+,(631,384)
+,(496,543)
+,(960,889)
+,(385,539)
+,(672,167)
+,(203,907)
+,(4,665)
+,(289,76)
+,(379,991)
+,(63,180)
+,(649,631)
+,(500,258)
+,(553,705)
+,(693,317)
+,(876,816)
+,(983,774)
+,(593,859)
+,(373,369)
+,(612,8)
+,(326,608)
+,(459,930)
+,(555,673)
+,(407,403)
+,(980,27)
+,(318,794)
+,(525,641)
+,(286,972)
+,(451,749)
+,(32,375)
+,(225,785)
+,(243,184)
+,(126,522)
+,(751,900)
+,(713,660)
+,(118,528)
+,(173,429)
+,(796,314)
+,(956,598)
+,(138,88)
+,(493,321)
+,(183,402)
+,(431,340)
+,(775,119)
+,(963,116)
+,(760,151)
+,(326,398)
+,(361,628)
+,(382,926)
+,(655,941)
+,(276,520)
+,(865,474)
+,(222,831)
+,(627,505)
+,(452,308)
+,(803,766)
+,(241,123)
+,(930,196)
+,(676,598)
+,(320,276)
+,(737,139)
+,(654,452)
+,(778,605)
+,(728,785)
+,(227,600)
+,(729,992)
+,(212,484)
+,(405,712)
+,(199,251)
+,(407,904)
+,(780,58)
+,(519,966)
+,(769,101)
+,(397,753)
+,(386,294)
+,(80,701)
+,(651,38)
+,(980,135)
+,(572,47)
+,(536,583)
+,(813,833)
+,(620,978)
+,(302,350)
+,(925,231)
+,(55,679)
+,(52,86)
+,(669,457)
+,(997,155)
+,(460,110)
+,(160,157)
+,(187,320)
+,(914,280)
+,(376,343)
+,(879,876)
+,(949,318)
+,(642,140)
+,(183,417)
+,(545,520)
+,(534,762)
+,(169,258)
+,(570,585)
+,(968,592)
+,(136,122)
+,(633,202)
+,(476,579)
+,(524,774)
+,(406,492)
+,(297,187)
+,(80,794)
+,(966,194)
+,(956,80)
+,(526,763)
+,(168,966)
+,(994,329)
+,(779,108)
+,(969,707)
+,(595,130)
+,(542,217)
+,(131,125)
+,(318,364)
+,(452,156)
+,(107,492)
+,(396,812)
+,(350,259)
+,(804,52)
+,(832,356)
+,(234,881)
+,(801,498)
+,(987,184)
+,(277,267)
+,(720,353)
+,(43,799)
+,(683,817)
+,(221,951)
+,(588,942)
+,(301,284)
+,(563,294)
+,(819,912)
+,(351,438)
+,(614,26)
+,(778,863)
+,(182,731)
+,(894,58)
+,(766,481)
+,(198,394)
+,(621,505)
+,(992,793)
+,(536,854)
+,(351,112)
+,(633,126)
+,(255,960)
+,(349,361)
+,(448,733)
+,(766,88)
+,(159,760)
+,(724,987)
+,(210,644)
+,(999,482)
+,(206,330)
+,(216,268)
+,(337,911)
+,(336,929)
+,(908,785)
+,(547,859)
+,(535,225)
+,(457,674)
+,(404,209)
+,(164,969)
+,(109,792)
+,(772,32)
+,(403,101)
+,(715,945)
+,(373,129)
+,(307,366)
+,(951,26)
+,(112,945)
+,(889,840)
+,(927,960)
+,(489,405)
+,(445,634)
+,(11,234)
+,(609,874)
+,(624,640)
+,(198,956)
+,(851,523)
+,(997,87)
+,(599,282)
+,(700,13)
+,(389,437)
+,(796,888)
+,(605,480)
+,(615,266)
+,(967,163)
+,(468,947)
+,(741,832)
+,(728,151)
+,(840,395)
+,(998,190)
+,(569,890)
+,(898,331)
+,(971,649)
+,(226,996)
+,(343,737)
+,(454,173)
+,(743,435)
+,(116,935)
+,(241,382)
+,(606,399)
+,(711,319)
+,(749,953)
+,(90,735)
+,(27,672)
+,(404,501)
+,(559,290)
+,(316,420)
+,(231,117)
+,(757,319)
+,(514,966)
+,(572,552)
+,(722,343)
+,(675,892)
+,(291,976)
+,(450,853)
+,(26,816)
+,(69,430)
+,(662,98)
+,(707,419)
+,(498,552)
+,(738,998)
+,(265,466)
+,(281,923)
+,(63,348)
+,(605,706)
+,(96,607)
+,(982,487)
+,(933,399)
+,(385,38)
+,(282,1000)
+,(893,777)
+,(908,677)
+,(30,264)
+,(263,877)
+,(480,853)
+,(564,684)
+,(241,642)
+,(946,342)
+,(521,619)
+,(337,177)
+,(962,493)
+,(728,175)
+,(781,588)
+,(298,762)
+,(817,908)
+,(294,889)
+,(548,409)
+,(221,29)
+,(408,320)
+,(135,908)
+,(640,481)
+,(985,901)
+,(79,959)
+,(184,642)
+,(449,496)
+,(306,318)
+,(813,838)
+,(282,330)
+,(171,140)
+,(67,693)
+,(709,739)
+,(529,40)
+,(240,64)
+,(57,859)
+,(624,564)
+,(318,796)
+,(85,649)
+,(478,778)
+,(951,238)
+,(670,250)
+,(71,606)
+,(819,633)
+,(767,745)
+,(902,97)
+,(559,629)
+,(558,593)
+,(548,95)
+,(647,681)
+,(827,476)
+,(443,488)
+,(250,307)
+,(199,92)
+,(711,355)
+,(755,822)
+,(470,655)
+,(157,945)
+,(46,862)
+,(517,459)
+,(904,546)
+,(359,820)
+,(729,904)
+,(61,234)
+,(31,334)
+,(697,96)
+,(562,412)
+,(173,882)
+,(125,305)
+,(580,890)
+,(162,666)
+,(701,676)
+,(245,114)
+,(578,227)
+,(943,225)
+,(729,715)
+,(60,491)
+,(640,946)
+,(4,964)
+,(258,180)
+,(594,9)
+,(20,17)
+,(651,9)
+,(33,400)
+,(585,119)
+,(968,226)
+,(988,24)
+,(604,84)
+,(83,75)
+,(253,49)
+,(238,381)
+,(947,683)
+,(618,547)
+,(670,639)
+,(839,877)
+,(346,845)
+,(547,116)
+,(273,60)
+,(388,223)
+,(577,729)
+,(772,485)
+,(881,428)
+,(622,455)
+,(315,995)
+,(910,591)
+,(55,314)
+,(215,332)
+,(957,882)
+,(743,550)
+,(739,522)
+,(945,5)
+,(959,822)
+,(990,872)
+,(456,973)
+,(68,509)
+,(85,738)
+,(355,396)
+,(454,332)
+,(979,7)
+,(509,867)
+,(866,687)
+,(911,606)
+,(133,632)
+,(4,997)
+,(150,228)
+,(81,638)
+,(523,637)
+,(950,232)
+,(563,904)
+,(754,340)
+,(192,836)
+,(650,101)
+,(176,916)
+,(404,798)
+,(115,682)
+,(17,610)
+,(122,448)
+,(800,659)
+,(541,566)
+,(193,274)
+,(671,596)
+,(128,335)
+,(418,99)
+,(51,983)
+,(991,65)
+,(201,321)
+,(200,496)
+,(463,336)
+,(577,627)
+,(550,699)
+,(776,843)
+,(934,795)
+,(947,357)
+,(118,689)
+,(883,461)
+,(224,416)
+,(872,505)
+,(932,677)
+,(886,887)
+,(15,871)
+,(357,834)
+,(741,692)
+,(923,294)
+,(207,86)
+,(925,385)
+,(585,517)
+,(669,252)
+,(620,98)
+,(452,285)
+,(885,473)
+,(966,651)
+,(222,630)
+,(739,127)
+,(780,60)
+,(6,597)
+,(448,363)
+,(950,606)
+,(265,960)
+,(677,663)
+,(13,673)
+,(442,770)
+,(576,415)
+,(437,551)
+,(529,341)
+,(902,865)
+,(827,753)
+,(802,751)
+,(573,801)
+,(698,98)
+,(639,352)
+,(586,279)
+,(856,368)
+,(572,925)
+,(919,761)
+,(406,554)
+,(328,383)
+,(502,260)
+,(336,268)
+,(59,948)
+,(956,184)
+,(27,818)
+,(849,141)
+,(610,170)
+,(458,924)
+,(933,161)
+,(481,114)
+,(756,449)
+,(91,345)
+,(837,433)
+,(750,708)
+,(394,123)
+,(345,537)
+,(939,987)
+,(329,507)
+,(144,919)
+,(710,357)
+,(375,784)
+,(349,825)
+,(129,548)
+,(309,606)
+,(638,220)
+,(917,410)
+,(821,420)
+,(490,600)
+,(7,886)
+,(353,277)
+,(203,796)
+,(187,675)
+,(923,194)
+,(782,964)
+,(685,646)
+,(634,252)
+,(728,106)
+,(961,672)
+,(399,605)
+,(638,472)
+,(469,277)
+,(96,289)
+,(997,978)
+,(777,172)
+,(880,798)
+,(207,493)
+,(883,730)
+,(321,80)
+,(765,432)
+,(802,818)
+,(365,299)
+,(4,435)
+,(430,288)
+,(824,76)
+,(628,475)
+,(281,267)
+,(848,860)
+,(174,74)
+,(338,908)
+,(989,588)
+,(880,589)
+,(322,70)
+,(352,392)
+,(964,116)
+,(326,297)
+,(31,132)
+,(646,386)
+,(512,806)
+,(191,902)
+,(626,461)
+,(672,118)
+,(268,465)
+,(307,659)
+,(867,803)
+,(900,61)
+,(303,755)
+,(835,655)
+,(590,664)
+,(353,148)
+,(496,966)
+,(973,298)
+,(725,431)
+,(35,472)
+,(584,34)
+,(372,940)
+,(44,383)
+,(888,214)
+,(999,950)
+,(159,876)
+,(472,407)
+,(711,413)
+,(220,347)
+,(430,355)
+,(648,800)
+,(422,786)
+,(965,145)
+,(68,988)
+,(176,447)
+,(856,427)
+,(471,475)
+,(90,719)
+,(55,971)
+,(653,175)
+,(713,661)
+,(950,928)
+,(57,21)
+,(868,350)
+,(619,704)
+,(304,580)
+,(370,977)
+,(404,1000)
+,(684,642)
+,(9,366)
+,(385,839)
+,(58,73)
+,(984,478)
+,(121,158)
+,(978,426)
+,(328,202)
+,(580,325)
+,(193,954)
+,(264,675)
+,(849,185)
+,(210,290)
+,(664,529)
+,(995,779);
+
+
+-- Insert para Medicina
+
+INSERT INTO Medicina(IDInsumoMedicina,Nombre,Cantidad,FechaCaducidad,Refrigeracion,Lote,Laboratorio) VALUES
+ (1,'Strattera',145,'2024-01-19','true',737,'REMEDYREPACK INC.')
+,(2,'womans laxative',117,'2025-10-31','true',354,'Mckesson (Sunmark)')
+,(3,'Pramipexole dihydrochloride',144,'2026-07-23','true',179,'Macleods Pharmaceuticals Limited')
+,(4,'OHUI AGE RECOVERY TRI SHIELD PACT 10',119,'2026-09-23','true',955,'LG Household and Healthcare, Inc.')
+,(5,'Bio Myelin Protein',246,'2025-11-20','false',983,'BioActive Nutritional, Inc.')
+,(6,'Acetic Acid',248,'2025-03-20','false',450,'Morton Grove Pharmaceuticals, Inc.')
+,(7,'Oral-B NeutraCare Mint',22,'2024-05-31','true',429,'Oral-B Laboratories')
+,(8,'LBEL NATURAL FINISH MOISTURIZING FOUNDATION SPF 25',284,'2025-08-27','true',648,'Ventura Corporation LTD')
+,(9,'California Sycamore',88,'2026-07-18','false',278,'Antigen Laboratories, Inc.')
+,(10,'ASPIRIN',54,'2024-03-15','true',878,'TIME CAP LABORATORIES INC.')
+,(11,'Antibacterial Hand Sanitizer Pocket Sprayer',278,'2024-01-31','false',732,'National Pen Co., LLC')
+,(12,'Heparin Sodium',175,'2025-02-14','false',163,'Fresenius Kabi USA, LLC')
+,(13,'MUCINEX',152,'2025-04-07','false',361,'Dispensing Solutions, Inc.')
+,(14,'Tikosyn',128,'2026-02-22','false',206,'Pfizer Laboratories Div Pfizer Inc')
+,(15,'Meijer NICOTINE TRANSDERMAL SYSTEM',245,'2024-10-19','true',95,'Novartis Consumer Health')
+,(16,'PanOxyl',270,'2025-04-10','false',303,'Stiefel Laboratories Inc')
+,(17,'Cotton Linters',104,'2026-08-12','false',260,'Allermed Laboratories, Inc.')
+,(18,'CIMETIDINE',156,'2026-02-15','false',853,'Rebel Distributors Corp')
+,(19,'Arizona Cypress',108,'2024-07-11','false',748,'Nelco Laboratories, Inc.')
+,(20,'equaline childrens ibuprofen oral suspension',122,'2025-08-29','true',396,'Supervalu Inc')
+,(21,'Appetite and Weight with P.H.A.T.',171,'2025-06-12','true',842,'King Bio Inc.')
+,(22,'Box Elder Maple Pollen',230,'2024-10-26','true',451,'Allermed Laboratories, Inc.')
+,(23,'HYDROCODONE BITARTRATE AND ACETAMINOPHEN',132,'2025-06-11','true',350,'McKesson Contract Packaging')
+,(24,'Levothyroxine Sodium',80,'2025-05-22','false',693,'REMEDYREPACK INC.')
+,(25,'Foot Works',251,'2026-07-06','false',110,'Avon Products, Inc.')
+,(26,'Allergy',178,'2024-10-23','true',450,'FRED''S, INC.')
+,(27,'Simvastatin',255,'2026-05-15','true',771,'Cobalt Laboratories Inc.')
+,(28,'HYDROCODONE BITARTRATE AND ACETAMINOPHEN',170,'2025-09-10','true',425,'STAT Rx USA LLC')
+,(29,'Detrol LA',129,'2025-01-28','false',946,'Cardinal Health')
+,(30,'Oxygen',226,'2026-05-17','false',43,'Service Drug')
+,(31,'CONCERTA',234,'2025-09-29','true',73,'Janssen Pharmaceuticals, Inc.')
+,(32,'butalbital, acetaminophen and caffeine',178,'2025-04-13','true',396,'Unit Dose Services')
+,(33,'Zosyn',52,'2025-03-27','false',95,'Wyeth Pharmaceuticals Inc., a subsidiary of Pfizer Inc.')
+,(34,'Levothyroxine Sodium',222,'2025-04-27','true',695,'Cardinal Health')
+,(35,'Valsartan',59,'2025-04-25','true',61,'Sandoz Inc')
+,(36,'Mesenchyme Quercus',43,'2026-08-20','false',518,'Uriel Pharmacy Inc.')
+,(37,'Hydrocortisone',91,'2026-10-19','false',520,'Moore Medical LLC')
+,(38,'Dry Eye Test',262,'2024-02-25','true',579,'Nomax Inc.')
+,(39,'InstantFOAM alcohol hand sanitizer',86,'2024-09-21','true',100,'Deb USA, Inc.')
+,(40,'Divalproex Sodium',78,'2025-07-17','true',474,'REMEDYREPACK INC.')
+,(41,'Temazepam',244,'2024-12-17','false',658,'Actavis Elizabeth LLC')
+,(42,'fexofenadine hydrochloride',25,'2024-01-16','false',345,'Perrigo New York Inc')
+,(43,'Protonix',120,'2025-04-26','true',1,'Wyeth Pharmaceuticals Inc., a subsidiary of Pfizer Inc.')
+,(44,'Dexamethasone Sodium Phosphate',142,'2026-06-17','false',929,'American Regent, Inc.')
+,(45,'XIFAXAN',129,'2024-05-14','false',508,'Physicians Total Care, Inc.')
+,(46,'LEVOTHYROXINE SODIUM',13,'2025-09-02','true',583,'Physicians Total Care, Inc.')
+,(47,'Norethindrone',57,'2023-10-28','false',819,'Northstar Rx LLC')
+,(48,'Numb Nuts',190,'2026-07-22','true',536,'Miss Smarty Pants Enterprises, Inc.')
+,(49,'Pramipexole dihydrochloride',44,'2025-01-17','false',47,'Macleods Pharmaceuticals Limited')
+,(50,'Verapamil Hydrochloride',91,'2025-08-17','true',967,'REMEDYREPACK INC.')
+,(51,'Roccos Old School',66,'2025-05-16','false',510,'Rocco''s Old School')
+,(52,'Magnesium Oxide',189,'2025-01-17','true',597,'A&Z Pharmaceutical, Inc.')
+,(53,'ADSOL Red Cell Preservation Solution System in Plastic Container (PL 146 Plastic)',49,'2026-08-01','true',93,'Fenwal, Inc.')
+,(54,'PINK BISMUTH',89,'2024-12-14','true',213,'Geri-Care Pharmaceuticals, Corp')
+,(55,'Recovatone',67,'2026-08-01','false',949,'Energique, Inc.')
+,(56,'Buspirone Hydrochloride',151,'2025-02-12','true',599,'McKesson Contract Packaging')
+,(57,'ARNICAID',25,'2025-05-15','true',85,'Hyland''s')
+,(58,'Beauty Dynamics',31,'2025-05-16','true',364,'JAFRA COSMETICS INTERNATIONAL')
+,(59,'kirkland signature Minoxidil',26,'2024-01-23','true',9,'Costco Wholesale Company')
+,(60,'PARURE DE LUMIERE LIGHT-DIFFUSING FOUNDATION WITH SUNSCREEN MOISTURE INFUSION BROAD SPECTRUM SPF 25 31 AMBRE PALE',282,'2025-08-06','true',708,'Guerlain S.A.')
+,(61,'KLOR-CON',267,'2026-09-21','true',487,'Sandoz Inc.')
+,(62,'NITROGEN',277,'2024-12-04','false',231,'PURITY CYLINDER GASES, INC.')
+,(63,'White Birch',191,'2026-07-05','true',956,'Nelco Laboratories, Inc.')
+,(64,'SENSAI CELLULAR PERFORMANCE CREAM FOUNDATION',276,'2025-02-05','false',138,'KANEBO COSMETICS INC.')
+,(65,'TopCare Sinus and Allergy PE',11,'2024-09-14','false',131,'Topco Associates LLC')
+,(66,'SPF-30 BB',37,'2026-02-05','false',643,'ZION HEALTH')
+,(67,'Degree',50,'2024-02-04','false',852,'Conopco Inc. d/b/a Unilever')
+,(68,'Cauliflower',34,'2024-03-23','false',189,'Nelco Laboratories, Inc.')
+,(69,'Dentox',214,'2026-06-15','true',833,'BioActive Nutritional, Inc.')
+,(70,'3-in-1 First Aid Povidone-Iodine Swab',159,'2024-05-14','true',379,'Swabplus Inc.')
+,(71,'Colloidal Silver',226,'2025-01-24','false',927,'Apotheca Company')
+,(72,'Dr. Jart Nourishing Beauty Balm',112,'2025-12-17','false',770,'Have and Be Co., Ltd.')
+,(73,'Sulindac',107,'2026-08-08','true',792,'Carilion Materials Management')
+,(74,'Ipratropium Bromide',33,'2024-07-23','true',798,'Physicians Total Care, Inc.')
+,(75,'Gillette Odor Shield Invisible',253,'2026-01-16','true',148,'Procter & Gamble Manufacturing Company')
+,(76,'Polocaine-MPF',56,'2024-03-24','false',582,'APP Pharmaceuticals, LLC')
+,(77,'Allergy',36,'2025-07-08','true',319,'P and L Development of New York Corporation (ReadyInCase)')
+,(78,'MIDAZOLAM HYDROCHLORIDE',85,'2024-06-03','false',881,'Physicians Total Care, Inc.')
+,(79,'maximum strength',280,'2025-08-06','false',726,'Publix Super Markets Inc')
+,(80,'Gabapentin',179,'2025-03-12','false',621,'Bryant Ranch Prepack')
+,(81,'Sweet Pear Antibacterial Foaming Hand Wash',23,'2025-01-04','false',799,'SJ Creations, Inc.')
+,(82,'Vandazole',185,'2024-10-30','true',67,'Upsher-Smith Laboratories, Inc.')
+,(83,'Glucotrol XL',185,'2023-10-31','true',243,'Physicians Total Care, Inc.')
+,(84,'Healthy Accents Daytime Nighttime Cold and Flu',91,'2025-09-11','true',731,'DZA Brands LLC')
+,(85,'Zolpidem Tartrate',62,'2023-12-14','true',250,'PD-Rx Pharmaceuticals, Inc.')
+,(86,'UNITHROID',231,'2026-06-08','false',273,'Lannett Company, Inc.')
+,(87,'tramadol hydrochloride',228,'2025-09-05','true',889,'Dispensing Solutions, Inc.')
+,(88,'cephalexin',225,'2024-11-27','true',862,'Sun Pharmaceutical Industries Limited')
+,(89,'Up and Up Aspirin',189,'2024-02-08','false',176,'Target Corporation')
+,(90,'Risedronate Sodium',292,'2026-05-02','false',894,'Mylan Pharmaceuticals Inc.')
+,(91,'TOPROLXL',174,'2023-11-08','true',593,'REMEDYREPACK INC.')
+,(92,'Mesquite',194,'2025-10-02','false',580,'Nelco Laboratories, Inc.')
+,(93,'Medi-Pak Performance Instant Hand Sanitizer',184,'2024-05-11','true',930,'McKesson Medical-Surgical Inc.')
+,(94,'Amoxicillin and Clavulanate Potassium',232,'2024-11-03','true',794,'Preferred Pharmaceuticals, Inc.')
+,(95,'methylphenidate hydrochloride CD',81,'2026-08-12','false',228,'Kremers Urban Pharmaceuticals Inc.')
+,(96,'Tyzeka',91,'2025-06-25','false',242,'Novartis Pharmaceuticals Corporation')
+,(97,'Ondansetron',77,'2024-02-10','false',277,'Citron Pharma LLC')
+,(98,'Ondansetron',182,'2025-09-02','false',220,'Mylan Pharmaceuticals Inc.')
+,(99,'Lamotrigine',23,'2025-08-29','false',415,'Wilshire Pharmaceuticals, Inc.')
+,(100,'Mint Sunscreen Lip Moisturizer',97,'2024-08-21','false',886,'Beacon Promotions, Inc.')
+,(101,'LISINOPRIL AND HYDROCHLOROTHIAZIDE',42,'2023-10-30','true',38,'St Marys Medical Park Pharmacy')
+,(102,'Banzel',26,'2026-09-21','true',714,'Eisai Inc.')
+,(103,'Promethazine',126,'2024-08-09','false',619,'Cardinal Health')
+,(104,'Humalog',124,'2025-08-25','true',842,'Physicians Total Care, Inc.')
+,(105,'Pomegranate Antibacterial Foaming Hand Wash',92,'2026-03-26','true',106,'SJ Creations, Inc.')
+,(106,'Pain and Fever',267,'2024-03-22','false',917,'Cardinal Health')
+,(107,'everyone Hand Sanitizer',185,'2025-12-15','true',803,'Small World Trading Company')
+,(108,'Oto End 10',249,'2026-06-28','true',436,'Larken Laboratories, Inc.')
+,(109,'Antiseptic',140,'2025-07-28','false',106,'Target Corporation')
+,(110,'LEDUM PAL.',191,'2025-05-12','false',595,'Hyland''s')
+,(111,'Flawless Finish Dual Perfection Makeup SPF 8 Golden Beige',233,'2025-05-13','true',619,'Elizabeth Arden, Inc')
+,(112,'Peptic Relief',223,'2025-12-20','true',948,'Rugby Laboratories')
+,(113,'Diamond White Matte Finish Sun Protection',274,'2026-10-13','true',874,'Natura Bisse International SA')
+,(114,'Benzonatate',250,'2023-12-15','true',194,'Cardinal Health')
+,(115,'Ultra Tuss Safe',130,'2026-08-18','true',730,'Ultra Seal Corporation')
+,(116,'Rough Marsh Elder',287,'2026-09-29','false',978,'Nelco Laboratories, Inc.')
+,(117,'Tobacco Withdrawal',150,'2025-04-15','false',387,'Newton Laboratories, Inc.')
+,(118,'ATIVAN',288,'2026-09-16','false',406,'STAT RX USA LLC')
+,(119,'Handy Solutions GENUINE ASPIRIN BAYER',123,'2024-01-01','true',413,'Navajo Manufacturing Company Inc.')
+,(120,'good neighbor pharmacy childrens mucus relief',68,'2025-03-12','false',380,'Amerisource Bergen')
+,(121,'Sleep Aid',146,'2024-09-29','false',197,'Rite Aid')
+,(122,'Ciprofloxacin',167,'2025-06-05','true',523,'Physicians Total Care, Inc.')
+,(123,'LypSyl Honeyberry',299,'2024-01-06','false',919,'Lornamead')
+,(124,'hydrochlorothiazide',122,'2026-05-20','false',140,'Clinical Solutions Wholesale')
+,(125,'Morphine Sulfate',17,'2024-06-29','true',217,'ETHEX Corporation')
+,(126,'Smart Sense Hydrocortisone',1,'2026-06-11','false',471,'Kmart Corporation')
+,(127,'Antibacterial Foaming Hand Cleanser',182,'2026-03-08','true',226,'Jets, Sets, & Elephants Beauty Corp.')
+,(128,'Pediatric Glycerin Laxative',131,'2024-02-07','false',861,'Cardinal Health, Inc.')
+,(129,'CARDUUS MARIANUS',206,'2025-06-04','true',234,'HOMEOLAB USA INC.')
+,(130,'Amlodipine and Atorvastatin',77,'2025-04-28','false',498,'Mylan Pharmaceuticals Inc.')
+,(131,'Pork',108,'2024-12-16','false',448,'Nelco Laboratories, Inc.')
+,(132,'Maximum Strength Menstrual Relief',281,'2025-09-11','false',509,'DOLGENCORP, LLC')
+,(133,'Lysol',161,'2026-01-10','false',636,'Reckitt Benckiser LLC')
+,(134,'ZESTORETIC',155,'2025-02-27','false',708,'AstraZeneca Pharmaceuticals LP')
+,(135,'Ramipril',187,'2024-12-21','true',600,'Roxane Laboratories, Inc')
+,(136,'PRIMAXIN',87,'2026-08-06','true',257,'Merck Sharp & Dohme Corp.')
+,(137,'Shrimp',11,'2025-09-05','true',273,'Antigen Laboratories, Inc.')
+,(138,'rexall heartburn relief',75,'2025-01-12','true',434,'Dolgencorp, LLC')
+,(139,'Hydrocodone Bitartrate and Acetaminophen',249,'2026-10-23','true',284,'RedPharm Drug Inc.')
+,(140,'Rat Epithelium',95,'2026-10-07','true',113,'Nelco Laboratories, Inc.')
+,(141,'Ultra-TechneKow',132,'2024-11-07','true',297,'Mallinckrodt Inc.')
+,(142,'Olanzapine',205,'2024-08-09','false',338,'Golden State Medical Supply, Inc.')
+,(143,'Hibiscus Breeze',38,'2024-12-10','true',147,'TRIZ LABORATORIES LTD')
+,(144,'Food - Fish and Shellfish, Codfish Gadus callarias',274,'2025-09-08','true',598,'Jubilant HollisterStier LLC')
+,(145,'Bahia Grass',187,'2026-06-08','true',735,'Nelco Laboratories, Inc.')
+,(146,'Omeprazole',14,'2026-02-13','true',316,'Dr. Reddy''s Laboratories Limited')
+,(147,'Ampicillin and Sulbactam',254,'2026-02-14','false',848,'GeneraMedix Inc.')
+,(148,'Trifluoperazine Hydrochloride',81,'2024-03-21','true',545,'Mylan Institutional Inc.')
+,(149,'BRIGHTENING POWDER',160,'2026-02-18','true',21,'Bobbi Brown Professional Cosmetics Inc.')
+,(150,'Primsol',265,'2025-02-20','false',111,'FSC Laboratories, Inc')
+,(151,'Tetracycline Hydrochloride',88,'2025-10-08','false',924,'Physicians Total Care, Inc.')
+,(152,'CLEARSKIN PROFESSIONAL',263,'2024-09-28','true',660,'Avon Products, Inc.')
+,(153,'ANTIBACTERIAL HAND SANITIZER',207,'2026-07-19','false',930,'APOLLO HEALTH AND BEAUTY CARE')
+,(154,'ibuprofen pm',9,'2025-11-07','false',991,'Safeway')
+,(155,'Glyburide',192,'2025-04-08','false',2,'Mylan Pharmaceuticals Inc.')
+,(156,'HYDROCODONE BITARTRATE AND ACETAMINOPHEN',236,'2026-03-02','true',36,'Mallinckrodt, Inc.')
+,(157,'XtraCare Antibacterial Hand Cleanse',259,'2025-02-23','false',789,'Rejoice International, Inc.')
+,(158,'ANTIMONIUM TART',137,'2024-05-09','true',728,'Hyland''s')
+,(159,'Sweet Vernal Grass, Standardized',20,'2025-04-28','false',812,'ALK-Abello, Inc.')
+,(160,'Glyburide-Metformin Hydrochloride',94,'2025-06-21','true',313,'Heritage Pharmaceuticals Inc.')
+,(161,'Lymphatic Complex',127,'2025-10-11','false',159,'Nova Homeopathic Therapeutics, Inc.')
+,(162,'COREG',297,'2025-08-28','false',506,'Carilion Materials Management')
+,(163,'Venlafaxine Hydrochloride',9,'2026-01-18','false',893,'Teva Pharmaceuticals USA Inc')
+,(164,'Meclizine Hydrochloride',142,'2025-09-02','true',307,'UDL Laboratories, Inc.')
+,(165,'Profuse Sweating',292,'2026-06-28','true',314,'Natural Health Supply')
+,(166,'Canary Grass',187,'2024-11-03','true',867,'Nelco Laboratories, Inc.')
+,(167,'Childrens Pain and Fever Acetaminophen',203,'2026-07-16','true',795,'Rugby')
+,(168,'Cipro',2,'2026-09-11','false',870,'Bayer HealthCare Pharmaceuticals Inc.')
+,(169,'Citalopram',219,'2025-04-18','true',759,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
+,(170,'hemorrhoidal',285,'2026-07-05','true',605,'HyVee Inc')
+,(171,'CARE ONE',60,'2024-04-13','false',683,'AMERICAN SALES COMPANY')
+,(172,'Atovaquone and Proguanil Hydrochloride',260,'2025-05-19','true',728,'BluePoint Laboratories')
+,(173,'Vaseretic',103,'2025-08-10','true',149,'Valeant Pharmaceuticals North America LLC')
+,(174,'Rite Aid Ultimate Sheer',245,'2024-07-17','false',352,'RITE AID CORPORATION')
+,(175,'Chlordiazepoxide Hydrochloride',56,'2025-12-20','true',803,'Mylan Institutional Inc.')
+,(176,'Pentetic Acid',67,'2025-08-11','true',432,'Jubilant DraxImage Inc.')
+,(177,'ESIKA',260,'2025-01-17','false',455,'Ventura Corporation (San Juan, P.R)')
+,(178,'Clomipramine Hydrochloride',83,'2026-05-20','false',643,'Mylan Pharmaceuticals Inc.')
+,(179,'Clindamycin Hydrochloride',165,'2025-06-11','false',286,'Bryant Ranch Prepack')
+,(180,'Air, Compressed',219,'2026-10-19','false',309,'Linde Gas North America LLC')
+,(181,'STOOL SOFTENER',103,'2025-11-16','false',279,'BJWC (Berkley & Jensen / BJ''s)')
+,(182,'Calamine',47,'2023-12-27','true',421,'Major Pharmaceuticals')
+,(183,'Arnica Nettle Burn and Bite',29,'2026-08-09','false',633,'Uriel Pharmacy Inc.')
+,(184,'ibuprofen',68,'2024-01-28','false',453,'Kroger Company')
+,(185,'Petroleum',144,'2024-01-20','true',902,'Personal Care Products')
+,(186,'Octreotide Acetate',238,'2024-12-15','false',980,'Sagent Pharmaceuticals')
+,(187,'AZITHROMYCIN',293,'2024-11-22','false',286,'KAISER FOUNDATION HOSPITALS')
+,(188,'English Walnut Pollen',75,'2026-10-06','false',234,'Allermed Laboratories, Inc.')
+,(189,'Nystatin and Triamcinolone Acetonide',192,'2024-12-31','true',661,'A-S Medication Solutions LLC')
+,(190,'Ampicillin',238,'2025-10-04','false',365,'Sandoz Inc')
+,(191,'Colloidal Iodine',292,'2026-05-04','false',939,'JCI INSTITUTE OF MEDICAL SCIENCE')
+,(192,'Acetaldehyde',238,'2024-07-13','false',312,'Deseret Biologicals, Inc.')
+,(193,'I-MAX LIGHTENING 5',227,'2024-01-04','false',943,'MAXLIFE USA, INC.')
+,(194,'Ethambutol Hydrochloride',127,'2024-04-10','true',48,'STI Pharma')
+,(195,'Pleo San Acne',293,'2025-05-28','true',477,'Sanum Kehlbeck GmbH & Co. KG')
+,(196,'Lady Speed Stick',212,'2026-06-28','true',525,'Colgate-Palmolive Company')
+,(197,'LBEL EFFET PARFAIT Spots Reducing Effect Foundation SPF 18 - OBSCURE 8C',77,'2024-09-27','true',890,'Ventura Corporation, LTD')
+,(198,'ICING',74,'2025-08-22','false',323,'Yusef Manufacturing Laboratories, LLC')
+,(199,'Cetirizine Hydrochloride',119,'2024-06-27','true',693,'Dispensing Solutions, Inc.')
+,(200,'Gaba Phenolic',171,'2024-03-04','false',920,'Apotheca Company')
+,(201,'Blemish Serum',236,'2025-10-11','true',2,'AMI Cosmetic Co.,Ltd.')
+,(202,'CardinalHealth personal cleansing cloth with dimethicone',129,'2024-08-14','false',671,'Cardinal Health')
+,(203,'Terazosin Hydrochloride Anhydrous',88,'2024-01-09','true',856,'Mylan Pharmaceuticals Inc.')
+,(204,'Aspirin',56,'2025-01-30','false',151,'The Kroger Co.')
+,(205,'Amlodipine Besylate',162,'2026-02-10','true',902,'Caraco Pharmaceutical Laboratories, Ltd.')
+,(206,'HAND AND NATURE SANITIZER',90,'2025-01-27','true',206,'NATURE REPUBLIC CO., LTD.')
+,(207,'Anti-Bacterial Hand',293,'2024-03-03','true',677,'Bath & Body Works, Inc.')
+,(208,'Fluticasone Propionate',65,'2025-02-19','true',842,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
+,(209,'Honeysuckle Ginger Hand Sanitizer',146,'2026-05-15','false',204,'Papermates, Inc. dba Noteworthy')
+,(210,'LAMICTAL',112,'2023-11-05','false',164,'GlaxoSmithKline LLC')
+,(211,'Naproxen',35,'2026-06-27','false',480,'Altura Pharmaceuticals, Inc.')
+,(212,'Psoriasin',14,'2026-08-18','false',715,'Alva-Amco Pharmacal Companies, Inc.')
+,(213,'Bumetanide',236,'2024-09-09','false',289,'Eon Labs, Inc.')
+,(214,'Metronidazole',195,'2024-05-16','true',159,'PD-Rx Pharmaceuticals, Inc.')
+,(215,'Allscale',215,'2024-09-02','false',772,'Nelco Laboratories, Inc.')
+,(216,'Cipro',73,'2024-03-27','false',58,'Bayer HealthCare Pharmaceuticals Inc.')
+,(217,'Hydrochlorothiazide',263,'2025-07-11','true',159,'Cardinal Health')
+,(218,'Aveeno Baby Eczema Therapy Soothing Bath Treatment',154,'2025-05-30','false',126,'Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.')
+,(219,'Povidone-Iodine',107,'2024-11-23','true',597,'Wuxi Medical Instrument Factory')
+,(220,'NABUMETONE',181,'2024-09-05','false',556,'STAT Rx USA LLC')
+,(221,'Influenzinum',35,'2026-08-22','false',786,'Homeocare Laboratories')
+,(222,'Oxalis 5',91,'2023-12-23','false',280,'Uriel Pharmacy Inc.')
+,(223,'Moore Brand',177,'2025-05-20','false',292,'MOORE MEDICAL LLC')
+,(224,'Ibuprofen',206,'2026-07-11','false',179,'Golden State Medical Supply, Inc.')
+,(225,'Fluconazole',214,'2026-09-27','true',924,'Physicians Total Care, Inc.')
+,(226,'Natures Antibac Lavender',77,'2026-01-02','true',737,'CleanWell')
+,(227,'Helium',256,'2024-03-26','false',611,'Roberts Oxygen Company, Inc.')
+,(228,'ABILIFY',65,'2026-02-16','false',460,'Bryant Ranch Prepack')
+,(229,'Manefit Bling Bling Whitening Platinum Hydrogel Mask',205,'2026-10-09','false',710,'Imine Co., Ltd.')
+,(230,'Annual Bluegrass',111,'2024-02-19','true',654,'Antigen Laboratories, Inc.')
+,(231,'METFORMIN HYDROCHLORIDE',57,'2024-08-12','false',280,'Cadila Healthcare Limited')
+,(232,'Day Time Cold/Flu Relief',3,'2025-07-04','false',723,'Kareway Product, Inc.')
+,(233,'Duloxetine Hydrochloride',44,'2024-08-03','true',129,'NorthStar RxLLC')
+,(234,'Naproxen',176,'2025-11-01','false',981,'H.J. Harkins Company, Inc.')
+,(235,'Guinea Pig Hair',297,'2025-04-11','false',290,'Antigen Laboratories, Inc.')
+,(236,'ACTIQ',132,'2026-02-22','false',834,'Cephalon, Inc.')
+,(237,'ADRENOCORTICOTROPHIN',176,'2025-03-29','false',209,'HOMEOLAB USA INC.')
+,(238,'Lotrel',124,'2025-07-04','true',136,'Physicians Total Care, Inc.')
+,(239,'Head and Shoulders',92,'2024-06-04','true',508,'Procter & Gamble Manufacturing Co.')
+,(240,'AcipHex',209,'2025-08-15','true',254,'Lake Erie Medical & Surgical Supply DBA Quality Care Produtcs LLC')
+,(241,'Glipizide',64,'2023-11-04','false',532,'REMEDYREPACK INC.')
+,(242,'Mouse Epithelium',233,'2023-11-08','true',94,'Nelco Laboratories, Inc.')
+,(243,'PURIXAN',83,'2024-04-18','true',602,'Nova Laboratories, Ltd')
+,(244,'Sunmark Castor Oil',142,'2026-05-26','true',467,'McKesson')
+,(245,'DYSPEPSIA',69,'2023-12-19','true',83,'Natural Health Supply')
+,(246,'Zometa',30,'2023-12-29','false',79,'Novartis Pharmaceuticals Corporation')
+,(247,'Benicar',7,'2025-04-11','true',418,'Physicians Total Care, Inc.')
+,(248,'SHISEIDO SUNCARE EXTRA SMOOTH',10,'2024-03-06','false',73,'SHISEIDO AMERICA INC.')
+,(249,'GUNA-IGF',239,'2025-01-18','false',76,'Guna spa')
+,(250,'Zolpidem Tartrate',98,'2025-04-21','false',510,'RedPharm Drug Inc.')
+,(251,'Derma-Smoothe/FS',141,'2026-08-27','false',419,'Physicians Total Care, Inc.')
+,(252,'Povidone Iodine',176,'2025-07-31','false',506,'Jiangsu Province JianErKang Medical Dressing Co. ,Ltd.')
+,(253,'Palmers Amaranth',180,'2024-07-02','false',899,'Nelco Laboratories, Inc.')
+,(254,'adenosine',17,'2024-07-17','true',442,'Sagent Pharmaceuticals')
+,(255,'Benicar',227,'2025-04-01','true',702,'Cardinal Health')
+,(256,'Divalproex Sodium',47,'2025-12-30','false',89,'Sun Pharmaceutical Industries Limited')
+,(257,'isosorbide mononitrate',124,'2025-05-28','true',102,'Bryant Ranch Prepack')
+,(258,'Iferex 150 Forte',45,'2026-10-06','false',612,'Nnodum Pharmaceuticals')
+,(259,'leader nicotine',54,'2026-08-07','true',615,'Cardinal Health')
+,(260,'fiber laxative',209,'2024-12-04','true',180,'Safeway')
+,(261,'Mirtazapine',103,'2026-10-19','false',907,'Bryant Ranch Prepack')
+,(262,'ESIKA',275,'2025-11-08','false',497,'Ventura Corporation Ltd.')
+,(263,'Ampicillin and Sulbactam',247,'2025-04-28','false',601,'APP Pharmaceuticals, LLC')
+,(264,'Zyprexa',256,'2026-01-26','false',87,'Eli Lilly and Company')
+,(265,'Vigoril for Men',49,'2024-01-10','false',345,'Homeocare Laboratories')
+,(266,'Lithium Carbonate',16,'2026-05-18','false',538,'Aidarex Pharmaceuticals LLC')
+,(267,'The Natural Dentist',171,'2025-06-08','false',309,'Caldwell Consumer Health LLC')
+,(268,'Fluconazole',202,'2024-10-06','true',537,'Aurobindo Pharma Limited')
+,(269,'Medi-first Antiseptic First Aid',206,'2025-07-14','true',242,'Unifirst First Aid Corporation')
+,(270,'Sertraline Hydrochloride',298,'2025-04-20','false',516,'REMEDYREPACK INC.')
+,(271,'Polymyxin B Sulfate and Trimethoprim',90,'2023-11-18','false',564,'Physicians Total Care, Inc.')
+,(272,'DIGOX',6,'2025-09-26','true',36,'Carilion Materials Management')
+,(273,'Alcohol Hand Sanitizer Problend',169,'2024-10-01','false',860,'Seatex Ltd')
+,(274,'Levetiracetam',19,'2024-01-27','true',975,'State of Florida DOH Central Pharmacy')
+,(275,'Amlodipine Besylate',166,'2025-07-06','false',547,'Cardinal Health')
+,(276,'Milk of Magnesia Original',118,'2025-05-08','false',536,'Premier Value')
+,(277,'Ibuprofen',15,'2025-02-14','false',830,'Safeway')
+,(278,'Metoprolol Tartrate',153,'2025-04-03','true',811,'REMEDYREPACK INC.')
+,(279,'Tramadol Hydrochloride',250,'2024-10-12','false',343,'Bryant Ranch Prepack')
+,(280,'CHICKEN FEATHERS',248,'2026-05-07','true',671,'Allergy Laboratories, Inc.')
+,(281,'CD DiorSnow White Reveal UV Shield Foundation 022-Cameo',93,'2025-12-27','false',260,'Parfums Christian Dior')
+,(282,'Flounder',183,'2025-11-02','true',670,'Antigen Laboratories, Inc.')
+,(283,'povidine iodine',288,'2024-09-09','false',673,'Henry Schein Inc')
+,(284,'Teveten HCT',75,'2026-10-18','true',1000,'AbbVie Inc.')
+,(285,'PRO-RED',129,'2026-06-23','false',935,'Pro-Pharma, LLC')
+,(286,'Stool Softener and Stimulant Laxative',194,'2024-03-13','true',708,'Amerisourcebergen Drug Corporation (Good Neighbour Pharmacy)')
+,(287,'Nefazodone Hydrochloride',209,'2026-02-13','false',573,'AvKARE, Inc.')
+,(288,'LBEL EFFET PARFAIT Spots Reducing Effect Foundation SPF 18 - MEDIUM 6',134,'2024-06-24','true',720,'Ventura International, LTD')
+,(289,'SINEMET',152,'2023-12-17','true',867,'Merck Sharp & Dohme Corp.')
+,(290,'Levocarnitine',257,'2025-10-29','false',554,'Rising Pharmaceuticals, Inc.')
+,(291,'Prime of Life',8,'2024-02-27','true',105,'Newton Laboratories, Inc.')
+,(292,'Maprotiline Hydrochloride',9,'2025-11-05','false',51,'Mylan Pharmaceuticals Inc.')
+,(293,'Simvastatin',256,'2025-09-13','true',601,'Legacy Pharmaceutical Packaging')
+,(294,'Hydrocodone Bitartrate And Acetaminophen',207,'2024-12-02','true',558,'Dispensing Solutions, Inc.')
+,(295,'Benazepril Hydrochloride',39,'2025-10-13','false',196,'Rebel Distributors Corp.')
+,(296,'Lexapro',113,'2024-07-30','true',721,'Physicians Total Care, Inc.')
+,(297,'Nausea and Motion Sickness',34,'2026-02-20','true',643,'King Bio Inc.')
+,(298,'Joint Rescue',188,'2025-12-10','false',117,'Peaceful Mountain, Inc.')
+,(299,'Tag Away',50,'2025-09-21','false',200,'Pure Source')
+,(300,'FeverALL Adults',234,'2024-08-30','true',759,'Actavis Mid Atlantic LLC')
+,(301,'STANDARDIZED TIMOTHY GRASS POLLEN',225,'2024-11-03','false',14,'Allergy Laboratories, Inc.')
+,(302,'CAREONE',57,'2025-04-25','false',368,'AMERICAN SALES COMPANY')
+,(303,'German Cockroach',219,'2024-10-11','true',227,'Nelco Laboratories, Inc.')
+,(304,'Dr G deWrinkle BOOSTER ample by EGF',12,'2025-09-15','true',321,'The Doctor''s Cosmetic Inc')
+,(305,'SOUTHERN CHEAT CHESS POLLEN',227,'2025-11-03','true',61,'Allergy Laboratories, Inc.')
+,(306,'clarithromycin',116,'2024-10-29','true',831,'Watson Laboratories, Inc.')
+,(307,'RABBIT',172,'2024-08-10','true',1,'ALK-Abello, Inc.')
+,(308,'GFA First Aid',179,'2025-05-20','false',478,'Genuine First Aid, LLC')
+,(309,'sunmark milk of magnesia',198,'2026-03-27','true',677,'McKesson')
+,(310,'Serotonin',127,'2026-07-24','false',895,'BioActive Nutritional, Inc.')
+,(311,'Stool Softener plus Stimulant Laxative',80,'2023-11-13','false',51,'Western Family Foods, Inc.')
+,(312,'Loperamide Hydrochloride',7,'2026-07-01','true',798,'Fred''s Inc.')
+,(313,'Childrens Ibuprofen',30,'2025-09-10','false',407,'Family Dollar Services Inc.')
+,(314,'Valsartan and Hydrochlorothiazide',84,'2025-07-17','false',107,'Lupin Pharmaceuticals, Inc.')
+,(315,'Leader Camphor Phenol Gel',209,'2026-01-07','true',882,'Cardinal Health (Leader)')
+,(316,'Prochlorperazine Maleate',213,'2024-10-27','false',953,'Lake Erie Medical DBA Quality Care Products LLC')
+,(317,'Montelukast Sodium',104,'2024-04-06','true',846,'Roxane Laboratories, Inc.')
+,(318,'Naproxen Sodium',160,'2025-02-07','false',32,'Marksans Pharma Limited')
+,(319,'ESIKA Extreme Moisturizing SPF 16',204,'2026-02-10','false',589,'Ventura Corporation LTD')
+,(320,'Zap APF',72,'2024-08-11','true',993,'Crosstex International Inc.')
+,(321,'Aromafields Plumeria Scented Antibacterial Hand Wash',104,'2024-03-23','true',993,'Enchante Accessories')
+,(322,'Hand Sanitizer',73,'2024-03-15','false',535,'Cardinal Health')
+,(323,'ropinirole',5,'2024-09-25','true',136,'Glenmark Generics Inc., USA')
+,(324,'Cefaclor',210,'2026-03-25','true',841,'Carlsbad Technology, Inc.')
+,(325,'Scape SPF 30 Athlete Sunblock',233,'2026-03-05','false',24,'Nupur Formulations Inc')
+,(326,'Icy Hot Vanishing Scent',193,'2025-04-29','false',315,'Chattem, Inc.')
+,(327,'Ipratropium Bromide',248,'2026-06-23','false',914,'St Marys Medical Park Pharmacy')
+,(328,'Paroxetine',206,'2025-01-23','false',195,'American Health Packaging')
+,(329,'Oxycodone Hydrochloride',279,'2023-12-12','true',782,'Actavis Elizabeth LLC')
+,(330,'Bethanechol Chloride',257,'2024-03-26','false',766,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(331,'childrens pain and fever',258,'2025-08-12','true',922,'CVS Pharmacy')
+,(332,'BUSPIRONE HYDROCHLORIDE',172,'2024-06-07','true',740,'New Horizon Rx Group, LLC')
+,(333,'Olive Pollen',215,'2024-09-02','false',76,'Nelco Laboratories, Inc.')
+,(334,'TussiCaps',287,'2025-11-26','true',569,'ECR Pharmaceuticals')
+,(335,'Linden',242,'2025-02-01','false',876,'Nelco Laboratories, Inc.')
+,(336,'ZONISAMIDE',268,'2024-07-25','false',384,'Sun Pharmaceutical Industries Limited')
+,(337,'Awake',3,'2024-05-03','true',207,'WALGREEN CO.')
+,(338,'Butorphanol Tartrate',220,'2025-05-08','false',234,'West-ward Pharmaceutical Corp')
+,(339,'Tazorac',278,'2024-09-20','false',707,'Physicians Total Care, Inc.')
+,(340,'Pollens - Trees, Olive, Russian Elaeagnus angustifolia',206,'2023-10-26','false',165,'Jubilant HollisterStier LLC')
+,(341,'AHIST',60,'2026-06-15','true',330,'Magna Pharmaceutcals, Inc.')
+,(342,'Sotalol Hydrochloride',155,'2025-09-04','true',66,'Apotex Corp.')
+,(343,'Phenazopyridine Hydrochloride',13,'2026-03-04','true',269,'A-S Medication Solutions LLC')
+,(344,'equate nitetime',243,'2025-08-19','false',280,'Wal-Mart Stores Inc')
+,(345,'equaline childrens ibuprofen oral suspension',231,'2025-05-09','false',308,'Supervalu Inc')
+,(346,'Diphenhydramine',168,'2026-03-01','true',658,'Rebel Distributors Corp')
+,(347,'Green Pea',83,'2026-04-30','false',491,'Nelco Laboratories, Inc.')
+,(348,'Methotrexate Sodium',208,'2025-01-25','false',953,'Roxane Laboratories, Inc')
+,(349,'Ropinirole Hydrochloride',141,'2024-10-27','false',772,'Watson Laboratories, Inc.')
+,(350,'PIROXICAM',209,'2025-04-08','false',725,'STAT RX USA LLC')
+,(351,'Oxycodone Hydrochloride',208,'2023-12-31','true',178,'PD-Rx Pharmaceuticals, Inc.')
+,(352,'Diphenhydramine',294,'2025-06-25','false',956,'APP Pharmaceuticals, LLC')
+,(353,'Sleep Nighttime Sleep Aid',204,'2025-05-12','true',458,'Western Family Foods, Inc.')
+,(354,'Badger Unscented SPF 30 Sunscreen',220,'2025-10-02','false',270,'W.S. Badger Company, Inc.')
+,(355,'triamcinolone acetonide',17,'2026-05-02','true',269,'A-S Medication Solutions LLC')
+,(356,'WART FREE',257,'2025-01-07','true',252,'PUREMEDY')
+,(357,'Stendra',78,'2024-06-30','false',941,'VIVUS, Inc.')
+,(358,'Care One Nicotine',151,'2024-01-25','false',741,'American Sales Company')
+,(359,'Childrens Acetaminophen',100,'2024-04-25','false',735,'Precision Dose Inc.')
+,(360,'Apis Belladonna',281,'2025-05-07','true',886,'Uriel Pharmacy Inc.')
+,(361,'Suboxone',186,'2024-01-02','false',405,'Physicians Total Care, Inc.')
+,(362,'Naturasil',30,'2026-10-14','false',846,'Nature''s Innovation, Inc.')
+,(363,'Heparin Sodium',186,'2025-04-28','false',444,'Hospira, Inc.')
+,(364,'Organoplex',268,'2026-06-29','true',898,'Uriel Pharmacy Inc.')
+,(365,'ASMANEX',23,'2023-12-04','false',342,'Merck Sharp & Dohme Corp.')
+,(366,'leader milk of magnesia',40,'2026-03-16','false',746,'Cardinal Health')
+,(367,'Forever Hand Sanitizer',273,'2025-07-27','true',934,'Aloe Vera of America, Inc.')
+,(368,'pravastatin sodium',125,'2024-02-24','true',181,'Zydus Pharmaceuticals (USA) Inc.')
+,(369,'Darby',254,'2024-07-09','true',116,'Darby Dental Supply Co')
+,(370,'Doxycycline Hyclate',238,'2026-02-25','false',714,'Mutual Pharmaceutical Company, Inc.')
+,(371,'CRAB MEAT',254,'2024-03-05','true',598,'Allergy Laboratories, Inc.')
+,(372,'Raspberry',271,'2024-06-18','true',264,'Antigen Laboratories, Inc.')
+,(373,'HYDROCODONE BITARTRATE AND ACETAMINOPHEN',6,'2024-01-08','false',429,'STAT Rx USA LLC')
+,(374,'Stavudine',268,'2025-01-18','true',120,'Aurobindo Pharma Limited')
+,(375,'Oxycodone Hydrochloride',72,'2024-04-30','true',200,'Lehigh Valley Technologies, Inc.')
+,(376,'Meclizine',137,'2024-09-22','false',700,'Contract Pharmacal Corp')
+,(377,'Zeta Clear',217,'2026-09-28','true',707,'Liddell Laboratories')
+,(378,'AHAVA ACTIVE DEADSEA MINERALS',280,'2026-03-04','true',558,'AHAVA - Dead Sea Laboratories Ltd.')
+,(379,'Hydrocodone Bitartrate, Chlorpheniramine Maleate and Pseudoephedrine Hydrochloride',15,'2025-11-26','true',768,'Paddock Laboratories, LLC')
+,(380,'Aurum Onopordon',93,'2024-04-20','false',981,'Uriel Pharmacy Inc.')
+,(381,'Oxygen-Helium Mixture',14,'2024-02-17','true',693,'Roberts Oxygen Company, Inc.')
+,(382,'Lisinopril',201,'2024-12-21','false',750,'American Health Packaging')
+,(383,'Renove ROYAL PERFECT HAND Broad Spectrum SPF 15',6,'2024-08-13','true',273,'YS Health Corp.')
+,(384,'Eye Wash',11,'2026-06-22','true',159,'Preferred Pharmaceuticals, Inc.')
+,(385,'Famciclovir',147,'2026-01-11','true',828,'Mylan Pharmaceuticals Inc.')
+,(386,'Yves Saint Laurent',281,'2024-09-25','true',635,'L''Oreal USA Products Inc')
+,(387,'the Balm BalmShelter tinted moisturizer SPF 18 broad spectrum after dark',242,'2025-06-07','false',465,'Columbia Cosmetics Manufacturing, Inc.')
+,(388,'Aurum Hypericum Stibium',9,'2023-12-25','true',871,'Uriel Pharmacy Inc.')
+,(389,'Pain Relief Aspirin',56,'2024-03-24','true',925,'Rite Aid')
+,(390,'BabyGanics Alcohol Free Foaming Hand Sanitizer',206,'2025-05-04','false',760,'KAS Direct LLC dba BabyGanics')
+,(391,'Butorphanol Tartrate',175,'2024-04-17','false',994,'Mylan Pharmaceuticals Inc.')
+,(392,'Propranolol Hydrochloride',151,'2025-06-06','false',784,'State of Florida DOH Central Pharmacy')
+,(393,'Pramipexole Dihydrochloride',151,'2026-10-22','true',812,'Torrent Pharmaceuticals Limited')
+,(394,'Candesartan cilexetil',19,'2026-08-14','true',231,'Sandoz Inc')
+,(395,'TRAZODONE HYDROCHLORIDE',158,'2026-04-09','false',673,'Direct Rx')
+,(396,'Chlordiazepoxide Hydrochloride',70,'2024-10-23','true',740,'REMEDYREPACK INC.')
+,(397,'Good Neighbor Pharmacy acid reducer',1,'2024-12-07','false',970,'Amerisource Bergen')
+,(398,'Calcipotriene',52,'2024-12-24','false',695,'Glenmark Generics Inc., USA')
+,(399,'Hand Sanitizer',106,'2025-02-23','false',117,'Vi-Jon')
+,(400,'Loratadine',212,'2026-04-06','true',654,'Good Neighbor Pharmacy')
+,(401,'Good Neighbor Pharmacy',54,'2024-04-20','true',684,'AmerisourceBergen')
+,(402,'Dr. Scholls',252,'2024-12-30','true',436,'MSD Consumer Care, Inc.')
+,(403,'Lescol',220,'2023-11-06','true',22,'Carilion Materials Management')
+,(404,'Risperidone',47,'2025-10-26','false',201,'Gen-Source Rx')
+,(405,'Gelato APF',108,'2024-04-02','false',962,'Mycone Dental Supply Co., Inc DBA Keystone Industries and Deepak Products Inc')
+,(406,'Minoxidil',73,'2025-03-26','true',994,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(407,'Arthritis Joints',120,'2026-01-15','false',898,'Apotheca Company')
+,(408,'Midazolam Hydrochloride',80,'2026-05-10','true',951,'Cardinal Health')
+,(409,'Metformin Hydrochloride',255,'2024-07-09','true',854,'REMEDYREPACK INC.')
+,(410,'Mesquite Pollen',208,'2024-02-19','true',472,'Allermed Laboratories, Inc.')
+,(411,'Oat Smut',216,'2026-02-18','false',798,'Nelco Laboratories, Inc.')
+,(412,'Cold Multi-Symptom Severe',130,'2024-04-12','true',904,'GREENBRIER INTERNATIONAL, INC.')
+,(413,'ESIKA',291,'2024-07-31','true',889,'Ventura Corporation (San Juan, P.R)')
+,(414,'ATORVASTATIN CALCIUM',20,'2026-09-29','false',772,'Rebel Distributors Corp')
+,(415,'Egg White',13,'2024-05-28','true',706,'Nelco Laboratories, Inc.')
+,(416,'Olanzapine',128,'2026-04-11','false',168,'Aurobindo Pharma Limited')
+,(417,'Oxycodone Hydrochloride',106,'2026-08-01','true',726,'Actavis Elizabeth LLC')
+,(418,'Theophylline',199,'2026-06-06','false',976,'Pliva Inc.')
+,(419,'Chicken Meat',129,'2025-09-02','true',944,'Nelco Laboratories, Inc.')
+,(420,'UP AND UP ACID REDUCER',196,'2024-04-29','false',150,'Target Corporation')
+,(421,'Lymphdrainex',226,'2025-07-27','false',807,'Energique, Inc.')
+,(422,'Homeopathic Muscle Pain and Stiffness Formula',278,'2025-09-29','false',801,'Indiana Botanic Gardens')
+,(423,'Eszopiclone',63,'2025-04-19','false',936,'Glenmark Generics Inc. USA')
+,(424,'Standardized Bermuda Grass Pollen',180,'2025-09-20','false',962,'Antigen Laboratories, Inc.')
+,(425,'PrandiMet',235,'2025-04-20','true',36,'Novo Nordisk')
+,(426,'Carvedilol',284,'2025-03-07','false',996,'Preferred Pharmaceuticals, Inc')
+,(427,'Lidocaine Hydrochloride',117,'2025-10-24','true',270,'REMEDYREPACK INC.')
+,(428,'Midazolam Hydrochloride',143,'2023-12-07','false',150,'Baxter Healthcare Corporation')
+,(429,'MEPHYTON',243,'2026-04-20','false',868,'Rebel Distributors Corp')
+,(430,'Yellow Onion',3,'2025-10-26','true',446,'Nelco Laboratories, Inc.')
+,(431,'Olanzapine',121,'2024-02-05','true',429,'Dr.Reddy''s laboratories Ltd.')
+,(432,'Alka-Seltzer Heartburn ReliefChews Strawberry',78,'2025-11-27','true',990,'Bayer HealthCare Consumer Care')
+,(433,'ENALAPRIL MALEATE',115,'2024-04-20','false',569,'REMEDYREPACK INC.')
+,(434,'Losartan Potassium and Hydrochlorothiazide',28,'2024-04-09','false',534,'NorthStar Rx LLC')
+,(435,'Sulfacetamide Sodium',74,'2026-07-29','false',954,'A-S Medication Solutions LLC')
+,(436,'Sure for Men Invisible Solid Antiperspirant',126,'2024-07-22','true',171,'Idelle Labs, Ltd')
+,(437,'Pamidronate Disodium',278,'2024-11-08','true',885,'APP Pharmaceuticals, LLC')
+,(438,'Olanzapine',89,'2024-08-18','true',709,'REMEDYREPACK INC.')
+,(439,'Xopenex',132,'2024-06-20','true',281,'Physicians Total Care, Inc.')
+,(440,'Carvedilol',63,'2026-01-17','true',794,'Bryant Ranch Prepack')
+,(441,'lamotrigine',114,'2024-08-07','true',404,'Upsher-Smith Laboratories, Inc.')
+,(442,'Topcare mucus er',206,'2024-06-14','false',26,'Topco Associates LLC')
+,(443,'CVS daily moisturizing',110,'2025-04-07','true',147,'CVS Pharmacy Inc')
+,(444,'Metoclopramide Hydrochloride',85,'2025-01-07','false',133,'McKesson Packaging Services a business unit of McKesson Corporation')
+,(445,'Pramipexole Dihydrochloride',234,'2024-01-06','false',402,'Bryant Ranch Prepack')
+,(446,'Glyburide',202,'2024-05-22','false',883,'CorePharma, LLC')
+,(447,'Good Sense Nicotine',39,'2026-08-24','false',208,'L. Perrigo Company')
+,(448,'Betaseron',194,'2025-07-05','false',51,'Bayer HealthCare Pharmaceuticals Inc.')
+,(449,'Neutrogena Healthy Skin Compact Makeup',103,'2026-07-15','true',606,'Neutrogena Corporation')
+,(450,'Neutrogena Healthy Skin Compact Makeup',215,'2024-04-15','true',232,'Neutrogena Corporation')
+,(451,'Tretin-X',25,'2025-05-16','false',218,'Triax Pharmaceuticals, LLC')
+,(452,'Levisticum e rad. 3',265,'2026-06-30','true',382,'Uriel Pharmacy Inc.')
+,(453,'Duloxetine',39,'2024-07-04','true',139,'Actavis Elizabeth LLC')
+,(454,'XtraCare Foam Antibacterial Hand Wash',121,'2023-12-17','true',24,'China Ningbo Shangge Cosmetic Technology Corp.')
+,(455,'Black Walnut',176,'2026-03-26','false',373,'Nelco Laboratories, Inc.')
+,(456,'NP Thyroid 60',150,'2024-10-02','true',194,'Acella Pharmaceuticals, LLC')
+,(457,'Cilostazol',191,'2025-11-11','true',517,'Physicians Total Care, Inc.')
+,(458,'LEVONEST',120,'2026-06-26','true',644,'Northstar Rx LLC')
+,(459,'CLARINS BROAD SPECTRUM SPF 20 - SUNSCREEN CARE',126,'2025-05-21','true',509,'Laboratoires Clarins S.A.')
+,(460,'Daytime Cold and Flu',250,'2026-01-03','true',15,'Meijer Distribution Inc')
+,(461,'Glimepiride',107,'2024-01-27','false',522,'UDL Laboratories, Inc.')
+,(462,'Hydrocodone Bitartrate And Acetaminophen',246,'2024-11-08','true',702,'Dispensing Solutions, Inc.')
+,(463,'Atomoxetine hydrochloride',169,'2024-02-16','true',419,'Sandoz Inc')
+,(464,'Promethazine Hydrochloride',226,'2024-01-18','false',613,'Qualitest Pharmaceuticals')
+,(465,'AHC Revitalizing Special Gen Mask',202,'2024-07-13','false',279,'Carver Korea Co.,Ltd')
+,(466,'Calcium Gluconate',235,'2024-12-06','true',967,'General Injectables & Vaccines, Inc.')
+,(467,'PERCOCET',257,'2024-03-24','false',764,'STAT RX USA LLC')
+,(468,'Valsartan and Hydrochlorothiazide',40,'2026-02-22','false',823,'Lupin Pharmaceuticals, Inc.')
+,(469,'DigiClean E Hand Soap',100,'2024-11-01','true',282,'Ecolab Inc.')
+,(470,'Vaporizing Chest Rub',228,'2025-12-29','false',574,'Narvarro Discount Pharmarcies,LLC')
+,(471,'VASOPRESSIN',254,'2024-02-09','true',754,'General Injectables & Vaccines, Inc')
+,(472,'Diethylpropion HydrochlorideER',201,'2024-05-11','true',532,'Aidarex Pharmaceuticals LLC')
+,(473,'Minocycline hydrochloride',133,'2023-10-27','true',56,'REMEDYREPACK INC.')
+,(474,'Neomycin and Polymyxin B Sulfates and Bacitracin Zinc',248,'2024-07-27','true',956,'H.J. Harkins Company, Inc.')
+,(475,'HAWAIIAN Tropic',132,'2024-03-10','false',256,'Energizer Personal Care LLC')
+,(476,'Body Luxuries Blueberry Scented Waterless Anti Bacterial Hand gel',258,'2024-12-01','false',589,'ENCHANTE ACCESSORIES INC.')
+,(477,'flormar REBORN BB SUNSCREEN BROAD SPECTRUM SPF 30 CP13 Nude Ivory',130,'2026-08-03','true',565,'Kosan Kozmetik Sanayi ve Ticaret A.S.')
+,(478,'Red (River) Birch',46,'2024-05-19','false',988,'Antigen Laboratories, Inc.')
+,(479,'Oxygen',120,'2026-04-08','true',482,'Homeside Healthcare, Inc.')
+,(480,'Vagisil Satin',300,'2026-04-05','false',959,'Combe Incorporated')
+,(481,'ALENDRONATE SODIUM',2,'2025-01-12','true',201,'Blu Pharmaceuticals, LLC')
+,(482,'Fluoxetine',80,'2026-06-15','false',398,'Lake Erie Medical DBA Quality Care Products LLC')
+,(483,'Maximum Strength Mucus Relief Cold Flu and Sore Throat Max',13,'2024-02-10','true',510,'Rite Aid')
+,(484,'Clonidine',5,'2025-04-05','false',984,'Mylan Pharmaceuticals Inc.')
+,(485,'Tacrolimus',82,'2025-10-20','true',351,'UDL Laboratories, Inc.')
+,(486,'Sonata',174,'2024-09-19','false',472,'Physicians Total Care, Inc.')
+,(487,'ESIKA',228,'2024-05-06','false',358,'Ventura Corporation (San Juan, P.R)')
+,(488,'Neutrogena Wet Skin Swim Humidity Sweat',130,'2025-09-14','true',330,'Neutrogena Corporation')
+,(489,'Standardized Mite, Dermatophagoides farinae, Bulk, 10000 AU per mL',294,'2025-03-25','true',59,'Jubilant HollisterStier LLC')
+,(490,'Piroxicam',81,'2025-06-05','true',773,'AvKARE, Inc.')
+,(491,'ideal flawless',238,'2026-10-18','true',495,'Avon Products, Inc.')
+,(492,'Dopamine HCl',172,'2026-05-17','true',896,'American Regent, Inc.')
+,(493,'Gabapentin',102,'2025-05-20','false',618,'Safecor Health, LLC')
+,(494,'Phenytoin Sodium',292,'2025-01-13','true',409,'Cardinal Health')
+,(495,'California Juniper Pollen',86,'2024-10-04','false',20,'Allermed Laboratories, Inc.')
+,(496,'Best Choice Bisacodyl Laxative',70,'2023-11-07','false',898,'Best Choice (Valu Merchandisers Company)')
+,(497,'Duloxetine',224,'2025-05-28','true',273,'Bryant Ranch Prepack')
+,(498,'ENALAPRIL MALEATE',210,'2025-01-29','true',429,'Wockhardt Limited')
+,(499,'Diltiazem Hydrochloride',193,'2025-09-03','true',830,'Mylan Pharmaceuticals Inc.')
+,(500,'TOUGH GUY INSTANT HAND SANITIZER',291,'2025-02-17','true',614,'W.W. Grainger, Inc.')
+,(501,'Mirtazapine',245,'2025-04-14','false',11,'REMEDYREPACK INC.')
+,(502,'Oil-Control Day SPF 15',227,'2025-08-03','true',388,'Erno Laszlo, Inc.')
+,(503,'Eye Allergy Relief',189,'2025-02-17','false',641,'Target Corporation')
+,(504,'Hydrogen Peroxide',87,'2024-08-18','true',312,'Wakefern Food Corporation')
+,(505,'PERCOCET',284,'2024-12-28','false',489,'Bryant Ranch Prepack')
+,(506,'Acclean Plus',239,'2025-01-17','false',156,'Henry Schein, Inc.')
+,(507,'Oxygen',216,'2025-03-21','false',1,'AIRGAS NOR PAC INC')
+,(508,'Colgate',27,'2024-01-03','true',276,'Mission Hills, S.A. de C.V.')
+,(509,'Verapamil Hydrochloride',5,'2026-03-30','true',188,'Clinical Solutions Wholesale')
+,(510,'Pollens - Grasses, Bahia Grass Paspalum notatum',5,'2024-08-28','true',594,'Jubilant HollisterStier LLC')
+,(511,'CORFEN',38,'2024-12-27','false',651,'Cypress Pharmaceutical, Inc.')
+,(512,'REQUIP',195,'2025-05-09','false',945,'Bryant Ranch Prepack')
+,(513,'Prednisone',146,'2024-10-31','false',156,'REMEDYREPACK INC.')
+,(514,'Cashew',2,'2025-05-27','true',755,'Nelco Laboratories, Inc.')
+,(515,'Antibacterial Hand Sanitizer',270,'2025-12-08','false',121,'Laboratorios Jaloma, S.A. de C.V.')
+,(516,'Mucinex',296,'2024-03-29','false',189,'Reckitt Benckiser LLC')
+,(517,'Tree Mixture',180,'2026-03-14','true',120,'Antigen Laboratories, Inc.')
+,(518,'Baclofen',223,'2024-09-29','false',625,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
+,(519,'Family Dollar Antiseptic Mouth Rinse',33,'2024-09-30','true',58,'Family Dollar')
+,(520,'LEADER TRIPLE ANTIBIOTIC PLUS',245,'2025-01-11','true',33,'CARDINAL HEALTH')
+,(521,'ZONISAMIDE',211,'2025-01-17','true',454,'WOCKHARDT LIMITED')
+,(522,'Erythrocin Stearate',191,'2024-02-15','true',592,'PD-Rx Pharmaceuticals, Inc.')
+,(523,'Potassium Chloride',169,'2026-08-15','false',753,'American Health Packaging')
+,(524,'Clonazepam',200,'2025-11-06','false',463,'Mylan Institutional Inc.')
+,(525,'PENICILLIUM CHRYSOGENUM VAR CHRYSOGENUM',37,'2026-02-05','false',997,'ALK-Abello, Inc.')
+,(526,'Ciprofloxacin Hydrochloride',299,'2025-05-16','false',290,'MedVantx, Inc.')
+,(527,'Smart Sense naproxen sodium',156,'2024-10-02','true',552,'Kmart Corporation')
+,(528,'CENTANY',289,'2024-03-17','true',554,'Medimetriks Pharmaceuticals Inc')
+,(529,'Flecainide Acetate',285,'2026-01-22','false',593,'Barr Laboratories Inc.')
+,(530,'Metformin Hydrochloride',49,'2026-05-23','false',947,'Torrent Pharmaceuticals Limited')
+,(531,'Cefadroxil',148,'2025-10-15','false',153,'Northstar Rx LLC')
+,(532,'Lansoprazole',260,'2026-09-16','true',927,'Wockhardt Limited')
+,(533,'Chan Yat Hing She Kun Wool Lok Medicated Oil',112,'2026-01-02','true',559,'Chan Yat Hing Medicine Factory')
+,(534,'zoledronic acid',191,'2024-01-30','false',111,'Sagent Pharmaceuticals')
+,(535,'Atenolol',238,'2023-11-02','true',975,'Teva Pharmaceuticals USA Inc')
+,(536,'Coppertone TattooGuard Sunscreen',266,'2024-02-07','false',755,'MSD Consumer Care, Inc.')
+,(537,'SunscreenSPF 30',219,'2023-12-19','true',160,'Ningbo Dowland Daily Health Co., Ltd')
+,(538,'Cefdinir',282,'2026-04-07','true',849,'Rebel Distributors Corp')
+,(539,'Echinacea Argentum',48,'2024-08-08','false',946,'Uriel Pharmacy Inc.')
+,(540,'Alba Very Emollient Sunscreen Lip Care SPF25',127,'2024-10-29','true',392,'Autumn Harp, Inc.')
+,(541,'DIPROLENE',108,'2025-01-17','false',299,'Merck Sharp & Dohme Corp.')
+,(542,'VALACYCLOVIR HYDROCHLORIDE',56,'2025-12-16','false',586,'Cardinal Health')
+,(543,'Doxazosin Mesylate',171,'2026-02-18','true',222,'Major Pharmaceuticals')
+,(544,'Alcohol Prep Pads',3,'2026-07-30','false',379,'PHOENIX HEALTHCARE SOLUTIONS, LLC')
+,(545,'HydroSkin',202,'2026-07-03','true',498,'Rugby Laboratories')
+,(546,'Ondansetron',163,'2024-04-13','false',487,'Glenmark Generics Inc., USA')
+,(547,'PRAMIPEXOLE DIHYDROCHLORIDE',119,'2025-05-06','true',628,'Cadila Healthcare Limited')
+,(548,'Topiramate',187,'2026-09-27','false',669,'West-Ward Pharmaceutical Corp')
+,(549,'Ibuprofen',122,'2026-03-13','true',631,'CARDINAL HEALTH')
+,(550,'Finasteride',193,'2025-05-05','false',424,'Dr. Reddy''s Laboratories Limited')
+,(551,'Venlafaxine Hydrochloride',259,'2026-02-06','false',149,'Aphena Pharma Solutions - Tennessee, LLC')
+,(552,'Isopropyl Alcohol',157,'2026-03-08','false',49,'Hydrox Laboratories')
+,(553,'Mirapex',195,'2025-06-24','true',380,'Cardinal Health')
+,(554,'OXYCODONE AND ACETAMINOPHEN',230,'2024-10-28','false',187,'Physicians Total Care, Inc.')
+,(555,'NoSno',223,'2024-06-20','true',787,'K&J.C Co., Ltd')
+,(556,'EPICOCCUM NIGRUM',121,'2023-11-13','true',950,'ALK-Abello, Inc.')
+,(557,'CYPROHEPTADINE HYDROCHLORIDE',66,'2025-05-08','true',533,'C.O. Truxton, Inc.')
+,(558,'Lorazepam',151,'2025-07-14','false',210,'Teva Pharmaceuticals USA Inc')
+,(559,'Pier 1 Imports Lily blossom Anti-Bacterial Hand Sanitizer',215,'2024-02-01','true',767,'ALILY (ZHANGZHOU) BATH PRODUCTS LTD.')
+,(560,'Nicotine',111,'2025-04-19','false',373,'TYA Pharmaceuticals')
+,(561,'SOLU-MEDROL',198,'2026-03-24','true',791,'Pharmacia and Upjohn Company')
+,(562,'Dicyclomine Hydrochloride',189,'2024-03-03','false',362,'REMEDYREPACK INC.')
+,(563,'Duck Feathers',16,'2025-12-10','false',46,'Nelco Laboratories, Inc.')
+,(564,'Naproxen',89,'2026-10-16','false',264,'MARKSANS PHARMA LIMITED')
+,(565,'Synthroid',28,'2024-02-18','false',627,'AbbVie Inc.')
+,(566,'Diazepam',177,'2024-05-09','true',262,'Mylan Institutional Inc.')
+,(567,'Smart Sense Complete',110,'2025-08-24','false',240,'Kmart Corporation')
+,(568,'Hypophysis Stannum',206,'2024-03-20','false',91,'Uriel Pharmacy Inc.')
+,(569,'Eve Lom Radiance Perfected Tinted Moisturiser Broad Spectrum SPF 15 Sunscreen',225,'2026-02-24','true',476,'Space Brands Limited')
+,(570,'CLARINS SUPER RESTORATIVE DAY BROAD SPECTRUM SPF 20 SUNSCREEN',22,'2026-08-08','true',684,'Laboratoires Clarins S.A.')
+,(571,'Lamotrigine',27,'2025-08-13','true',646,'Rebel Distributors Corp')
+,(572,'AMLODIPINE BESYLATE',25,'2026-07-16','false',503,'WOCKHARDT LIMITED')
+,(573,'Budesonide',113,'2025-04-18','true',804,'Dispensing Solutions, Inc.')
+,(574,'Derma Blemish Balm',12,'2024-04-13','false',15,'Humex,Inc.')
+,(575,'Phendimetrazine Tartrate',148,'2025-07-31','false',220,'Eon Labs, Inc.')
+,(576,'Bicalutamide',121,'2025-08-05','false',994,'UDL Laboratories, Inc.')
+,(577,'PEANUTS ANTI-CAVITY FLUORIDE TOOTHPASTE',151,'2026-01-17','true',350,'American Sales Company')
+,(578,'Divalproex Sodium',76,'2026-07-09','false',850,'REMEDYREPACK INC.')
+,(579,'Methocarbamol',282,'2025-08-01','false',3,'Unit Dose Services')
+,(580,'DoctorRelief',15,'2024-06-17','false',895,'Biotanico Inc.')
+,(581,'Amitriptyline Hydrochloride',249,'2024-01-22','false',10,'Sandoz Inc')
+,(582,'Pro-Flex',115,'2023-12-12','true',186,'Nutri-Dyn Products Ltd. dba Professional Health Products')
+,(583,'Solves - aspirin',245,'2025-04-24','false',554,'Pace Wellness Inc.')
+,(584,'Povidone-Iodine Prep Swabsticks',180,'2025-04-22','true',529,'Triad Group')
+,(585,'CLARINS UV PLUS HP Broad Spectrum SPF 40 Sunscreen Multi-Protection Tint MEDIUM',104,'2024-04-17','true',518,'Laboratoires Clarins S.A.')
+,(586,'Anti-Bacterial Hand Gel Caribbean Escape',62,'2024-04-30','false',767,'The Man Can, LLC')
+,(587,'Gas Relief',252,'2024-02-19','false',753,'Valu Merchandisers Company (Best Choice)')
+,(588,'Fludeoxyglucose F-18',251,'2026-08-14','true',664,'Precision Nuclear LLC')
+,(589,'Nitroglycerin',174,'2025-01-04','true',993,'AvKARE, Inc.')
+,(590,'Reef Safe SPF 45',75,'2024-06-22','false',730,'Tropical Seas, Inc.')
+,(591,'AMOREPACIFIC',22,'2026-07-27','true',818,'AMOREPACIFIC')
+,(592,'RECTICARE',200,'2026-10-24','false',122,'Ferndale Laboratories, Inc.')
+,(593,'Clonazepam',185,'2026-08-10','false',624,'Qualitest Pharmaceuticals')
+,(594,'Friuts and Flowers Clean Cotton Waterless Hand Sanitizer',57,'2026-09-01','true',135,'Xiamen Anna Global Co., Ltd')
+,(595,'NEUTRAL RINSE',123,'2024-05-16','false',457,'Ross Healthcare, Inc.')
+,(596,'Meclizine Hydrochloride',5,'2024-06-28','false',372,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(597,'Azithromycin',219,'2026-05-06','false',347,'Proficient Rx LP')
+,(598,'pain relief',178,'2025-07-04','false',819,'HyVee Inc')
+,(599,'Allium cepa',146,'2024-11-30','false',144,'Nature''s Way Products, Inc.')
+,(600,'POTASSIUM CHLORIDE',32,'2026-02-01','false',645,'Hospira, Inc.')
+,(601,'Cefazolin Sodium',81,'2026-04-08','false',41,'Cantrell Drug Company')
+,(602,'Glyburide and Metformin',201,'2024-10-06','true',724,'Physicians Total Care, Inc.')
+,(603,'Degree',262,'2026-06-29','false',626,'Conopco Inc. d/b/a Unilever')
+,(604,'childrens cold and allergy relief',195,'2025-08-15','false',212,'Safeway, Inc.')
+,(605,'Gemfibrozil',221,'2026-02-25','false',448,'A-S Medication Solutions LLC')
+,(606,'Dexferrum',169,'2024-06-14','true',849,'American Regent, Inc.')
+,(607,'Ibuprofen and Pseudoephedrine Hydrochloride',163,'2026-09-01','true',470,'Safeway Inc.')
+,(608,'SHISEIDO PERFECT REFINING FOUNDATION',63,'2026-10-12','false',441,'SHISEIDO AMERICA INC.')
+,(609,'Tiger Balm Ultra Thin',190,'2025-01-29','true',378,'Haw Par Healthcare Ltd.')
+,(610,'Isradipine',258,'2026-03-05','false',552,'AvPAK')
+,(611,'Mucinex',232,'2025-11-26','true',476,'Cardinal Health')
+,(612,'NAPROXEN',195,'2024-07-07','false',666,'Polygen Pharmaceuticals LLC')
+,(613,'NESTABS ABC',122,'2026-03-29','true',643,'WOMENS CHOICE PHARMACEUTICALS LLC')
+,(614,'Ephedrine Sulfate',20,'2025-08-15','false',126,'Akorn, Inc.')
+,(615,'Ibuprofen and Diphenhydramine Citrate',286,'2026-01-12','false',402,'Dr. Reddy''s Laboratories Limited')
+,(616,'Oxy Maximum Action Spot Treatment',183,'2026-02-03','false',577,'The Mentholatum Company')
+,(617,'Clopidogrel bisulfate',289,'2025-09-03','false',321,'Carilion Materials Management')
+,(618,'Colirio Ocusan',116,'2026-08-18','false',874,'DLC Laboratories, Inc.')
+,(619,'Emtriva',105,'2023-11-10','false',959,'State of Florida DOH Central Pharmacy')
+,(620,'Triamterene hydrochlorothiazide',118,'2026-10-02','true',16,'KAISER FOUNDATION HOSPITALS')
+,(621,'Bupropion Hydrochloride',29,'2025-02-03','true',406,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(622,'Glycopyrrolate',203,'2025-08-29','true',597,'Par Pharmaceutical Inc.')
+,(623,'Standardized Grass Pollen, Grass Mix 5',35,'2026-08-11','true',145,'Jubilant HollisterStier LLC')
+,(624,'LBEL MAXIMUM COMFORT AND LONG-LASTING FOUNDATION SPF 10',152,'2024-09-30','false',322,'Ventura International LTD')
+,(625,'Eszopiclone',35,'2026-04-08','true',152,'Dr. Reddy''s Laboratories Limited')
+,(626,'biochemistry PAIN RELIEF FOOT ACTIVE',75,'2024-06-27','true',556,'Pure Source, Inc.')
+,(627,'Amlodipine besylate and Atorvastatin calcium',270,'2025-06-01','true',329,'Greenstone LLC')
+,(628,'Ready Foundation',46,'2025-02-26','false',664,'Bare Escentuals Beauty Inc.')
+,(629,'Promethazine VC With Codeine',60,'2026-09-29','true',100,'A-S Medication Solutions LLC')
+,(630,'Berkley Jensen Hypoallergenic Antibacterial Hand Soap Soap',142,'2024-08-03','false',104,'The Dial Corporation')
+,(631,'Tobramycin and Dexamethasone',110,'2024-04-17','true',36,'REMEDYREPACK INC.')
+,(632,'Green Guard Allergy 2 Relief',112,'2026-06-16','false',423,'Unifirst First Aid Corporation')
+,(633,'Sterile Water',255,'2024-09-11','false',349,'American Regent, Inc.')
+,(634,'Antibacterial Foaming Hand',274,'2026-09-16','true',958,'Jets, Sets, & Elephants Beauty Corp.')
+,(635,'Amoxicillin',189,'2024-07-31','false',59,'Cardinal Health')
+,(636,'White Petrolatum',16,'2025-11-16','true',453,'E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.')
+,(637,'Integrilin',41,'2025-09-25','true',116,'Merck Sharp & Dohme Corp.')
+,(638,'Urinary Pain Relief',172,'2026-06-03','true',149,'AmerisourceBergen Drug Corporation (Good Neighbor Pharmacy) 24385')
+,(639,'Oxygen',110,'2024-06-18','true',769,'BayCare Home Care, Inc.')
+,(640,'harmon face values anti diarrheal',127,'2024-06-02','false',569,'Harmon Stores Inc.')
+,(641,'Capecitabine',285,'2026-01-07','false',955,'Mylan Pharmaceuticals Inc.')
+,(642,'Nuvigil',205,'2025-04-03','false',137,'Cephalon, Inc.')
+,(643,'English Plantain Pollen',142,'2026-05-26','true',412,'Allermed Laboratories, Inc.')
+,(644,'Restless Mind',52,'2024-09-07','true',521,'King Bio Inc.')
+,(645,'Hello',50,'2025-08-16','false',95,'Hello Products LLC')
+,(646,'Zicam',262,'2026-09-02','false',208,'Matrixx Initiatives, Inc.')
+,(647,'eye itch relief',157,'2024-02-15','false',169,'Walgreen Company')
+,(648,'ANTARA',237,'2025-10-21','true',780,'LUPIN PHARMA')
+,(649,'MAMONDE BRIGHTENING PACT 10HR N21',91,'2026-01-13','true',186,'AMOREPACIFIC')
+,(650,'Opahl',66,'2024-07-02','true',922,'Dharma Research, Inc.')
+,(651,'antacid',4,'2026-06-05','true',467,'Western Family Foods Inc')
+,(652,'Indomethacin',182,'2024-12-18','false',83,'Glenmark Generics Inc., USA')
+,(653,'Amlodipine Besylate',287,'2023-12-29','false',786,'Aurobindo Pharma Limited')
+,(654,'doxycycline hyclate',110,'2026-05-04','false',344,'Safecor Health, LLC')
+,(655,'Tension Headache Relief',258,'2026-08-13','false',990,'A&Z Pharmaceutical, Inc.')
+,(656,'isosorbide mononitrate',157,'2024-07-03','true',144,'Physicians Total Care, Inc.')
+,(657,'Insect Sting Relief Pad',299,'2024-01-31','false',852,'Genuine First Aid LLC')
+,(658,'Ciprofloxacin',202,'2025-06-09','false',253,'Lake Erie Medical DBA Quality Care Products LLC')
+,(659,'Dicyclomine',73,'2024-11-19','true',434,'A-S Medication Solutions LLC')
+,(660,'METFORMIN HYDROCHLORIDE',219,'2025-02-25','true',481,'Zydus Pharmaceuticals (USA) Inc.')
+,(661,'Buspirone Hydrochloride',188,'2026-01-31','true',124,'Aphena Pharma Solutions - Tennessee, LLC')
+,(662,'Nighttime Daytime Cough',229,'2025-02-21','true',497,'Walgreen Company')
+,(663,'Pantoprazole Sodium',196,'2026-01-23','true',369,'Preferred Pharmaceuticals, Inc.')
+,(664,'Red Cross Oral Pain Relief',3,'2024-10-12','true',243,'The Mentholatum Company')
+,(665,'FLUVOXAMINE MALEATE',75,'2024-01-13','false',413,'Caraco Pharmaceutical Laboratories, Ltd.')
+,(666,'Amoxicillin',139,'2023-11-15','true',60,'Preferred Pharmaceuticals, Inc.')
+,(667,'salicylic acid',195,'2024-06-08','true',759,'Perrigo New York Inc')
+,(668,'Aspirin',270,'2025-08-20','true',364,'ILEX Consumer Products Group, LLC (ST. JOSEPH)')
+,(669,'Pleo Citro',221,'2024-08-06','false',196,'Sanum Kehlbeck GmbH & Co. KG')
+,(670,'Ondansetron',248,'2025-04-23','true',108,'Mylan Pharmaceuticals Inc.')
+,(671,'Glyburide and Metformin Hydrochloride',66,'2026-08-26','false',27,'Aurobindo Pharma Limited')
+,(672,'Mirtazapine',55,'2025-11-10','false',981,'Lake Erie Medical DBA Quality Care Products LLC')
+,(673,'Cheat Grass Pollen',262,'2026-09-29','true',696,'Allermed Laboratories, Inc.')
+,(674,'Calcium Acetate',4,'2026-03-10','true',17,'Camber Pharmaceuticals, Inc.')
+,(675,'Haloperidol',36,'2025-11-04','false',978,'Major Pharmaceuticals')
+,(676,'Enablex',203,'2026-07-23','true',446,'Warner Chilcott (US), LLC')
+,(677,'Tussin CF',134,'2026-01-26','false',374,'QUALITY CHOICE (Chain Drug Marketing Association)')
+,(678,'Furosemide',115,'2026-03-08','true',528,'Lake Erie Medical DBA Quality Care Products LLC')
+,(679,'H-E-B Skin Corrective Innovative Skin Perfector BB Broad Spectrum SPF15 Sunscreen Medium/Deep',60,'2026-10-22','false',290,'Emilia Personal Care Inc.')
+,(680,'Metronidazole',60,'2024-10-22','true',146,'Liberty Pharmaceuticals, Inc.')
+,(681,'McD Anti-Microbial Handwash',78,'2024-11-16','true',231,'Kay Chemical Company')
+,(682,'ZINACEF',276,'2026-06-11','false',279,'Covis Pharmaceuticals Inc')
+,(683,'Levothyroxine Sodium',236,'2025-08-20','false',987,'H.J. Harkins Company, Inc.')
+,(684,'BC',158,'2025-04-23','false',597,'GlaxoSmithKline Consumer Healthcare LP')
+,(685,'Hydrochlorothiazide',227,'2025-09-26','false',662,'State of Florida DOH Central Pharmacy')
+,(686,'NEW BRAND PERFUMES MENS ROLL ON ANTIPERSPIRANT DEODORANT',233,'2025-11-17','false',79,'BB TRADING WORLDWIDE, INC')
+,(687,'Ibuprofen',144,'2025-12-25','true',305,'TOP CARE (Topco Associates LLC)')
+,(688,'Sun Defense Cream',273,'2025-10-28','true',204,'Natura Bisse International')
+,(689,'Paris Hand Sanitizer Vanilla Scent',262,'2025-12-23','true',413,'Michaels Stores Procurement Company')
+,(690,'Azithromycin Dihydrate',47,'2025-11-25','true',541,'Cardinal Health')
+,(691,'risperidone',143,'2026-08-13','true',823,'Major Pharmaceuticals')
+,(692,'Doxycycline Monohydrate',72,'2026-09-02','false',586,'Actavis Pharma, Inc.')
+,(693,'Acne Astringent Toner Pads',25,'2025-05-20','true',912,'University Medical Pharmaceuticals Corp')
+,(694,'Azathioprine',217,'2025-03-10','false',843,'Aidarex Pharmaceuticals LLC')
+,(695,'Nicotine',27,'2024-05-09','false',522,'Kroger Company')
+,(696,'IBU',201,'2025-12-16','true',415,'KAISER FOUNDATION HOSPITALS')
+,(697,'Molds, Rusts and Smuts, Curvularia spicifera',156,'2024-12-31','true',492,'Jubilant HollisterStier LLC')
+,(698,'Divalproex Sodium',125,'2026-06-18','false',171,'State of Florida DOH Central Pharmacy')
+,(699,'Gas Relief',109,'2025-07-09','false',676,'Chain Drug Consortium, LLC (Premier Value)')
+,(700,'napoleon PERDIS SHEER GENIUS LIQUID FOUNDATION BROAD SPECTRUM SPF 20 Look 2',139,'2025-11-09','false',799,'Napoleon Perdis Cosmetics, Inc')
+,(701,'Oral Saline Laxative',51,'2024-04-16','false',799,'McKesson Corporation')
+,(702,'DILAUDID',157,'2025-08-26','true',892,'Purdue Pharma LP')
+,(703,'QUDEXY',95,'2026-05-27','true',420,'Upsher-Smith Laboratories, Inc.')
+,(704,'Hand Sanitizer',240,'2024-06-19','false',129,'Harris Teeter, LLC')
+,(705,'Aldex AN',76,'2026-02-27','true',911,'Pernix Therapeutics, LLC')
+,(706,'Midodrine HCl',114,'2025-04-22','false',704,'Rebel Distributors Corp')
+,(707,'Amiodarone Hydrochloride',217,'2026-10-11','false',611,'Taro Pharmaceuticals U.S.A., Inc.')
+,(708,'Hydrocodone Bitartrate, Chlorpheniramine Maleate and Pseudoephedrine Hydrochloride',285,'2026-08-21','true',114,'Paddock Laboratories, LLC')
+,(709,'CARMEX original lip balm EXTERNAL ANALGESIC',157,'2023-11-07','true',923,'Carma Laboratories, Inc.')
+,(710,'VENLAFAXINE HYDROCHLORIDE',171,'2025-07-14','true',702,'Wockhardt Limited')
+,(711,'Prochlorperazine Maleate',50,'2026-05-01','true',644,'Bryant Ranch Prepack')
+,(712,'Doxazosin',269,'2026-01-28','false',441,'Bryant Ranch Prepack')
+,(713,'Epicoccum nigrum',178,'2023-10-31','false',317,'Nelco Laboratories, Inc.')
+,(714,'health mart pain and fever',94,'2026-07-18','false',54,'McKesson')
+,(715,'Cetirizine HCL 10 mg All Day Allergy Relief',275,'2025-12-09','false',158,'Freds Inc')
+,(716,'Griseofulvin',128,'2026-10-07','true',177,'Sandoz Inc')
+,(717,'RHEUMATISM, NAUSEA',192,'2024-09-05','true',839,'Natural Health Supply')
+,(718,'ANTARA',23,'2025-02-02','false',479,'LUPIN PHARMA')
+,(719,'TOBREX',250,'2025-04-30','false',872,'Alcon Laboratories, Inc.')
+,(720,'Atenolol',36,'2024-03-27','false',862,'Sandoz Inc')
+,(721,'Terazosin Hydrochloride Anhydrous',290,'2024-07-09','false',821,'UDL Laboratories, Inc.')
+,(722,'Nefazodone Hydrochloride',32,'2026-04-21','false',608,'Teva Pharmaceuticals USA Inc')
+,(723,'Smart Sense ibuprofen',150,'2026-08-25','false',51,'Kmart Corporation')
+,(724,'Enchanted Moments Berries and Cream Hand Sanitizer',147,'2026-04-30','false',744,'ENCHANTE ACCESSORIES INC.')
+,(725,'Antibacterial Hand - Strawberry Pomegranate Scent',65,'2026-02-14','false',333,'Greenbrier International, Inc.')
+,(726,'Melvita PROSUN SPF 15 Sun',89,'2025-01-24','true',723,'Laboratoires M&L')
+,(727,'Lancome Paris Renergie Lift Volumetry',77,'2025-11-14','false',874,'L''Oreal USA Products Inc')
+,(728,'Minocycline',152,'2026-08-28','false',299,'Par Pharmaceutical, Inc.')
+,(729,'calcium antacid',254,'2023-12-17','true',964,'HyVee Inc')
+,(730,'Lyrica',181,'2025-02-21','false',978,'A-S Medication Solutions LLC')
+,(731,'Esmolol Hydrochloride',165,'2025-10-22','false',68,'Fresenius Kabi USA, LLC')
+,(732,'Nutropin AQ Pen 10',217,'2026-09-23','true',349,'Genentech, Inc.')
+,(733,'Tretinoin',6,'2024-11-08','true',325,'Perrigo New York Inc')
+,(734,'ENALAPRIL MALEATE',208,'2025-10-05','true',298,'PD-Rx Pharmaceuticals, Inc.')
+,(735,'Levothyroxine Sodium',168,'2023-10-31','false',265,'Lannett Company, Inc.')
+,(736,'Calamine',137,'2023-12-27','true',794,'Walgreen Co.')
+,(737,'METOPROLOL SUCCINATE',87,'2026-01-08','true',362,'Major Pharmaceuticals')
+,(738,'Promethazine Hydrochloride',139,'2025-10-05','false',571,'General Injectables & Vaccines, Inc')
+,(739,'Theophylline',206,'2024-11-16','false',622,'Lake Erie Medical DBA Quality Care Products LLC')
+,(740,'Carbidopa and Levodopa',128,'2026-10-05','true',963,'REMEDYREPACK INC.')
+,(741,'Isopropyl Alcohol',197,'2025-06-19','false',413,'Discount Drug Mart')
+,(742,'SHISEIDO PERFECT REFINING FOUNDATION',228,'2026-07-29','true',310,'SHISEIDO AMERICA INC.')
+,(743,'Clonidine Hydrochloride',254,'2026-09-07','true',941,'BluePoint Laboratories')
+,(744,'Potassium Chloride',175,'2026-07-14','true',816,'Lake Erie Medical DBA Quality Care Products LLC')
+,(745,'SUPRANE',216,'2024-01-20','true',46,'Baxter Healthcare Corporation')
+,(746,'C-Plus',7,'2026-09-27','true',58,'Hyland''s')
+,(747,'COTTON FIBER',242,'2026-05-04','true',851,'ALK-Abello, Inc.')
+,(748,'Phentermine Hydrochloride',38,'2024-07-08','true',659,'Life Line Home Care Services, Inc.')
+,(749,'Topiramate',298,'2025-09-22','true',269,'State of Florida DOH Central Pharmacy')
+,(750,'stay awake',295,'2023-12-18','false',4,'Publix Super Markets Inc')
+,(751,'Salagen',297,'2025-04-29','true',365,'Eisai Inc.')
+,(752,'Propylthiouracil',158,'2024-03-17','true',894,'REMEDYREPACK INC.')
+,(753,'Pure Finish Mineral Tinted Moisturizer SPF 15',248,'2025-07-16','true',606,'Elizabeth Arden, Inc')
+,(754,'QUESTRAN',119,'2025-05-09','true',722,'Par Pharmaceutical Inc.')
+,(755,'07 Balancing Foundation',15,'2026-06-30','false',641,'The Body Shop Wake Forest')
+,(756,'Bald Cypress',23,'2024-03-09','true',999,'Nelco Laboratories, Inc.')
+,(757,'Aptiom',112,'2026-01-08','false',491,'Sunovion Pharmaceuticals Inc.')
+,(758,'Dove Ultimate Beauty Care Silk Powder',65,'2024-12-27','false',784,'Conopco Inc. d/b/a Unilever')
+,(759,'AVONEX',91,'2025-01-29','true',127,'Biogen Idec MA Inc.')
+,(760,'Fluaid',112,'2024-10-11','false',840,'PRINCE OF PEACE ENTERPRISES INC.')
+,(761,'AZO',15,'2025-02-24','false',76,'i-Health, Inc.')
+,(762,'Leader ibuprofen',196,'2026-07-02','false',189,'Cardinal Health')
+,(763,'Ban',15,'2024-07-07','true',750,'Kao Brands Company')
+,(764,'Dr. OBERON MOMS CARE BODY OIL',198,'2026-08-10','true',432,'Oberon Cosmetic Co., Ltd.')
+,(765,'Capecitabine',38,'2025-01-17','true',48,'Teva Pharmaceuticals USA Inc')
+,(766,'Quinidine Sulfate',64,'2026-02-17','false',966,'Watson Laboratories, Inc.')
+,(767,'California Valley White Oak',90,'2026-06-08','true',65,'Nelco Laboratories, Inc.')
+,(768,'CLEAR UP Prep',42,'2026-05-03','false',888,'Laboratoire Dr. Renaud')
+,(769,'Sulfamethoxazole and Trimethoprim',18,'2024-04-09','true',293,'Rebel Distributors Corp.')
+,(770,'Ondansetron Hydrochloride',73,'2024-07-04','false',211,'Preferred Pharmaceuticals, Inc.')
+,(771,'Claforan',227,'2025-12-17','false',361,'Sanofi-Aventis U.S. LLC')
+,(772,'THE YEON CMK PORE BLEMISH BC',205,'2025-08-17','false',511,'The Yeon Co., Ltd.')
+,(773,'Carbidopa and Levodopa',265,'2026-06-20','false',320,'Physicians Total Care, Inc.')
+,(774,'IBUPROFEN',93,'2025-04-12','false',951,'STAT RX USA LLC')
+,(775,'Zohar Toothpaste',286,'2024-08-13','false',231,'Broom Lane Enterprises')
+,(776,'Baclofen',186,'2024-02-01','false',940,'Rebel Distributors Corp')
+,(777,'Flounder Sun Smacker SPF 24 Watermelon Wave',59,'2026-05-25','true',570,'Bonne Bell LLC')
+,(778,'Glimepiride',115,'2025-03-18','false',204,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(779,'Butalbital, Acetaminophen, and Caffeine',196,'2026-02-18','true',280,'STAT Rx USA LLC')
+,(780,'Oxygen',82,'2024-09-25','false',774,'RX O2 Oxygen & Medical Equipment Supply')
+,(781,'Antacid',295,'2026-05-21','true',277,'HyVee Inc')
+,(782,'AIR COMPRESSED',80,'2023-10-28','true',793,'Vagabond Welding Supply')
+,(783,'Risperidone',285,'2025-10-01','true',904,'Cardinal Health')
+,(784,'Tamsulosin hydrochloride',267,'2025-07-06','false',193,'Golden State Medical Supply, Inc.')
+,(785,'White Hickory',256,'2026-05-24','true',555,'Antigen Laboratories, Inc.')
+,(786,'Technetium Tc99m Generator',240,'2024-09-14','false',697,'Medi-Physics Inc.')
+,(787,'Amoxicillin',238,'2023-12-25','true',827,'Rebel Distributors Corp')
+,(788,'Genuine First Aid Burn Antiseptic Pain Relief With Aloe',238,'2025-12-06','true',620,'Genuine First Aid')
+,(789,'Bactine Original First Aid',254,'2024-03-12','true',663,'Bayer HealthCare LLC, Consumer Care')
+,(790,'Sabadil',293,'2025-02-08','true',614,'Laboratoires Boiron')
+,(791,'CENTER-AL - ALNUS INCANA SSP. RUGOSA POLLEN',239,'2024-02-20','false',159,'ALK-Abello, Inc.')
+,(792,'Sleep Aid',114,'2024-11-19','true',315,'Kareway Product, Inc.')
+,(793,'INVEGA',128,'2025-06-18','true',9,'Rebel Distributors Corp')
+,(794,'SmileGuard Just 4 Me',119,'2024-02-14','true',573,'Dr. Fresh, Inc.')
+,(795,'Telmisartan',156,'2025-10-15','true',109,'Alembic Pharmaceuticals Limited')
+,(796,'Degree',258,'2026-08-20','true',751,'Conopco Inc. d/b/a Unilever')
+,(797,'Pleo Cup',105,'2025-05-28','false',172,'Sanum Kehlbeck GmbH & Co. KG')
+,(798,'First Aid Burn',165,'2026-08-06','false',920,'Water-Jel Technologies')
+,(799,'Ondansetron',163,'2026-06-08','true',179,'West-ward Pharmaceutical Corp')
+,(800,'Traumeel Combo Pack',218,'2024-07-24','true',125,'Heel Inc')
+,(801,'Mometasone Furoate',21,'2025-09-30','true',153,'Rebel Distributors Corp')
+,(802,'Torsemide',91,'2026-01-21','true',229,'AvPAK')
+,(803,'Corlopam',109,'2026-08-08','true',445,'Hospira, Inc.')
+,(804,'Cimetidine',46,'2026-05-29','false',576,'Teva Pharmaceuticals USA Inc')
+,(805,'Oxygen',91,'2024-05-21','false',596,'Ozarc Gas Equipment Supply Inc')
+,(806,'Enoxaparin Sodium',271,'2023-12-14','false',771,'Teva Parenteral Medicines, Inc.')
+,(807,'Doxepin Hydrochloride',89,'2025-04-19','true',893,'Mylan Pharmaceuticals Inc.')
+,(808,'LBEL EFFET PARFAIT filling effect foundation SPF 10 - MEDIUM 7',164,'2025-08-03','true',487,'Ventura Corporation LTD.')
+,(809,'Lisinopril',128,'2025-04-25','false',42,'American Health Packaging')
+,(810,'Hair Regrowth Treatment',253,'2025-10-25','false',188,'Kroger Company')
+,(811,'NON ALCOHOL HAND SANITIZER',157,'2024-08-29','true',715,'Fercy Personal Care Products Co Limited')
+,(812,'Warfarin Sodium',138,'2025-04-16','true',691,'Camber Pharmaceuticals')
+,(813,'Perphenazine',234,'2026-05-31','true',915,'American Health Packaging')
+,(814,'Risperidone',13,'2025-03-20','true',526,'Rebel Distributors Corp')
+,(815,'Olanzapine',216,'2025-03-01','true',109,'Dr.Reddy''s Laboratories Inc')
+,(816,'Coralite ANTIBACTERIAL BANDAGE WITH NON STICK PAD',260,'2025-07-29','false',663,'UNITED EXCHANGE CORP')
+,(817,'Oxytocin',257,'2024-09-28','true',786,'Hikma Farmaceutica')
+,(818,'DHC White Sunscreen',181,'2024-04-18','true',27,'DHC USA Incorporated')
+,(819,'Alclometasone Dipropionate',170,'2024-03-03','false',468,'Glenmark Generics Inc., USA')
+,(820,'Ailanthus',196,'2024-10-07','true',69,'Nelco Laboratories, Inc.')
+,(821,'Lomustine',106,'2024-11-13','false',370,'NextSource Biotechnology, LLC')
+,(822,'Cotton Linters',281,'2024-11-10','true',40,'Nelco Laboratories, Inc.')
+,(823,'Equate Nicotine',177,'2025-03-10','false',344,'Wal-Mart Stores Inc')
+,(824,'TIANHE ZHUANGGU GAO',142,'2026-07-02','true',716,'GUILIN TIANHE PHARMACEUTICAL CO LTD')
+,(825,'Gemcitabine Hydrochloride',269,'2025-10-18','false',493,'APP Pharmaceuticals, LLC')
+,(826,'Lovastatin',207,'2024-06-20','true',567,'Cardinal Health')
+,(827,'SENSI CARE PROTECTIVE BARRIER',163,'2024-12-07','false',487,'ConvaTec Inc.')
+,(828,'Ramipril',293,'2024-01-23','true',940,'Lupin Pharmaceuticals, Inc.')
+,(829,'Clobetasol Propionate',170,'2024-07-16','false',700,'Renaissance Pharma, Inc.')
+,(830,'Allergena',84,'2026-10-24','true',835,'Meditrend, Inc. DBA Progena Professional Formulations')
+,(831,'LANEIGE SKIN VEIL BASE EX No.60 Light Green',215,'2025-05-05','false',874,'AMOREPACIFIC')
+,(832,'NORETHINDRONE ACETATE AND ETHINYL ESTRADIOL',50,'2026-06-21','true',413,'Mylan Pharmaceuticals Inc.')
+,(833,'Minocycline hydrochloride',296,'2026-09-12','false',433,'Proficient Rx LP')
+,(834,'Gabapentin',59,'2024-12-08','false',755,'Bryant Ranch Prepack')
+,(835,'Salonpas pain relieving GEL-PATCH HOT',291,'2025-11-27','true',161,'Hisamitsu Pharmaceutical Co., Inc.')
+,(836,'Under Paris Hand Sanitizer',266,'2025-08-08','true',988,'CUARTA DIMENSION USA, INC.')
+,(837,'SohMed Extra Strength',110,'2026-10-16','true',926,'SOHM Inc.')
+,(838,'Wong To Yick',204,'2024-01-29','true',505,'Wicsun Trading Inc')
+,(839,'Bupivacaine Hydrochloride',97,'2024-07-27','false',438,'AuroMedics Pharma LLC')
+,(840,'Sunflower Pollen',298,'2026-03-29','false',962,'Allermed Laboratories, Inc.')
+,(841,'Labetalol HCl',233,'2024-10-08','true',990,'REMEDYREPACK INC.')
+,(842,'Cold-EEZE',133,'2026-06-22','false',93,'ProPhase Labs, Inc.')
+,(843,'Furosemide',3,'2026-02-13','false',471,'Ranbaxy Pharmaceuticals Inc.')
+,(844,'Pollens - Weeds and Garden Plants, Short Ragweed, Ambrosia artemisiifolia',174,'2025-03-25','false',196,'Jubilant HollisterStier LLC')
+,(845,'Oxygen',282,'2026-02-09','true',777,'ROBINSON`S INDUSTRIAL GAS & EQUIPMENT CORP.')
+,(846,'Food - Plant Source, Peach Prunus persica',245,'2025-07-13','true',958,'Jubilant HollisterStier LLC')
+,(847,'Lovastatin',212,'2024-11-05','false',794,'Unit Dose Services')
+,(848,'Ibuprofen',72,'2024-10-17','true',932,'Aidarex Pharmaceuticals LLC')
+,(849,'Propranolol Hydrochloride',293,'2025-03-01','true',274,'Northstar RxLLC')
+,(850,'SOLIDAGO CANADENSIS POLLEN',34,'2024-11-16','false',721,'ALK-Abello, Inc.')
+,(851,'NAPRELAN',297,'2025-06-12','false',133,'Physicians Total Care, Inc.')
+,(852,'OXYCODONE HYDROCHLORIDE',253,'2026-04-03','false',604,'PD-Rx Pharmaceuticals, Inc.')
+,(853,'PredniSONE',269,'2026-09-07','false',995,'Physicians Total Care, Inc.')
+,(854,'Topamax',147,'2025-01-17','true',74,'Rebel Distributors Corp')
+,(855,'Anti-Bacterial Hand',45,'2025-01-31','true',376,'Bath & Body Works, Inc.')
+,(856,'Topcare Nite Time Day Time Cold and Flu Relief',227,'2024-02-26','false',453,'Topco Associates LLC')
+,(857,'CD DiorSkin Forever Flawless Perfection Fusion Wear Makeup SPF 25 - 022',275,'2026-10-18','true',625,'Parfums Christian Dior')
+,(858,'Hydrocodone Bitartrate and Acetaminophen',48,'2026-01-03','true',504,'REMEDYREPACK INC.')
+,(859,'Secret Antiperspirant/Deodorant',279,'2024-07-09','false',298,'Procter and Gamble Manufacturing Company')
+,(860,'Respaire-30',95,'2024-06-16','true',737,'Laser Pharmaceuticals, LLC')
+,(861,'SHISEIDO THE MAKEUP LIFTING FOUNDATION',68,'2023-11-25','true',862,'SHISEIDO AMERICA INC.')
+,(862,'Tretin-X',64,'2024-07-29','false',537,'Triax Pharmaceuticals, LLC')
+,(863,'Lab1796 Anxiety Shield',104,'2026-08-20','true',215,'HomeopathyStore.com')
+,(864,'Bupivacaine HCl',144,'2026-05-12','true',574,'Cantrell Drug Company')
+,(865,'Mucus Relief',37,'2025-10-07','true',684,'Avema Pharma Solutions')
+,(866,'Antibacterial Hand',237,'2024-03-28','true',62,'Family Dollar Services Inc')
+,(867,'medroxyprogesterone acetate',164,'2025-01-16','true',314,'Greenstone LLC')
+,(868,'Stannum Metallicum',104,'2025-02-16','true',124,'True Botanica, LLC')
+,(869,'Para Grass Pollen',293,'2024-09-21','true',239,'Nelco Laboratories, Inc.')
+,(870,'Tussin Cough',165,'2024-01-11','true',32,'H E B')
+,(871,'Loperamide Hydrochloride',245,'2026-04-15','false',717,'Shopko Stores Operating Co., LLC')
+,(872,'Kids Cough and Fever Relief',283,'2023-12-13','true',56,'Similasan Corporation')
+,(873,'Coumarin',273,'2025-12-08','true',437,'Apotheca Company')
+,(874,'Colistimethate',170,'2025-08-25','true',475,'Paddock Laboratories, LLC')
+,(875,'Clorox Care Concepts',192,'2024-10-09','false',226,'The Clorox Company')
+,(876,'ERYTHROMYCIN Base Filmtab',180,'2024-12-10','false',752,'Rebel Distributors Corp')
+,(877,'Health Mart pain relief',160,'2026-09-30','false',192,'Mckesson')
+,(878,'Maximum Strength Mucus Relief Severe Congestion and Cold',139,'2024-12-08','true',331,'WALGREEN CO.')
+,(879,'Hydrochlorothiazide',52,'2024-05-18','false',244,'REMEDYREPACK INC.')
+,(880,'SHISEIDO ADVANCED HYDRO-LIQUID COMPACT (REFILL)',179,'2024-01-17','true',534,'SHISEIDO CO., LTD.')
+,(881,'Reprexain',113,'2025-10-22','true',146,'Hawthorn Pharmaceuticals, Inc.')
+,(882,'leader childrens all day allergy',94,'2023-12-11','true',57,'Cardinal Health')
+,(883,'AVANDARYL',268,'2025-08-22','true',992,'GlaxoSmithKline LLC')
+,(884,'Welchol',240,'2024-07-15','false',275,'Daiichi Sankyo, inc.')
+,(885,'Rose Iron Graphite',18,'2024-07-05','true',332,'Uriel Pharmacy Inc.')
+,(886,'methylergonovine maleate',87,'2025-09-18','false',572,'PD-Rx Pharmaceuticals, Inc.')
+,(887,'arthritis pain relief',53,'2025-10-15','true',663,'Meijer Distribution Inc')
+,(888,'Effer-K',146,'2025-09-20','false',80,'Nomax Inc.')
+,(889,'Kidney Stone Clear',117,'2024-02-16','true',637,'Feelgood Health')
+,(890,'Sumatriptan Succinate',202,'2024-11-17','true',762,'Physicians Total Care, Inc.')
+,(891,'Neutrogena Oil Free Acne Wash Daily Scrub',231,'2024-05-06','true',954,'Neutrogena Corporation')
+,(892,'Nalbuphine Hydrochloride',161,'2025-04-08','false',445,'Cardinal Health')
+,(893,'Gowoonsesang Medi UV Block Suncream',269,'2025-05-20','true',622,'GOWOONSESANG COSMETICS CO., LTD.')
+,(894,'OB Cleansing Towelette',62,'2024-11-02','false',145,'Dukal Corporation')
+,(895,'Azathioprine',187,'2025-10-04','true',755,'Mylan Pharmaceuticals Inc.')
+,(896,'Healthy Accents Arthritis Pain Relief',128,'2024-08-17','false',29,'DZA Brands LLC')
+,(897,'Clonazepam',89,'2026-06-01','false',199,'Contract Pharmacy Services-PA')
+,(898,'Ropivacaine Hydrochloride',217,'2024-01-30','true',543,'Hospira, Inc.')
+,(899,'Ibuprofen',142,'2025-01-02','false',914,'Amneal Pharmaceuticals')
+,(900,'tamsulosin hydrochloride',218,'2025-10-20','true',24,'PD-Rx Pharmaceuticals, Inc.')
+,(901,'Sandostatin LAR Depot Demonstration Kit',150,'2026-02-07','false',590,'Novartis Pharmaceuticals Corporation')
+,(902,'Publix Alcohol',227,'2023-11-24','false',7,'lix Super Markets Inc')
+,(903,'Band-Aid Brand Hurt-Free Antiseptic Wash',219,'2026-05-06','true',99,'Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.')
+,(904,'Levofloxacin',205,'2025-01-25','false',932,'Greenstone LLC')
+,(905,'Mickey Sun Smacker SPF 24 Classic Strawberry',70,'2024-01-07','false',535,'Bonne Bell LLC')
+,(906,'Carelessweed',162,'2024-09-01','false',925,'Nelco Laboratories, Inc.')
+,(907,'ITCHY SKIN RASH',289,'2024-02-21','true',539,'Natural Health Supply')
+,(908,'Tamsulosin Hydrochloride',139,'2025-10-02','true',2,'REMEDYREPACK INC.')
+,(909,'Mentholatum Ironman Muscle Spray',201,'2026-10-05','true',764,'The Mentholatum Company')
+,(910,'SUN SHADES',222,'2024-08-01','true',314,'Melaleuca, Inc.')
+,(911,'Pain Reliever PM',213,'2024-09-21','false',860,'Family Dollar (FAMILY WELLNESS)')
+,(912,'Pleo Poly A',182,'2024-08-29','false',30,'Sanum Kehlbeck GmbH & Co. KG')
+,(913,'Banana Boat Mens',164,'2025-01-18','true',534,'ENERGIZER PERSONAL CARE LLC')
+,(914,'Chantix',182,'2026-04-12','false',133,'Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC')
+,(915,'Eye Allergy Relief',9,'2026-02-27','false',559,'Wal-Mart Stores Inc')
+,(916,'Clonidine Hydrochloride',239,'2026-04-22','true',667,'DAVA Pharmaceuticals, Inc.')
+,(917,'Eye Allergy Relief',248,'2025-12-26','false',796,'Wal-Mart Stores Inc')
+,(918,'BriteSmile',34,'2024-03-29','true',62,'Discus Dental, LLC')
+,(919,'Treatment Set TS345784',106,'2025-07-27','true',320,'Antigen Laboratories, Inc.')
+,(920,'Lamb',62,'2023-12-31','true',555,'Nelco Laboratories, Inc.')
+,(921,'Citranatal Harmony 2.1',292,'2024-12-27','true',570,'Mission Pharmacal Company')
+,(922,'NYSTATIN',265,'2026-03-23','true',538,'STAT Rx USA LLC')
+,(923,'Topiramate',80,'2025-04-10','false',520,'NCS HealthCare of KY, Inc dba Vangard Labs')
+,(924,'Ofloxacin',200,'2026-05-11','true',211,'Hi-Tech Pharmacal Co., Inc.')
+,(925,'Dialyvite with Zinc',74,'2026-07-22','true',781,'Hillestad Pharmaceuticals USA')
+,(926,'BD E-Z Care',55,'2026-07-30','true',751,'Becton Dickinson and Company')
+,(927,'napoleon PERDIS CHINA DOLL FOUNDATION BROAD SPECTRUM SPF 15 Look 2',91,'2026-03-28','false',168,'Napoleon Perdis Cosmetics, Inc')
+,(928,'ORGAN-I NR',227,'2024-02-26','true',366,'Qualitest Pharmaceuticals')
+,(929,'Be gone Minor Arthritic Pain',159,'2024-07-15','true',405,'Washington Homeopathic Products')
+,(930,'Prialt',270,'2026-04-23','true',648,'Jazz Pharmaceuticals, Inc.')
+,(931,'Hydrocodone Bitartrate and Acetaminophen',141,'2024-07-30','true',758,'A-S Medication Solutions LLC')
+,(932,'leader pain and fever',35,'2024-04-04','false',809,'Cardinal Health')
+,(933,'All Day Allergy',54,'2024-09-25','true',21,'Kroger Company')
+,(934,'CIPROFLOXACIN',279,'2025-02-05','false',897,'PD-Rx Pharmaceuticals, Inc.')
+,(935,'Fluorouracil',207,'2023-11-21','true',692,'Solco Healthcare US LLC')
+,(936,'Adderall',197,'2024-05-12','false',588,'Shire US Manufacturing Inc.')
+,(937,'Terazosin hydrochloride',177,'2026-07-03','true',693,'Preferred Pharmaceuticals, Inc')
+,(938,'Salicylic acid',274,'2024-03-27','false',796,'Premier Brands of America Inc.')
+,(939,'TetraVisc Forte',241,'2025-05-27','false',378,'OCuSOFT, INC.')
+,(940,'Black Birch',124,'2025-06-24','true',815,'Nelco Laboratories, Inc.')
+,(941,'BD E-Z Care',212,'2024-08-22','false',785,'Becton Dickinson and Company')
+,(942,'Cold Hands - Feet',75,'2026-04-28','false',891,'Newton Laboratories, Inc.')
+,(943,'Libera Tos',209,'2025-05-09','true',145,'RockHealth, Inc')
+,(944,'IVA XANTHIFOLIA POLLEN',247,'2024-12-20','false',821,'ALK-Abello, Inc.')
+,(945,'Meperidine Hydrochloride',85,'2025-03-18','true',551,'Barr Laboratories Inc.')
+,(946,'Carvedilol',216,'2025-12-26','false',774,'Apotex Corp.')
+,(947,'Colgate',269,'2024-03-14','false',128,'Colgate-Palmolive Canada')
+,(948,'Atropine Sulfate',67,'2025-11-06','true',526,'General Injectables & Vaccines, Inc')
+,(949,'Ovulation Boost',76,'2023-12-03','false',169,'Home Sweet Homeopathics')
+,(950,'Secura Total Body Foam Cleanser',220,'2024-02-08','true',402,'Smith & Nephew, Inc.')
+,(951,'Levetiracetam',67,'2024-02-21','false',566,'Qualitest Pharmaceuticals')
+,(952,'Cefuroxime',152,'2024-02-18','false',634,'WG Critical Care, LLC')
+,(953,'Lisinopril',6,'2025-09-22','false',686,'REMEDYREPACK INC.')
+,(954,'Lovastatin',248,'2025-04-29','false',601,'Carlsbad Technology, Inc.')
+,(955,'PrismaSol',222,'2025-09-02','true',975,'Gambro Renal Products')
+,(956,'Octreotide Acetate',167,'2025-06-17','true',788,'Mylan Institutional LLC')
+,(957,'Quetiapine Fumarate',200,'2026-03-17','false',848,'REMEDYREPACK INC.')
+,(958,'acid reducer',59,'2024-08-02','false',124,'Rite Aid Corporation')
+,(959,'Neutrogena Healthy Skin Anti Wrinkle',94,'2025-10-25','false',110,'Neutrogena Corporation')
+,(960,'Hydroxychloroquine Sulfate',15,'2023-12-09','false',834,'Aphena Pharma Solutions - Tennessee, LLC')
+,(961,'Pleo Muc Ex',279,'2025-06-02','false',219,'Sanum Kehlbeck GmbH & Co. KG')
+,(962,'QCare Oral Cleansing and Suctioning System, Q2',184,'2026-02-03','true',994,'Sage Products LLC')
+,(963,'ERAXIS',24,'2024-09-01','false',400,'Roerig')
+,(964,'Arsenicum Album 30c',33,'2025-01-29','false',621,'BrandStorm HBC')
+,(965,'Flurazepam',55,'2026-06-12','false',841,'Rebel Distributors Corp')
+,(966,'Lescol',47,'2024-03-11','false',580,'Novartis Pharmaceuticals Corporation')
+,(967,'AHC Vital C Complex Mask',264,'2024-01-17','true',386,'Carver Korea Co.,Ltd')
+,(968,'Bryonia Apis Special Order',13,'2026-10-08','true',725,'Uriel Pharmacy Inc.')
+,(969,'Plantago Primula',79,'2025-07-03','false',532,'Uriel Pharmacy Inc.')
+,(970,'Preferred Plus Body Powder',70,'2026-10-09','true',927,'Aetna Felt Corp')
+,(971,'Too Faced Tinted Beauty Balm',32,'2026-02-12','false',758,'TOO FACED COSMETICS')
+,(972,'Metoprolol Tartrate',119,'2024-01-27','true',558,'Citron Pharma LLC')
+,(973,'Telmisartan and Hydrochlorothiazide',146,'2026-09-08','true',488,'Alembic Pharmaceuticals Limited')
+,(974,'Hydrocodone Bitartrate and Acetaminophen',62,'2025-03-07','false',55,'RedPharm Drug Inc.')
+,(975,'Dicyclomine Hydrochloride',173,'2026-03-20','true',713,'Mylan Pharmaceuticals Inc.')
+,(976,'Fenofibric acid',190,'2024-11-09','true',233,'Lupin Pharmaceuticals, Inc.')
+,(977,'Squash Zucchini',300,'2026-07-10','false',558,'Nelco Laboratories, Inc.')
+,(978,'Levofloxacin',257,'2026-05-12','true',900,'Dr. Reddy''s Laboratories Limited')
+,(979,'Diazepam',211,'2024-02-05','false',885,'Mylan Pharmaceuticals Inc.')
+,(980,'Duck Feathers',84,'2025-11-16','false',284,'Nelco Laboratories, Inc.')
+,(981,'Up and Up itch relief',58,'2025-03-27','true',533,'Target Corporation')
+,(982,'PARAID Alcohol',49,'2026-09-23','true',262,'Planet (Shanghai) International Co., Ltd.')
+,(983,'Metformin Hydrochloride Extended Release',79,'2025-12-06','true',168,'Major Pharmaceuticals')
+,(984,'Defend Cold and Mucus',139,'2025-09-03','false',265,'Hyland''s')
+,(985,'lisinopril',43,'2025-12-02','true',535,'Eon Labs, Inc.')
+,(986,'Namenda',171,'2024-05-18','true',667,'Cardinal Health')
+,(987,'Food - Plant Source, Tomato Nicotiana spp.',137,'2025-03-12','true',307,'Jubilant HollisterStier LLC')
+,(988,'Ice Cold Topical Analgesic Gel',149,'2024-11-09','true',987,'Greenbrier International, Inc.')
+,(989,'Baclofen',189,'2025-12-16','true',742,'Physicians Total Care, Inc.')
+,(990,'Amlodipine besylate and Atorvastatin calcium',35,'2024-01-28','false',868,'Dr. Reddy''s Laboratories Inc')
+,(991,'Oxcarbazepine',204,'2025-01-22','false',766,'Roxane Laboratories, Inc')
+,(992,'Nafcillin',44,'2025-03-13','false',655,'WG Critical Care, LLC')
+,(993,'Sephora 8hr Mattifying Moisturizer Sunscreen Broad Spectrum SPF 20',104,'2026-09-10','false',104,'S+')
+,(994,'SMART SENSE',47,'2024-12-29','true',857,'KMART CORPORATION')
+,(995,'Candesartan cilexetil',49,'2024-09-14','true',16,'Sandoz Inc')
+,(996,'Whole Wheat Grain',248,'2025-07-09','true',350,'Nelco Laboratories, Inc.')
+,(997,'ELF Zit Zapping Conceler',144,'2024-04-09','true',880,'J. A. Cosmetics U.S. INC')
+,(998,'Amlodipine Besylate and Benazepril Hydrochloride',25,'2025-08-20','false',385,'Rebel Distributors Corp')
+,(999,'Muro 128',104,'2026-04-30','true',458,'Bausch & Lomb Incorporated')
+,(1000,'Skin Balancing Makeup Broad Spectrum SPF 20',180,'2024-03-29','false',827,'Jafra Cosmetics');
+
+--Insert para ProveerMedicina
+INSERT INTO ProveerMedicina(IDInsumoMedicina,RFCProveedor) VALUES
+ (598,'VUBY765283CP6')
+,(106,'MXMV948227CU7')
+,(707,'ETSQ214050Q1P')
+,(842,'XKUH318555RZ3')
+,(559,'IRIK562289VWI')
+,(953,'SOKF896274KOP')
+,(165,'ODMP691042XUR')
+,(979,'HXOO8663756IR')
+,(930,'AQVD6816386CS')
+,(178,'MKFO083534ZGB')
+,(291,'TEHB663839PHD')
+,(554,'VMWD500476ZPX')
+,(962,'HMBM914924HX1')
+,(569,'RNNC111644BCG')
+,(667,'DOIL0989904VJ')
+,(904,'SPYF288627W00')
+,(899,'FQZZ783986I55')
+,(813,'YBRM615582RML')
+,(814,'AHFK214690E1H')
+,(726,'FBZP840322YHY')
+,(79,'JNTU458349Z6Y')
+,(645,'WPLV787615TCL')
+,(473,'VKHJ591140033')
+,(169,'IWQY471421Y6V')
+,(314,'TFID1700102IU')
+,(546,'KZIC2532079N5')
+,(845,'OCGK2557063R3')
+,(234,'UMBG990120UPO')
+,(946,'ODRA1052721TV')
+,(768,'PRFR346405401')
+,(735,'NUKZ268292DDG')
+,(288,'CDUL144932PTJ')
+,(902,'CFWS368000M1C')
+,(783,'TCAA23822017A')
+,(304,'CLSV937311JIG')
+,(250,'HLNQ362419U2X')
+,(74,'OWMD586973S1B')
+,(675,'PHIZ752436IBP')
+,(722,'CVQY804143HCR')
+,(833,'CEPZ28053788N')
+,(797,'SOKF896274KOP')
+,(32,'XXSU791431OWV')
+,(743,'FDSL309639FZZ')
+,(630,'GYSZ084000JRW')
+,(532,'FPMX722270J10')
+,(864,'MXBB9466579NZ')
+,(307,'IOCE3110671UA')
+,(159,'FSZF0276457QM')
+,(185,'LRBH4242267OD')
+,(473,'VOFJ879122CJR')
+,(162,'VSEL170500Y2Q')
+,(638,'RMIY4232827NO')
+,(42,'EQJU7376778NV')
+,(775,'IJPU3628110II')
+,(188,'MKFO083534ZGB')
+,(151,'KONJ647124GYP')
+,(719,'AESD444638RLC')
+,(409,'UEKL782535ELU')
+,(468,'ILUH409611CUU')
+,(586,'KDFN025492581')
+,(123,'TYWI7180479ZQ')
+,(391,'BRKQ925371RM0')
+,(678,'ULPC902078R7M')
+,(299,'OAVZ991574JNT')
+,(173,'FRAD612538OE0')
+,(684,'NYJD709963BJ3')
+,(463,'ORIL7902216YU')
+,(67,'IITZ29719539E')
+,(726,'NVKV793758MX0')
+,(467,'MJXY699350FVU')
+,(151,'SMXN315941X4D')
+,(721,'FVDP9098525QC')
+,(930,'SXRZ5822551J5')
+,(870,'SWWS141581HO4')
+,(636,'YXBM861023JQK')
+,(365,'DABH334360XBM')
+,(357,'ILUG503204D7P')
+,(808,'ATYY522600Z2T')
+,(336,'RIYR8577402YY')
+,(800,'OBEP8445993A5')
+,(916,'LVGX870269C9X')
+,(618,'THTQ938841TTM')
+,(171,'RVWO950171UUC')
+,(933,'RILU674467Y2E')
+,(236,'VKHJ591140033')
+,(165,'WOSM759958IG9')
+,(835,'MDOY70237002C')
+,(820,'GVIK787462IIT')
+,(387,'THDF140055GYU')
+,(662,'AAMD627746362')
+,(701,'NOSJ490209DFL')
+,(847,'KLMM913893U8L')
+,(709,'DQQB631522I4L')
+,(51,'QKTQ582578GJG')
+,(316,'WHRR2168251WE')
+,(816,'XJHO809660QOY')
+,(67,'FGDJ495319ZOS')
+,(637,'EPNM613338JGF')
+,(951,'TAUC0354684J7')
+,(732,'VMHX3820089OL')
+,(354,'BUXW020395ZRO')
+,(871,'SBTF362644FCC')
+,(941,'ZTBF622492KXU')
+,(303,'NOBD169655AXN')
+,(216,'HXOO8663756IR')
+,(27,'FRZX036317O9N')
+,(646,'TMSZ3069420UU')
+,(791,'GREA6669107UZ')
+,(229,'PXMV03679536B')
+,(140,'SWYN89856254H')
+,(834,'TLEB164583LIZ')
+,(455,'OIJC721465IHF')
+,(931,'LIJQ545495OFX')
+,(252,'LVQC8959788IF')
+,(495,'SSHW082209XXY')
+,(50,'FFEE219180P44')
+,(588,'RILU674467Y2E')
+,(603,'KIJE6668707V0')
+,(495,'JOEZ1831917V9')
+,(377,'BYXU3723868F8')
+,(808,'EKAC68671709U')
+,(881,'TSXV4445518GC')
+,(996,'RLFJ530330Z5I')
+,(340,'DVNL696889L51')
+,(651,'MPNF881612YKB')
+,(761,'NKWY15381250M')
+,(684,'PLNH475705LT3')
+,(269,'RILU674467Y2E')
+,(50,'HQLP841262EW2')
+,(784,'QZTU826025RL7')
+,(215,'IJTG644740Z4H')
+,(808,'RUZS862917D4Y')
+,(845,'YDPX6230044BI')
+,(406,'CHLD72166308K')
+,(519,'LVQC8959788IF')
+,(835,'FVST974901UL2')
+,(843,'QBZG6101582J8')
+,(962,'XGPW814903PE8')
+,(919,'IOUU906484KNS')
+,(887,'SDUH6316237DQ')
+,(801,'TJUX4120678YY')
+,(742,'TYWI7180479ZQ')
+,(949,'NSIF051336MC2')
+,(529,'JCDX905435F4J')
+,(378,'RFQE492221QQZ')
+,(561,'UJVM845862P5Z')
+,(57,'MDEA757912XQ6')
+,(229,'WXJP796711DBC')
+,(925,'USGH931845VWG')
+,(66,'TGDZ321487IU2')
+,(327,'LQMT878533PF5')
+,(349,'CLOW486804FC0')
+,(47,'IZTL507611GJB')
+,(318,'FAXH136590EA6')
+,(250,'EHTN330350R32')
+,(90,'QIMC098168NKU')
+,(443,'FVST974901UL2')
+,(615,'UTDM008738WO8')
+,(781,'AFMZ387497ZT8')
+,(937,'RIQD008056RRQ')
+,(729,'EGJA42073049D')
+,(985,'NGSL346741NM9')
+,(259,'EKAB471820T6D')
+,(42,'AFHQ549413O8S')
+,(343,'MCST214836LJQ')
+,(256,'HNBI466896FLE')
+,(457,'NYJD709963BJ3')
+,(743,'ZYAO567423NZV')
+,(959,'VFDH044913NVE')
+,(910,'HSXM158778IDN')
+,(491,'RIYR8577402YY')
+,(5,'QKTQ582578GJG')
+,(351,'QHEE932710K4J')
+,(903,'BTGQ389057PXS')
+,(98,'UJVM845862P5Z')
+,(921,'NGRM510576FTN')
+,(86,'AJDL4334605DU')
+,(820,'FMRZ018293JIE')
+,(610,'AFFF229941V0T')
+,(586,'WIHY43277544N')
+,(577,'VYZM368789SDR')
+,(614,'PIGG56727577N')
+,(317,'MQWL226296FOZ')
+,(444,'IACS341254WXT')
+,(488,'LULB626507KYU')
+,(223,'RZEY3957013YL')
+,(769,'EDBU112334FB7')
+,(236,'RDHC973077KNC')
+,(270,'IDQX3835822C0')
+,(625,'CENE137863R5Z')
+,(634,'VFCL608034CG3')
+,(843,'KEWK2013432D9')
+,(563,'VQMY1854685C9')
+,(918,'LQMT878533PF5')
+,(732,'EHST369332OY8')
+,(935,'ZAGK259438U3E')
+,(747,'PYGH7610096TN')
+,(465,'XNMP243021C8O')
+,(481,'DPEA639046XF8')
+,(439,'LQMT878533PF5')
+,(396,'FZIB956035JDJ')
+,(677,'EMIA8784916AN')
+,(405,'PRSV4744876AH')
+,(241,'ZPFT073175ADZ')
+,(68,'UEJW972346KGB')
+,(884,'JFFA587107BQH')
+,(401,'CCJN9516167ZN')
+,(235,'HJGF464367YJC')
+,(376,'CKNK867479SVW')
+,(987,'THTQ938841TTM')
+,(290,'NXEE930723NW0')
+,(733,'NYJD709963BJ3')
+,(835,'ZKWT840645PAB')
+,(700,'OAII8937749BR')
+,(848,'OMDN507320RSA')
+,(99,'TIUY396300J4V')
+,(326,'QCDG847489BG3')
+,(183,'ADFO82786258P')
+,(611,'KZIC2532079N5')
+,(104,'TGNH196138GKN')
+,(554,'RCFZ368060660')
+,(611,'CCSS3019850JV')
+,(411,'CENE137863R5Z')
+,(616,'MZKQ126134P49')
+,(907,'EEFD2961585QK')
+,(963,'TSXV4445518GC')
+,(257,'LPDK943471XEM')
+,(232,'MJOZ4983860QE')
+,(273,'YAMS637003V7C')
+,(274,'TBSQ372432TGY')
+,(480,'PKXI0906232JL')
+,(235,'GFPS511862V86')
+,(143,'YNOM356585VIE')
+,(318,'ICUE069371VUF')
+,(741,'OPHE67277474K')
+,(458,'WGMN9814861OD')
+,(936,'GVIK787462IIT')
+,(68,'EWKR797993KB0')
+,(266,'TSEY094441H4N')
+,(653,'YBHM95174774H')
+,(351,'AAMD627746362')
+,(102,'PXMV03679536B')
+,(942,'MCYV659198BI3')
+,(493,'OTRX739954BCZ')
+,(714,'ZPFT073175ADZ')
+,(396,'GRDF066108VM0')
+,(997,'SMXN315941X4D')
+,(514,'MFCO230094EUT')
+,(861,'YBRM615582RML')
+,(4,'OUFD449298HQJ')
+,(675,'DQJC4658581GN')
+,(324,'EYQV978170QM1')
+,(723,'WGMN9814861OD')
+,(968,'GAVD067169PWZ')
+,(205,'HHAB322852YMZ')
+,(178,'OAII8937749BR')
+,(281,'BGNN848040GCX')
+,(278,'COCV623245ETR')
+,(817,'MCYV659198BI3')
+,(713,'ZUXQ058525YGL')
+,(837,'JDMW8923470EB')
+,(315,'BGNW68543649Y')
+,(381,'BSIS714426CBV')
+,(658,'PUAQ750815FJ4')
+,(22,'JUUG897326BCV')
+,(488,'MPXV785149MLJ')
+,(978,'VRMO693230JD9')
+,(800,'KKBO146142Z81')
+,(902,'DRYO516651TFE')
+,(92,'IIND8570823HR')
+,(268,'FAAT178900CS7')
+,(418,'IJPU3628110II')
+,(724,'EPNM613338JGF')
+,(531,'AJDL4334605DU')
+,(389,'PFYE4749338BQ')
+,(138,'ACAR959502ZXD')
+,(957,'HTNH318083T34')
+,(714,'HMAI21387437T')
+,(281,'HHLW023573QGO')
+,(588,'AUOV056587OFI')
+,(623,'IVXZ158781UWJ')
+,(219,'CEMI863718IXF')
+,(378,'ETSQ214050Q1P')
+,(158,'TMSZ3069420UU')
+,(493,'RZOM563531614')
+,(16,'DISJ392749Q6G')
+,(904,'LVQC8959788IF')
+,(909,'GKIQ228572N5C')
+,(127,'ACAR959502ZXD')
+,(964,'RXDF928146NP1')
+,(156,'UJVM845862P5Z')
+,(567,'DUJO287218CNP')
+,(874,'ERCB502925AZY')
+,(300,'EMRG808847UBZ')
+,(758,'RXDF928146NP1')
+,(403,'RZOM563531614')
+,(255,'KRZY7703450U1')
+,(563,'DABH334360XBM')
+,(55,'BAKS026643NUT')
+,(962,'VOFV3768854PH')
+,(874,'HJGF464367YJC')
+,(64,'QHEE932710K4J')
+,(529,'FFAV6172093Y6')
+,(241,'AFLE952504O86')
+,(767,'WGMN9814861OD')
+,(501,'LZRE917742XB2')
+,(115,'HNBI466896FLE')
+,(419,'CSIM9829440NM')
+,(480,'OGKJ567272QE8')
+,(642,'JSKV958329GHA')
+,(181,'MBUQ6362826V9')
+,(159,'XUBW682189MQ5')
+,(933,'FPXG298410YY4')
+,(996,'BFBM662942TBB')
+,(362,'GSON3089556J5')
+,(693,'ZFIG373593Z5Q')
+,(248,'PLVM391901R55')
+,(372,'SCBM366800LRG')
+,(674,'HAOP479520VN4')
+,(717,'UTDM008738WO8')
+,(316,'GOAV934666GV5')
+,(453,'NSIF051336MC2')
+,(251,'AGVP834937HEV')
+,(408,'TEHB663839PHD')
+,(227,'GWXX122275G5N')
+,(771,'OLUR486979F8K')
+,(970,'SDKV828977M9L')
+,(791,'HGOH996820YCH')
+,(106,'ATRM1589845MJ')
+,(868,'TGNH196138GKN')
+,(525,'OZFR705492SFQ')
+,(838,'RMIY4232827NO')
+,(960,'ZYZC595850VQQ')
+,(238,'JCPR169398IY4')
+,(591,'SCNQ645798X30')
+,(215,'ZUXQ058525YGL')
+,(846,'NNXW4340430Z1')
+,(884,'PSYZ748689M7W')
+,(368,'RZEY3957013YL')
+,(224,'WJSC1297068QO')
+,(420,'IWQY471421Y6V')
+,(397,'RZEY3957013YL')
+,(513,'PUAQ750815FJ4')
+,(683,'MQWL226296FOZ')
+,(183,'URRA1779535KA')
+,(253,'KONJ647124GYP')
+,(559,'ICUE069371VUF')
+,(422,'DAMY97691992A')
+,(679,'NGSL03253011S')
+,(531,'CLSV937311JIG')
+,(984,'MYXJ741400MQ6')
+,(61,'FBFE71357624M')
+,(368,'WOSM759958IG9')
+,(744,'FAJZ288313TU8')
+,(605,'UGAG160651D6D')
+,(495,'XXDE356229JIN')
+,(355,'RROD368008YYX')
+,(229,'WCTF493369PK8')
+,(936,'JFAY478968T9F')
+,(562,'KUYN858294YO3')
+,(33,'IOUU906484KNS')
+,(359,'XVVF9249154K4')
+,(741,'BYOG5382836YD')
+,(538,'AHFK214690E1H')
+,(290,'VUWN710740YXK')
+,(177,'VMWD500476ZPX')
+,(513,'SPYF288627W00')
+,(134,'GOAV934666GV5')
+,(166,'XRDY5359474JI')
+,(326,'PIGG56727577N')
+,(895,'OQEU704253CEK')
+,(815,'QCDG847489BG3')
+,(731,'PTFM60026433N')
+,(673,'PMMF748247XC2')
+,(660,'ALRX345861DKR')
+,(732,'EOMN247231XUY')
+,(164,'BRZM982676GM5')
+,(121,'IUDV941798MUA')
+,(945,'QGRR217412WXJ')
+,(137,'BGFK057094ZP4')
+,(224,'PHBD139248LI0')
+,(261,'WYFG7873836T4')
+,(93,'WAQK748536KXV')
+,(833,'VVLV186585E1S')
+,(204,'DRYO516651TFE')
+,(327,'EVLL317290ZDH')
+,(859,'RUZS862917D4Y')
+,(529,'DMXG766268RBO')
+,(320,'ZWKY883448H21')
+,(943,'IOZT905556NS8')
+,(26,'LOQK942041YD4')
+,(452,'EHRE574439884')
+,(778,'GYSZ084000JRW')
+,(430,'VFCL608034CG3')
+,(359,'IWQY471421Y6V')
+,(344,'CAGQ245488A70')
+,(374,'CWBX803640ANO')
+,(903,'PTFM60026433N')
+,(31,'FFAV6172093Y6')
+,(187,'RVWO950171UUC')
+,(58,'GJTR297334DBA')
+,(814,'RTFX139256OIQ')
+,(317,'PUNK31565054T')
+,(962,'YAMS637003V7C')
+,(375,'NGRM510576FTN')
+,(577,'RUZS862917D4Y')
+,(752,'UJMO850203RVO')
+,(834,'CBZA558084V1Y')
+,(343,'OEJY588820UC1')
+,(837,'KJFG073310UY5')
+,(447,'YTAC845195C9U')
+,(876,'ADFO82786258P')
+,(18,'VHZF988914X6I')
+,(588,'ATYY522600Z2T')
+,(619,'GWXX122275G5N')
+,(781,'AJCD8581077Q4')
+,(321,'AZDH364262Q2G')
+,(650,'AVND3819211KU')
+,(866,'UOSV194061G4F')
+,(899,'CKNK867479SVW')
+,(791,'ODHZ8367027QY')
+,(271,'EVLL317290ZDH')
+,(211,'PPXH0213519YS')
+,(824,'DAMY97691992A')
+,(488,'AZMI675933YD6')
+,(268,'SWWS141581HO4')
+,(96,'PPAQ23957805X')
+,(600,'COCD590010K7V')
+,(560,'WHRR2168251WE')
+,(6,'NXEE930723NW0')
+,(968,'GSPN084490Z0D')
+,(373,'LIJQ767286UGW')
+,(488,'BMPQ818758YHF')
+,(542,'HHLW023573QGO')
+,(372,'KLMM913893U8L')
+,(98,'XDPR8676213TD')
+,(401,'NYJD709963BJ3')
+,(960,'BFFX035870T1B')
+,(169,'TGDZ321487IU2')
+,(542,'FVDP9098525QC')
+,(866,'WRRX0888354MB')
+,(34,'FSZF0276457QM')
+,(714,'LNII914823CAQ')
+,(729,'MWNW082710I74')
+,(583,'ACAR959502ZXD')
+,(135,'DQJC4658581GN')
+,(557,'XGPW814903PE8')
+,(440,'GAVD067169PWZ')
+,(580,'AYXA0314042LN')
+,(432,'WBYJ774414KAU')
+,(906,'CAMF861779CJ2')
+,(82,'HXRJ711416T1N')
+,(354,'USCX786303D33')
+,(447,'TRFX488991G6F')
+,(203,'WGMN9814861OD')
+,(533,'HEYG602772DPH')
+,(118,'ZTCH476615ALV')
+,(959,'TSXV4445518GC')
+,(161,'CDOD066193EC9')
+,(101,'URRA1779535KA')
+,(238,'XEAG8431792IU')
+,(45,'OCGK2557063R3')
+,(230,'EIBK474731JDT')
+,(464,'UENO992771N6H')
+,(163,'IPDH337438CSS')
+,(298,'WUGD7641855BR')
+,(849,'LOQK942041YD4')
+,(724,'JZVF255008O04')
+,(421,'BWEE378360HKC')
+,(521,'KNDS231225YP1')
+,(728,'QELI025909JW3')
+,(71,'VPQP167938EE2')
+,(360,'LIJQ545495OFX')
+,(116,'LDIQ0717537RB')
+,(331,'LOQK942041YD4')
+,(98,'PEWH1936736M1')
+,(383,'UENO992771N6H')
+,(589,'BYXU3723868F8')
+,(504,'AESD444638RLC')
+,(340,'QJGA232980PHK')
+,(505,'GKIQ228572N5C')
+,(566,'DQJC4658581GN')
+,(187,'RNNC111644BCG')
+,(143,'EVZB609644CUC')
+,(238,'HYKD665179CWP')
+,(2,'OCKC408757T78')
+,(422,'FZSI632290QRY')
+,(143,'BDQV365836963')
+,(16,'YTDG930250L8N')
+,(55,'CHLD72166308K')
+,(739,'SPPW936008BC9')
+,(577,'PJDX331012A2G')
+,(105,'QHEE932710K4J')
+,(826,'TCMJ0020794RO')
+,(692,'HQRG218171US8')
+,(262,'FAMI423631REV')
+,(554,'SKGT969587WFH')
+,(322,'MUMC691946QJ7')
+,(637,'LDIQ0717537RB')
+,(667,'MXMV948227CU7')
+,(467,'PMMF748247XC2')
+,(776,'ATGC74162816Y')
+,(77,'WYFG7873836T4')
+,(146,'CGWS378406M4Z')
+,(386,'IOBJ563674MTX')
+,(676,'PCDG8506117UF')
+,(284,'ATRM1589845MJ')
+,(220,'DHNA084535969')
+,(907,'WMQP397428I82')
+,(197,'VWCP455349TJZ')
+,(745,'QXBK070323MJJ')
+,(76,'SPLM296596IG6')
+,(138,'GSPN084490Z0D')
+,(502,'HIOA474185GZ4')
+,(15,'PINQ9773951SW')
+,(487,'OLHO8187658LY')
+,(37,'URRA1779535KA')
+,(414,'BFHB198547MQ5')
+,(226,'XVVF9249154K4')
+,(656,'ETIH073659PZ9')
+,(402,'RBNK9604379Y5')
+,(746,'HQRG218171US8')
+,(854,'PXIB061923X8O')
+,(963,'WUGD7641855BR')
+,(988,'DTSA3649331WK')
+,(149,'ZTQE678319OWF')
+,(294,'RRKG127091E15')
+,(761,'CLSV937311JIG')
+,(750,'ATYY522600Z2T')
+,(941,'WZUR9885760KT')
+,(393,'BSIS714426CBV')
+,(661,'SPLM296596IG6')
+,(660,'TJUX4120678YY')
+,(473,'CYFD353897DSI')
+,(491,'DABH334360XBM')
+,(691,'RYOI18800901Z')
+,(498,'XRVX3338527WV')
+,(155,'ZMWB3749284AB')
+,(508,'BSIS714426CBV')
+,(403,'FCTY234389X9M')
+,(108,'ILUH409611CUU')
+,(978,'UGAG160651D6D')
+,(992,'VJVZ169047U73')
+,(813,'OVKI583317MAO')
+,(398,'KKUC162937G5F')
+,(84,'CPDA580662O9U')
+,(489,'PMMF748247XC2')
+,(925,'GZHY179793EHM')
+,(972,'PFZR443542BKY')
+,(609,'RQDQ647611DF7')
+,(556,'GZVC681008C53')
+,(891,'WMQL0449878B3')
+,(991,'YUOP736511U6I')
+,(715,'SPPW936008BC9')
+,(910,'CUTU854000VWA')
+,(199,'TFOG329853IP2')
+,(646,'UHHQ632199CYB')
+,(776,'OEML338546OR1')
+,(864,'YBHM95174774H')
+,(383,'QNQS118953E56')
+,(731,'NXEE930723NW0')
+,(151,'ETIH073659PZ9')
+,(182,'OXOT814591687')
+,(933,'OZKL526309VMP')
+,(798,'ZTCH476615ALV')
+,(21,'MQWL226296FOZ')
+,(941,'TXUL887417ESJ')
+,(237,'YDPX6230044BI')
+,(612,'FWRY115273NHZ')
+,(100,'NBMY035986452')
+,(522,'QKTQ582578GJG')
+,(333,'HGRB799166MCV')
+,(538,'WTXL708322OHO')
+,(179,'BKIV549895IQ7')
+,(188,'XVIG928328BTI')
+,(53,'DSPA199347BRE')
+,(267,'XRVX3338527WV')
+,(225,'NCCW5865979CC')
+,(178,'ILUG503204D7P')
+,(130,'AJCD8581077Q4')
+,(921,'EXTM336450QL1')
+,(580,'LZRE917742XB2')
+,(837,'VDNZ6099559CO')
+,(841,'GOYF438497P37')
+,(737,'CBGE584485QD8')
+,(719,'RCFZ368060660')
+,(242,'CCKT279212KAI')
+,(927,'LHIS850370JRB')
+,(686,'EVLL317290ZDH')
+,(875,'AFFF229941V0T')
+,(947,'OAII8937749BR')
+,(231,'AVND3819211KU')
+,(224,'ZIIP733909LUB')
+,(911,'FBMM968853OZD')
+,(670,'JUMM020560H98')
+,(998,'AKPH693672RAK')
+,(149,'DAAO721466AZF')
+,(875,'VSLU312857RB2')
+,(90,'ZPFT5232630BN')
+,(816,'GREA6669107UZ')
+,(928,'ADKZ057660GLA')
+,(902,'PHXG111039N3X')
+,(996,'TSXV4445518GC')
+,(913,'RMIY4232827NO')
+,(38,'BKIV549895IQ7')
+,(578,'BUXW020395ZRO')
+,(240,'AAMD627746362')
+,(412,'ARRC3089348JQ')
+,(914,'KLMM913893U8L')
+,(335,'QHEE932710K4J')
+,(438,'UWVZ4325084O5')
+,(4,'PUAQ750815FJ4')
+,(140,'DQJC4658581GN')
+,(81,'ODSF032822GJL')
+,(99,'AKTA3427799W1')
+,(462,'QIMC098168NKU')
+,(361,'BQGR331904HAZ')
+,(561,'IIND8570823HR')
+,(565,'ONOO750796NVZ')
+,(238,'FZIB956035JDJ')
+,(48,'FBFE71357624M')
+,(992,'OXEA9761253VY')
+,(339,'BWJY658463HZL')
+,(463,'TYWI7180479ZQ')
+,(843,'IYQJ483312C36')
+,(492,'NSSZ345619ZPA')
+,(111,'AWTD771855UFO')
+,(498,'DHNA084535969')
+,(447,'OYFA842158DQC')
+,(861,'DQQB631522I4L')
+,(19,'MDLZ284607V6S')
+,(876,'HSNE724862DFF')
+,(491,'OEML338546OR1')
+,(856,'BKDW700858ZG8')
+,(103,'FPXG298410YY4')
+,(958,'FWRY115273NHZ')
+,(152,'CIWA909585RMC')
+,(239,'PLJX997203TO4')
+,(610,'SPLM296596IG6')
+,(905,'BLDE418980KHH')
+,(616,'GZRO727015SWN')
+,(69,'HEQI435144KX5')
+,(30,'WMQL0449878B3')
+,(523,'GJLR535141VQY')
+,(328,'KNYJ1862790MR')
+,(712,'ZMWB3749284AB')
+,(16,'YYNR031933338')
+,(280,'AQVD6816386CS')
+,(904,'JSKV958329GHA')
+,(846,'VZWR5180802VL')
+,(370,'BGNW68543649Y')
+,(756,'VZQG359355QI1')
+,(777,'KLMM913893U8L')
+,(514,'ETSQ214050Q1P')
+,(267,'WMQL0449878B3')
+,(691,'FRQM158548YHE')
+,(970,'IZLR291978L8X')
+,(85,'SWWS141581HO4')
+,(833,'YHBJ6645772JK')
+,(2,'VESB142552IY1')
+,(746,'NQZT803209NNU')
+,(858,'VFDH044913NVE')
+,(651,'ADKZ057660GLA')
+,(251,'HXCZ19705971T')
+,(797,'TADK9639427QO')
+,(138,'JCDX905435F4J')
+,(736,'KDPC920643VHH')
+,(10,'FAJZ288313TU8')
+,(56,'CHLD72166308K')
+,(280,'EKAB471820T6D')
+,(840,'MKGN143581XEW')
+,(804,'WMQL0449878B3')
+,(529,'EWKR797993KB0')
+,(626,'BSIS714426CBV')
+,(456,'BWEE378360HKC')
+,(440,'PXIB061923X8O')
+,(879,'RHCR688280HUC')
+,(836,'XYGD84211340C')
+,(169,'QHXO936834OYN')
+,(149,'WGYL5585159N8')
+,(102,'XRXK369569BWB')
+,(964,'YELN075917AB8')
+,(996,'VSDA0758275PR')
+,(900,'TCMJ0020794RO')
+,(502,'OTRX739954BCZ')
+,(929,'AJCD8581077Q4')
+,(342,'OKPE352313LV0')
+,(895,'YMTL76826456M')
+,(315,'KDFN025492581')
+,(121,'FFEE219180P44')
+,(27,'ELTM8338697YW')
+,(932,'ZQPF260391DAO')
+,(747,'XGEZ2975358Q6')
+,(942,'MQUJ000400PA0')
+,(467,'BTQA251064RD3')
+,(479,'TCAS0809453P3')
+,(430,'EANX303240H58')
+,(84,'SPPW936008BC9')
+,(576,'UZIN530092NLO')
+,(920,'CBZO3643615NA')
+,(253,'EKAC68671709U')
+,(377,'PFZR443542BKY')
+,(529,'QELL033956IY1')
+,(310,'CSBW831854N33')
+,(221,'DMET436642L0L')
+,(383,'ATYY522600Z2T')
+,(733,'NAQK2716593OM')
+,(904,'YUOP736511U6I')
+,(684,'HGRB799166MCV')
+,(188,'SVPR95121052U')
+,(444,'ILUG503204D7P')
+,(781,'ZFIG373593Z5Q')
+,(786,'EANX303240H58')
+,(57,'VDMJ552495NLI')
+,(950,'JIWP328192D0O')
+,(201,'BFOG228911SF8')
+,(208,'OLUR486979F8K')
+,(992,'ECEO07833694C')
+,(755,'NYJD709963BJ3')
+,(308,'EHST369332OY8')
+,(542,'AFKF244085BSO')
+,(610,'HAOP479520VN4')
+,(758,'DPEA639046XF8')
+,(857,'BCBR850236TB8')
+,(171,'WPJV504529AT8')
+,(236,'HTRQ854405IS0')
+,(660,'HYKD665179CWP')
+,(421,'RATL276284385')
+,(522,'IWBF960827MVH')
+,(287,'AFLE952504O86')
+,(27,'WZUR9885760KT')
+,(371,'UZRF1815798BU')
+,(241,'OBEP8445993A5')
+,(331,'TYRE0256256JV')
+,(606,'QXBK070323MJJ')
+,(863,'LOGQ61593832N')
+,(319,'VOVB236031R7C')
+,(556,'WHRR2168251WE')
+,(839,'NOSJ490209DFL')
+,(398,'VOVB236031R7C')
+,(95,'PHIZ752436IBP')
+,(187,'ILJV813494TU6')
+,(919,'FFTD432877KA7')
+,(669,'HCJK214833UZ5')
+,(652,'JCJI164513M1C')
+,(814,'JVYD954908VSK')
+,(640,'VJVZ169047U73')
+,(712,'UOSF3320941WR')
+,(181,'TMSZ3069420UU')
+,(955,'CFWS368000M1C')
+,(619,'LXXP4992440VX')
+,(739,'HCJK214833UZ5')
+,(521,'UPFG986830QCD')
+,(668,'KDFN025492581')
+,(576,'LIQU9724303Z5')
+,(885,'PIGG56727577N')
+,(991,'VOVB236031R7C')
+,(773,'DPQM580334GEW')
+,(231,'TFID1700102IU')
+,(915,'WRDZ227930CE8')
+,(110,'TKYP26521814C')
+,(773,'BWSJ750826D2G')
+,(47,'NMAC613311KS4')
+,(460,'HTNH318083T34')
+,(806,'QKTQ582578GJG')
+,(441,'LIFW323187M5M')
+,(290,'UOSV194061G4F')
+,(344,'BSIS714426CBV')
+,(728,'TKEL137413WCJ')
+,(153,'IPDH337438CSS')
+,(888,'JPWJ704349IIN')
+,(420,'IIIM562676PP6')
+,(974,'QYHC366395PLE')
+,(272,'UZRF1815798BU')
+,(619,'UHHQ632199CYB')
+,(353,'RHCR688280HUC')
+,(426,'GFPS511862V86')
+,(443,'DTSA3649331WK')
+,(842,'FSZF0276457QM')
+,(757,'HJGF464367YJC')
+,(699,'IVUU095214RLP')
+,(850,'OEEG5658323KI')
+,(978,'AKTA3427799W1')
+,(385,'VUWN710740YXK')
+,(492,'TBSQ372432TGY')
+,(876,'QQSI350313ZDD')
+,(947,'FJMS0326234U2')
+,(194,'EPWV530995HAW')
+,(976,'NAQK2716593OM')
+,(881,'AVND3819211KU')
+,(68,'WYFG7873836T4')
+,(312,'KAYU050765AWL')
+,(701,'QBHO076301Y9W')
+,(391,'TEHB663839PHD')
+,(589,'PEWH1936736M1')
+,(217,'BUXW020395ZRO')
+,(788,'IUDV941798MUA')
+,(137,'PHIZ752436IBP')
+,(903,'XWCB271190WRV')
+,(921,'OCGK2557063R3')
+,(130,'RNRX031778CSQ')
+,(303,'SVPR95121052U')
+,(580,'KBPF015679V3P')
+,(114,'VFDH044913NVE')
+,(789,'HTWK703831XML')
+,(507,'PPXH0213519YS')
+,(570,'YBRM615582RML')
+,(377,'FZSI632290QRY')
+,(246,'EANX303240H58')
+,(79,'HCJK214833UZ5')
+,(32,'EQFB95598465Q')
+,(978,'IEJL3949598OC')
+,(593,'UOSF3320941WR')
+,(853,'MUMC691946QJ7')
+,(279,'ERBK1830342GG')
+,(148,'ACAR959502ZXD')
+,(245,'YUOP736511U6I')
+,(96,'MJOZ4983860QE')
+,(255,'IETJ940600QZN')
+,(677,'FCPZ611443M4H')
+,(673,'HIOA474185GZ4')
+,(956,'GZVC681008C53')
+,(488,'XJEY3645775WV')
+,(773,'VKHJ591140033')
+,(206,'BJBO4838833T9')
+,(243,'HMGW701059UV8')
+,(662,'KILS696327BNJ')
+,(341,'URRA1779535KA')
+,(539,'DAMY97691992A')
+,(31,'DWLC692177ZNI')
+,(433,'HSCN770669DVS')
+,(121,'MSWB584281QVQ')
+,(941,'IVUU095214RLP')
+,(769,'SCBM366800LRG')
+,(48,'GJTR297334DBA')
+,(15,'TOKW059463WBE')
+,(874,'PXEJ1542922K1')
+,(616,'RAPH300101RT9')
+,(341,'RZOM563531614')
+,(35,'BGHO064351MU7')
+,(141,'FAAT178900CS7')
+,(73,'ZRPC774774117')
+,(123,'WRDZ227930CE8')
+,(842,'SSHW082209XXY')
+,(106,'PPXH0213519YS')
+,(568,'QPEU865451OD6')
+,(224,'CQVD192678U69')
+,(982,'QXZB727729OLN')
+,(80,'HXCZ19705971T')
+,(187,'LVQC8959788IF')
+,(635,'QELI025909JW3')
+,(598,'TKHK941426VBM')
+,(159,'XRXK369569BWB')
+,(556,'PCDG8506117UF')
+,(594,'UZKL9180732PG')
+,(644,'XXPY553332PWP')
+,(909,'QBLG5229736GX')
+,(400,'CAMF861779CJ2')
+,(443,'WAQK748536KXV')
+,(98,'QEYI423491BBP')
+,(988,'ATRM1589845MJ')
+,(21,'OAVZ991574JNT')
+,(849,'HMAI21387437T')
+,(385,'DPEA639046XF8')
+,(476,'FFEE219180P44')
+,(644,'CGWS378406M4Z')
+,(711,'BOGO270881O5M')
+,(282,'TYRE0256256JV')
+,(254,'XATD05973635N')
+,(676,'MBUQ6362826V9')
+,(383,'IRIK562289VWI')
+,(198,'SCNQ645798X30')
+,(582,'LIFW323187M5M')
+,(875,'DEWV17168719E')
+,(493,'QIMC098168NKU')
+,(197,'GWXP4058815C6')
+,(267,'TMSZ3069420UU')
+,(766,'VPQP167938EE2')
+,(365,'VOVB236031R7C')
+,(28,'LULB626507KYU')
+,(1,'ATYY522600Z2T')
+,(900,'TXGT480867OZ8')
+,(160,'QKTQ582578GJG')
+,(871,'OBEP8445993A5')
+,(547,'QKTQ582578GJG')
+,(630,'UIIZ577363F5Y')
+,(162,'GKIQ228572N5C')
+,(373,'ORIL7902216YU')
+,(821,'VDMJ552495NLI')
+,(3,'VOFV3768854PH')
+,(261,'KWHJ447522YDE')
+,(861,'RHCR688280HUC')
+,(31,'RGDY1033566MP')
+,(522,'THTQ938841TTM')
+,(540,'TJUX4120678YY')
+,(599,'LBSU899095GA9')
+,(356,'ZQXG15662092J')
+,(391,'MCST214836LJQ')
+,(428,'HXCZ19705971T')
+,(28,'SKGT969587WFH')
+,(970,'LVSI1502521M1')
+,(386,'QJGA232980PHK')
+,(296,'MWNW082710I74')
+,(524,'TSGQ643172HIU')
+,(921,'SPPW936008BC9')
+,(912,'XUBW682189MQ5')
+,(167,'JOUG7969525Z9')
+,(700,'EDBU112334FB7')
+,(183,'TKYU4400669F5')
+,(396,'GBVT332914TV2')
+,(173,'CRMG174486V7Z')
+,(45,'YELN075917AB8')
+,(792,'BFXH972353UGA')
+,(74,'VZWR5180802VL')
+,(153,'WQBM253697JS5')
+,(47,'AFKF244085BSO')
+,(357,'ZUXQ058525YGL')
+,(248,'SNUG504763DL1')
+,(439,'GZTA175363LB1')
+,(25,'VDMJ552495NLI')
+,(361,'CFEN040575NR5')
+,(622,'VESJ690056W7X')
+,(332,'IETJ940600QZN')
+,(390,'LRLU87317835N')
+,(859,'KONJ647124GYP')
+,(41,'VESB142552IY1')
+,(740,'OVKI583317MAO')
+,(230,'AGVP834937HEV')
+,(22,'LVSI1502521M1')
+,(301,'WUGD7641855BR')
+,(538,'NOUR172889RFV')
+,(616,'ZYAO567423NZV')
+,(643,'ULPC902078R7M')
+,(477,'QFBR976876DDT')
+,(845,'DDPL209552XIN')
+,(199,'XRXK369569BWB')
+,(671,'HDFM494191FJB')
+,(199,'JCJI164513M1C')
+,(197,'ILUH409611CUU')
+,(729,'TADK9639427QO')
+,(810,'VDNZ6099559CO')
+,(633,'BKIV549895IQ7')
+,(449,'USOW274676NCG')
+,(1000,'OEML338546OR1')
+,(845,'EHZW971417Y0E')
+,(251,'ELTM8338697YW')
+,(272,'ATGC74162816Y')
+,(918,'CRMG174486V7Z')
+,(274,'AFLE952504O86')
+,(419,'LBSU899095GA9')
+,(539,'XATD05973635N')
+,(94,'CRXF8949658XE')
+,(167,'UWVZ4325084O5')
+,(280,'ORMC948608I79')
+,(797,'ITHK053906TM8')
+,(110,'YZWA152649CM2')
+,(752,'LZRE917742XB2')
+,(179,'KZIC2532079N5')
+,(811,'MZKQ126134P49')
+,(701,'KNYJ1862790MR')
+,(48,'QNQS118953E56')
+,(601,'BIOM772665SEM')
+,(47,'PKXI0906232JL')
+,(610,'MMZG993584UD3')
+,(277,'IZTL507611GJB')
+,(375,'XKOC643422YUV')
+,(728,'QOWV157341LSY')
+,(972,'VMHX3820089OL')
+,(958,'RRKG127091E15')
+,(440,'RLQH337633XPY')
+,(983,'IYIO0759766UE')
+,(563,'QELI025909JW3')
+,(664,'EQJU7376778NV')
+,(188,'AKPH693672RAK')
+,(678,'RJNR132465UI6')
+,(397,'ADKZ057660GLA')
+,(514,'CLSV937311JIG')
+,(36,'DIFA98682240Q')
+,(616,'ZYMG9949755UJ')
+,(935,'DAMY97691992A')
+,(248,'OKEC68616523R')
+,(644,'XGPW814903PE8')
+,(205,'XUBW682189MQ5')
+,(778,'AHVG479542140')
+,(163,'BUXW020395ZRO')
+,(451,'GSON3089556J5')
+,(103,'LBSU899095GA9')
+,(333,'TKYP26521814C')
+,(512,'KUYN858294YO3')
+,(714,'NGRN18912975J')
+,(17,'DMET436642L0L')
+,(11,'YELN075917AB8')
+,(815,'TKEL137413WCJ')
+,(98,'TXGT480867OZ8')
+,(171,'FLEA4934077LT')
+,(187,'QYCC996766QFX')
+,(927,'RGBS106332Q3U')
+,(667,'DOIL0989904VJ')
+,(669,'YMYK8949060KE')
+,(13,'LKLN802151EF7');
+
+-- INSERT para DistribuirMedicina
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (813,433);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (312,800);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (961,21);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,604);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (375,107);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (859,564);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (860,377);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (272,899);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (30,430);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (475,219);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,693);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (625,842);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,70);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (500,662);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,994);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,201);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (391,137);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (139,203);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (522,650);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,682);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (567,101);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (722,489);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (907,143);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (420,333);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,124);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (986,7);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (583,202);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (530,918);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (840,610);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (257,853);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,866);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,771);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (665,899);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (331,784);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (697,939);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,453);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (103,59);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (839,362);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (822,211);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (858,729);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (219,696);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (901,385);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (679,393);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (676,985);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (900,410);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (457,272);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (482,610);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (660,230);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (55,173);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (783,63);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (201,164);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (814,464);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,223);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (767,464);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,174);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (757,531);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (874,757);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (348,752);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (92,551);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (579,751);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,565);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,555);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (535,418);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,574);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (656,33);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,223);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (736,808);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (714,494);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (123,366);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (418,997);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (512,396);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,918);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (430,424);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (980,618);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (927,771);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (277,973);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (669,284);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (981,579);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (926,529);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (724,621);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (674,831);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (800,430);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (748,908);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (825,780);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (829,659);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (64,420);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (497,591);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (212,112);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,722);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,762);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,430);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (349,148);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (367,693);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (963,413);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (123,146);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,564);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,803);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (239,804);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (889,602);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,147);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,191);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,230);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (202,418);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (508,964);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (66,419);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (600,833);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (113,936);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (512,111);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,849);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (944,806);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (477,58);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (56,454);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (75,686);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (237,50);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (261,781);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (193,433);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (858,740);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (328,75);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,594);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,793);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (880,1);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (98,171);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (550,161);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (381,445);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,324);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (418,691);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,535);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (760,550);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (915,346);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (446,125);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (87,464);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,977);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (482,202);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (750,488);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (100,336);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (346,324);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (825,633);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (963,809);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (135,351);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,838);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (832,35);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (54,611);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,600);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (376,760);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,219);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (975,38);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (876,105);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (47,535);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (572,465);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (439,23);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (616,877);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (110,491);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (138,26);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (794,703);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (727,582);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,695);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,712);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (305,558);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (959,379);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,248);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,144);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (884,416);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (646,351);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (754,207);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,458);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (238,95);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (383,152);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (412,287);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (296,778);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (960,217);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (552,789);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (680,547);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (254,918);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (655,73);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (575,209);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (341,717);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (678,299);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (522,553);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (284,869);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (669,281);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (510,941);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,240);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (888,997);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,439);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (830,842);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (562,608);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (634,229);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,910);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (829,508);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (91,835);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,100);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (589,77);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (208,585);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,146);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (544,960);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (21,673);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (800,976);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (428,577);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (322,377);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (34,116);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (989,63);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,190);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (242,743);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (387,445);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (166,741);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (897,617);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (782,931);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (107,423);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,768);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (191,11);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,774);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,866);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (684,743);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,127);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,251);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (902,586);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,782);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (762,721);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (507,777);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (577,192);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (528,486);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (792,60);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (171,921);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (24,437);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (865,66);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (893,12);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (329,943);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,150);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,650);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,220);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (827,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (383,250);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,568);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (233,63);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (286,749);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (502,816);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (62,246);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (797,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (979,834);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (959,450);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (487,161);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (196,927);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (355,712);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,573);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,321);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (174,371);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,745);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (417,251);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,611);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (964,679);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (353,86);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,14);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (236,318);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (848,327);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (928,447);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (69,335);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (286,516);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (605,387);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,462);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (663,704);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (820,305);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (716,124);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (184,994);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (583,944);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (715,566);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (985,145);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (434,803);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (550,752);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (982,864);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (987,93);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,884);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,638);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,223);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (268,240);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (346,545);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (662,523);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,877);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (327,362);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (495,999);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (86,81);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (63,399);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (300,768);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,969);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (818,370);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (674,353);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,221);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,301);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,677);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (619,9);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,931);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (409,603);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (815,295);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,693);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (213,238);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,946);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (231,745);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (801,738);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (758,139);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (774,873);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (16,851);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (294,552);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (347,90);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,119);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (61,48);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (259,2);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (612,277);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (43,330);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (433,820);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (80,238);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,403);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (374,229);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (864,738);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (457,951);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (969,93);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,438);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (473,538);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (513,468);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (750,854);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (705,922);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (947,711);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (177,788);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (694,295);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (221,229);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (496,843);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (932,650);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (511,584);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (467,99);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (977,98);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,266);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (486,124);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,860);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (763,767);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,99);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,372);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (78,905);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (520,576);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (722,814);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,855);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (354,644);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (706,669);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (70,706);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,27);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (111,739);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (961,979);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (970,712);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,929);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (295,909);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (742,277);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,352);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (106,356);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (121,188);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,16);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (44,398);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (868,81);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (542,460);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (356,147);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (450,905);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,733);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,901);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,802);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (88,469);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,751);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,80);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (579,867);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (877,341);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,624);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (914,783);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (687,407);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (514,260);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (85,947);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (455,698);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (159,899);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,757);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (70,35);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (938,813);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,550);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (947,346);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (494,270);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (515,291);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,634);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (781,716);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (198,624);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (592,999);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (667,659);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,380);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,342);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (433,915);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (493,705);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,212);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (458,510);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (146,666);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (246,587);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,894);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (608,185);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (568,138);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (40,433);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (492,93);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (157,930);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,868);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (7,96);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,673);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,973);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (385,551);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (504,943);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (894,266);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (49,95);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (266,35);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (588,954);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (469,51);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (483,419);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (630,685);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (734,796);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (46,644);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (448,91);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (25,548);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (93,464);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,771);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (298,753);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (973,386);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (478,393);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,901);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (101,943);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (71,555);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (344,320);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (236,902);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (41,710);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,596);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (720,680);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (811,754);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,503);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (258,483);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (423,150);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (870,343);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (205,414);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,159);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,751);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,94);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (595,169);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (906,713);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (873,309);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (911,411);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (125,476);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (753,604);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (431,393);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (170,32);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (422,785);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (987,163);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (473,309);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (934,36);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (291,70);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (519,143);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,86);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,546);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (652,6);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (767,557);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (990,78);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (890,918);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,939);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (202,189);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (578,33);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (185,539);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (846,283);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (300,871);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (837,390);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (386,145);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (563,559);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (138,583);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (533,170);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (412,389);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (452,401);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (407,430);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,860);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (71,383);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (121,344);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (471,674);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (271,732);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (401,4);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (175,917);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,428);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (74,179);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (763,606);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (781,659);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (620,858);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,847);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (17,992);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (899,946);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (929,614);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,355);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (124,787);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (636,454);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (491,510);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (809,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (573,704);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (65,971);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (475,473);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (351,594);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,590);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,960);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (729,587);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (991,188);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,391);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (500,199);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (31,698);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,429);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (313,414);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (419,241);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (97,406);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (204,543);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,960);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (56,649);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,525);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (490,484);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (559,812);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (107,313);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (768,798);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (2,112);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,47);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (541,605);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (519,228);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (758,816);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,406);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,992);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (455,697);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (35,466);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (309,526);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (76,660);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (749,227);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (135,876);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (395,366);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (12,819);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (210,593);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (203,600);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (339,135);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (569,503);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (318,138);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,576);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (384,514);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (779,921);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,923);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (598,826);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,617);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (232,818);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (311,413);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,959);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (926,585);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,29);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (914,687);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (233,422);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (671,556);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (945,490);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (873,458);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,870);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,584);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (539,563);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (425,685);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,700);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (573,204);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (653,739);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (549,187);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,437);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (560,2);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (131,453);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (872,181);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (275,677);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (978,845);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (889,807);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (700,114);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (988,495);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (731,565);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (651,891);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (40,893);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (10,945);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,564);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (289,362);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (21,125);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (695,315);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (13,497);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,499);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (596,113);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (27,770);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,294);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (838,883);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (240,425);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (851,891);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (301,756);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (253,877);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (529,380);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (244,97);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (980,6);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (699,731);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (714,656);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,344);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (881,276);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (884,113);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (652,646);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (332,383);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (949,403);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (594,873);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (290,605);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (739,463);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (525,604);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,635);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (399,515);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (108,794);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (110,241);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (243,687);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (185,490);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (161,666);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (848,19);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (832,351);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (879,761);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,58);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (255,381);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (919,797);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (408,413);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (690,230);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (673,609);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (591,530);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,398);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (64,424);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,855);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,761);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,666);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (131,153);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (802,954);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,745);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (132,201);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (857,57);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (415,16);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (826,878);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (443,720);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (122,900);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,497);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (41,614);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (846,199);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (584,85);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (420,172);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (540,375);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,638);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (983,528);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (173,791);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (833,834);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (238,121);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (634,507);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (490,533);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (524,260);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (53,809);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (214,955);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (357,381);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (738,230);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,669);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (409,398);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (228,118);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,204);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (39,318);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (861,293);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (181,291);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (584,796);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (842,773);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (72,474);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (52,126);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (231,996);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (698,14);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (921,171);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,469);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (502,112);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,814);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (337,132);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (328,512);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (626,219);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (684,506);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (276,467);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (368,978);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (402,49);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,727);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,49);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (466,169);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,945);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (485,156);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,84);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (280,772);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (370,228);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (976,324);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (147,868);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (142,7);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (77,494);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (524,615);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (396,444);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (624,300);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,804);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (838,608);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (306,373);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (611,283);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (545,300);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (903,938);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (790,437);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (268,758);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (824,930);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (854,6);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (116,680);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (285,502);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (646,568);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (516,576);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (227,73);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (638,552);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (811,846);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (815,634);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (329,815);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (292,493);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (930,97);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (741,280);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (555,400);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (843,16);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (867,627);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (768,490);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (334,783);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (87,421);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (169,91);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (243,295);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (726,151);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (267,288);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,828);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (19,479);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (388,387);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (864,700);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (808,678);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (266,821);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (516,215);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (503,3);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (576,209);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,21);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (187,613);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (680,782);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (276,663);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (32,584);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (177,690);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (775,516);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (648,829);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (852,778);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (955,979);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (968,875);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (426,64);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,822);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (824,906);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (778,437);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (411,966);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (704,131);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (740,424);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (489,658);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (96,439);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (105,281);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (972,901);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (808,615);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (405,182);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (342,693);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (974,416);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (193,922);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (638,355);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (913,863);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (89,599);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (390,98);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (349,622);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (755,121);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (22,942);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (733,402);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (636,566);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (728,699);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (348,331);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (118,648);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (493,78);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,798);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (374,78);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (321,287);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (203,245);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (576,36);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,431);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (190,74);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (514,588);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (730,315);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (206,229);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (944,183);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (523,718);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (724,688);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (887,98);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (657,314);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (904,433);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (149,116);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,550);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (760,992);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (279,621);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (363,751);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (556,152);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (260,874);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (737,803);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (625,750);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (567,68);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,612);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (106,386);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (235,329);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (565,197);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (552,783);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (68,553);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,588);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,715);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (160,25);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (942,136);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (600,723);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (737,673);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (29,57);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (577,855);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (369,230);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (664,990);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (531,754);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (628,722);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,180);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (156,958);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (835,493);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (239,894);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (908,882);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (501,514);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,152);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (710,330);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,446);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (641,445);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,912);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (772,130);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (77,77);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (952,554);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,102);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (379,702);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (797,236);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (381,147);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,557);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (378,168);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,544);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (571,974);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (627,539);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (446,588);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (940,898);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (967,466);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (129,77);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (973,361);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (679,530);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (594,905);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (221,222);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (893,221);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (184,606);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (463,741);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (681,245);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (436,482);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (878,981);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (607,671);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (860,353);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (917,95);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (134,937);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (303,811);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,620);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (499,47);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (119,767);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (880,359);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (444,455);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (876,728);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (83,811);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (89,642);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (580,446);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (956,892);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (167,839);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (564,147);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (599,479);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (641,743);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (50,273);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (476,216);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,664);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (946,747);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (779,579);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (74,925);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (94,803);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (837,110);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (589,731);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (472,339);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (517,299);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,133);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (263,172);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (614,56);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (97,880);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (574,110);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (147,391);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (882,814);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (647,310);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (554,988);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (46,864);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (398,981);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (672,855);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (629,753);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (198,506);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (508,686);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (828,221);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (401,935);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (661,516);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (397,791);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (4,437);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (438,923);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (492,74);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (499,580);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (165,834);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (210,568);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (137,586);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (400,433);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (509,804);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (335,258);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (262,124);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (840,822);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (896,608);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (251,348);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (541,56);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (442,209);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (690,199);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (441,958);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (394,530);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (63,590);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (318,985);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (618,710);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (219,37);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (752,616);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (805,175);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (623,999);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (60,301);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (195,294);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (326,80);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (806,382);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (820,463);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (11,358);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (345,821);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (100,639);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (543,384);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (953,863);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (35,338);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (18,364);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (501,686);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (802,90);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (537,259);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (968,170);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (182,7);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (59,999);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (256,946);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (26,98);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (152,256);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (42,43);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,514);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (382,575);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (894,365);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (766,323);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (186,954);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (39,415);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (924,799);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (769,751);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (183,730);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (540,793);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (480,415);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (336,707);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (865,300);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (282,778);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (795,337);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (563,415);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (532,685);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (688,86);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (209,189);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (220,832);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (950,753);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (262,21);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (201,849);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (12,259);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (214,951);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (57,767);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (999,282);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (6,709);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (677,49);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (175,960);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (459,302);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (419,536);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (761,850);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (538,193);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (518,224);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (323,105);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (757,311);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (143,936);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (252,121);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (623,807);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (711,410);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (834,511);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (359,242);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (465,19);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (389,759);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (363,534);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (558,672);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (81,330);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (723,626);
+INSERT INTO DistribuirMedicina(IDInsumoMedicina,IDBioma) VALUES (181,115);
