@@ -1284,7 +1284,7 @@ CREATE TABLE TelefonoProveedor(
 
 -- RESTRICCIONES DE DOMINIO TelefonoProveedor
 ALTER TABLE TelefonoProveedor ADD CONSTRAINT telefonoProveedor_d1
-CHECK(Telefono SIMILAR TO '[0-9]+');
+CHECK(Telefono SIMILAR TO '[0-9]');
 ALTER TABLE TelefonoProveedor ALTER COLUMN Telefono SET NOT NULL;
 
 ALTER TABLE TelefonoProveedor ADD CONSTRAINT telefonoProveedor_d2
@@ -1334,7 +1334,7 @@ CHECK (
 ALTER TABLE CorreoProveedor ALTER COLUMN RFCProveedor SET NOT NULL;	
 
 ALTER TABLE CorreoProveedor ADD CONSTRAINT correoProveedor_d2
-CHECK(Correo SIMILAR TO '.+@.+');
+CHECK(Correo ~* '^.+@.+$');
 ALTER TABLE CorreoProveedor ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoProveedor
@@ -1372,7 +1372,7 @@ CHECK (
 ALTER TABLE CorreoVeterinario ALTER COLUMN RFCVeterinario SET NOT NULL;	
 
 ALTER TABLE CorreoVeterinario ADD CONSTRAINT correoVeterinario_d2
-CHECK(Correo SIMILAR TO '.+@.+');
+CHECK(Correo ~* '^.+@.+$');
 ALTER TABLE CorreoVeterinario ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoVeterinario
@@ -1458,7 +1458,7 @@ CHECK (
 ALTER TABLE CorreoCuidador ALTER COLUMN RFCCuidador SET NOT NULL;	
 
 ALTER TABLE CorreoCuidador ADD CONSTRAINT correoCuidador_d2
-CHECK(Correo ~ '%_@_%._%');
+CHECK(Correo ~* '^.+@.+$');
 ALTER TABLE CorreoCuidador ALTER COLUMN Correo SET NOT NULL;
 
 -- LLAVES DE CorreoCuidador
@@ -1533,8 +1533,7 @@ CREATE TABLE CorreoVisitante (
 
 --RESTRICCIONES DE DOMINIO CorreoVisitante
 ALTER TABLE CorreoVisitante ADD CONSTRAINT correoVisitante_d1
-CHECK(
-	Correo <> '');
+CHECK(Correo ~* '^.+@.+$' AND Correo <> '');
 
 
 -- LLAVES CorreoVisitante
