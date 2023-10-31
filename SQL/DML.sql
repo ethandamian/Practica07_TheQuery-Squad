@@ -14055,1006 +14055,1008 @@ INSERT INTO Alimento (IDInsumoAlimento, Nombre, Cantidad, FechaCaducidad, Refrig
 ,(999,'Mazorca de maíz',39,'2028-06-26','false','insectos')
 ,(1000,'Carne magra cruda',88,'2028-03-25','true','frutas');
 -- INSERT Para Evento
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (1,'academico','4/4/2026',413);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (2,'dias festivos','8/23/2024',3);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (3,'infantil','8/12/2026',449);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (4,'recaudacion de fondos','4/1/2023',492);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (5,'academico','2/6/2022',510);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (6,'recaudacion de fondos','5/8/2020',546);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (7,'infantil','6/6/2026',883);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (8,'dias festivos','4/13/2025',143);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (9,'dias festivos','2/3/2021',416);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (10,'escolar','7/9/2022',39);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (11,'dias festivos','9/18/2024',194);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (12,'recaudacion de fondos','3/10/2024',59);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (13,'dias festivos','3/4/2025',69);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (14,'dias festivos','10/5/2024',11);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (15,'recaudacion de fondos','9/29/2024',755);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (16,'dias festivos','3/3/2026',180);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (17,'escolar','6/12/2025',24);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (18,'academico','2/8/2024',266);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (19,'academico','1/3/2020',553);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (20,'academico','9/16/2020',888);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (21,'escolar','5/15/2025',742);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (22,'infantil','3/19/2021',635);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (23,'dias festivos','3/23/2021',971);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (24,'dias festivos','10/10/2023',920);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (25,'recaudacion de fondos','6/3/2022',910);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (26,'escolar','10/25/2027',894);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (27,'recaudacion de fondos','10/23/2021',610);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (28,'academico','9/25/2021',556);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (29,'academico','2/22/2020',58);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (30,'escolar','8/14/2026',331);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (31,'infantil','7/14/2022',793);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (32,'escolar','9/3/2023',731);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (33,'dias festivos','1/5/2021',830);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (34,'escolar','12/22/2025',710);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (35,'infantil','3/6/2023',810);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (36,'recaudacion de fondos','9/16/2024',539);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (37,'recaudacion de fondos','5/4/2023',771);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (38,'infantil','1/9/2022',900);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (39,'recaudacion de fondos','5/2/2020',816);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (40,'recaudacion de fondos','3/15/2022',8);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (41,'recaudacion de fondos','11/19/2025',12);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (42,'academico','8/7/2025',180);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (43,'dias festivos','8/31/2024',166);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (44,'infantil','2/28/2022',417);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (45,'recaudacion de fondos','11/11/2024',96);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (46,'infantil','6/12/2025',315);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (47,'escolar','10/5/2027',841);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (48,'academico','6/8/2026',378);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (49,'academico','8/24/2023',190);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (50,'academico','7/5/2024',899);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (51,'recaudacion de fondos','2/21/2024',605);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (52,'infantil','6/22/2026',339);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (53,'recaudacion de fondos','6/29/2024',886);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (54,'academico','1/19/2020',883);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (55,'academico','3/24/2025',725);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (56,'escolar','8/21/2025',881);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (57,'recaudacion de fondos','12/5/2022',500);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (58,'dias festivos','3/13/2024',785);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (59,'academico','2/24/2025',499);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (60,'infantil','5/11/2021',608);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (61,'dias festivos','12/13/2019',841);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (62,'academico','3/24/2021',514);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (63,'escolar','10/13/2022',294);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (64,'dias festivos','3/15/2022',277);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (65,'infantil','5/3/2020',635);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (66,'dias festivos','10/17/2027',116);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (67,'infantil','6/19/2027',716);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (68,'academico','6/20/2025',951);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (69,'dias festivos','12/29/2026',260);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (70,'dias festivos','5/8/2023',987);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (71,'academico','2/2/2021',263);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (72,'recaudacion de fondos','5/25/2026',304);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (73,'infantil','10/18/2026',681);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (74,'dias festivos','11/22/2024',991);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (75,'escolar','1/9/2021',216);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (76,'infantil','8/23/2025',89);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (77,'escolar','8/14/2024',157);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (78,'recaudacion de fondos','8/23/2027',696);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (79,'academico','4/9/2020',812);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (80,'escolar','11/28/2019',663);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (81,'recaudacion de fondos','8/23/2024',90);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (82,'infantil','7/29/2021',945);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (83,'dias festivos','3/11/2027',582);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (84,'infantil','5/1/2020',670);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (85,'recaudacion de fondos','7/20/2020',983);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (86,'escolar','3/18/2023',630);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (87,'escolar','10/30/2023',820);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (88,'infantil','3/18/2021',289);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (89,'academico','10/3/2020',38);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (90,'infantil','1/14/2022',199);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (91,'infantil','7/10/2021',630);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (92,'recaudacion de fondos','9/10/2021',206);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (93,'recaudacion de fondos','11/19/2024',945);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (94,'infantil','1/18/2025',66);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (95,'infantil','5/30/2024',547);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (96,'dias festivos','10/12/2027',953);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (97,'infantil','4/30/2023',761);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (98,'academico','8/24/2022',842);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (99,'escolar','6/21/2025',575);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (100,'dias festivos','5/1/2027',991);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (101,'academico','7/15/2020',802);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (102,'dias festivos','11/25/2024',660);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (103,'recaudacion de fondos','11/28/2022',714);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (104,'recaudacion de fondos','5/3/2026',942);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (105,'academico','6/22/2026',647);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (106,'dias festivos','2/9/2023',398);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (107,'recaudacion de fondos','9/24/2021',405);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (108,'dias festivos','10/8/2023',971);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (109,'recaudacion de fondos','10/31/2019',580);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (110,'recaudacion de fondos','10/2/2021',845);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (111,'dias festivos','3/8/2027',975);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (112,'academico','10/11/2025',316);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (113,'escolar','10/23/2027',821);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (114,'recaudacion de fondos','7/25/2022',811);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (115,'dias festivos','5/8/2023',309);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (116,'academico','4/27/2025',723);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (117,'infantil','6/21/2023',526);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (118,'recaudacion de fondos','4/9/2027',276);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (119,'dias festivos','7/21/2025',797);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (120,'infantil','5/18/2024',766);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (121,'academico','3/8/2021',47);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (122,'infantil','8/22/2022',111);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (123,'recaudacion de fondos','2/8/2024',749);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (124,'dias festivos','3/18/2020',386);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (125,'academico','1/13/2021',812);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (126,'recaudacion de fondos','1/24/2022',591);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (127,'escolar','8/14/2026',999);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (128,'dias festivos','12/29/2026',120);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (129,'academico','10/18/2024',440);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (130,'academico','12/17/2021',104);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (131,'infantil','12/28/2019',763);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (132,'infantil','10/11/2020',290);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (133,'academico','4/25/2025',254);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (134,'recaudacion de fondos','11/17/2026',533);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (135,'academico','10/8/2027',211);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (136,'dias festivos','5/11/2025',176);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (137,'dias festivos','9/11/2022',645);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (138,'infantil','9/7/2020',947);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (139,'infantil','3/1/2022',424);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (140,'infantil','11/26/2020',749);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (141,'dias festivos','2/24/2024',618);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (142,'infantil','8/15/2021',387);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (143,'recaudacion de fondos','9/26/2027',491);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (144,'academico','8/11/2027',71);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (145,'escolar','9/22/2020',124);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (146,'escolar','3/31/2025',240);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (147,'infantil','4/3/2021',356);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (148,'recaudacion de fondos','2/8/2025',543);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (149,'academico','4/21/2023',342);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (150,'infantil','3/14/2020',196);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (151,'dias festivos','10/24/2027',507);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (152,'escolar','8/28/2020',748);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (153,'dias festivos','1/1/2023',116);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (154,'academico','12/30/2025',641);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (155,'escolar','9/5/2026',215);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (156,'recaudacion de fondos','5/9/2025',540);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (157,'recaudacion de fondos','9/22/2020',191);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (158,'infantil','9/20/2024',446);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (159,'academico','11/1/2021',213);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (160,'escolar','2/8/2027',74);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (161,'academico','5/19/2026',899);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (162,'recaudacion de fondos','9/16/2027',282);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (163,'infantil','10/6/2025',28);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (164,'recaudacion de fondos','9/25/2023',746);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (165,'academico','11/2/2020',67);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (166,'recaudacion de fondos','7/18/2025',742);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (167,'recaudacion de fondos','4/20/2023',371);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (168,'academico','4/20/2025',686);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (169,'recaudacion de fondos','4/6/2023',757);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (170,'academico','10/1/2020',610);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (171,'academico','2/18/2024',257);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (172,'escolar','10/4/2022',99);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (173,'academico','3/30/2021',241);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (174,'infantil','5/23/2026',652);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (175,'academico','7/13/2021',777);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (176,'recaudacion de fondos','9/25/2020',941);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (177,'academico','11/9/2019',952);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (178,'recaudacion de fondos','8/29/2025',820);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (179,'academico','7/25/2025',167);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (180,'recaudacion de fondos','11/17/2020',573);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (181,'infantil','11/13/2019',896);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (182,'academico','6/21/2024',361);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (183,'academico','9/26/2025',983);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (184,'escolar','8/23/2022',649);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (185,'dias festivos','7/15/2020',289);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (186,'dias festivos','8/4/2027',95);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (187,'infantil','6/22/2022',13);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (188,'academico','3/13/2022',662);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (189,'escolar','3/12/2021',249);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (190,'escolar','8/1/2020',464);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (191,'academico','11/23/2025',949);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (192,'recaudacion de fondos','3/17/2025',705);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (193,'academico','4/27/2024',900);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (194,'academico','10/29/2021',290);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (195,'dias festivos','11/18/2025',405);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (196,'dias festivos','10/24/2023',225);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (197,'escolar','8/13/2024',174);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (198,'academico','10/23/2025',403);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (199,'dias festivos','12/24/2024',469);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (200,'recaudacion de fondos','12/4/2024',156);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (201,'escolar','12/25/2023',783);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (202,'infantil','1/1/2024',670);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (203,'escolar','2/26/2024',865);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (204,'escolar','7/19/2026',122);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (205,'recaudacion de fondos','8/15/2020',395);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (206,'escolar','6/20/2022',760);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (207,'academico','12/5/2022',597);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (208,'academico','6/11/2026',980);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (209,'dias festivos','7/29/2026',181);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (210,'infantil','9/18/2025',935);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (211,'recaudacion de fondos','1/3/2023',521);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (212,'escolar','5/28/2027',724);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (213,'academico','10/22/2026',719);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (214,'infantil','6/21/2023',171);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (215,'dias festivos','9/12/2022',518);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (216,'infantil','12/11/2022',28);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (217,'academico','8/30/2021',878);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (218,'recaudacion de fondos','11/15/2019',206);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (219,'infantil','11/15/2022',607);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (220,'recaudacion de fondos','3/1/2021',393);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (221,'recaudacion de fondos','9/17/2025',121);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (222,'escolar','9/1/2021',639);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (223,'infantil','7/15/2026',321);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (224,'dias festivos','12/22/2020',458);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (225,'infantil','12/28/2019',883);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (226,'recaudacion de fondos','12/9/2021',122);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (227,'recaudacion de fondos','6/1/2027',217);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (228,'recaudacion de fondos','7/27/2020',582);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (229,'dias festivos','1/30/2026',790);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (230,'recaudacion de fondos','1/17/2027',493);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (231,'infantil','4/4/2022',17);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (232,'escolar','1/16/2021',866);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (233,'academico','3/10/2022',124);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (234,'dias festivos','10/3/2025',670);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (235,'recaudacion de fondos','11/25/2021',371);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (236,'recaudacion de fondos','1/16/2022',182);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (237,'escolar','4/21/2025',159);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (238,'infantil','9/24/2026',527);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (239,'escolar','7/17/2024',482);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (240,'escolar','1/10/2026',964);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (241,'recaudacion de fondos','2/3/2025',24);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (242,'academico','2/22/2023',426);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (243,'recaudacion de fondos','11/20/2020',483);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (244,'academico','10/26/2019',699);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (245,'escolar','2/14/2025',626);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (246,'academico','3/2/2024',321);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (247,'infantil','6/16/2022',374);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (248,'dias festivos','8/6/2023',2);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (249,'recaudacion de fondos','3/13/2025',31);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (250,'academico','3/30/2025',98);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (251,'dias festivos','10/17/2027',271);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (252,'infantil','1/9/2021',523);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (253,'escolar','10/4/2025',550);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (254,'infantil','6/8/2021',982);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (255,'dias festivos','11/27/2022',214);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (256,'dias festivos','2/9/2026',342);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (257,'infantil','8/4/2021',103);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (258,'dias festivos','10/9/2026',126);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (259,'academico','9/9/2025',986);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (260,'recaudacion de fondos','2/24/2025',286);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (261,'escolar','12/21/2023',487);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (262,'dias festivos','2/4/2022',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (263,'recaudacion de fondos','2/23/2026',63);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (264,'escolar','6/28/2022',338);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (265,'escolar','12/25/2023',150);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (266,'infantil','12/13/2021',334);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (267,'academico','10/3/2027',613);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (268,'academico','6/9/2027',958);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (269,'dias festivos','10/31/2024',207);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (270,'infantil','8/20/2020',180);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (271,'academico','9/9/2027',847);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (272,'escolar','7/25/2027',737);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (273,'academico','12/11/2024',895);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (274,'academico','9/9/2020',687);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (275,'recaudacion de fondos','5/26/2026',197);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (276,'recaudacion de fondos','3/7/2023',20);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (277,'recaudacion de fondos','5/1/2024',730);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (278,'dias festivos','12/11/2019',37);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (279,'academico','8/17/2024',951);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (280,'infantil','11/12/2021',290);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (281,'infantil','1/26/2024',147);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (282,'dias festivos','5/13/2025',115);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (283,'academico','10/12/2027',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (284,'recaudacion de fondos','10/31/2023',608);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (285,'recaudacion de fondos','11/30/2023',531);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (286,'infantil','11/11/2026',241);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (287,'escolar','5/11/2021',780);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (288,'academico','5/4/2027',788);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (289,'academico','11/14/2024',56);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (290,'academico','8/18/2026',981);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (291,'recaudacion de fondos','8/14/2022',98);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (292,'recaudacion de fondos','2/5/2024',92);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (293,'academico','12/16/2019',5);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (294,'dias festivos','6/3/2026',961);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (295,'infantil','3/30/2020',260);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (296,'escolar','7/13/2026',767);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (297,'academico','2/28/2024',749);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (298,'infantil','8/4/2024',453);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (299,'infantil','1/8/2023',248);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (300,'escolar','4/15/2021',55);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (301,'escolar','7/23/2023',669);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (302,'academico','3/3/2026',345);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (303,'escolar','5/8/2026',542);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (304,'recaudacion de fondos','5/3/2020',55);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (305,'escolar','8/3/2024',876);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (306,'escolar','4/19/2020',342);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (307,'dias festivos','3/10/2021',1);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (308,'academico','3/28/2021',914);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (309,'academico','11/30/2020',158);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (310,'academico','1/25/2023',992);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (311,'dias festivos','2/3/2026',381);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (312,'infantil','6/2/2022',304);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (313,'escolar','7/12/2021',411);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (314,'recaudacion de fondos','7/28/2025',518);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (315,'escolar','4/22/2025',214);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (316,'recaudacion de fondos','9/28/2023',478);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (317,'escolar','10/6/2021',872);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (318,'academico','11/23/2023',581);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (319,'recaudacion de fondos','8/6/2025',466);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (320,'infantil','12/4/2019',287);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (321,'escolar','10/14/2027',972);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (322,'infantil','5/17/2027',814);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (323,'escolar','5/1/2021',609);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (324,'recaudacion de fondos','2/4/2023',914);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (325,'infantil','5/29/2021',482);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (326,'infantil','1/31/2027',474);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (327,'dias festivos','6/25/2026',472);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (328,'dias festivos','11/20/2023',193);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (329,'academico','11/17/2023',268);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (330,'recaudacion de fondos','10/30/2025',341);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (331,'escolar','8/23/2021',257);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (332,'escolar','10/27/2022',119);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (333,'infantil','9/8/2024',490);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (334,'infantil','7/21/2027',613);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (335,'escolar','8/8/2025',933);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (336,'dias festivos','4/15/2022',257);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (337,'infantil','8/21/2022',311);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (338,'dias festivos','11/18/2022',850);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (339,'escolar','5/21/2023',968);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (340,'infantil','7/12/2020',397);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (341,'academico','10/16/2027',719);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (342,'dias festivos','6/7/2022',896);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (343,'infantil','3/9/2022',422);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (344,'academico','12/20/2026',505);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (345,'academico','9/6/2025',658);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (346,'infantil','5/15/2027',548);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (347,'academico','3/9/2020',876);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (348,'recaudacion de fondos','3/26/2026',901);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (349,'escolar','12/4/2023',119);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (350,'infantil','5/7/2022',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (351,'infantil','8/24/2025',283);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (352,'academico','5/20/2022',672);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (353,'academico','8/5/2023',531);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (354,'dias festivos','8/19/2026',361);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (355,'dias festivos','9/24/2026',529);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (356,'recaudacion de fondos','8/9/2027',463);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (357,'infantil','6/13/2025',88);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (358,'dias festivos','10/23/2024',284);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (359,'infantil','3/6/2022',735);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (360,'infantil','12/14/2025',363);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (361,'academico','1/25/2020',491);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (362,'dias festivos','4/8/2021',251);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (363,'academico','9/11/2023',575);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (364,'academico','7/12/2020',924);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (365,'infantil','3/5/2025',38);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (366,'dias festivos','7/29/2024',874);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (367,'recaudacion de fondos','5/10/2026',604);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (368,'academico','6/10/2022',246);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (369,'academico','10/12/2022',420);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (370,'escolar','7/2/2022',725);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (371,'dias festivos','11/16/2020',907);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (372,'escolar','12/24/2024',574);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (373,'infantil','2/5/2023',401);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (374,'recaudacion de fondos','8/27/2026',43);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (375,'dias festivos','3/12/2026',695);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (376,'escolar','11/14/2026',251);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (377,'recaudacion de fondos','8/4/2022',389);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (378,'academico','2/13/2025',527);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (379,'academico','7/29/2021',413);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (380,'recaudacion de fondos','12/5/2020',99);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (381,'academico','12/18/2021',993);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (382,'dias festivos','10/9/2024',959);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (383,'infantil','2/8/2024',391);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (384,'escolar','2/26/2024',631);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (385,'recaudacion de fondos','3/31/2025',707);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (386,'dias festivos','1/10/2020',560);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (387,'recaudacion de fondos','7/9/2023',592);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (388,'recaudacion de fondos','1/3/2026',897);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (389,'infantil','9/11/2022',176);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (390,'dias festivos','10/10/2026',416);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (391,'academico','5/29/2025',567);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (392,'academico','8/4/2020',788);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (393,'dias festivos','3/2/2023',533);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (394,'dias festivos','6/17/2023',194);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (395,'escolar','9/8/2021',455);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (396,'recaudacion de fondos','1/18/2027',823);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (397,'academico','9/12/2021',807);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (398,'recaudacion de fondos','8/9/2024',246);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (399,'dias festivos','8/31/2025',790);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (400,'dias festivos','3/12/2025',871);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (401,'recaudacion de fondos','5/15/2021',887);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (402,'recaudacion de fondos','6/20/2027',322);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (403,'academico','1/19/2021',98);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (404,'infantil','5/19/2021',680);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (405,'recaudacion de fondos','4/13/2020',373);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (406,'escolar','9/12/2020',937);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (407,'academico','5/27/2022',175);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (408,'recaudacion de fondos','8/10/2022',703);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (409,'infantil','8/17/2022',395);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (410,'academico','10/4/2026',680);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (411,'infantil','7/25/2021',335);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (412,'recaudacion de fondos','1/1/2025',282);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (413,'academico','4/4/2026',13);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (414,'escolar','9/4/2021',90);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (415,'escolar','8/16/2026',902);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (416,'escolar','5/30/2025',631);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (417,'infantil','7/23/2026',824);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (418,'escolar','7/19/2023',960);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (419,'recaudacion de fondos','3/11/2025',586);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (420,'escolar','10/11/2022',89);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (421,'academico','1/22/2020',85);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (422,'dias festivos','1/28/2026',947);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (423,'recaudacion de fondos','3/20/2027',854);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (424,'escolar','10/29/2020',116);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (425,'infantil','2/18/2025',642);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (426,'academico','2/29/2024',68);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (427,'escolar','9/5/2022',735);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (428,'infantil','8/31/2025',63);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (429,'infantil','12/3/2019',918);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (430,'recaudacion de fondos','6/24/2026',499);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (431,'recaudacion de fondos','2/13/2021',371);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (432,'escolar','3/5/2025',918);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (433,'infantil','8/27/2020',861);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (434,'recaudacion de fondos','3/31/2020',207);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (435,'dias festivos','8/16/2027',235);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (436,'escolar','2/4/2021',953);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (437,'escolar','9/26/2025',725);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (438,'academico','8/14/2026',499);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (439,'infantil','6/30/2020',928);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (440,'dias festivos','2/25/2021',51);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (441,'infantil','6/8/2021',528);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (442,'escolar','12/5/2025',714);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (443,'academico','8/9/2020',923);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (444,'escolar','3/29/2026',923);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (445,'escolar','7/18/2025',851);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (446,'dias festivos','6/29/2020',577);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (447,'dias festivos','6/24/2020',565);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (448,'dias festivos','10/4/2023',615);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (449,'dias festivos','8/20/2027',73);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (450,'dias festivos','6/14/2027',304);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (451,'academico','7/6/2022',47);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (452,'academico','8/10/2024',80);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (453,'academico','1/31/2025',930);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (454,'escolar','8/3/2025',795);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (455,'escolar','10/16/2024',548);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (456,'infantil','6/25/2024',685);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (457,'infantil','7/14/2024',785);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (458,'escolar','11/19/2026',336);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (459,'academico','11/16/2019',499);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (460,'escolar','10/21/2022',387);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (461,'recaudacion de fondos','11/11/2020',978);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (462,'recaudacion de fondos','3/13/2020',10);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (463,'academico','8/12/2024',869);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (464,'academico','10/13/2022',263);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (465,'academico','1/6/2020',759);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (466,'recaudacion de fondos','5/14/2022',893);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (467,'recaudacion de fondos','9/22/2026',988);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (468,'dias festivos','12/17/2020',593);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (469,'infantil','5/17/2027',296);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (470,'infantil','2/8/2020',339);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (471,'escolar','7/16/2021',544);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (472,'infantil','1/23/2022',785);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (473,'academico','10/13/2024',402);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (474,'dias festivos','1/16/2026',406);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (475,'recaudacion de fondos','10/10/2022',454);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (476,'infantil','6/1/2022',369);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (477,'infantil','2/15/2021',855);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (478,'dias festivos','10/29/2023',127);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (479,'infantil','10/27/2019',778);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (480,'academico','3/19/2025',244);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (481,'dias festivos','7/18/2022',874);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (482,'academico','11/28/2026',205);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (483,'dias festivos','5/17/2022',272);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (484,'recaudacion de fondos','9/13/2020',690);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (485,'academico','5/20/2027',500);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (486,'recaudacion de fondos','3/23/2022',370);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (487,'escolar','2/9/2025',83);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (488,'escolar','4/4/2026',599);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (489,'dias festivos','9/19/2027',696);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (490,'academico','12/27/2023',350);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (491,'academico','3/9/2027',608);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (492,'dias festivos','5/16/2022',180);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (493,'academico','4/17/2024',866);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (494,'escolar','7/20/2022',487);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (495,'dias festivos','11/7/2025',454);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (496,'escolar','4/15/2020',748);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (497,'academico','10/5/2023',862);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (498,'recaudacion de fondos','8/20/2025',390);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (499,'dias festivos','12/24/2020',698);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (500,'recaudacion de fondos','3/24/2025',87);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (501,'infantil','3/26/2025',578);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (502,'recaudacion de fondos','10/29/2026',486);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (503,'dias festivos','2/6/2021',912);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (504,'academico','1/4/2023',735);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (505,'escolar','4/19/2026',148);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (506,'infantil','7/27/2022',500);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (507,'recaudacion de fondos','7/24/2025',525);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (508,'escolar','3/22/2020',823);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (509,'escolar','10/30/2025',259);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (510,'infantil','5/5/2026',564);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (511,'recaudacion de fondos','7/7/2020',748);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (512,'academico','12/1/2020',657);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (513,'academico','2/10/2027',785);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (514,'infantil','12/29/2026',595);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (515,'recaudacion de fondos','4/28/2020',93);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (516,'infantil','1/15/2023',870);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (517,'academico','5/10/2027',607);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (518,'infantil','2/11/2023',158);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (519,'escolar','12/6/2019',326);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (520,'recaudacion de fondos','11/9/2019',520);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (521,'academico','9/3/2027',566);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (522,'escolar','4/6/2024',523);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (523,'academico','9/20/2020',228);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (524,'infantil','6/12/2022',91);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (525,'escolar','3/3/2025',386);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (526,'academico','8/13/2024',794);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (527,'dias festivos','7/8/2020',898);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (528,'dias festivos','11/1/2021',160);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (529,'recaudacion de fondos','6/4/2026',487);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (530,'dias festivos','5/8/2023',707);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (531,'dias festivos','6/9/2020',536);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (532,'academico','12/4/2019',147);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (533,'dias festivos','5/18/2021',598);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (534,'recaudacion de fondos','5/19/2025',57);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (535,'infantil','5/4/2024',573);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (536,'infantil','6/3/2022',71);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (537,'escolar','4/27/2022',170);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (538,'academico','6/10/2023',814);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (539,'recaudacion de fondos','6/19/2025',814);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (540,'escolar','11/15/2026',48);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (541,'escolar','11/6/2026',500);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (542,'recaudacion de fondos','5/30/2021',8);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (543,'infantil','1/15/2025',750);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (544,'dias festivos','8/26/2027',508);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (545,'dias festivos','1/6/2020',821);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (546,'dias festivos','4/19/2021',44);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (547,'recaudacion de fondos','7/28/2025',376);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (548,'academico','9/18/2020',721);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (549,'infantil','6/30/2022',961);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (550,'recaudacion de fondos','9/26/2023',105);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (551,'academico','11/30/2026',784);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (552,'academico','5/27/2023',138);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (553,'academico','3/31/2025',599);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (554,'dias festivos','12/4/2023',751);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (555,'escolar','12/4/2023',250);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (556,'dias festivos','7/13/2023',447);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (557,'infantil','11/19/2021',827);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (558,'escolar','3/5/2026',298);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (559,'academico','10/1/2026',507);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (560,'infantil','10/19/2025',554);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (561,'infantil','10/12/2024',67);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (562,'recaudacion de fondos','2/20/2027',843);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (563,'escolar','9/4/2023',348);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (564,'academico','6/9/2021',391);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (565,'academico','4/9/2020',720);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (566,'academico','6/14/2025',93);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (567,'escolar','7/10/2020',140);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (568,'academico','10/13/2027',99);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (569,'academico','12/2/2022',92);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (570,'escolar','12/30/2021',712);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (571,'escolar','7/12/2024',138);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (572,'academico','2/5/2023',152);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (573,'dias festivos','8/12/2022',832);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (574,'recaudacion de fondos','1/15/2027',458);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (575,'academico','7/22/2024',153);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (576,'academico','12/25/2019',452);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (577,'escolar','2/4/2025',338);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (578,'escolar','9/29/2024',302);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (579,'dias festivos','5/12/2026',144);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (580,'academico','2/16/2023',353);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (581,'dias festivos','2/17/2022',689);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (582,'infantil','10/4/2022',849);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (583,'dias festivos','10/26/2019',980);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (584,'infantil','11/16/2022',70);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (585,'escolar','4/4/2022',61);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (586,'dias festivos','8/4/2023',145);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (587,'infantil','1/23/2022',328);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (588,'academico','7/26/2020',548);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (589,'dias festivos','6/30/2024',193);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (590,'recaudacion de fondos','7/6/2026',494);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (591,'infantil','10/8/2021',144);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (592,'dias festivos','2/24/2027',856);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (593,'escolar','10/9/2025',469);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (594,'dias festivos','2/8/2022',609);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (595,'recaudacion de fondos','9/15/2021',183);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (596,'escolar','5/25/2026',995);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (597,'escolar','3/14/2026',542);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (598,'recaudacion de fondos','11/30/2020',257);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (599,'recaudacion de fondos','2/21/2025',125);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (600,'dias festivos','8/15/2026',219);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (601,'academico','3/1/2023',702);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (602,'recaudacion de fondos','3/25/2023',121);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (603,'dias festivos','12/27/2019',283);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (604,'escolar','12/26/2022',657);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (605,'academico','2/25/2023',142);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (606,'recaudacion de fondos','9/19/2024',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (607,'academico','5/21/2021',977);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (608,'dias festivos','9/27/2020',609);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (609,'academico','4/13/2021',578);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (610,'academico','12/17/2021',27);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (611,'infantil','10/19/2021',313);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (612,'escolar','11/1/2022',202);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (613,'escolar','10/27/2025',944);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (614,'infantil','7/18/2020',219);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (615,'academico','5/13/2024',236);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (616,'recaudacion de fondos','9/5/2025',764);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (617,'recaudacion de fondos','10/16/2023',777);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (618,'recaudacion de fondos','6/25/2020',123);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (619,'recaudacion de fondos','5/24/2023',843);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (620,'infantil','4/16/2020',534);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (621,'academico','12/18/2023',114);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (622,'recaudacion de fondos','9/1/2023',870);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (623,'dias festivos','4/6/2025',504);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (624,'academico','8/7/2020',254);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (625,'academico','9/11/2024',152);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (626,'recaudacion de fondos','6/3/2024',559);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (627,'recaudacion de fondos','11/26/2022',114);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (628,'dias festivos','4/14/2021',923);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (629,'infantil','2/18/2020',832);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (630,'escolar','9/18/2022',485);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (631,'academico','9/8/2022',350);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (632,'dias festivos','5/15/2022',491);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (633,'academico','2/6/2021',144);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (634,'infantil','8/5/2021',292);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (635,'infantil','10/25/2023',356);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (636,'academico','5/18/2026',482);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (637,'recaudacion de fondos','12/4/2023',549);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (638,'escolar','9/6/2020',443);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (639,'escolar','4/10/2025',119);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (640,'escolar','7/28/2023',458);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (641,'escolar','4/25/2024',888);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (642,'infantil','7/23/2024',559);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (643,'recaudacion de fondos','2/25/2024',863);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (644,'academico','4/8/2027',984);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (645,'academico','1/20/2027',987);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (646,'infantil','12/3/2023',385);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (647,'recaudacion de fondos','7/15/2024',157);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (648,'escolar','3/17/2022',769);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (649,'escolar','11/30/2021',973);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (650,'escolar','12/13/2024',441);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (651,'academico','8/1/2021',634);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (652,'dias festivos','9/28/2025',371);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (653,'escolar','12/19/2024',422);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (654,'escolar','5/20/2024',857);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (655,'recaudacion de fondos','10/21/2024',339);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (656,'escolar','3/7/2020',116);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (657,'infantil','7/12/2027',825);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (658,'infantil','2/9/2022',886);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (659,'escolar','12/7/2020',210);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (660,'escolar','7/12/2026',276);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (661,'escolar','2/18/2020',662);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (662,'escolar','3/23/2026',158);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (663,'escolar','11/2/2024',253);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (664,'dias festivos','8/20/2023',781);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (665,'academico','7/2/2023',93);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (666,'recaudacion de fondos','11/25/2026',346);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (667,'recaudacion de fondos','3/9/2021',752);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (668,'dias festivos','11/7/2025',889);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (669,'infantil','9/21/2021',153);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (670,'infantil','2/2/2027',999);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (671,'recaudacion de fondos','4/6/2021',713);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (672,'infantil','8/28/2024',672);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (673,'escolar','5/15/2026',126);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (674,'recaudacion de fondos','11/15/2021',988);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (675,'escolar','7/10/2025',657);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (676,'infantil','10/2/2024',827);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (677,'dias festivos','11/23/2021',558);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (678,'dias festivos','8/17/2023',568);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (679,'escolar','11/6/2021',843);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (680,'dias festivos','5/18/2025',738);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (681,'infantil','4/19/2020',459);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (682,'recaudacion de fondos','9/8/2027',810);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (683,'infantil','7/25/2022',818);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (684,'academico','1/10/2027',12);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (685,'academico','8/8/2026',562);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (686,'academico','5/3/2020',762);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (687,'recaudacion de fondos','2/14/2023',231);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (688,'escolar','6/26/2024',401);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (689,'escolar','1/3/2023',135);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (690,'academico','5/10/2027',817);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (691,'dias festivos','11/24/2019',814);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (692,'recaudacion de fondos','8/23/2027',286);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (693,'academico','6/1/2021',79);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (694,'escolar','9/23/2022',772);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (695,'infantil','8/6/2025',698);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (696,'infantil','7/25/2025',815);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (697,'academico','9/2/2026',972);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (698,'escolar','8/29/2021',206);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (699,'dias festivos','10/23/2025',80);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (700,'escolar','11/19/2021',954);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (701,'academico','8/3/2023',952);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (702,'infantil','12/20/2026',699);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (703,'dias festivos','4/18/2022',258);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (704,'escolar','8/18/2020',962);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (705,'dias festivos','2/8/2024',963);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (706,'academico','6/8/2023',69);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (707,'academico','8/22/2021',644);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (708,'escolar','10/18/2027',918);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (709,'dias festivos','2/3/2021',809);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (710,'academico','2/17/2020',892);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (711,'recaudacion de fondos','2/22/2023',795);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (712,'academico','1/6/2025',957);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (713,'infantil','7/10/2026',789);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (714,'infantil','4/13/2027',286);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (715,'recaudacion de fondos','2/8/2021',611);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (716,'infantil','1/3/2026',68);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (717,'dias festivos','3/30/2025',651);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (718,'infantil','7/23/2022',464);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (719,'infantil','4/26/2020',85);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (720,'dias festivos','4/19/2022',915);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (721,'escolar','7/28/2026',411);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (722,'academico','11/25/2022',847);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (723,'escolar','2/25/2026',120);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (724,'recaudacion de fondos','10/9/2026',958);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (725,'infantil','5/9/2026',839);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (726,'recaudacion de fondos','3/31/2026',720);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (727,'dias festivos','2/19/2026',540);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (728,'dias festivos','5/28/2022',724);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (729,'infantil','9/25/2021',417);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (730,'recaudacion de fondos','8/14/2027',316);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (731,'academico','5/15/2027',307);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (732,'academico','4/12/2024',948);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (733,'escolar','9/15/2022',587);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (734,'recaudacion de fondos','12/29/2021',559);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (735,'dias festivos','5/7/2021',444);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (736,'dias festivos','7/3/2024',571);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (737,'escolar','8/20/2022',736);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (738,'academico','12/23/2022',814);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (739,'recaudacion de fondos','11/4/2021',581);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (740,'dias festivos','11/10/2023',46);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (741,'escolar','11/1/2025',6);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (742,'recaudacion de fondos','7/27/2025',91);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (743,'academico','10/28/2020',369);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (744,'dias festivos','11/8/2024',44);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (745,'recaudacion de fondos','10/3/2022',335);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (746,'infantil','5/19/2024',214);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (747,'recaudacion de fondos','11/20/2022',338);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (748,'dias festivos','10/4/2027',735);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (749,'recaudacion de fondos','6/29/2024',954);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (750,'academico','1/9/2023',876);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (751,'dias festivos','6/12/2023',981);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (752,'dias festivos','3/24/2022',977);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (753,'recaudacion de fondos','4/7/2022',308);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (754,'recaudacion de fondos','2/2/2027',701);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (755,'infantil','11/28/2020',689);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (756,'dias festivos','10/6/2025',824);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (757,'dias festivos','6/8/2026',90);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (758,'academico','12/14/2026',376);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (759,'academico','1/1/2021',64);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (760,'recaudacion de fondos','7/31/2022',561);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (761,'academico','2/5/2024',735);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (762,'escolar','8/9/2023',982);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (763,'recaudacion de fondos','7/9/2024',721);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (764,'dias festivos','12/25/2026',500);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (765,'recaudacion de fondos','2/25/2023',562);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (766,'recaudacion de fondos','6/15/2023',365);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (767,'infantil','12/29/2023',818);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (768,'escolar','5/20/2020',158);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (769,'escolar','6/27/2024',252);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (770,'infantil','8/6/2020',443);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (771,'dias festivos','4/28/2026',611);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (772,'infantil','8/13/2023',222);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (773,'infantil','5/31/2023',811);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (774,'dias festivos','4/28/2026',971);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (775,'infantil','7/2/2026',519);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (776,'infantil','12/7/2024',257);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (777,'academico','7/25/2020',19);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (778,'escolar','3/25/2026',689);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (779,'recaudacion de fondos','5/19/2024',648);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (780,'academico','4/13/2026',228);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (781,'recaudacion de fondos','4/13/2020',342);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (782,'escolar','12/1/2023',122);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (783,'dias festivos','10/27/2024',776);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (784,'escolar','6/11/2021',925);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (785,'dias festivos','3/5/2020',499);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (786,'academico','8/17/2020',104);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (787,'infantil','11/18/2024',482);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (788,'infantil','1/20/2021',149);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (789,'infantil','10/24/2027',931);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (790,'escolar','1/7/2026',471);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (791,'infantil','6/6/2021',797);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (792,'academico','4/5/2021',497);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (793,'recaudacion de fondos','7/22/2025',204);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (794,'infantil','4/7/2023',106);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (795,'academico','12/17/2022',363);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (796,'escolar','12/22/2022',39);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (797,'dias festivos','2/3/2023',965);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (798,'escolar','9/4/2026',176);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (799,'escolar','12/15/2024',204);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (800,'academico','6/1/2022',546);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (801,'academico','11/12/2023',571);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (802,'academico','4/11/2025',210);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (803,'infantil','9/27/2021',282);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (804,'escolar','2/21/2024',440);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (805,'escolar','7/31/2027',663);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (806,'academico','1/4/2022',687);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (807,'academico','8/29/2023',449);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (808,'infantil','5/20/2025',663);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (809,'escolar','4/12/2023',34);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (810,'escolar','10/26/2022',229);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (811,'infantil','12/15/2020',534);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (812,'academico','3/8/2025',868);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (813,'escolar','11/10/2022',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (814,'escolar','7/22/2024',3);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (815,'escolar','11/18/2019',416);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (816,'recaudacion de fondos','9/10/2025',29);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (817,'dias festivos','11/4/2021',748);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (818,'escolar','11/27/2022',926);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (819,'infantil','9/11/2024',975);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (820,'academico','7/12/2020',582);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (821,'dias festivos','4/1/2025',45);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (822,'escolar','11/25/2024',335);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (823,'recaudacion de fondos','1/15/2023',949);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (824,'recaudacion de fondos','1/5/2026',584);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (825,'infantil','9/15/2025',153);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (826,'academico','1/7/2025',688);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (827,'infantil','3/22/2027',599);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (828,'academico','9/13/2022',346);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (829,'recaudacion de fondos','12/23/2021',832);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (830,'dias festivos','12/2/2021',172);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (831,'academico','5/19/2020',666);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (832,'infantil','10/20/2023',670);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (833,'dias festivos','7/15/2022',711);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (834,'recaudacion de fondos','8/5/2024',512);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (835,'academico','7/9/2022',399);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (836,'dias festivos','6/9/2020',387);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (837,'infantil','9/7/2020',141);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (838,'infantil','12/25/2019',628);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (839,'dias festivos','5/5/2026',765);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (840,'recaudacion de fondos','11/5/2019',408);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (841,'recaudacion de fondos','7/21/2026',847);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (842,'dias festivos','10/9/2026',166);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (843,'dias festivos','4/25/2025',649);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (844,'escolar','9/13/2020',129);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (845,'recaudacion de fondos','10/17/2027',673);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (846,'academico','1/3/2027',170);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (847,'infantil','1/2/2024',27);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (848,'recaudacion de fondos','5/3/2021',353);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (849,'escolar','11/21/2025',135);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (850,'dias festivos','12/2/2025',956);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (851,'dias festivos','10/29/2019',546);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (852,'escolar','9/3/2027',936);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (853,'recaudacion de fondos','11/27/2022',934);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (854,'recaudacion de fondos','11/21/2020',444);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (855,'recaudacion de fondos','8/26/2027',66);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (856,'escolar','12/21/2025',799);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (857,'infantil','6/5/2022',940);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (858,'escolar','7/23/2020',917);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (859,'infantil','11/25/2024',53);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (860,'escolar','6/22/2022',410);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (861,'recaudacion de fondos','2/21/2023',973);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (862,'infantil','1/16/2020',980);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (863,'dias festivos','3/6/2023',866);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (864,'recaudacion de fondos','2/20/2021',48);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (865,'dias festivos','6/18/2022',475);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (866,'recaudacion de fondos','2/16/2020',800);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (867,'dias festivos','9/21/2025',453);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (868,'infantil','11/12/2020',345);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (869,'infantil','7/4/2026',763);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (870,'recaudacion de fondos','1/3/2023',144);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (871,'academico','10/18/2024',255);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (872,'escolar','1/6/2026',111);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (873,'escolar','10/13/2021',570);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (874,'dias festivos','1/1/2024',446);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (875,'escolar','1/8/2023',359);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (876,'infantil','2/16/2024',434);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (877,'academico','8/12/2023',813);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (878,'academico','4/30/2020',305);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (879,'infantil','2/1/2020',216);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (880,'escolar','10/19/2025',968);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (881,'infantil','10/29/2025',981);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (882,'recaudacion de fondos','6/28/2024',260);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (883,'infantil','6/20/2023',115);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (884,'escolar','6/17/2024',486);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (885,'recaudacion de fondos','10/13/2025',231);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (886,'dias festivos','3/17/2021',510);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (887,'academico','10/28/2025',861);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (888,'dias festivos','12/26/2019',142);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (889,'recaudacion de fondos','6/4/2020',204);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (890,'escolar','8/29/2021',40);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (891,'infantil','10/25/2023',659);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (892,'recaudacion de fondos','7/31/2024',404);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (893,'infantil','5/3/2024',751);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (894,'dias festivos','7/29/2021',32);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (895,'recaudacion de fondos','5/11/2023',446);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (896,'recaudacion de fondos','7/12/2026',624);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (897,'recaudacion de fondos','8/10/2020',561);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (898,'academico','4/27/2024',713);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (899,'academico','4/13/2023',484);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (900,'escolar','6/7/2022',962);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (901,'academico','3/19/2026',993);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (902,'escolar','4/10/2026',463);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (903,'academico','3/31/2022',627);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (904,'escolar','3/12/2021',555);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (905,'recaudacion de fondos','6/2/2026',924);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (906,'escolar','1/19/2024',491);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (907,'academico','7/4/2026',203);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (908,'infantil','11/16/2025',515);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (909,'infantil','4/14/2026',299);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (910,'recaudacion de fondos','9/22/2025',421);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (911,'infantil','10/24/2021',302);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (912,'recaudacion de fondos','3/19/2022',760);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (913,'dias festivos','3/23/2023',351);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (914,'dias festivos','4/14/2023',469);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (915,'dias festivos','6/8/2025',32);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (916,'infantil','11/19/2021',329);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (917,'dias festivos','11/19/2023',805);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (918,'escolar','3/24/2027',318);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (919,'infantil','9/3/2024',41);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (920,'recaudacion de fondos','11/4/2020',473);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (921,'infantil','10/29/2024',26);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (922,'academico','11/30/2023',137);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (923,'escolar','7/16/2022',45);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (924,'escolar','1/26/2026',98);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (925,'dias festivos','7/1/2024',827);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (926,'academico','10/17/2021',692);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (927,'recaudacion de fondos','4/26/2025',129);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (928,'recaudacion de fondos','2/21/2027',529);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (929,'academico','12/21/2025',22);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (930,'dias festivos','9/5/2024',930);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (931,'academico','1/8/2025',952);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (932,'infantil','10/22/2027',137);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (933,'academico','3/28/2023',623);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (934,'recaudacion de fondos','4/5/2023',407);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (935,'infantil','1/21/2026',721);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (936,'infantil','2/6/2022',598);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (937,'recaudacion de fondos','1/11/2024',464);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (938,'recaudacion de fondos','12/12/2020',782);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (939,'escolar','8/25/2025',368);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (940,'escolar','3/27/2027',742);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (941,'academico','9/7/2026',247);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (942,'recaudacion de fondos','12/21/2025',548);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (943,'recaudacion de fondos','10/5/2024',964);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (944,'dias festivos','3/16/2027',209);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (945,'recaudacion de fondos','1/24/2022',657);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (946,'recaudacion de fondos','1/18/2021',391);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (947,'escolar','2/25/2024',612);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (948,'academico','2/24/2025',955);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (949,'infantil','6/16/2027',544);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (950,'academico','8/28/2025',264);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (951,'academico','10/27/2022',3);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (952,'academico','1/30/2024',240);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (953,'recaudacion de fondos','7/6/2025',870);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (954,'academico','6/29/2027',937);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (955,'recaudacion de fondos','12/18/2024',796);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (956,'escolar','7/3/2026',778);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (957,'dias festivos','7/13/2023',398);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (958,'escolar','8/1/2024',173);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (959,'infantil','9/14/2023',34);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (960,'recaudacion de fondos','5/26/2024',855);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (961,'escolar','4/12/2027',434);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (962,'recaudacion de fondos','9/25/2024',185);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (963,'dias festivos','2/19/2021',811);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (964,'infantil','8/15/2021',231);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (965,'recaudacion de fondos','9/1/2026',195);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (966,'escolar','11/22/2026',143);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (967,'escolar','11/4/2020',718);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (968,'academico','12/5/2020',27);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (969,'recaudacion de fondos','6/19/2023',540);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (970,'academico','4/30/2021',236);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (971,'infantil','7/6/2026',623);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (972,'escolar','9/23/2027',950);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (973,'dias festivos','4/29/2027',91);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (974,'dias festivos','3/27/2025',368);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (975,'infantil','4/18/2027',274);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (976,'academico','5/28/2021',961);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (977,'dias festivos','2/17/2026',41);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (978,'infantil','5/11/2024',856);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (979,'dias festivos','5/11/2023',831);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (980,'recaudacion de fondos','3/18/2024',27);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (981,'escolar','7/24/2027',177);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (982,'dias festivos','12/25/2021',282);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (983,'recaudacion de fondos','6/16/2024',303);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (984,'infantil','7/22/2020',811);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (985,'escolar','3/19/2020',287);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (986,'academico','8/7/2024',817);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (987,'recaudacion de fondos','4/13/2022',76);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (988,'recaudacion de fondos','2/16/2026',73);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (989,'academico','7/16/2026',51);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (990,'escolar','7/19/2025',344);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (991,'infantil','7/26/2022',382);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (992,'recaudacion de fondos','11/26/2026',899);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (993,'academico','7/29/2022',862);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (994,'recaudacion de fondos','4/23/2025',794);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (995,'dias festivos','7/10/2025',493);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (996,'infantil','2/8/2022',101);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (997,'recaudacion de fondos','8/28/2020',926);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (998,'dias festivos','2/27/2023',196);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (999,'recaudacion de fondos','9/11/2027',742);
-INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES (1000,'academico','2/19/2027',478);
+INSERT INTO Evento(IDEvento,TipoEvento,Fecha,Capacidad) VALUES
+ (1,'academico','2026-10-07',9)
+,(2,'escolar','2026-07-12',945)
+,(3,'academico','2021-07-31',372)
+,(4,'infantil','2026-04-12',345)
+,(5,'infantil','2020-08-04',599)
+,(6,'recaudacion de fondos','2022-10-12',825)
+,(7,'infantil','2021-01-28',268)
+,(8,'infantil','2022-10-13',544)
+,(9,'dias festivos','2024-07-23',494)
+,(10,'academico','2026-10-09',992)
+,(11,'academico','2021-08-19',309)
+,(12,'academico','2024-02-01',519)
+,(13,'dias festivos','2022-04-11',731)
+,(14,'dias festivos','2020-02-18',437)
+,(15,'academico','2025-04-05',958)
+,(16,'escolar','2024-06-04',909)
+,(17,'dias festivos','2025-05-21',258)
+,(18,'escolar','2026-12-10',117)
+,(19,'recaudacion de fondos','2020-11-21',480)
+,(20,'dias festivos','2023-01-10',163)
+,(21,'recaudacion de fondos','2020-10-06',54)
+,(22,'dias festivos','2025-08-21',873)
+,(23,'escolar','2021-09-03',706)
+,(24,'recaudacion de fondos','2020-01-23',348)
+,(25,'escolar','2024-07-18',17)
+,(26,'infantil','2027-04-17',393)
+,(27,'recaudacion de fondos','2020-06-27',405)
+,(28,'recaudacion de fondos','2025-06-22',305)
+,(29,'escolar','2021-05-25',91)
+,(30,'infantil','2026-10-01',293)
+,(31,'dias festivos','2024-06-15',750)
+,(32,'dias festivos','2026-12-29',168)
+,(33,'recaudacion de fondos','2027-08-29',348)
+,(34,'escolar','2026-09-03',384)
+,(35,'recaudacion de fondos','2022-08-21',663)
+,(36,'escolar','2024-12-06',841)
+,(37,'recaudacion de fondos','2024-01-06',909)
+,(38,'escolar','2024-10-15',944)
+,(39,'academico','2020-04-12',600)
+,(40,'academico','2021-10-25',80)
+,(41,'academico','2022-07-19',406)
+,(42,'academico','2021-11-05',635)
+,(43,'infantil','2020-03-28',134)
+,(44,'recaudacion de fondos','2022-08-06',147)
+,(45,'recaudacion de fondos','2025-07-06',246)
+,(46,'infantil','2026-01-05',641)
+,(47,'infantil','2023-12-18',898)
+,(48,'escolar','2026-12-31',152)
+,(49,'infantil','2021-09-17',354)
+,(50,'escolar','2023-07-03',58)
+,(51,'infantil','2023-12-30',643)
+,(52,'dias festivos','2026-01-22',639)
+,(53,'dias festivos','2022-12-02',764)
+,(54,'dias festivos','2025-03-30',542)
+,(55,'infantil','2022-10-03',53)
+,(56,'dias festivos','2025-10-22',369)
+,(57,'recaudacion de fondos','2025-01-02',472)
+,(58,'academico','2025-10-05',615)
+,(59,'academico','2020-07-07',844)
+,(60,'escolar','2024-06-02',709)
+,(61,'dias festivos','2021-02-20',76)
+,(62,'escolar','2027-01-16',729)
+,(63,'recaudacion de fondos','2023-08-12',595)
+,(64,'recaudacion de fondos','2026-12-20',234)
+,(65,'infantil','2025-08-31',216)
+,(66,'dias festivos','2025-01-12',102)
+,(67,'academico','2026-01-16',380)
+,(68,'dias festivos','2024-05-22',411)
+,(69,'infantil','2022-12-28',856)
+,(70,'infantil','2022-11-06',54)
+,(71,'infantil','2020-11-04',701)
+,(72,'dias festivos','2021-06-12',813)
+,(73,'infantil','2024-11-28',13)
+,(74,'escolar','2025-12-02',759)
+,(75,'recaudacion de fondos','2019-12-17',729)
+,(76,'infantil','2022-06-05',745)
+,(77,'dias festivos','2024-11-12',907)
+,(78,'recaudacion de fondos','2026-10-23',334)
+,(79,'escolar','2022-09-06',134)
+,(80,'escolar','2022-04-15',385)
+,(81,'escolar','2020-12-24',100)
+,(82,'academico','2020-03-03',45)
+,(83,'infantil','2026-01-05',275)
+,(84,'recaudacion de fondos','2026-01-20',745)
+,(85,'escolar','2026-07-30',5)
+,(86,'escolar','2022-02-11',527)
+,(87,'infantil','2024-11-18',155)
+,(88,'infantil','2021-06-28',448)
+,(89,'infantil','2021-03-09',627)
+,(90,'infantil','2025-08-24',652)
+,(91,'recaudacion de fondos','2022-02-20',41)
+,(92,'infantil','2020-01-06',362)
+,(93,'recaudacion de fondos','2023-04-11',278)
+,(94,'escolar','2022-02-25',234)
+,(95,'infantil','2020-03-26',106)
+,(96,'dias festivos','2025-04-12',818)
+,(97,'infantil','2024-04-28',955)
+,(98,'recaudacion de fondos','2020-05-30',87)
+,(99,'recaudacion de fondos','2021-03-09',705)
+,(100,'dias festivos','2020-06-27',942)
+,(101,'academico','2027-02-15',531)
+,(102,'dias festivos','2026-12-07',769)
+,(103,'dias festivos','2026-01-15',10)
+,(104,'infantil','2024-09-27',448)
+,(105,'academico','2026-02-25',627)
+,(106,'infantil','2021-07-04',481)
+,(107,'dias festivos','2021-10-12',738)
+,(108,'infantil','2026-09-28',282)
+,(109,'escolar','2024-12-20',355)
+,(110,'escolar','2025-08-21',902)
+,(111,'academico','2023-07-27',746)
+,(112,'academico','2021-06-15',468)
+,(113,'recaudacion de fondos','2024-10-11',963)
+,(114,'infantil','2020-06-28',161)
+,(115,'recaudacion de fondos','2023-03-27',223)
+,(116,'infantil','2022-05-19',146)
+,(117,'dias festivos','2025-10-23',839)
+,(118,'escolar','2024-12-23',692)
+,(119,'dias festivos','2027-03-30',858)
+,(120,'academico','2024-01-24',826)
+,(121,'dias festivos','2023-03-02',348)
+,(122,'escolar','2020-08-07',4)
+,(123,'escolar','2026-03-11',969)
+,(124,'escolar','2021-07-02',901)
+,(125,'academico','2027-03-30',889)
+,(126,'infantil','2021-05-20',649)
+,(127,'infantil','2019-11-16',51)
+,(128,'infantil','2022-02-05',220)
+,(129,'academico','2024-09-16',281)
+,(130,'escolar','2027-06-15',741)
+,(131,'dias festivos','2020-02-29',102)
+,(132,'escolar','2026-10-16',558)
+,(133,'academico','2021-02-09',647)
+,(134,'infantil','2026-06-11',622)
+,(135,'escolar','2021-10-07',147)
+,(136,'escolar','2027-02-08',676)
+,(137,'recaudacion de fondos','2023-10-16',891)
+,(138,'infantil','2027-05-02',866)
+,(139,'recaudacion de fondos','2027-01-05',136)
+,(140,'dias festivos','2023-06-13',572)
+,(141,'escolar','2023-03-15',617)
+,(142,'recaudacion de fondos','2026-05-15',28)
+,(143,'dias festivos','2023-11-22',27)
+,(144,'dias festivos','2021-02-16',641)
+,(145,'dias festivos','2020-06-29',781)
+,(146,'dias festivos','2020-06-29',467)
+,(147,'academico','2025-10-16',487)
+,(148,'escolar','2024-06-29',754)
+,(149,'academico','2024-11-26',460)
+,(150,'recaudacion de fondos','2026-10-07',608)
+,(151,'escolar','2026-06-12',834)
+,(152,'recaudacion de fondos','2022-04-16',731)
+,(153,'infantil','2021-12-23',860)
+,(154,'infantil','2023-10-08',583)
+,(155,'recaudacion de fondos','2026-07-09',796)
+,(156,'recaudacion de fondos','2022-08-23',47)
+,(157,'dias festivos','2027-05-18',59)
+,(158,'dias festivos','2024-12-22',146)
+,(159,'escolar','2022-10-20',917)
+,(160,'dias festivos','2023-12-21',720)
+,(161,'infantil','2024-05-28',128)
+,(162,'dias festivos','2023-03-18',930)
+,(163,'infantil','2022-05-31',415)
+,(164,'escolar','2026-01-05',651)
+,(165,'escolar','2023-09-16',534)
+,(166,'infantil','2023-08-04',755)
+,(167,'academico','2024-03-17',489)
+,(168,'academico','2025-07-05',776)
+,(169,'academico','2021-08-12',828)
+,(170,'dias festivos','2023-01-06',255)
+,(171,'dias festivos','2019-10-27',660)
+,(172,'dias festivos','2023-05-17',414)
+,(173,'academico','2026-04-22',866)
+,(174,'escolar','2024-09-04',716)
+,(175,'infantil','2025-01-16',804)
+,(176,'escolar','2021-12-25',514)
+,(177,'academico','2024-12-17',828)
+,(178,'escolar','2026-04-28',635)
+,(179,'dias festivos','2023-07-24',560)
+,(180,'recaudacion de fondos','2027-05-30',15)
+,(181,'escolar','2027-09-17',811)
+,(182,'academico','2022-01-02',697)
+,(183,'dias festivos','2027-06-04',909)
+,(184,'academico','2023-10-17',967)
+,(185,'infantil','2026-03-21',460)
+,(186,'academico','2027-01-03',240)
+,(187,'infantil','2025-10-27',868)
+,(188,'infantil','2021-04-22',326)
+,(189,'dias festivos','2023-01-06',133)
+,(190,'recaudacion de fondos','2020-04-11',798)
+,(191,'academico','2020-02-08',189)
+,(192,'infantil','2026-10-15',867)
+,(193,'infantil','2025-10-15',283)
+,(194,'dias festivos','2022-04-29',880)
+,(195,'infantil','2022-02-24',672)
+,(196,'dias festivos','2020-04-16',201)
+,(197,'recaudacion de fondos','2022-07-15',999)
+,(198,'escolar','2027-09-27',223)
+,(199,'infantil','2026-07-14',162)
+,(200,'academico','2025-05-07',688)
+,(201,'infantil','2020-05-19',202)
+,(202,'dias festivos','2027-01-01',841)
+,(203,'academico','2026-05-21',347)
+,(204,'infantil','2025-11-25',405)
+,(205,'escolar','2022-04-20',483)
+,(206,'dias festivos','2026-01-19',592)
+,(207,'academico','2023-08-20',500)
+,(208,'escolar','2025-08-13',524)
+,(209,'infantil','2021-12-26',335)
+,(210,'recaudacion de fondos','2024-02-27',534)
+,(211,'recaudacion de fondos','2020-10-17',886)
+,(212,'escolar','2026-01-26',200)
+,(213,'recaudacion de fondos','2021-05-17',602)
+,(214,'recaudacion de fondos','2026-11-24',915)
+,(215,'escolar','2026-10-05',575)
+,(216,'escolar','2024-03-27',36)
+,(217,'infantil','2020-10-05',170)
+,(218,'infantil','2025-03-21',65)
+,(219,'dias festivos','2020-12-16',276)
+,(220,'recaudacion de fondos','2026-10-26',358)
+,(221,'recaudacion de fondos','2020-03-04',950)
+,(222,'recaudacion de fondos','2027-08-28',589)
+,(223,'infantil','2025-07-22',909)
+,(224,'infantil','2024-11-27',512)
+,(225,'dias festivos','2022-06-02',640)
+,(226,'dias festivos','2024-05-24',316)
+,(227,'infantil','2025-12-21',90)
+,(228,'escolar','2026-12-22',495)
+,(229,'escolar','2023-06-02',912)
+,(230,'escolar','2022-05-22',146)
+,(231,'infantil','2021-10-03',771)
+,(232,'academico','2027-06-14',45)
+,(233,'academico','2024-01-07',110)
+,(234,'academico','2026-11-16',485)
+,(235,'academico','2025-03-15',764)
+,(236,'academico','2023-06-30',461)
+,(237,'dias festivos','2023-09-22',11)
+,(238,'recaudacion de fondos','2022-07-13',158)
+,(239,'academico','2024-06-22',68)
+,(240,'academico','2021-06-12',842)
+,(241,'dias festivos','2024-03-11',120)
+,(242,'escolar','2023-12-27',427)
+,(243,'recaudacion de fondos','2027-07-09',686)
+,(244,'dias festivos','2020-10-15',199)
+,(245,'academico','2027-07-13',925)
+,(246,'infantil','2022-03-21',343)
+,(247,'dias festivos','2026-03-03',257)
+,(248,'infantil','2026-10-20',460)
+,(249,'escolar','2024-04-01',846)
+,(250,'dias festivos','2020-08-26',327)
+,(251,'escolar','2022-08-09',258)
+,(252,'dias festivos','2019-11-07',456)
+,(253,'academico','2020-12-14',223)
+,(254,'escolar','2024-11-26',858)
+,(255,'escolar','2021-08-23',160)
+,(256,'infantil','2023-08-20',301)
+,(257,'infantil','2023-11-07',393)
+,(258,'infantil','2025-08-19',974)
+,(259,'infantil','2020-12-23',611)
+,(260,'infantil','2022-01-01',919)
+,(261,'recaudacion de fondos','2020-03-07',272)
+,(262,'dias festivos','2019-11-25',204)
+,(263,'escolar','2023-12-26',554)
+,(264,'dias festivos','2021-06-20',861)
+,(265,'recaudacion de fondos','2026-05-16',747)
+,(266,'academico','2024-11-09',740)
+,(267,'academico','2026-06-23',109)
+,(268,'recaudacion de fondos','2022-10-10',811)
+,(269,'escolar','2024-12-27',244)
+,(270,'escolar','2025-07-27',230)
+,(271,'dias festivos','2020-08-25',124)
+,(272,'recaudacion de fondos','2021-03-10',268)
+,(273,'academico','2020-10-17',514)
+,(274,'escolar','2022-07-14',946)
+,(275,'dias festivos','2024-06-01',570)
+,(276,'dias festivos','2021-11-26',192)
+,(277,'dias festivos','2020-04-06',285)
+,(278,'infantil','2026-06-15',758)
+,(279,'dias festivos','2026-10-07',363)
+,(280,'dias festivos','2027-09-19',965)
+,(281,'infantil','2024-10-02',976)
+,(282,'dias festivos','2027-06-10',765)
+,(283,'escolar','2019-12-25',775)
+,(284,'recaudacion de fondos','2024-02-05',270)
+,(285,'infantil','2024-06-21',990)
+,(286,'escolar','2024-08-28',322)
+,(287,'escolar','2020-10-09',723)
+,(288,'dias festivos','2025-07-24',685)
+,(289,'dias festivos','2027-05-04',584)
+,(290,'escolar','2026-12-08',768)
+,(291,'infantil','2024-08-15',398)
+,(292,'escolar','2020-08-04',1)
+,(293,'infantil','2023-05-17',856)
+,(294,'recaudacion de fondos','2022-02-23',994)
+,(295,'dias festivos','2022-08-27',475)
+,(296,'recaudacion de fondos','2026-11-24',808)
+,(297,'escolar','2021-11-24',177)
+,(298,'escolar','2025-04-16',546)
+,(299,'dias festivos','2020-07-24',114)
+,(300,'escolar','2021-01-01',130)
+,(301,'recaudacion de fondos','2026-04-17',563)
+,(302,'dias festivos','2020-08-06',244)
+,(303,'escolar','2020-04-04',314)
+,(304,'recaudacion de fondos','2021-08-15',870)
+,(305,'escolar','2025-10-10',978)
+,(306,'escolar','2020-10-04',835)
+,(307,'escolar','2019-12-03',120)
+,(308,'academico','2024-07-23',226)
+,(309,'recaudacion de fondos','2021-07-19',762)
+,(310,'dias festivos','2021-05-11',772)
+,(311,'infantil','2024-09-09',556)
+,(312,'recaudacion de fondos','2025-04-25',201)
+,(313,'recaudacion de fondos','2026-02-09',479)
+,(314,'dias festivos','2026-05-04',817)
+,(315,'infantil','2020-06-21',766)
+,(316,'dias festivos','2020-09-29',584)
+,(317,'infantil','2023-08-22',754)
+,(318,'academico','2023-01-09',702)
+,(319,'dias festivos','2023-10-27',874)
+,(320,'infantil','2021-12-03',4)
+,(321,'escolar','2025-02-17',639)
+,(322,'dias festivos','2024-05-23',219)
+,(323,'academico','2027-07-28',263)
+,(324,'recaudacion de fondos','2022-12-14',557)
+,(325,'recaudacion de fondos','2025-10-07',881)
+,(326,'dias festivos','2027-01-27',836)
+,(327,'infantil','2021-11-13',403)
+,(328,'recaudacion de fondos','2021-05-29',216)
+,(329,'recaudacion de fondos','2021-08-20',406)
+,(330,'academico','2025-11-14',168)
+,(331,'recaudacion de fondos','2025-08-09',2)
+,(332,'infantil','2026-03-29',419)
+,(333,'academico','2023-02-19',674)
+,(334,'recaudacion de fondos','2026-02-06',116)
+,(335,'escolar','2020-04-23',459)
+,(336,'escolar','2022-08-11',171)
+,(337,'infantil','2025-12-21',169)
+,(338,'academico','2023-01-13',195)
+,(339,'recaudacion de fondos','2022-01-11',544)
+,(340,'recaudacion de fondos','2024-04-30',416)
+,(341,'dias festivos','2023-04-13',409)
+,(342,'recaudacion de fondos','2021-08-09',765)
+,(343,'infantil','2027-07-02',548)
+,(344,'academico','2025-03-31',236)
+,(345,'recaudacion de fondos','2027-04-03',443)
+,(346,'infantil','2022-11-03',299)
+,(347,'recaudacion de fondos','2022-07-21',580)
+,(348,'dias festivos','2026-07-26',53)
+,(349,'escolar','2027-03-21',47)
+,(350,'infantil','2025-05-06',527)
+,(351,'academico','2021-11-24',416)
+,(352,'escolar','2027-04-27',483)
+,(353,'dias festivos','2020-09-09',823)
+,(354,'academico','2026-10-03',312)
+,(355,'dias festivos','2027-04-30',117)
+,(356,'dias festivos','2022-09-22',964)
+,(357,'recaudacion de fondos','2025-07-05',520)
+,(358,'dias festivos','2027-02-24',573)
+,(359,'escolar','2024-08-10',425)
+,(360,'dias festivos','2025-04-15',928)
+,(361,'dias festivos','2020-02-18',887)
+,(362,'recaudacion de fondos','2022-05-09',867)
+,(363,'academico','2026-06-07',429)
+,(364,'escolar','2021-04-02',585)
+,(365,'escolar','2019-11-24',490)
+,(366,'academico','2020-01-30',141)
+,(367,'dias festivos','2020-03-22',510)
+,(368,'infantil','2026-04-17',228)
+,(369,'dias festivos','2025-06-05',364)
+,(370,'infantil','2021-03-28',253)
+,(371,'dias festivos','2021-06-16',46)
+,(372,'escolar','2025-08-30',997)
+,(373,'recaudacion de fondos','2026-10-26',290)
+,(374,'academico','2021-08-14',758)
+,(375,'academico','2024-11-04',205)
+,(376,'infantil','2020-06-10',627)
+,(377,'dias festivos','2023-06-04',977)
+,(378,'recaudacion de fondos','2026-04-29',905)
+,(379,'escolar','2023-12-19',235)
+,(380,'dias festivos','2020-05-29',116)
+,(381,'recaudacion de fondos','2027-03-09',668)
+,(382,'academico','2026-04-26',419)
+,(383,'escolar','2026-12-19',529)
+,(384,'recaudacion de fondos','2023-01-04',446)
+,(385,'dias festivos','2020-03-20',413)
+,(386,'academico','2020-09-09',345)
+,(387,'escolar','2025-02-15',436)
+,(388,'infantil','2021-05-20',21)
+,(389,'dias festivos','2027-04-17',804)
+,(390,'dias festivos','2021-02-15',95)
+,(391,'infantil','2022-10-16',357)
+,(392,'escolar','2021-09-30',918)
+,(393,'recaudacion de fondos','2020-12-30',239)
+,(394,'dias festivos','2025-07-21',389)
+,(395,'recaudacion de fondos','2024-05-31',872)
+,(396,'escolar','2021-08-07',471)
+,(397,'recaudacion de fondos','2023-07-21',286)
+,(398,'infantil','2024-02-27',445)
+,(399,'academico','2022-01-25',840)
+,(400,'dias festivos','2023-12-29',141)
+,(401,'escolar','2024-06-22',935)
+,(402,'academico','2020-06-26',557)
+,(403,'infantil','2025-05-09',816)
+,(404,'infantil','2027-01-10',669)
+,(405,'escolar','2022-04-10',953)
+,(406,'recaudacion de fondos','2023-03-18',338)
+,(407,'recaudacion de fondos','2027-03-14',654)
+,(408,'infantil','2022-01-01',580)
+,(409,'escolar','2024-05-13',907)
+,(410,'academico','2021-12-31',856)
+,(411,'infantil','2025-02-01',292)
+,(412,'academico','2019-12-17',465)
+,(413,'recaudacion de fondos','2027-07-19',678)
+,(414,'recaudacion de fondos','2024-09-10',309)
+,(415,'dias festivos','2023-07-17',669)
+,(416,'infantil','2021-10-07',814)
+,(417,'dias festivos','2019-12-26',167)
+,(418,'recaudacion de fondos','2025-03-03',713)
+,(419,'infantil','2025-08-21',364)
+,(420,'infantil','2021-01-01',475)
+,(421,'dias festivos','2023-10-18',900)
+,(422,'recaudacion de fondos','2021-03-06',277)
+,(423,'academico','2026-02-22',437)
+,(424,'academico','2020-08-29',507)
+,(425,'infantil','2025-02-09',142)
+,(426,'infantil','2025-04-12',989)
+,(427,'infantil','2021-02-19',232)
+,(428,'dias festivos','2021-12-04',855)
+,(429,'recaudacion de fondos','2021-04-08',273)
+,(430,'dias festivos','2023-12-24',740)
+,(431,'infantil','2026-09-09',86)
+,(432,'escolar','2023-02-27',288)
+,(433,'recaudacion de fondos','2023-01-17',353)
+,(434,'infantil','2020-08-02',508)
+,(435,'escolar','2024-03-26',287)
+,(436,'dias festivos','2022-08-19',187)
+,(437,'escolar','2022-02-17',317)
+,(438,'dias festivos','2020-04-09',49)
+,(439,'academico','2022-06-21',191)
+,(440,'academico','2021-01-25',520)
+,(441,'infantil','2025-08-01',725)
+,(442,'academico','2026-10-04',253)
+,(443,'dias festivos','2025-04-30',99)
+,(444,'recaudacion de fondos','2025-10-20',785)
+,(445,'escolar','2020-08-31',604)
+,(446,'infantil','2022-11-27',644)
+,(447,'academico','2025-10-30',779)
+,(448,'dias festivos','2024-10-05',444)
+,(449,'dias festivos','2026-01-05',840)
+,(450,'escolar','2023-03-14',215)
+,(451,'infantil','2025-02-24',341)
+,(452,'escolar','2023-03-28',204)
+,(453,'academico','2023-07-08',680)
+,(454,'academico','2025-03-15',364)
+,(455,'dias festivos','2022-12-27',942)
+,(456,'escolar','2022-04-09',495)
+,(457,'escolar','2023-02-08',909)
+,(458,'escolar','2027-04-10',891)
+,(459,'academico','2020-09-08',710)
+,(460,'dias festivos','2024-08-20',364)
+,(461,'recaudacion de fondos','2025-06-30',239)
+,(462,'recaudacion de fondos','2025-06-22',64)
+,(463,'academico','2020-01-31',494)
+,(464,'escolar','2026-02-02',257)
+,(465,'academico','2021-11-08',420)
+,(466,'academico','2025-07-26',421)
+,(467,'recaudacion de fondos','2020-01-22',516)
+,(468,'dias festivos','2026-05-04',522)
+,(469,'dias festivos','2023-11-06',701)
+,(470,'escolar','2026-03-22',727)
+,(471,'academico','2021-03-25',295)
+,(472,'infantil','2026-12-20',577)
+,(473,'infantil','2025-12-31',390)
+,(474,'infantil','2021-06-25',52)
+,(475,'infantil','2021-07-11',79)
+,(476,'recaudacion de fondos','2026-10-11',920)
+,(477,'academico','2027-08-21',49)
+,(478,'infantil','2027-01-16',895)
+,(479,'academico','2027-09-05',347)
+,(480,'academico','2025-11-15',591)
+,(481,'academico','2025-08-21',703)
+,(482,'dias festivos','2025-07-15',326)
+,(483,'recaudacion de fondos','2022-06-04',237)
+,(484,'recaudacion de fondos','2021-10-21',938)
+,(485,'escolar','2025-02-28',322)
+,(486,'infantil','2021-02-07',437)
+,(487,'academico','2022-03-17',458)
+,(488,'infantil','2019-12-17',63)
+,(489,'dias festivos','2020-05-25',972)
+,(490,'academico','2026-03-09',448)
+,(491,'infantil','2026-02-17',932)
+,(492,'dias festivos','2022-08-31',150)
+,(493,'escolar','2020-08-05',677)
+,(494,'recaudacion de fondos','2026-03-19',220)
+,(495,'infantil','2020-09-14',735)
+,(496,'escolar','2024-12-27',636)
+,(497,'escolar','2022-11-08',47)
+,(498,'recaudacion de fondos','2020-07-28',298)
+,(499,'academico','2024-04-10',240)
+,(500,'dias festivos','2026-10-07',10)
+,(501,'dias festivos','2022-09-14',796)
+,(502,'recaudacion de fondos','2021-12-08',217)
+,(503,'escolar','2020-02-16',479)
+,(504,'infantil','2025-07-12',824)
+,(505,'escolar','2024-12-09',938)
+,(506,'recaudacion de fondos','2024-11-26',294)
+,(507,'dias festivos','2021-08-29',682)
+,(508,'recaudacion de fondos','2024-09-16',92)
+,(509,'infantil','2021-09-20',905)
+,(510,'recaudacion de fondos','2027-01-21',872)
+,(511,'escolar','2020-05-18',560)
+,(512,'escolar','2024-06-03',425)
+,(513,'recaudacion de fondos','2021-01-17',247)
+,(514,'recaudacion de fondos','2023-02-19',844)
+,(515,'academico','2027-03-10',822)
+,(516,'escolar','2021-07-10',907)
+,(517,'recaudacion de fondos','2024-07-05',425)
+,(518,'dias festivos','2026-09-15',908)
+,(519,'escolar','2025-05-12',946)
+,(520,'recaudacion de fondos','2023-05-09',972)
+,(521,'academico','2021-03-23',357)
+,(522,'academico','2027-03-08',68)
+,(523,'recaudacion de fondos','2020-12-23',249)
+,(524,'escolar','2023-08-02',106)
+,(525,'recaudacion de fondos','2024-04-29',951)
+,(526,'escolar','2022-05-11',664)
+,(527,'infantil','2025-11-17',706)
+,(528,'dias festivos','2023-09-17',99)
+,(529,'academico','2027-05-24',70)
+,(530,'dias festivos','2020-06-25',995)
+,(531,'escolar','2026-05-21',1000)
+,(532,'infantil','2020-08-22',184)
+,(533,'academico','2025-01-26',568)
+,(534,'escolar','2026-11-20',637)
+,(535,'academico','2021-02-12',631)
+,(536,'recaudacion de fondos','2020-01-28',192)
+,(537,'infantil','2025-09-09',755)
+,(538,'dias festivos','2024-01-16',643)
+,(539,'academico','2020-08-26',771)
+,(540,'escolar','2021-11-04',641)
+,(541,'infantil','2027-05-02',216)
+,(542,'recaudacion de fondos','2024-10-03',587)
+,(543,'recaudacion de fondos','2022-07-08',373)
+,(544,'academico','2021-10-13',854)
+,(545,'recaudacion de fondos','2021-06-24',706)
+,(546,'dias festivos','2026-01-27',65)
+,(547,'infantil','2023-12-20',45)
+,(548,'infantil','2023-07-27',158)
+,(549,'academico','2021-07-09',393)
+,(550,'escolar','2021-02-09',803)
+,(551,'infantil','2021-06-28',1)
+,(552,'academico','2023-11-13',816)
+,(553,'infantil','2022-10-27',20)
+,(554,'infantil','2024-06-12',382)
+,(555,'academico','2026-05-18',336)
+,(556,'academico','2021-06-05',131)
+,(557,'recaudacion de fondos','2025-08-07',877)
+,(558,'escolar','2021-11-20',810)
+,(559,'recaudacion de fondos','2026-12-14',7)
+,(560,'academico','2021-08-10',893)
+,(561,'escolar','2026-03-10',642)
+,(562,'recaudacion de fondos','2021-07-09',310)
+,(563,'infantil','2022-01-02',950)
+,(564,'dias festivos','2025-03-24',87)
+,(565,'dias festivos','2021-07-17',215)
+,(566,'infantil','2027-06-23',696)
+,(567,'infantil','2022-09-02',831)
+,(568,'academico','2022-10-13',626)
+,(569,'dias festivos','2027-08-03',924)
+,(570,'recaudacion de fondos','2023-07-30',564)
+,(571,'escolar','2024-08-31',818)
+,(572,'escolar','2022-12-30',859)
+,(573,'academico','2026-12-16',599)
+,(574,'recaudacion de fondos','2021-07-30',417)
+,(575,'escolar','2020-01-30',405)
+,(576,'academico','2023-06-16',738)
+,(577,'recaudacion de fondos','2024-10-01',87)
+,(578,'recaudacion de fondos','2022-12-28',845)
+,(579,'infantil','2023-09-15',738)
+,(580,'escolar','2025-12-24',274)
+,(581,'infantil','2020-08-22',683)
+,(582,'academico','2026-02-07',529)
+,(583,'escolar','2026-08-07',344)
+,(584,'academico','2026-07-08',363)
+,(585,'dias festivos','2025-01-06',9)
+,(586,'escolar','2024-09-19',930)
+,(587,'escolar','2025-12-24',921)
+,(588,'escolar','2021-03-09',164)
+,(589,'escolar','2024-03-14',433)
+,(590,'dias festivos','2025-06-13',315)
+,(591,'recaudacion de fondos','2025-02-06',414)
+,(592,'escolar','2024-10-27',841)
+,(593,'recaudacion de fondos','2026-12-06',447)
+,(594,'recaudacion de fondos','2026-11-21',20)
+,(595,'recaudacion de fondos','2026-08-27',718)
+,(596,'escolar','2021-09-18',990)
+,(597,'recaudacion de fondos','2024-08-31',232)
+,(598,'academico','2027-05-15',868)
+,(599,'dias festivos','2023-04-21',268)
+,(600,'infantil','2022-12-23',873)
+,(601,'recaudacion de fondos','2021-07-26',17)
+,(602,'recaudacion de fondos','2026-05-22',233)
+,(603,'dias festivos','2022-04-02',37)
+,(604,'dias festivos','2019-12-16',712)
+,(605,'academico','2022-08-29',256)
+,(606,'recaudacion de fondos','2020-08-01',962)
+,(607,'infantil','2022-04-25',896)
+,(608,'escolar','2024-11-25',550)
+,(609,'infantil','2026-08-24',526)
+,(610,'dias festivos','2022-09-11',234)
+,(611,'infantil','2022-03-09',573)
+,(612,'recaudacion de fondos','2020-05-06',747)
+,(613,'escolar','2026-02-16',426)
+,(614,'escolar','2026-07-26',862)
+,(615,'academico','2025-09-09',625)
+,(616,'infantil','2022-10-27',898)
+,(617,'academico','2025-05-19',487)
+,(618,'recaudacion de fondos','2023-07-19',851)
+,(619,'dias festivos','2027-03-05',980)
+,(620,'dias festivos','2024-08-02',935)
+,(621,'infantil','2019-12-19',764)
+,(622,'escolar','2027-06-10',59)
+,(623,'escolar','2024-12-18',910)
+,(624,'dias festivos','2026-12-20',469)
+,(625,'infantil','2022-08-03',435)
+,(626,'dias festivos','2027-01-03',883)
+,(627,'infantil','2021-10-24',494)
+,(628,'academico','2026-05-23',251)
+,(629,'recaudacion de fondos','2020-08-11',731)
+,(630,'infantil','2026-04-17',988)
+,(631,'recaudacion de fondos','2024-08-31',335)
+,(632,'infantil','2023-04-24',693)
+,(633,'academico','2025-06-08',351)
+,(634,'recaudacion de fondos','2023-06-17',235)
+,(635,'escolar','2024-11-13',362)
+,(636,'academico','2020-09-19',618)
+,(637,'recaudacion de fondos','2021-03-13',956)
+,(638,'dias festivos','2023-04-17',308)
+,(639,'dias festivos','2022-09-23',550)
+,(640,'dias festivos','2027-03-13',615)
+,(641,'dias festivos','2023-09-10',378)
+,(642,'infantil','2024-02-15',178)
+,(643,'escolar','2026-04-30',504)
+,(644,'infantil','2022-08-03',52)
+,(645,'infantil','2022-03-29',381)
+,(646,'infantil','2026-04-16',448)
+,(647,'infantil','2025-03-25',162)
+,(648,'recaudacion de fondos','2025-05-01',187)
+,(649,'infantil','2025-10-09',424)
+,(650,'infantil','2021-08-28',944)
+,(651,'dias festivos','2020-05-06',905)
+,(652,'recaudacion de fondos','2024-10-28',968)
+,(653,'dias festivos','2024-06-08',823)
+,(654,'infantil','2025-04-19',356)
+,(655,'escolar','2024-11-28',989)
+,(656,'recaudacion de fondos','2026-08-14',849)
+,(657,'recaudacion de fondos','2026-06-10',662)
+,(658,'dias festivos','2022-01-20',650)
+,(659,'academico','2021-04-08',870)
+,(660,'infantil','2023-06-23',490)
+,(661,'dias festivos','2021-12-17',688)
+,(662,'academico','2026-10-23',765)
+,(663,'escolar','2019-11-20',903)
+,(664,'recaudacion de fondos','2021-09-03',828)
+,(665,'infantil','2023-04-20',280)
+,(666,'academico','2022-10-11',439)
+,(667,'infantil','2022-01-17',149)
+,(668,'recaudacion de fondos','2024-08-08',323)
+,(669,'academico','2019-10-29',771)
+,(670,'recaudacion de fondos','2024-09-30',224)
+,(671,'recaudacion de fondos','2025-09-13',966)
+,(672,'infantil','2025-09-21',27)
+,(673,'infantil','2025-07-24',580)
+,(674,'escolar','2024-05-06',572)
+,(675,'infantil','2021-05-04',962)
+,(676,'dias festivos','2022-07-07',984)
+,(677,'recaudacion de fondos','2023-06-20',113)
+,(678,'academico','2021-03-05',825)
+,(679,'dias festivos','2027-10-22',101)
+,(680,'escolar','2024-11-15',980)
+,(681,'infantil','2023-04-18',941)
+,(682,'escolar','2027-05-26',778)
+,(683,'academico','2022-04-29',328)
+,(684,'academico','2026-01-27',463)
+,(685,'recaudacion de fondos','2026-09-13',340)
+,(686,'dias festivos','2022-07-14',719)
+,(687,'academico','2024-12-14',14)
+,(688,'infantil','2027-07-29',944)
+,(689,'escolar','2023-03-03',937)
+,(690,'recaudacion de fondos','2023-04-24',752)
+,(691,'academico','2022-03-06',535)
+,(692,'recaudacion de fondos','2024-06-15',275)
+,(693,'academico','2027-02-19',355)
+,(694,'recaudacion de fondos','2024-06-26',269)
+,(695,'escolar','2027-09-12',358)
+,(696,'recaudacion de fondos','2023-03-10',484)
+,(697,'academico','2022-02-17',257)
+,(698,'escolar','2019-12-08',960)
+,(699,'infantil','2023-11-22',965)
+,(700,'academico','2024-08-06',1)
+,(701,'infantil','2026-06-28',272)
+,(702,'infantil','2024-01-09',745)
+,(703,'infantil','2021-05-17',118)
+,(704,'dias festivos','2023-12-26',77)
+,(705,'recaudacion de fondos','2023-10-01',708)
+,(706,'infantil','2020-05-08',555)
+,(707,'dias festivos','2023-12-19',435)
+,(708,'dias festivos','2026-05-25',59)
+,(709,'academico','2026-03-04',870)
+,(710,'dias festivos','2022-08-28',909)
+,(711,'infantil','2024-11-12',521)
+,(712,'recaudacion de fondos','2022-10-26',191)
+,(713,'infantil','2023-07-11',18)
+,(714,'dias festivos','2023-07-27',797)
+,(715,'recaudacion de fondos','2025-07-25',990)
+,(716,'recaudacion de fondos','2024-11-17',873)
+,(717,'infantil','2025-09-19',136)
+,(718,'academico','2025-04-28',131)
+,(719,'infantil','2025-11-02',115)
+,(720,'infantil','2020-04-08',883)
+,(721,'academico','2022-12-23',185)
+,(722,'escolar','2026-08-31',704)
+,(723,'academico','2022-12-28',974)
+,(724,'infantil','2019-12-25',63)
+,(725,'academico','2026-04-08',207)
+,(726,'infantil','2025-07-06',961)
+,(727,'dias festivos','2025-03-08',536)
+,(728,'recaudacion de fondos','2025-03-09',375)
+,(729,'dias festivos','2020-06-11',9)
+,(730,'dias festivos','2022-08-25',205)
+,(731,'dias festivos','2025-10-06',726)
+,(732,'dias festivos','2021-01-01',975)
+,(733,'academico','2023-03-22',893)
+,(734,'dias festivos','2022-01-22',498)
+,(735,'escolar','2021-11-06',246)
+,(736,'escolar','2025-12-25',441)
+,(737,'recaudacion de fondos','2020-06-25',310)
+,(738,'academico','2027-09-30',748)
+,(739,'academico','2024-03-16',28)
+,(740,'academico','2025-09-23',103)
+,(741,'infantil','2025-10-04',249)
+,(742,'academico','2024-01-16',905)
+,(743,'escolar','2023-07-03',712)
+,(744,'academico','2021-12-18',123)
+,(745,'infantil','2027-03-16',319)
+,(746,'escolar','2022-04-27',292)
+,(747,'infantil','2022-08-14',523)
+,(748,'escolar','2026-08-20',39)
+,(749,'infantil','2020-05-30',721)
+,(750,'recaudacion de fondos','2027-09-23',729)
+,(751,'recaudacion de fondos','2022-06-13',735)
+,(752,'escolar','2022-10-06',83)
+,(753,'dias festivos','2025-01-31',577)
+,(754,'infantil','2023-07-17',417)
+,(755,'dias festivos','2023-03-31',630)
+,(756,'recaudacion de fondos','2023-01-20',717)
+,(757,'recaudacion de fondos','2023-09-13',590)
+,(758,'dias festivos','2021-04-09',615)
+,(759,'infantil','2024-11-19',289)
+,(760,'recaudacion de fondos','2023-07-20',137)
+,(761,'academico','2020-10-22',586)
+,(762,'dias festivos','2023-07-24',515)
+,(763,'recaudacion de fondos','2022-12-05',531)
+,(764,'escolar','2022-05-08',549)
+,(765,'dias festivos','2023-08-06',872)
+,(766,'dias festivos','2021-06-05',478)
+,(767,'infantil','2022-10-13',995)
+,(768,'infantil','2022-07-07',622)
+,(769,'dias festivos','2019-11-02',24)
+,(770,'academico','2026-08-05',97)
+,(771,'academico','2023-09-29',268)
+,(772,'dias festivos','2021-08-22',817)
+,(773,'escolar','2021-06-06',690)
+,(774,'recaudacion de fondos','2022-08-07',566)
+,(775,'dias festivos','2022-09-22',701)
+,(776,'infantil','2027-06-06',517)
+,(777,'infantil','2024-08-05',73)
+,(778,'academico','2023-02-02',226)
+,(779,'infantil','2026-11-19',978)
+,(780,'escolar','2020-09-10',728)
+,(781,'dias festivos','2027-03-11',994)
+,(782,'dias festivos','2023-03-03',541)
+,(783,'academico','2022-05-19',639)
+,(784,'infantil','2024-12-27',792)
+,(785,'recaudacion de fondos','2024-11-27',409)
+,(786,'escolar','2025-12-05',66)
+,(787,'infantil','2027-09-07',643)
+,(788,'dias festivos','2020-04-01',241)
+,(789,'escolar','2020-09-25',373)
+,(790,'infantil','2026-06-19',913)
+,(791,'academico','2023-04-20',992)
+,(792,'academico','2023-08-11',746)
+,(793,'recaudacion de fondos','2026-07-30',419)
+,(794,'academico','2022-06-02',434)
+,(795,'academico','2026-06-07',941)
+,(796,'escolar','2026-10-10',823)
+,(797,'dias festivos','2027-03-19',632)
+,(798,'dias festivos','2027-06-02',86)
+,(799,'recaudacion de fondos','2022-04-23',325)
+,(800,'infantil','2022-06-07',22)
+,(801,'dias festivos','2026-10-04',612)
+,(802,'academico','2024-07-06',535)
+,(803,'infantil','2022-01-06',342)
+,(804,'academico','2021-11-08',923)
+,(805,'recaudacion de fondos','2020-10-29',242)
+,(806,'dias festivos','2025-10-23',139)
+,(807,'recaudacion de fondos','2027-06-15',373)
+,(808,'dias festivos','2024-01-24',308)
+,(809,'recaudacion de fondos','2021-11-30',475)
+,(810,'recaudacion de fondos','2020-07-25',532)
+,(811,'escolar','2023-12-31',670)
+,(812,'infantil','2023-06-05',456)
+,(813,'dias festivos','2023-03-09',931)
+,(814,'infantil','2023-03-28',949)
+,(815,'infantil','2023-05-30',551)
+,(816,'infantil','2026-02-12',988)
+,(817,'escolar','2025-04-16',432)
+,(818,'escolar','2022-08-02',757)
+,(819,'infantil','2023-05-15',993)
+,(820,'academico','2022-06-30',422)
+,(821,'escolar','2023-07-24',367)
+,(822,'infantil','2025-09-23',213)
+,(823,'escolar','2023-12-14',810)
+,(824,'recaudacion de fondos','2023-12-04',267)
+,(825,'recaudacion de fondos','2020-12-22',938)
+,(826,'academico','2024-10-19',657)
+,(827,'academico','2024-11-17',408)
+,(828,'dias festivos','2021-04-02',873)
+,(829,'recaudacion de fondos','2024-04-26',876)
+,(830,'recaudacion de fondos','2021-10-15',497)
+,(831,'recaudacion de fondos','2020-03-26',689)
+,(832,'academico','2020-05-11',523)
+,(833,'academico','2022-06-22',159)
+,(834,'academico','2024-12-26',397)
+,(835,'dias festivos','2022-07-20',387)
+,(836,'dias festivos','2023-07-04',95)
+,(837,'academico','2027-04-14',319)
+,(838,'escolar','2022-02-09',623)
+,(839,'academico','2021-01-10',437)
+,(840,'escolar','2022-10-08',155)
+,(841,'recaudacion de fondos','2024-08-24',733)
+,(842,'dias festivos','2025-03-12',786)
+,(843,'dias festivos','2024-06-17',366)
+,(844,'escolar','2026-11-16',989)
+,(845,'infantil','2020-09-29',394)
+,(846,'escolar','2022-09-05',611)
+,(847,'infantil','2025-06-25',617)
+,(848,'academico','2021-07-29',715)
+,(849,'academico','2026-10-08',554)
+,(850,'dias festivos','2020-06-26',472)
+,(851,'dias festivos','2022-04-16',239)
+,(852,'dias festivos','2024-08-26',768)
+,(853,'recaudacion de fondos','2027-08-06',162)
+,(854,'recaudacion de fondos','2021-03-07',305)
+,(855,'recaudacion de fondos','2019-11-25',302)
+,(856,'recaudacion de fondos','2023-09-27',890)
+,(857,'escolar','2022-01-07',356)
+,(858,'escolar','2020-11-01',9)
+,(859,'recaudacion de fondos','2023-07-16',935)
+,(860,'recaudacion de fondos','2022-06-15',127)
+,(861,'escolar','2020-11-13',142)
+,(862,'recaudacion de fondos','2022-09-03',808)
+,(863,'escolar','2025-04-22',559)
+,(864,'recaudacion de fondos','2021-11-21',527)
+,(865,'academico','2023-03-24',887)
+,(866,'dias festivos','2019-12-27',45)
+,(867,'recaudacion de fondos','2020-02-28',61)
+,(868,'recaudacion de fondos','2025-10-10',157)
+,(869,'recaudacion de fondos','2022-01-23',388)
+,(870,'infantil','2020-07-28',659)
+,(871,'academico','2024-06-29',998)
+,(872,'escolar','2026-12-09',949)
+,(873,'infantil','2023-11-17',945)
+,(874,'recaudacion de fondos','2020-06-21',279)
+,(875,'dias festivos','2027-02-07',249)
+,(876,'academico','2023-02-12',812)
+,(877,'infantil','2023-06-11',882)
+,(878,'recaudacion de fondos','2021-05-15',283)
+,(879,'recaudacion de fondos','2023-10-12',662)
+,(880,'recaudacion de fondos','2025-02-17',824)
+,(881,'academico','2020-02-28',298)
+,(882,'recaudacion de fondos','2020-01-22',657)
+,(883,'infantil','2027-04-07',597)
+,(884,'dias festivos','2020-02-07',265)
+,(885,'infantil','2022-10-31',955)
+,(886,'academico','2027-09-24',725)
+,(887,'recaudacion de fondos','2022-10-13',694)
+,(888,'infantil','2025-01-16',393)
+,(889,'academico','2026-01-05',546)
+,(890,'recaudacion de fondos','2020-12-11',521)
+,(891,'recaudacion de fondos','2021-04-28',916)
+,(892,'dias festivos','2025-01-24',739)
+,(893,'dias festivos','2027-07-11',366)
+,(894,'escolar','2023-10-29',834)
+,(895,'academico','2027-03-15',220)
+,(896,'recaudacion de fondos','2027-05-09',320)
+,(897,'recaudacion de fondos','2026-06-02',635)
+,(898,'infantil','2026-08-06',36)
+,(899,'recaudacion de fondos','2023-12-29',850)
+,(900,'academico','2020-11-28',246)
+,(901,'recaudacion de fondos','2023-07-16',59)
+,(902,'recaudacion de fondos','2025-09-19',699)
+,(903,'escolar','2022-12-30',561)
+,(904,'escolar','2022-10-12',202)
+,(905,'infantil','2025-03-22',314)
+,(906,'dias festivos','2027-04-12',976)
+,(907,'infantil','2027-01-16',207)
+,(908,'dias festivos','2020-09-29',726)
+,(909,'infantil','2026-01-13',905)
+,(910,'recaudacion de fondos','2025-11-27',665)
+,(911,'academico','2022-08-17',718)
+,(912,'recaudacion de fondos','2022-05-21',571)
+,(913,'infantil','2022-04-08',581)
+,(914,'escolar','2025-11-14',786)
+,(915,'dias festivos','2021-06-08',500)
+,(916,'academico','2025-04-11',378)
+,(917,'escolar','2022-10-14',204)
+,(918,'academico','2024-08-19',203)
+,(919,'academico','2022-12-26',862)
+,(920,'infantil','2024-11-12',151)
+,(921,'academico','2027-10-16',743)
+,(922,'dias festivos','2024-11-03',862)
+,(923,'academico','2027-02-01',507)
+,(924,'academico','2021-06-30',732)
+,(925,'recaudacion de fondos','2027-09-06',494)
+,(926,'dias festivos','2020-06-19',37)
+,(927,'academico','2027-06-12',751)
+,(928,'academico','2025-08-18',736)
+,(929,'dias festivos','2024-08-12',449)
+,(930,'escolar','2024-06-03',569)
+,(931,'recaudacion de fondos','2024-03-08',553)
+,(932,'escolar','2020-01-03',149)
+,(933,'recaudacion de fondos','2024-08-24',726)
+,(934,'academico','2021-06-17',216)
+,(935,'recaudacion de fondos','2023-01-10',741)
+,(936,'recaudacion de fondos','2021-05-19',420)
+,(937,'infantil','2024-12-10',540)
+,(938,'recaudacion de fondos','2021-06-09',14)
+,(939,'academico','2024-03-31',248)
+,(940,'academico','2024-08-13',820)
+,(941,'dias festivos','2021-10-12',373)
+,(942,'academico','2021-02-20',937)
+,(943,'recaudacion de fondos','2026-12-02',790)
+,(944,'escolar','2027-04-22',288)
+,(945,'academico','2021-05-16',503)
+,(946,'recaudacion de fondos','2022-08-28',6)
+,(947,'dias festivos','2024-12-20',251)
+,(948,'dias festivos','2023-07-28',305)
+,(949,'dias festivos','2027-09-30',855)
+,(950,'infantil','2022-12-01',50)
+,(951,'infantil','2025-12-26',471)
+,(952,'escolar','2020-04-24',113)
+,(953,'recaudacion de fondos','2023-12-20',197)
+,(954,'dias festivos','2023-09-01',251)
+,(955,'infantil','2023-07-04',515)
+,(956,'academico','2024-05-26',832)
+,(957,'academico','2019-11-25',657)
+,(958,'escolar','2024-06-15',702)
+,(959,'escolar','2027-06-25',833)
+,(960,'infantil','2026-02-06',901)
+,(961,'academico','2026-03-15',153)
+,(962,'dias festivos','2023-03-07',790)
+,(963,'recaudacion de fondos','2024-01-19',362)
+,(964,'escolar','2025-06-05',137)
+,(965,'infantil','2020-04-06',71)
+,(966,'escolar','2023-01-16',143)
+,(967,'infantil','2022-07-04',379)
+,(968,'infantil','2027-05-11',868)
+,(969,'dias festivos','2023-01-16',364)
+,(970,'academico','2026-10-23',673)
+,(971,'dias festivos','2026-10-17',911)
+,(972,'escolar','2026-07-20',633)
+,(973,'academico','2027-04-17',472)
+,(974,'academico','2025-01-19',239)
+,(975,'academico','2023-02-28',169)
+,(976,'academico','2024-03-04',747)
+,(977,'dias festivos','2022-10-29',406)
+,(978,'academico','2020-04-09',843)
+,(979,'academico','2020-12-05',288)
+,(980,'dias festivos','2023-03-11',152)
+,(981,'academico','2022-09-04',875)
+,(982,'academico','2026-12-22',352)
+,(983,'infantil','2020-04-18',163)
+,(984,'recaudacion de fondos','2023-08-26',680)
+,(985,'dias festivos','2025-12-29',427)
+,(986,'infantil','2027-06-13',533)
+,(987,'recaudacion de fondos','2024-04-03',903)
+,(988,'recaudacion de fondos','2020-05-07',842)
+,(989,'recaudacion de fondos','2024-02-29',977)
+,(990,'infantil','2021-10-18',84)
+,(991,'escolar','2022-12-29',425)
+,(992,'infantil','2025-06-15',91)
+,(993,'academico','2023-04-18',690)
+,(994,'infantil','2027-03-20',297)
+,(995,'dias festivos','2027-04-16',46)
+,(996,'dias festivos','2025-04-11',978)
+,(997,'recaudacion de fondos','2023-08-29',413)
+,(998,'infantil','2023-10-09',30)
+,(999,'academico','2024-01-31',243)
+,(1000,'dias festivos','2024-09-25',438);
+
 
 -- INSERT para CorreoVisitante
 INSERT INTO CorreoVisitante(IDVisitante,correo) VALUES (857,'ssoar0@com.com');
